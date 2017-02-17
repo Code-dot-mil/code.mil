@@ -1,1 +1,1 @@
-# code.mil
+# Welcome to code.mil!
