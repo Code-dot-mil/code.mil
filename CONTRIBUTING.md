@@ -1,4 +1,4 @@
-**CONTRIBUTING.md is for software projects. You do not need to follow the DCO process for commenting on the Code.mil repository documentation, like CONTRIBUTING.md or AGREEMENT.md.**
+**CONTRIBUTING.md is for software projects. You do not need to follow the DCO process for commenting on the Code.mil repository documentation, like CONTRIBUTING.md or LICENSE-agreement.md.**
 
 Department of Defense (DoD) software projects released under the Defense Open Source Agreement (DOSA) use the Developer’s Certificate of Origin (DCO) to manage the contribution process. The DCO is a legally binding statement that asserts that you are the creator of your contribution and that you are intentionally making your contribution available under the license associated with the project.
 
