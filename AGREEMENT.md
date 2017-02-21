@@ -11,7 +11,7 @@ This Agreement is a contract between the person or entity intending to copy, con
 
 Usually when someone attaches an open source license to their work, they’re licensing their copyright in that work to others. U.S. Federal government employees generally don’t have copyright under U.S. and some international law for work they create as part of their jobs. In those places, we base our open source license in contract—rather than copyright—law.
 
-This Agreement lets Us open source this Work using an existing open source license even though DoD may not have copyright protections in this Work. This Agreement also explains that You need to include a Developer’s Certificate of Origin when You contribute to this Work.
+This Agreement lets Us use an open source license even though DoD may not have copyright protections in this Work. This Agreement also explains that You need to include a Developer’s Certificate of Origin when You contribute to this Work.
 
 When You copy, contribute to, or use this Work, You are agreeing to the terms and conditions in this Agreement and the License.
 
@@ -30,7 +30,7 @@ copyright (yyyy) = created (yyyy)
 
 ## 3. Your Contributions: Developer’s Certificate of Origin
 
-The DoD will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in your commit message. For details on how to do this, see the CONTRIBUTING documentation in this Work’s repository.
+The DoD will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in Your commit message. For details on how to do this, see the CONTRIBUTING documentation in this Work’s repository.
 
 ## 4. Your Responsibilities
 
@@ -38,7 +38,7 @@ If You redistribute this Work, include a copy of this Agreement and License with
 
 ## 5. General Terms
 
-**a. Choice of Law and Venue.** This Agreement, and any claim or matter arising from this Agreement, is governed by and construed in accordance with U.S. Federal law and venue, without giving effect to your actual state or country of residence or its conflict of laws provisions.
+**a. Choice of Law and Venue.** This Agreement, and any claim or matter arising from this Agreement, is governed by and construed in accordance with U.S. Federal law and venue, without giving effect to Your actual state or country of residence or its conflict of laws provisions.
 
 **b. Entire Agreement.** It is expressly understood and agreed that this Agreement and the License embody the entire agreement between You and Us.
 
