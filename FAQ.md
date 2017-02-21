@@ -18,7 +18,7 @@ The legal framework that makes works created by U.S. Federal government employee
 
 We believe that software created by the U.S. Federal government should be shared when possible so that it can be used and improved upon by the public. However, software is a vastly different animal than maps or publications. Software constantly evolves with each contribution potentially having a different copyright and license status. Merely placing source code in the public domain with CC0 1.0 does not address how contributions will affect the openness of the project over time.
 
-That’s why we’re trying this new approach of basing open sources licenses in contract law. We believe that this resolves the legal status of contributions while also remaining consistent with the intent of 17 U.S.C. 105. We're not only making government software available to the public, but also openly encouraging participation in making the code better. 
+That’s why we’re trying this new approach of using contract law to attach open source licenses to our projects and using the Developer Certificate of Origin. We believe that this resolves the legal status of contributions while also remaining consistent with the intent of 17 U.S.C. 105. We're not only making government software available to the public, but also openly encouraging participation in making the code better. 
 
 ##Why is DoD doing this?
 
