@@ -16,6 +16,6 @@ Meet with developers across the DoD who have been tasked with America’s highes
 
 ##Make us better.
 
-We’ve drafted LICENSE-agreement.md so the DoD can use open source licenses, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source community to improve our software and make our code available for public use.
+We’ve drafted LICENSE-agreement.md so the DoD can use widely adopted licenses, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
 
 **We want your help to make the open source agreement better.** We encourage everybody to submit pull requests and issues with your suggestions before we finalize LICENSE-agreement.md by the end of March and open source our projects!
