@@ -8,7 +8,7 @@ So, we’re trying something a little different here.
 
 The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
 
-We need your help in contributing to projects to build better products and services for the American people.
+We need your help in contributing to our projects to build better products and services for the American people.
 
 ##Connect with us.
 
