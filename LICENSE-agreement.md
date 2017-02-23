@@ -17,7 +17,7 @@ When You copy, contribute to, or use this Work, You are agreeing to the terms an
 
 ## 2. Rights DoD Grants to You
 
-**a. No Copyright.** In places where DoD has no copyright protections in this Work, it is licensed under the terms and onditions in this Agreement and the License as a contract between DoD and You. You are granted the rights in this Agreement and License in consideration of Your acceptance of these terms and conditions. DoD grants You such rights in consideration of benefits DoD receives from making the Work available under these terms and conditions.
+**a. No Copyright.** In places where DoD has no copyright protections in this Work, it is licensed under the terms and conditions in this Agreement and the License as a contract between DoD and You. You are granted the rights in this Agreement and License in consideration of Your acceptance of these terms and conditions. DoD grants You such rights in consideration of benefits DoD receives from making the Work available under these terms and conditions.
 
 When there is no copyright, the License is modified as follows:
 ```
