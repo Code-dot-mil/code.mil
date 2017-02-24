@@ -30,7 +30,7 @@ copyright (yyyy) = created (yyyy)
 
 ## 3. Your Contributions: Developer’s Certificate of Origin
 
-The DoD will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in Your commit message. For details on how to do this, see the CONTRIBUTING documentation in this Work’s repository.
+The DoD will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in Your commit message. For details on how to do this, see the [CONTRIBUTING](/CONTRIBUTING.md) documentation in this Work’s repository.
 
 ## 4. Your Responsibilities
 
