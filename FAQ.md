@@ -4,6 +4,10 @@
 
 Code.mil is an experiment in open source at the U.S. Department of Defense (DoD). The goal is to collaborate with the developer community across the world on unclassified code written by U.S. Federal government employees.  
 
+##Who is behind Code.mil?
+
+The [Defense Digital Service](https://dds.mil) (DDS) launched Code.mil on February 23, 2017. DDS is part of the [United States Digital Service](https://usds.gov).
+
 ##What is the Defense Open Source Agreement? Why not just use another open source license?
 
 Per U.S. law, code written by U.S. Federal government employees doesn’t typically have copyright protections which causes difficulties in adding open source licenses to our code. So, we’ve explored another legal pathway using contract law in the Defense Open Source Agreement—which you can find in LICENSE-agreement.md—to add an open source license to our projects.
