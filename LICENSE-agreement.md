@@ -42,6 +42,6 @@ If You redistribute this Work, include a copy of this Agreement and License with
 
 **b. Entire Agreement.** It is expressly understood and agreed that this Agreement and the License embody the entire agreement between You and Us.
 
-**c. Effective Date.**  This Agreement and License take effect on the day You copy, contribute to, or use the Work.
+**c. Effective Date.**  This Agreement and License take effect on the day you copy, contribute to, or use the Work.
 
 ## 6. This Agreement is a work of the U.S. Government and is not subject to copyright protection in the United States. Foreign copyrights may apply.
