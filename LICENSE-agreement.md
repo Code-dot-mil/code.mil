@@ -17,7 +17,7 @@ When You copy, contribute to, or use this Work, You are agreeing to the terms an
 
 ## 2. Rights DoD Grants to You
 
-**a. No Copyright.** In places where DoD has no copyright protections in this Work, it is licensed under the terms and conditions in this Agreement and the License as a contract between DoD and You. You are granted the rights in this Agreement and License in consideration of Your acceptance of these terms and conditions. DoD grants You such rights in consideration of benefits DoD receives from making the Work available under these terms and conditions.
+**a. No Copyright.** In places where DoD has no copyright protections in this Work, it is licensed under the terms and conditions in this Agreement and the License as a contract between DoD and You. Where possible, DoD will aim to make it explicitly clear when a copyright protection is in place. You are granted the rights in this Agreement and License in consideration of Your acceptance of these terms and conditions. DoD grants You such rights in consideration of benefits DoD receives from making the Work available under these terms and conditions.
 
 When there is no copyright, the License is modified as follows:
 ```
@@ -43,5 +43,7 @@ If You redistribute this Work, include a copy of this Agreement and License with
 **b. Entire Agreement.** It is expressly understood and agreed that this Agreement and the License embody the entire agreement between You and Us.
 
 **c. Effective Date.**  This Agreement and License take effect on the day You copy, contribute to, or use the Work.
+
+**d. Modifications to the Agreement.** This Agreement and License are not intended to be modified. However, if this document is modified, it will have no retroactive impact on prior versions of the Agreement and License that have taken effect.
 
 ## 6. This Agreement is a work of the U.S. Government and is not subject to copyright protection in the United States. Foreign copyrights may apply.
