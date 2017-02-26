@@ -44,4 +44,6 @@ If You redistribute this Work, include a copy of this Agreement and License with
 
 **c. Effective Date.**  This Agreement and License take effect on the day You copy, contribute to, or use the Work.
 
-## 6. This Agreement is a work of the U.S. Government and is not subject to copyright protection in the United States. Foreign copyrights may apply.
+## 6. Reservation of Rights 
+
+This Agreement is a work of the U.S. Government and is not subject to copyright protection in the United States. In countries where this Agreement is subject to copyright protection, the DoD reserves all rights under copyright law.
