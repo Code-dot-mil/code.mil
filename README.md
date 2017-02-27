@@ -17,6 +17,6 @@ We need your help in contributing to our projects to build better products and s
 Meet with developers across the DoD who have been tasked with America’s highest priority missions and help build upon their work. We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen.
 
 ##Make us better.
-We’ve drafted [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) so the DoD join communities which use widely adopted licenses, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
+We’ve drafted [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) so the DoD can participate in communities that use widely adopted licenses, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
 
 **We want your help to make the open source strategy.** We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions before we finalize [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) by the end of March and open source our projects!
