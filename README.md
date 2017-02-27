@@ -4,7 +4,7 @@ The U.S. Department of Defense (DoD) faces unique challenges in open sourcing it
 
 So, we’re trying something a little different.
 
-**We'd like your feedback** on our [proposed open source license agreement](https://github.com/deptofdefense/code.mil/blob/master/LICENSE-agreement.md#draft-defense-open-source-agreement) prior to us releasing our current projects. You can submit a public comment by [opening a GitHub issue on this repository](https://github.com/deptofdefense/code.mil/issues/new) before we finalize the agreement at **the end of March.**
+**We'd like your feedback** on our [proposed open source license agreement](/Proposal/LICENSE-agreement.md#draft-defense-open-source-agreement) prior to us releasing our current projects. You can submit a public comment by [opening a GitHub issue on this repository](https://github.com/deptofdefense/code.mil/issues/new) before we finalize the agreement at **the end of March.**
 
 
 
@@ -21,6 +21,6 @@ Meet with developers across the DoD who have been tasked with America’s highes
 
 ##Make us better.
 
-We’ve drafted [`LICENSE-agreement.md`](https://github.com/deptofdefense/code.mil/blob/master/LICENSE-agreement.md#draft-defense-open-source-agreement) so the DoD can use widely adopted licenses, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
+We’ve drafted [`LICENSE-agreement.md`](/Proposal/LICENSE-agreement.md#draft-defense-open-source-agreement) so the DoD can use widely adopted licenses, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
 
-**We want your help to make the open source agreement better.** We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions before we finalize [`LICENSE-agreement.md`](https://github.com/deptofdefense/code.mil/blob/master/LICENSE-agreement.md#draft-defense-open-source-agreement) by the end of March and open source our projects!
+**We want your help to make the open source agreement better.** We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions before we finalize [`LICENSE-agreement.md`](/Proposal/LICENSE-agreement.md#draft-defense-open-source-agreement) by the end of March and open source our projects!
