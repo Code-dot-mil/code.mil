@@ -34,7 +34,7 @@ The DoD will only accept contributions using the Developer’s Certificate of Or
 
 ## 4. Your Responsibilities
 
-If You redistribute this Work, include a copy of this Agreement and License with the redistributions.
+If You redistribute this Work, you must include a complete and unmodified copy of this Agreement and License with the redistributions.
 
 ## 5. General Terms
 
