@@ -1,1 +1,1 @@
-Moved to [/Proposal/LICENSE-agreement.md](/Proposal/LICENSE-agreement.md)
+Moved to [/Proposal/CONTRIBUTING.md](/Proposal/CONTRIBUTING.md)
