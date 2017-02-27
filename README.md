@@ -6,7 +6,7 @@ So, we’re trying something a little different.
 **We'd like your feedback** on our [proposed open source strategy](/Proposal/CONTRIBUTING.md) prior to us releasing our current projects. You can submit a public comment by [opening a GitHub issue on this repository](https://github.com/deptofdefense/code.mil/issues/new) before we finalize the agreement at **the end of March.**
 
 ## Updates
-Based on feedback there is a new version of the proposed strategy at [CONTRIBUTING.md](/Proposal/CONTRIBUTING.md).
+Based on feedback there is a new version of the proposed strategy at [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md).
 
 ##Build something with us.
 The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
