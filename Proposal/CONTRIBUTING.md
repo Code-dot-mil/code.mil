@@ -1,5 +1,5 @@
 # Contributing to our projects
-**Note: This is a draft CONTRIBUTING.md is for software projects. You do not need to follow the DCO process for commenting on the Code.mil repository documentation, like CONTRIBUTING.md, README.md, etc.**
+**Note: This draft CONTRIBUTING.md is for software projects. You do not need to follow the DCO process for commenting on the Code.mil repository documentation, like CONTRIBUTING.md, README.md, etc.**
 
 Thanks for thinking about using or contributing to this software and its documentation (“Work”)!
 
@@ -17,7 +17,7 @@ You can agree to the DCO in your contribution by using a “Signed-off-by” lin
 
 ```Signed-off-by: Jane Smith <jane.smith@email.com>```
 
-You may type this line on your own when writing your commit messages. However, Git makes it easy to add this line to your commit messages. If you set your user.name and user.email as part of your git configuration, you can sign your commit automatically with git commit -s.
+You may type this line on your own when writing your commit messages. However, Git makes it easy to add this line to your commit messages. If you set your `user.name` and `user.email` as part of your git configuration, you can sign your commit automatically with `git commit -s`.
 
 You have to use your real name - pseudonyms or anonymous contributions will not be accepted.
 
