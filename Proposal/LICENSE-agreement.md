@@ -30,7 +30,7 @@ copyright (yyyy) = created (yyyy)
 
 ## 3. Your Contributions: Developer’s Certificate of Origin
 
-The project maintainer for this Work will only accept contributions using the Developer’s Certificate of Origin 1.1, located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in Your commit message. For details on how to do this, see the [CONTRIBUTING](/CONTRIBUTING.md) documentation in this Work’s repository.
+The project maintainer for this Work will only accept contributions using the Developer’s Certificate of Origin 1.1, located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in your commit message. For details on how to do this, see the [CONTRIBUTING](/CONTRIBUTING.md) documentation in this Work’s repository.
 
 ## 4. Your Responsibilities
 
@@ -38,7 +38,7 @@ If You redistribute this Work, include a copy of this Agreement and License with
 
 ## 5. General Terms
 
-**a. Choice of Law and Venue.** This Agreement, and any claim or matter arising from this Agreement, is governed by and construed in accordance with U.S. Federal law and venue, without giving effect to Your actual state or country of residence or its conflict of laws provisions.
+**a. Choice of Law and Venue.** This Agreement, and any claim or matter arising from this Agreement, is governed by and construed in accordance with U.S. Federal law and venue, without giving effect to your actual state or country of residence or its conflict of laws provisions.
 
 **b. Entire Agreement.** It is expressly understood and agreed that this Agreement and the License embody the entire agreement between You and Us.
 
