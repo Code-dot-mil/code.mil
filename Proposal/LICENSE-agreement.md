@@ -3,13 +3,13 @@
 
 Thanks for thinking about using or contributing to this software and its documentation (“Work”)!
 
-At the United States (U.S.) Department of Defense (“DoD” or “Us”) we’re committed to bringing industry best practices, like open sourcing software, into the government. We believe that software created by the government should be shared when possible so that it can be used and improved upon by the public. This Defense Open Source Agreement (“Agreement”) uses existing open source and contributor licenses to make it easier for the open source community to use and contribute to DoD software.
+At the United States (U.S.) Department of Defense (“DoD” or “Us”) we’re committed to bringing industry best practices, such as using open source software, into the government. We believe that software created by the DoD should be shared, when possible, for use and improvement upon by the public. This Defense Open Source Agreement (“Agreement”) uses existing open source and contributor licenses to make it easier for the open source community to use and contribute to DoD software.
 
 ## 1. Purpose of this Agreement
 
 This Agreement is a contract between the person or entity intending to copy, contribute to, or use this Work (“You”) and Us. This Agreement and the open source license in this Work’s repository (“License”) describe the terms and conditions used to open source this Work.
 
-Usually when someone attaches an open source license to their work, they’re licensing their copyright in that work to others. U.S. Federal government employees generally don’t have copyright under U.S. and some international law for work they create as part of their jobs. In those places, we base our open source license in contract—rather than copyright—law.
+Usually, when someone attaches an open source license to their work, they’re licensing their copyright in that work to others. U.S. Federal government employees generally don’t have copyright under U.S. and some international law for work they create as part of their jobs. In those places, we base our open source license in contract—rather than copyright—law.
 
 This Agreement lets Us use an open source license even though DoD may not have copyright protections in this Work. This Agreement also explains that You need to include a Developer’s Certificate of Origin when You contribute to this Work.
 
@@ -30,7 +30,7 @@ copyright (yyyy) = created (yyyy)
 
 ## 3. Your Contributions: Developer’s Certificate of Origin
 
-The project maintainer for this Work will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in your commit message. For details on how to do this, see the [CONTRIBUTING](/CONTRIBUTING.md) documentation in this Work’s repository.
+The project maintainer for this Work will only accept contributions using the Developer’s Certificate of Origin 1.1, located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in your commit message. For details on how to do this, see the [CONTRIBUTING](/CONTRIBUTING.md) documentation in this Work’s repository.
 
 ## 4. Your Responsibilities
 
