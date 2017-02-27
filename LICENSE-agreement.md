@@ -1,7 +1,7 @@
 # DRAFT Defense Open Source Agreement
 ## Version 1.0
 
-Thanks for thinking about using or contributing to this software and its documentation (“Work”)! 
+Thanks for thinking about using or contributing to this software and its documentation (“Work”)!
 
 At the United States (U.S.) Department of Defense (“DoD” or “Us”) we’re committed to bringing industry best practices, like open sourcing software, into the government. We believe that software created by the government should be shared when possible so that it can be used and improved upon by the public. This Defense Open Source Agreement (“Agreement”) uses existing open source and contributor licenses to make it easier for the open source community to use and contribute to DoD software.
 
@@ -30,7 +30,7 @@ copyright (yyyy) = created (yyyy)
 
 ## 3. Your Contributions: Developer’s Certificate of Origin
 
-This Work will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in Your commit message. For details on how to do this, see the CONTRIBUTING documentation in this Work’s repository.
+This Work will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). You can agree to the DCO in your contribution by using a “Signed-off-by” line in Your commit message. For details on how to do this, see the [CONTRIBUTING](/CONTRIBUTING.md) documentation in this Work’s repository.
 
 ## 4. Your Responsibilities
 
