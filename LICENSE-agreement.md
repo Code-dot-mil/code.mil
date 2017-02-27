@@ -21,9 +21,9 @@ When You copy, contribute to, or use this Work, You are agreeing to the terms an
 
 When there is no copyright, the License is modified as follows:
 ```
-copyright holder = author
-copyright notice = notice
-copyright (yyyy) = created (yyyy)
+"copyright holder" becomes "author"
+"copyright notice" becomes "notice"
+"copyright (yyyy)" becomes "created (yyyy)"
 ```
 
 **b. Copyright.** In countries where this Work has copyright protections, this Work is licensed under the terms and conditions in this Agreement and the License pursuant to copyright law.
