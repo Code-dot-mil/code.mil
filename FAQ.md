@@ -12,7 +12,7 @@ The [Defense Digital Service](https://dds.mil) (DDS) launched Code.mil on Februa
 
 We received a lot of great feedback about the draft agreement and our proposed use of contract law as a legal pathway to use open source licenses for our projects. Thank you! 
 
-Based on the feedback, we updated our strategy to move away from contract law and instead focus on the contribution process. We deleted the LICENSE-agreement.md file. Our updated strategy is fully captured in [CONTRIBUTING.md](/Proposal/CONTRIBUTING.md). We think the updated strategy avoids the complications of using contract law and also the perception that we're creating new licenses. We hope this will keep our practices more consistent with the open source and free software communities. We intend to use widely adopted licenses for our projects.
+Based on the feedback, we updated our strategy to move away from contract law and instead focus on the contribution process. We deleted the LICENSE-agreement.md file. Our updated strategy is fully captured in [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md). We think the updated strategy avoids the complications of using contract law and also the perception that we're creating new licenses. We hope this will keep our practices more consistent with the open source and free software communities. We intend to use widely adopted licenses for our projects.
 
 ##Since software created by U.S. Federal government employees does not have copyright protections in the U.S., why not just put it in the public domain and use CC0 1.0 for international jurisdictions where you have copyright?
 
