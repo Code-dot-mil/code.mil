@@ -16,7 +16,7 @@ Based on the feedback, we updated our strategy to move away from contract law an
 
 ##Since software created by U.S. Federal government employees does not have copyright protections in the U.S., why not just put it in the public domain and use CC0 1.0 for international jurisdictions where you have copyright?
 
-Good point! We definitely considered this. However, we felt that simply placing it in the public domain and attaching a CC0 1.0 dedication wouldn’t sufficiently address the legalities of an individual’s contribution. We do not intend to judge this strategy, but we would like to explore the possiblitiy of using widely adopted licenses other than CC0 1.0.
+Good point! We definitely considered this. However, we felt that simply placing it in the public domain and attaching a CC0 1.0 dedication wouldn’t sufficiently address the legalities of an individual’s contribution. We do not intend to judge this strategy, but we would like to explore the possiblitiy of using widely adopted licenses in addition to CC0 1.0.
 
 The legal framework that makes works created by U.S. Federal government employees ineligible for copyright protections was written long before the invention of software. This concept was first codified to a lesser degree in the Printing Law of 1895 and then again in the U.S. Copyright Act of 1909. Section 108 from the Act of 1909 served as the basis for the U.S. Copyright Act of 1976, which is the current law (17 U.S.C. 105). 
 
