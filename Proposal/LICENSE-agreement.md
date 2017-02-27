@@ -9,7 +9,7 @@ At the United States (U.S.) Department of Defense (“DoD” or “Us”) we’r
 
 This Agreement is a contract between the person or entity intending to copy, contribute to, or use this Work (“You”) and Us. This Agreement and the open source license in this Work’s repository (“License”) describe the terms and conditions used to open source this Work.
 
-Usually, when someone attaches an open source license to their work, they’re licensing their copyright in that work to others. U.S. Federal government employees generally don’t have copyright under U.S. and some international law for work they create as part of their jobs. In those places, we base our open source license in contract—rather than copyright—law.
+Usually, when someone attaches an open source license to their work, they do so in order to license their copyright in that work to others. U.S. Federal government employees generally do not have copyright under U.S. and some international law for work they create as part of their jobs. In those places, we base our open source license in contract law rather than copyright law.
 
 This Agreement lets Us use an open source license even though DoD may not have copyright protections in this Work. This Agreement also explains that You need to include a Developer’s Certificate of Origin when You contribute to this Work.
 
@@ -21,9 +21,9 @@ When You copy, contribute to, or use this Work, You are agreeing to the terms an
 
 When there is no copyright, the License is modified as follows:
 ```
-copyright holder = author
-copyright notice = notice
-copyright (yyyy) = created (yyyy)
+"copyright holder" becomes "author"
+"copyright notice" becomes "notice"
+"copyright (yyyy)" becomes "created (yyyy)"
 ```
 
 **b. Copyright.** In countries where this Work has copyright protections, this Work is licensed under the terms and conditions in this Agreement and the License pursuant to copyright law.
@@ -34,7 +34,7 @@ The project maintainer for this Work will only accept contributions using the De
 
 ## 4. Your Responsibilities
 
-If You redistribute this Work, include a copy of this Agreement and License with the redistributions.
+If You redistribute this Work, you must include a complete and unmodified copy of this Agreement and License with the redistributions.
 
 ## 5. General Terms
 
@@ -44,4 +44,6 @@ If You redistribute this Work, include a copy of this Agreement and License with
 
 **c. Effective Date.**  This Agreement and License take effect on the day You copy, contribute to, or use the Work.
 
-## 6. This Agreement is a work of the U.S. Government and is not subject to copyright protection in the United States. Foreign copyrights may apply.
+## 6. Reservation of Rights
+
+This Agreement is a work of the U.S. Government and is not subject to copyright protection in the United States. In countries where this Agreement is subject to copyright protection, the DoD reserves all rights under copyright law.
