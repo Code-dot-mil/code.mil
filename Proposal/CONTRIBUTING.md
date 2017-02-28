@@ -3,13 +3,13 @@
 
 Thanks for thinking about using or contributing to this software and its documentation (“Work”)!
 
-## License
+## 1. License
 This Work is not eligible for copyright protection in the United States (U.S.). This is generally understood to mean that this Work is placed in the public domain.
 
 
 In countries where copyright protection is available for this Work, this Work is being made available under the license associated with this Work’s repository (“License”).
 
-## Your Contributions: Developer’s Certificate of Origin
+## 2. Your Contributions: Developer’s Certificate of Origin
 The project maintainer for this Work will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). The DCO is a legally binding statement that asserts that you are the creator of your contribution and that you are intentionally making your contribution available under the license associated with the project.
 
 
