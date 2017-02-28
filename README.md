@@ -3,7 +3,7 @@ The U.S. Department of Defense (DoD) faces unique challenges in open sourcing it
 
 So, we’re trying something a little different.
 
-**We'd like your feedback** on our [proposed open source strategy](/Proposal/CONTRIBUTING.md) prior to us releasing our current projects. You can submit a public comment by [opening a GitHub issue on this repository](https://github.com/deptofdefense/code.mil/issues/new) before we finalize the agreement at **the end of March.**
+**We'd like your feedback** on our [proposed open source strategy](/Proposal/CONTRIBUTING.md) prior to us releasing our current projects. You can submit a public comment by [opening a GitHub issue on this repository](https://github.com/deptofdefense/code.mil/issues/new) before we finalize the agreement at **the end of March.** The goal is to then use the developed mechanism to open source several projects and encourage and enable others within the DoD community to do so as well.
 
 ## Updates
 Based on feedback there is a new version of the proposed strategy at [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md).
