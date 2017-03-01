@@ -4,14 +4,12 @@
 Thanks for thinking about using or contributing to this software and its documentation (“Work”)!
 
 ## 1. License
-The portions of this Work written by United State (U.S.) Federal government employees within the scope of their employment are not eligible for copyright protection in the U.S. This is generally understood to mean that these portions of the Work are placed in the public domain.
-
+The portions of this Work written by United States (U.S.) Federal government employees within the scope of their employment are not eligible for copyright protection in the U.S. This is generally understood to mean that these portions of the Work are placed in the public domain.
 
 In countries where copyright protection is available, the portions of this Work written by U.S. Federal government employees within the scope of their employment are being made available under the license associated with this Work’s repository (“License”).
 
 ## 2. Your Contributions: Developer’s Certificate of Origin
 The project maintainer for this Work will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the project.
-
 
 You can agree to the DCO in your contribution by using a “Signed-off-by” line at the end of your commit message. You should only submit a contribution if you are willing to agree to the DCO terms. If you are willing, just add a line to the end of every git commit message:
 
