@@ -23,6 +23,9 @@ REMAINING WORK TO DO:
       more clearly and concretely defined in the summary.
 - [ ] Defense Digital Service should provide contact information and specific
       points of contact for this project.
+- [ ] These markdown files should be converted to HTML so this site can be
+      published on code.mil. Use Jekyll to convert markdown to html and use
+      the CSS and templates provided by https://standards.usa.gov/page-templates/
 
 # Summary
 
