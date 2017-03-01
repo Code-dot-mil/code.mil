@@ -32,3 +32,4 @@ Please see our project page at https://github.com/deptofdefense/code.mil/ to par
 And following is Federal-government-wide policy on source code distribution:
 
 * [https://code.gov/#/policy-guide/docs/overview/introduction](U.S. Federal Source Code Policy)
+* [https://code.gov/#/policy-guide/docs/compliance/inventory-code](Enterprise code inventory)
