@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Glossary
 
 **Cooperative Research and

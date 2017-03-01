@@ -1,14 +1,18 @@
+---
+layout: page
+---
+
 # Defense Digital Service Recommendations for Open Source DoD Projects
 
 Version 0.0.1
 
 28 February 2017
 
-PROJECT STATUS: THIS DOCUMENT IS A DRAFT FOR DISCUSSION, PLEASE PARTICIPATE
-IN THIS PROJECT AT https://github.com/deptofdefense/code.mil
+**PROJECT STATUS: THIS DOCUMENT IS A DRAFT FOR DISCUSSION, PLEASE PARTICIPATE
+IN THIS PROJECT AT https://github.com/deptofdefense/code.mil**
 
-A WORK PLAN FOR IMPROVING THIS SPECIFIC VERSION OF THIS DOCUMENT IS AT
-https://github.com/deptofdefense/code.mil/issues/85
+**A WORK PLAN FOR IMPROVING THIS SPECIFIC VERSION OF THIS DOCUMENT IS AT
+https://github.com/deptofdefense/code.mil/issues/85**
 
 # Summary
 
@@ -573,7 +577,7 @@ issues surrounding the release of software, please see this file at
 
 # Glossary
 
-A glossary of terms can be found [here](GLOSSARY.md).
+A glossary of terms can be found [here](GLOSSARY.html).
 
 # Footnotes
 
