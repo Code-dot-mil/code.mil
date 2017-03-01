@@ -79,7 +79,7 @@ Conversely, when software is not published, the following are true:
 The Defense Digital Service has recognized these facts and, to ensure that DoD
 remains a leader rather than a follower, has dedicated resources to assisting
 DoD agencies in understanding and implementing best practices for publishing
-DoD software to the world.  However, DoD is not a private entity and MUST obey
+DoD software to the world.  However, DoD is not a private entity and must obey
 numerous laws and regulations when releasing any material to the public. These
 recommendations are intended to protect sensitive material from inadvertent
 release, protect the Intellectual Property (IP) rights of DoD, and prevent DoD
@@ -94,18 +94,18 @@ here.
 
 #### Operational security (OPSEC)
 
-Organizations within the Department of Defense (DoD), MUST be able to properly
-evaluate information that is proposed for publication to ensure no sensitive
-information is accidentally released.  This includes software. Since it is
-possible to accidentally violate various laws with even a seemingly trivial
-change<sup>[1](#Footnote_1)</sup>, it is critical that all changes be
-reviewed by competent personnel before release. This step is intended to
-protect DoD personnel from the repercussions of such a release by reducing the
-chances of it occurring in the first place.
+Department of Defense agencies should properly evaluate information that is
+proposed for publication to ensure no sensitive information is accidentally
+released.  This includes software.  Since it is possible to accidentally
+violate various laws with even a seemingly trivial
+change<sup>[1](#Footnote_1)</sup>, it is critical that all changes be reviewed
+by competent personnel before release. This step is intended to protect DoD
+personnel from the repercussions of such a release by reducing the chances of
+it occurring in the first place.
 
 Moreover, just as aggregating unclassified information may raise its
 classification level, combining a set of changes into a whole may also raise
-its classification level.  This is why any review MUST consider the software
+its classification level.  This is why any review should consider the software
 as a whole, not just the portion that changed.
 
 #### Intellectual property issues
@@ -114,7 +114,7 @@ You must consider intellectual property concerns.  This can cause significant
 legal challenges if not correctly addressed, both when DoD agencies
 accidentally release valuable IP without protecting it and when DoD agencies
 accidentally trespass on the rights of others.  There are three main types of
-IP rights that you MUST consider for software release: trademark, copyright,
+IP rights that you need to consider for software release: trademark, copyright,
 and patent rights.
 
 Trademarks are intended to prevent consumer confusion over who is the source
@@ -126,7 +126,7 @@ providing or endorsing a product when they are not.  Provided no such
 implication is made when using trademarks owned by others, DoD should be
 relatively safe.  More on this can be found in **Legal analysis - software
 protection & release mechanisms**, below.  To help protect DoD IP, all DoD-
-developed software SHOULD use the name of your agency, or a recognized
+developed software should use the name of your agency, or a recognized
 abbreviation, in its name.
 
 Copyright is another form of IP that can give owners a method of control over
@@ -159,7 +159,7 @@ a "software-related invention"<sup>[2](#Footnote_2)</sup>, they have the right
 to pursue a patent first. Contractors may be legally permitted to patent the
 software, preventing others from using it.  In this case, DoD agencies SHOULD
 NOT release the software to the public under this process.  If a project will
-eventually be released under this process, developers SHOULD consult with your
+eventually be released under this process, developers should consult with your
 agency's legal department to determine the best course of action to take with
 regard to any contractors or outside contributors.  If this is not done, then
 at some later date, developers may find that there are patents that effectively
@@ -216,7 +216,7 @@ the copyright to a work, it MUST obtain the rights to release the material
 before it may do so.  If a software project does not yet exist, then there are
 no copyright, authorship or licensing issues preventing release.  However, if
 what is being prepared for release already exists, a thorough review to
-ascertain origination, provenance, and licensing MUST be conducted to ensure
+ascertain origination, provenance, and licensing must be conducted to ensure
 that the rights of others are not trespassed.
 
 If the work was developed solely by Government employees as part of their
@@ -225,7 +225,7 @@ the right to release the work.  If there are any contractors or other external
 parties involved, they may have rights that prevent the Government from
 releasing and/or redistributing their contributions without their permission.
 If there are any third-party libraries, applications, or data that are
-incorporated into the work, there MUST be appropriate license and/or rights to
+incorporated into the work, there must be appropriate license and/or rights to
 distribute them.
 
 When works are developed by a mixture of Government employees and Government
@@ -240,11 +240,11 @@ These instructions are recommended for DoD agencies that release software to,
 or accept contributions from, the general public.  If a project does not yet
 have any software associated with it (such as when a project is being initially
 formulated) and the project is intended to be released to the general public,
-then this process MUST still be followed.
+then this process should still be followed.
 
 ## Major reviews
 
-The major review process MUST be followed if any of the following are true:
+The major review process should be followed if any of the following are true:
 
 * This is the first release of the project.
 * The project's scope has changed sufficiently that any of the principal
@@ -258,18 +258,18 @@ The major review process MUST be followed if any of the following are true:
 
 ### Informal approval
 
-Before developer(s) release software, they MUST obtain informal approval from
+Before developer(s) release software, they must obtain informal approval from
 their supervisor(s).  If their supervisors do not approve release of the
 software, then the software MUST NOT be released.  Do not continue with this
 process.  When deciding if a project can be released, review the requirements
-of RELEASE RIGHTS.  The requirements in that chapter MUST be met before any
+of RELEASE RIGHTS.  The requirements in that chapter should be met before any
 software or related materials are released.
 
 ### Code cleanup and release preparation
 
 Fast-moving projects often accumulate useless, nonfunctional, or otherwise
 undesirable code and other material that needs to be cleaned up.  Before
-moving forward with the formal portions of the process, the project MUST be
+moving forward with the formal portions of the process, the project should be
 cleaned up to ensure it meets certain minimum standards.  Remember that a
 formal review can only be done on what is actually being released, so cleaning
 up the code after the formal review is not an option.  If a project is being
@@ -283,10 +283,10 @@ of the project's developers to ensure that both the current code and any
 history in any repositories that are proposed for release have been properly
 scrubbed before the material is reviewed for release.
 
-Software that is released to the public is similar to a publication and SHOULD
-be treated like one.  The author(s) MUST ensure that there is no embarrassing,
+Software that is released to the public is similar to a publication and should
+be treated like one.  The author(s) must ensure that there is no embarrassing,
 disparaging, or otherwise unprofessional language in what is released.
-Language that would not be used in a professional journal MUST not be used in
+Language that would not be used in a professional journal must not be used in
 software.  Direct any questions about this to your agency's public affairs
 office.
 
@@ -310,7 +310,7 @@ The license to be used depends on whether or not the project has copyright
 attached to it.  Works generated solely by Government employees in the course
 of their duties do not have any copyright attached to them.  Works produced
 with non-Government persons or organizations may have copyright attached.  If
-there is uncertainty about the copyright status of a project you SHOULD consult
+there is uncertainty about the copyright status of a project you should consult
 your agency's legal department to determine the legal state of the project and
 determine which license to use.
 
@@ -321,7 +321,7 @@ recommendation and legal analysis, see  **Legal analysis - software protection
 & release mechanisms**, below.
 
 If the project has copyright, any license that your agency approves MAY be
-used. The Army Research Laboratory RECOMMENDS that you choose the Apache 2.0
+used. The Army Research Laboratory recommends that you choose the Apache 2.0
 license (http://www.apache.org/licenses/LICENSE-2.0). See again **Legal
 analysis - software protection & release mechanisms**, below.
 
@@ -334,16 +334,16 @@ license<sup>[6](#Footnote_6)</sup>.  If the project has a webpage, the license
 being used MUST be stated somewhere on the webpage, with a link pointing to
 where the file containing the license can be found.
 
-All contributions to the project MUST be done under the license and the
-contributions MUST be irrevocable.  Questions about this can be directed to
-DoD Legal for clarification.
+All contributions to the project must be done under the license and the
+contributions must be irrevocable.  Questions about this can be directed to
+your agency's legal department for clarification.
 
-A "README" file MUST be created at the top level of the directory with at
+A "README" file should be created at the top level of the directory with at
 least the following in it:
 
 * The intended purpose of the software.
 * A note pointing to the license or contract covering the software.
-* If there is no "VERSION" file, the version number of the release SHOULD be
+* If there is no "VERSION" file, the version number of the release should be
   included.
 * At least some basic documentation on how to build and use the software.
 
@@ -373,14 +373,14 @@ user is trying to understand the documentation.
 For legal reasons, all language talking about the project MUST be prefixed
 with the agency releasing the project.  For example, if a project is named
 WhizBang by the Army Research Laboratory, then all literature in the package
-SHOULD refer to it as for "ARL WhizBang" or the "ARL WhizBang project."
+should refer to it as for "ARL WhizBang" or the "ARL WhizBang project."
 
 ### Obtain your agency's invention evaluation committee (IEC) approval
 
 Your agency may have IP interests in the software.  Before it can be released,
-the IEC MUST determine that it is in the best interest of the Government and
+the IEC must determine that it is in the best interest of the Government and
 your agency to waive any IP rights that ARL might have and release it to the
-public.  To do so, the PD MUST inform the current chair of the IEC (or the
+public.  To do so, the PD should inform the current chair of the IEC (or the
 chair's delegate) of the intention to release the software by sending the chair
 a digitally signed email that contains the following:
 
@@ -404,13 +404,13 @@ of any patent application or license.  All intellectual property rights
 <<agency name>> may be able to assert or establish are hereby waived.`
 
 If the PD has received approval from IEC chair (or the chair's delegate), then
-the PD MAY continue with the rest of this process.
+the PD may continue with the rest of this process.
 
 If the IEC chair (or the chair's delegate) believes that your agency has IP
 interests that your agency wants protected, then the PD and the chair (or the
-chair's delegate) MUST discuss the issues to determine how to move forward.
-This discussion MAY be performed by email, telephone, or any other convenient
-and legal means. Records of the final determination MUST be kept by the PD.  If
+chair's delegate) must discuss the issues to determine how to move forward.
+This discussion may be performed by email, telephone, or any other convenient
+and legal means. Records of the final determination must be kept by the PD.  If
 it is determined to be in the best interests of your agency and the Government
 to seek patent protection, then the rest of this process does not apply.  Do
 not continue with the rest of this process.
@@ -418,34 +418,35 @@ not continue with the rest of this process.
 To determine the appropriate person to contact within the IEC, consult your
 agency's legal department.
 
-This step MAY be done in parallel with the steps described below.
+This step may be done in parallel with the steps described below.
 
 ### Intellectual property review
 
-Although your agency MAY choose to waive its rights to any IP established in
+Although your agency may choose to waive its rights to any IP established in
 software, if an author has incorporated contributions from others, those
 contributors may have rights to those contributions that restrict your agency's
 ability to release the software.  Thus, before the software can be released,
-the following questions MUST be addressed:
+the following questions must be addressed:
 
 * Has every part of the proposed release been generated by Government
   employees in the course of their duties?
 * If not, is there permission from every other rights holder to release all of
   the other parts under the project's license?
 
-The PD MUST consult with your agency's legal department to perform an IP review
-(this review MAY be done by email or any other convenient and legal means).  If
+The PD must consult with your agency's legal department to perform an IP review
+(this review may be done by email or any other convenient and legal means).  If
 there are external contributions that were not contributed under the project's
-license, then the PD MUST determine the license and copyright information for
+license, then the PD must determine the license and copyright information for
 each contribution.  Provide these to your agency's legal department for review
 and final determination if the licenses are compatible with the license or
 contract under which the software is being released.  If your agency's legal
 deparment determines that there are impediments to releasing the software,
-whatever permissions are necessary MUST be obtained before the software is
+whatever permissions are necessary must be obtained before the software is
 released.  If it is not possible to obtain the necessary permissions, then the
 software MUST NOT be released.  Do not continue with the rest of this process.
-If DoD Legal agrees that there are no IP impediments to releasing the software,
-then DoD Legal MUST send a digitally signed email to the PD stating so.
+If your agency's legal deparment agrees that there are no IP impediments to
+releasing the software, then your agency's legal department should send a
+digitally signed email to the PD stating so.
 
 Note that copyright protection attaches to all literary works, including
 software, when they are created<sup>[8](#Footnote_8)</sup>.  This includes
@@ -458,15 +459,15 @@ it may not be possible to release the software.
 
 There are many different ways of distributing software.  The agency that is
 making the release may have a GitHub site or other centralized place which is
-preferred for releases.  The PDs MAY choose to distribute by FTP, email,
+preferred for releases.  The PDs may choose to distribute by FTP, email,
 another website, or other means, in addition to or in place of GitHub.  For
 any and all distribution methods chosen, the PDs are responsible for creating
 their own accounts.  If the distribution method uses email addresses as part
-of the sign up process, then the PDs MUST use their Government email
+of the sign up process, then the PDs must use their Government email
 addresses.  All login accounts MUST be reported to the PDs' supervisors.
-Passwords MUST be kept secret.  If a site uses cryptographic authentication
-such as public/private key pairs, PDs MAY choose to use this facility in
-addition to, or instead of, passwords.  Private keys MUST be treated like
+Passwords must be kept secret.  If a site uses cryptographic authentication
+such as public/private key pairs, PDs may choose to use this facility in
+addition to, or instead of, passwords.  Private keys must be treated like
 passwords and kept secret.
 
 ## Minor reviews
@@ -477,7 +478,7 @@ fixes and minor updates.  A minor release only requires review by a level-1
 OPSEC officer before being published.  These reviews are called "minor
 reviews" and are subject to the following:
 
-* The OPSEC officer MAY also be the technical reviewer for the release.
+* The OPSEC officer may also be the technical reviewer for the release.
 * Only if the project as a whole, including the minor changes being proposed
   for release, receives an "Approved for public release; distribution
   unlimited" statement can the changes be released.
@@ -493,20 +494,20 @@ The process for a minor release is as follows:
 
 Note that there are numerous methods of sending the material.  If the material
 is stored under git, and both the creator and the OPSEC officer have access to
-the same private repository<sup>[9](#Footnote_9)</sup>, then the creator MAY
+the same private repository<sup>[9](#Footnote_9)</sup>, then the creator may
 choose to push to the private repository and ask the OPSEC officer to pull it
 and review the changes.  Alternatively, git bundles MAY be used, or one could
 even email text files.  Regardless of the method chosen, there are two
-requirements that MUST be met:
+requirements that should be met:
 
-* The chosen method MUST uniquely identify the set of changes under
+* The chosen method must uniquely identify the set of changes under
   discussion.  Examples include the complete git commit hash under discussion,
   emails with the complete change set, or any cryptographically signed
   method.  This ensures non-repudiation or confusion.
-* The OPSEC reviewer MUST track what he or she has approved.  This MAY be done
+* The OPSEC reviewer must track what he or she has approved.  This may be done
   by saving the digitally signed emails that were sent.
 
-These steps are REQUIRED for audit purposes.  Without them, your agency cannot
+These steps are required for audit purposes.  Without them, your agency cannot
 prove that it is properly reviewing material before it is released.
 
 If a release appears to be a major release in the opinions of any of the PDs,
@@ -518,16 +519,16 @@ this document.
 ## Incorporating external contributions
 
 Once the software has passed the process outlined above and has been publicly
-distributed, any contributions to the project MUST be subject to its license.
+distributed, any contributions to the project must be subject to its license.
 
 External contributions do not need to undergo OPSEC review as they are assumed
-to be public at the time of contribution.  They SHOULD be reviewed for quality
+to be public at the time of contribution.  They should be reviewed for quality
 purposes before being accepted into a project to ensure that they are
 professional in nature and perform as expected.  All external contributors
 MUST have a CLA on file before their contributions are accepted into the
 project.  A CLA only needs to be executed once by each legal entity.  Project
-owners MUST explain in the README file that external contributors MUST execute
-a CLA before their contributions will be accepted.
+owners should explain in the README file that external contributors must
+execute a CLA before their contributions will be accepted.
 
 ### Software maturity and software engineering
 
@@ -540,7 +541,7 @@ incomprehensible or difficult to compile or use will not be used, and will
 have little, if any, impact.  Thus, if the primary improvement to a project
 involves bringing it in line with generally accepted best practices in
 software engineering to facilitate its transition to others, then this is also
-of value and SHOULD be credited.  Examples of this include, but are not
+of value and should be credited.  Examples of this include, but are not
 limited to, the following:
 
 * Providing a well-designed, thoroughly documented application programming
@@ -554,7 +555,7 @@ limited to, the following:
 
 These are just some examples of mature software.  If there is other evidence
 of the maturity or quality of software, a PD should feel free to use it when
-describing the impact of the software.  Supervisors MUST consider improvements
+describing the impact of the software.  Supervisors must consider improvements
 in software engineering when considering the impact of software.
 
 # Contributor license agreement (CLA)
@@ -563,7 +564,7 @@ We recommend using the Developer’s Certificate of Origin 1.1 located at
 https://developercertificate.org (“DCO”) for all external contributors to a
 project.
 
-Each external contributor MUST execute and return a copy for each project that
+Each external contributor must execute and return a copy for each project that
 he or she intends to contribute to.  Once the publishing agency receives the
 executed form, it will remain in force permanently.  Thus, external
 contributors need only execute the form once for each project that they plan
@@ -608,7 +609,7 @@ in the public domain.
 
 <sup><a name="Footnote_6">6</a></sup> Some licenses have guidelines that
 differ from the ones described here.  For example, the GPL states that the
-filename must be COPYING.  This is why your README MUST specify which file
+filename must be COPYING.  This is why your README should specify which file
 contains the license.
 
 <sup><a name="Footnote_7">7</a></sup> If you have questions about what are
