@@ -8,7 +8,7 @@ So, we’re trying something a little different.
 ## Updates
 Based on feedback there is a new version of the proposed strategy at [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md).
 
-The contents of the `/Proposal` folder represent the bare minimum for an empty project. A project manager would add a license of their choice, and the `CONTRIBUTING.md` to a project - potentially editing or adding to the initial premable for project-specific procedures and policy.
+The `CONTRIBUTING.md` file explains the copyright and license status of the project being released, and describes the contribution process. The intent is to use widely adopted licenses in the open source and free software communities when copyright is applicable.
 
 ##Build something with us.
 The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
@@ -21,4 +21,4 @@ Meet with developers across the DoD who have been tasked with America’s highes
 ##Make us better.
 We’ve drafted [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) so the DoD can participate in communities that use widely adopted licenses, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
 
-**We want your help to make the open source strategy.** We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions before we finalize [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) by the end of March and open source our projects!
+**We want your help to make the open source strategy better.** We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions before we finalize [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) by the end of March and open source our projects!
