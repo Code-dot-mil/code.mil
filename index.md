@@ -1,16 +1,17 @@
 # Defense Digital Service Recommendations for Open Source DoD Projects
 
-The U.S. Department of Defense (DoD) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically doesn’t have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code, and our team here at Defense Digital Service wants to find a solution.
+The U.S. Department of Defense faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code. Defense Digital Service offers solutions to these problems.
 
-Defense Digital Service has resources available to assist U.S. Department of Defense agencies in evaluating its software projects for general release. Please see:
+Defense Digital Service has technical, legal and administrative resources available to assist U.S. Department of Defense agencies in evaluating its software projects for general release. Please see:
 
-* [Defense Digital Service Recommendations for Open Source DoD Projects](implementation-guide.md)
-
-Or contact us for personal assistance in applying these recommendations to your agency's project.
+* Our [Defense Digital Service Recommendations for Open Source DoD Projects](implementation-guide.md)
+* Contact us at https://www.dds.mil/
 
 ## This project's goal
 
 We are motivated to help the U.S. Department of Defense maintain technical superiority by engaging the brightest public minds in its projects. This best practice is openly embraced in the private sector and we are helping adopt this practice in the public sector.
+
+The Defense Digital Service is an agency team of the U.S. Digital Service, which is part of the Executive Office of the President. Recommendations that we provide are NOT official Department of Defense policy. We are collaborating with legal and leadership roles throughout Department of Defense agencies to ensure that our advice is relevant.
 
 ## Get involved
 
