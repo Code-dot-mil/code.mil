@@ -8,6 +8,8 @@ So, we’re trying something a little different.
 ## Updates
 Based on feedback there is a new version of the proposed strategy at [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md).
 
+The contents of the `/Proposal` folder represent the bare minimum for an empty project. A project manager would add a license of their choice, and the `CONTRIBUTING.md` to a project - potentially editing or adding to the initial premable for project-specific procedures and policy.
+
 ##Build something with us.
 The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
 
