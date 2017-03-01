@@ -8,7 +8,7 @@ So, we’re trying something a little different.
 ## Updates
 Based on feedback there is a new version of the proposed strategy at [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md).
 
-The `CONTRIBUTING.md` file explains the copyright and license status of the project being released and describes the contribution process. When copyright is applicable, we intend to use widely adopted licenses in the open source and free software communities.
+The `CONTRIBUTING.md` file explains the copyright and license status of the project being released and describes the contribution process for developers. When copyright is applicable, we intend to use widely adopted licenses in the open source and free software communities.
 
 ##Build something with us.
 The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
