@@ -19,6 +19,6 @@ Meet with developers across the DoD who have been tasked with America’s highes
 ##Make us better.
 We’ve drafted [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) so the DoD can participate in communities that use widely adopted licenses, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
 
-The [FAQ](/FAQ.md) is a good place to start for more context about the approach taken and intent behind the project.
+The [FAQ](/FAQ.md) is a good place to start for more context about the approach taken and intent behind this initiative.
 
 **We want your help to make the open source strategy.** We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions before we finalize [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) by the end of March and open source our projects!
