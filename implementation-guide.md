@@ -7,25 +7,9 @@ Version 0.0.1
 PROJECT STATUS: THIS DOCUMENT IS A DRAFT FOR DISCUSSION, PLEASE PARTICIPATE
 IN THIS PROJECT AT https://github.com/deptofdefense/code.mil
 
-REMAINING WORK TO DO:
+A WORK PLAN FOR IMPROVING THIS SPECIFIC VERSION OF THIS DOCUMENT IS AT
+https://github.com/deptofdefense/code.mil/issues/85
 
-- [x] This document makes vague references to "DoD Legal" and other
-      organizations. These should be updated to "your agency's legal
-      department" and similar.
-- [ ] Wording is used consistent with RFC 2119 such as MUST and SHOULD.
-      However, this document is a recommendation not a policy. Therefore
-      these words should be replaced with lower case "should".
-- [ ] All links, footnote references and glossary entries should be checked.
-- [ ] The Defense Digital Service does not speak for the Department of
-      Defense, any mention here of DoD thinking and priorities should be
-      reworded to be more humble and should be clearly non-authoritative.
-- [ ] The role of the Defense Digital Service in supporting the DoD should be
-      more clearly and concretely defined in the summary.
-- [ ] Defense Digital Service should provide contact information and specific
-      points of contact for this project.
-- [ ] These markdown files should be converted to HTML so this site can be
-      published on code.mil. Use Jekyll to convert markdown to html and use
-      the CSS and templates provided by https://standards.usa.gov/page-templates/
 
 # Summary
 
