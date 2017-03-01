@@ -4,10 +4,10 @@
 Thanks for thinking about using or contributing to this software and its documentation (“Work”)!
 
 ## 1. License
-The portions of this Work written by United State (U.S.) Federal government employees are not eligible for copyright protection in the U.S. This is generally understood to mean that these portions of the Work are placed in the public domain.
+The portions of this Work written by United State (U.S.) Federal government employees within the scope of their employment are not eligible for copyright protection in the U.S. This is generally understood to mean that these portions of the Work are placed in the public domain.
 
 
-In countries where copyright protection is available, the portions of this Work written by U.S. Federal government employees are being made available under the license associated with this Work’s repository (“License”).
+In countries where copyright protection is available, the portions of this Work written by U.S. Federal government employees within the scope of their employment are being made available under the license associated with this Work’s repository (“License”).
 
 ## 2. Your Contributions: Developer’s Certificate of Origin
 The project maintainer for this Work will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the project.
