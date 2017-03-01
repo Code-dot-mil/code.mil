@@ -188,17 +188,6 @@ not meet its stated capabilities.  Releasing software without an adequate
 license or contract may leave both the authors of the software and DoD open to
 liability issues that could be avoided.
 
-### The CC0 license and the ARL contributor license agreement (DoD CLA)
-
-With few exceptions, U.S. Government works do not enjoy copyright protection.
-Because of this, licenses that rely on copyright for their protection
-mechanism may be declared invalid under U.S. Law<sup>[4](#Footnote_4)</sup>.
-For this reason, for works that do not have copyright attached, DoD relies on
-a combination of the Creative Commons Zero (CC0) license
-(https://creativecommons.org/publicdomain/zero/1.0/legalcode.  All external
-contributors MUST execute and return a CLA to the project owners before their
-contributions can be accepted to ensure that all IP issues are settled.
-
 ## Release rights
 
 The most complicated aspect of a software release is usually determining if
