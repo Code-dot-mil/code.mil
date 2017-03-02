@@ -20,7 +20,7 @@ DDS has collaborated extensively with organizations in the open source and free 
 
 ##How does Code.mil relate to Code.gov?
 
-Code.mil supports the goals of and has collaborated with Code.gov. Code.mil applauds the [Federal Source Code Policy](https://sourcecode.cio.gov), which is designed to support reuse and public access to custom-developed Federal source code.
+[Code.gov](https://code.gov) is the Federal Government’s primary platform for code sharing and reuse.  Code.mil strongly supports the mission of Code.gov and is collaborating closely with the Code.gov team to support government reuse and public access to custom-developed Federal source code. The projects on Code.mil will also be accessible through the Code.gov platform.
 
 ##Why is DoD doing this?
 
