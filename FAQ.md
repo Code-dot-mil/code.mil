@@ -8,7 +8,7 @@ The Code.mil initiative will iterate in phases. The initiative launched on Febru
 
 Future phases include expanding the repository to include projects from other DoD offices, tackling procured source code, and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoD projects.
 
-This initiative is not intended to set DoD policy, but rather explore alternate ways for joining the open source and free software communities.
+This initiative is not intended to set DoD policy, but rather is exploring alternate ways to join the open source and free software communities.
 
 ##Who is behind Code.mil?
 
@@ -28,7 +28,7 @@ U.S. military members and their families make significant sacrifices to protect 
 
 Modern software is open sourced software. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. Through this experiment, we are trying to more actively participate in the open source and free software communities. We need your help to build better software products and services for our military members and citizens across the country.
 
-##What happened as a result of community feedback during the release phase one? What happened to the draft Defense Open Source Agreement?
+##What happened as a result of community feedback during phase one? What happened to the draft Defense Open Source Agreement?
 
 The original open source strategy explored an innovative legal pathway of using contract law to attach widely adopted licenses to our projects. This strategy was encapsulated in the draft Defense Open Source Agreement. The developer community energetically responded to our call for comment, and we received a lot of great feedback. Thank you! 
 
@@ -42,7 +42,7 @@ Works created by U.S. Federal government employees within the scope of their emp
 
 The updated strategy in [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) does not attempt to attach licenses to Government-written code. Rather, the strategy attaches the license to copyrighted contributions by using the Developer Certificate of Origin (DCO) process and to Government-written code in countries where that code is eligible for copyright protections.
 
-##Why not just put the Government-written code in the public domain and use CC0 1.0 Universal for copyrighted contributions and jurisdictions where you have copyright?
+##Why not just put Government-written code in the public domain and use CC0 1.0 Universal for copyrighted contributions and jurisdictions where you have copyright?
 
 Good point! We definitely considered this. CC0 1.0 Universal seeks to dedicate copyrighted work to the public domain by waiving the author's rights to the work worldwide under copyright law. Using CC0 1.0 Universal is one possiblity, but not the only one. There are many high quality and widely adopted open source and free software licenses, each with their own advantages and disadvantages. We are not intending to judge the merit of using CC0 1.0 Universal. Rather, we are positing that the project maintainer should have the freedom of choice when it comes to selecting the "best" license for that particular project. 
 
