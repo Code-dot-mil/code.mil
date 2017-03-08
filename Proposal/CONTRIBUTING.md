@@ -11,7 +11,7 @@ You can agree to the DCO in your contribution by using a “Signed-off-by” lin
 
 You may type this line on your own when writing your commit messages. However, Git makes it easy to add this line to your commit messages. If you set your `user.name` and `user.email` as part of your git configuration, you can sign your commit automatically with `git commit -s`.
 
-You do not have to use your real name. Pseudonymous or anonymous contributions may be accepted, but you must be reachable at the email provided in the Signed-off-by line.
+Pseudonymous or anonymous contributions are permissible, but you must be reachable at the email provided in the Signed-off-by line.
 
 U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By sumbitting a pull request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
 
