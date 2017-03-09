@@ -3,7 +3,11 @@
 
 Thanks for thinking about using or contributing to this software and its documentation (“Project”)!
 
+## 1. Introduction
+
 The project maintainer for this Project will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the Project ("License").
+
+## 2. Developer Certificate of Origin Process
 
 You can agree to the DCO in your contribution by using a “Signed-off-by” line at the end of your commit message. You should only submit a contribution if you are willing to agree to the DCO terms. If you are willing, just add a line to the end of every git commit message:
 
@@ -11,11 +15,17 @@ You can agree to the DCO in your contribution by using a “Signed-off-by” lin
 
 You may type this line on your own when writing your commit messages. However, Git makes it easy to add this line to your commit messages. If you set your `user.name` and `user.email` as part of your git configuration, you can sign your commit automatically with `git commit -s`.
 
+## 3. Important Points
+
 Pseudonymous or anonymous contributions are permissible, but you must be reachable at the email provided in the Signed-off-by line.
+
+We encourage contributors to modify `CONTRIBUTORS.md` to add your name and copyright date to the list of people who have contributed to the Project. If your contribution is significant, you are also welcome to add your name and copyright date to the source file header. If you are a U.S. Federal government employee operating within the scope of your employment, you may add your name, but do not include a copyright notice.
 
 U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By sumbitting a pull request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
 
 If you are a U.S. Federal government employee and use a *.mil or *.gov email address, we interpret your Signed-off-by to mean that the contribution was created in whole or in part by you and that your contribution is not subject to copyright protections.
+
+## 4. DCO Text
 
 The text of the DCO is (from https://developercertificate.org):
 ```
