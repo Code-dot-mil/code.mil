@@ -19,7 +19,7 @@ You may type this line on your own when writing your commit messages. However, G
 
 Pseudonymous or anonymous contributions are permissible, but you must be reachable at the email provided in the Signed-off-by line.
 
-We encourage contributors to modify `CONTRIBUTORS.md` to add your name and copyright date to the list of people who have contributed to the Project. If your contribution is significant, you are also welcome to add your name and copyright date to the source file header. If you are a U.S. Federal government employee operating within the scope of your employment, you may add your name, but do not include a copyright notice.
+We encourage contributors to modify `CONTRIBUTORS.md` to add your name and copyright date to the list of people who have contributed to the Project. If your contribution is significant, you are also welcome to add your name and copyright date to the source file header. 
 
 U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By sumbitting a pull request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
 
