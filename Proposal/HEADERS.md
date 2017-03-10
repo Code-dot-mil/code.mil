@@ -13,13 +13,13 @@ LICENSE.md for licensing, copyright, and attribution information.
 
 ## Common Examples
 
-# GPLv3
+# GPL-3.0
 ```
 This software project was created in <year> by the U.S. Federal government.
 See INTENT.md for information about what that means. See CONTRIBUTORS.md and
 LICENSE.md for licensing, copyright, and attribution information.
 
-Copyright (C) <year>  <name of author>
+Copyright (C) <year> <name of author>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -35,7 +35,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
 
-# GNU AGPL
+# AGPL-3.0
 ```
 This software project was created in <year> by the U.S. Federal government.
 See INTENT.md for information about what that means. See CONTRIBUTORS.md and
