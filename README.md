@@ -13,11 +13,11 @@ The DoD is charged with protecting our citizens and national security. We have a
 ##Connect with us.
 Meet with developers across the DoD who have been tasked with America’s highest priority missions and help build upon their work. We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen.
 
-##Call to DoD Developers.
+##Call to DoD developers.
 
 Our hope is to encourage and enable others within the DoD community to host their open source projects on Code.mil. If you have a candidate project, please contact us at code@dds.mil!
 
-##Open Source Strategy
+##Improve the strategy.
 We’ve drafted [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`](/Proposal/INTENT.md) so the DoD can participate in the open source and free software communities, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
 
 The `INTENT.md` file explains the copyright and license status of the project being released, and the `CONTRIBUTING.md` file describes the contribution process for developers. When copyright is applicable, we intend to use widely adopted licenses in the open source and free software communities.
