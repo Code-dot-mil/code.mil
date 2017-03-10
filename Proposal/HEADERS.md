@@ -3,7 +3,9 @@
 
 ## Header
 
-This free software project was created in [yyyy] by the U.S. Federal government. See INTENT.md for information about what that means. See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
+This free software project was created in [yyyy] by the U.S. Federal government.
+See INTENT.md for information about what that means.
+See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
 
 `<INSERT LICENSE-SPECIFIC HEADER HERE>`
 
@@ -11,7 +13,9 @@ This free software project was created in [yyyy] by the U.S. Federal government.
 
 # GPLv3
 ```
-This free software project was created in <year> by the U.S. Federal government. See INTENT.md for information about what that means. See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
+This free software project was created in <year> by the U.S. Federal government.
+See INTENT.md for information about what that means.
+See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
 
 Copyright (C) <year>  <name of author>
 
@@ -31,7 +35,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # GNU AGPL
 ```
-This free software project was created in <year> by the U.S. Federal government. See INTENT.md for information about what that means. See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
+This free software project was created in <year> by the U.S. Federal government.
+See INTENT.md for information about what that means.
+See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
 
 Copyright (C) <year>  <name of author>
 
@@ -51,7 +57,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # BSD-3-Clause
 ```
-This free software project was created in <YEAR> by the U.S. Federal government. See INTENT.md for information about what that means. See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
+This free software project was created in <YEAR> by the U.S. Federal government.
+See INTENT.md for information about what that means.
+See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
+
 Copyright <YEAR> <COPYRIGHT HOLDER>
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -67,7 +76,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 # MIT
 ```
-This free software project was created in <YEAR> by the U.S. Federal government. See INTENT.md for information about what that means. See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
+This free software project was created in <YEAR> by the U.S. Federal government.
+See INTENT.md for information about what that means.
+See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
 
 Copyright <YEAR> <COPYRIGHT HOLDER>
 
@@ -80,7 +91,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # ISC
 ```
-This free software project was created in [yyyy] by the U.S. Federal government. See INTENT.md for information about what that means. See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
+This free software project was created in [yyyy] by the U.S. Federal government.
+See INTENT.md for information about what that means.
+See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
 
 Copyright [yyyy] [name of contributors]
 
@@ -91,7 +104,9 @@ THE SOFTWARE IS PROVIDED "AS IS" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO
 
 # Apache-2.0
 ```
-This free software project was created in [yyyy] by the U.S. Federal government. See INTENT.md for information about what that means. See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
+This free software project was created in [yyyy] by the U.S. Federal government.
+See INTENT.md for information about what that means.
+See CONTRIBUTORS.md and LICENSE.md for licensing, copyright, and attribution information.
 
 Copyright [yyyy] [name of contributors]
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
