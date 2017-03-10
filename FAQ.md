@@ -4,9 +4,11 @@
 
 Code.mil is an experiment in open source at the U.S. Department of Defense (DoD). The goal is to foster open collaboration with the developer community across the world on DoD open source projects.  
 
-The Code.mil initiative will iterate in phases. The initiative launched on February 22, 2017. You can read the official [press release here](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source). During this first phase, we called upon the developer community to help finalize our open source strategy for code written by DoD employees. In the second phase, projects will be hosted on Code.mil upon finalization of the strategy in March 2017. Also, the Code.mil URL, which currently redirects to the DoD GitHub repository, will become a full fledged website. 
+The Code.mil initiative will iterate in phases. 
 
-Future phases include expanding the repository to include projects from other DoD offices, tackling procured source code, and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoD projects.
+During the first phase, which launched on February 22, 2017, we called upon the developer community to help finalize our open source strategy for code written by DoD employees. You can read the official [press release here](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source). During the second phase, we finalized the strategy and launched our first open source projects on March 13, 2017. We also issued a call to the DoD developer community to contact us with projects to host on Code.mil.
+
+Future phases include making Code.mil a full fledged website, expanding the repository to include projects from other DoD offices, tackling procured source code, and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoD projects.
 
 This initiative is not intended to set DoD policy, but rather is exploring alternate ways to join the open source and free software communities.
 
@@ -27,6 +29,10 @@ We launched Code.mil to further the mission of [Code.gov](https://code.gov) with
 U.S. military members and their families make significant sacrifices to protect our country. Their lives should not be negatively impacted by outdated tools and software development practices that lag far behind private sector standards.
 
 Modern software is open sourced software. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. Through this experiment, we are trying to more actively participate in the open source and free software communities. We need your help to build better software products and services for our military members and citizens across the country.
+
+##I am part of DoD or a Military Department and want to have my project hosted on Code.mil. What do I do?
+
+That's awesome! Please contact us at code@dds.mil so we can start talking.
 
 ##What happened as a result of community feedback during phase one? What happened to the draft Defense Open Source Agreement?
 
