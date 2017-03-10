@@ -3,11 +3,13 @@
 
 ## Header
 
+```
 This software project was created in <YEAR> by the U.S. Federal government.
 See INTENT.md for information about what that means. See CONTRIBUTORS.md and
 LICENSE.md for licensing, copyright, and attribution information.
 
-`<INSERT LICENSE-SPECIFIC HEADER HERE>`
+<INSERT LICENSE-SPECIFIC HEADER HERE>
+```
 
 ## Common Examples
 
@@ -39,7 +41,7 @@ This software project was created in <year> by the U.S. Federal government.
 See INTENT.md for information about what that means. See CONTRIBUTORS.md and
 LICENSE.md for licensing, copyright, and attribution information.
 
-Copyright (C) <year>  <name of author>
+Copyright (C) <year> <name of author>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -123,13 +125,13 @@ SOFTWARE.
 
 # ISC
 ```
-This software project was created in [yyyy] by the U.S. Federal government.
+This software project was created in <YEAR> by the U.S. Federal government.
 See INTENT.md for information about what that means. See CONTRIBUTORS.md and
 LICENSE.md for licensing, copyright, and attribution information.
 
 ISC License
 
-Copyright [yyyy] [name of contributors]
+Copyright <YEAR> <OWNER>
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
