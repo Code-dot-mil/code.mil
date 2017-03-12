@@ -6,7 +6,7 @@ Code.mil is an experiment in open source at the U.S. Department of Defense (DoD)
 
 The Code.mil initiative will iterate in phases. 
 
-During the first phase, which launched on February 22, 2017, we called upon the developer community to help finalize our open source strategy for code written by DoD employees. You can read the official [press release here](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source). During the second phase, we finalized the strategy and launched our first open source projects on March 13, 2017. We also issued a call to the DoD developer community to contact us with projects to host on Code.mil.
+During the first phase, which launched on February 22, 2017, we called upon the developer community to help finalize our open source strategy for code written by DoD employees. You can read the official [press release here](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source). During the second phase, we finalized the strategy and launched our first open source projects on March 13, 2017. We also issued a call to the DoD developer community to contact us with projects that may be hosted on Code.mil.
 
 Future phases include making Code.mil a full fledged website, expanding the repository to include projects from other DoD offices, tackling procured source code, and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoD projects.
 
@@ -38,7 +38,7 @@ That's awesome! Please contact us at code@dds.mil so we can start talking.
 
 The original open source strategy explored an innovative legal pathway of using contract law to attach widely adopted licenses to our projects. This strategy was encapsulated in the draft Defense Open Source Agreement. The developer community energetically responded to our call for comment, and we received a lot of great feedback. Thank you! 
 
-Based on the feedback, we updated our strategy to move away from contract law and instead focus on the contribution process. We deleted the draft Defense Open Source Agreement in the LICENSE-agreement.md file. Our updated strategy is now captured in [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md). 
+Based on the feedback, we updated our strategy to move away from contract law and instead focus on the contribution process. We deleted the draft Defense Open Source Agreement in the LICENSE-agreement.md file. Our updated strategy is now captured in [`INTENT.md`](/Proposal/INTENT.md) and [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md). 
 
 We think the updated strategy avoids the complications of using contract law and also the perception that we're creating a new license. We hope this will keep our practices more consistent with the open source and free software communities. We intend to use widely adopted licenses for our projects when copyright is applicable.
 
@@ -46,7 +46,7 @@ We think the updated strategy avoids the complications of using contract law and
 
 Works created by U.S. Federal government employees within the scope of their employment is ineligible for copyright protections in the U.S. and certain foreign jurisidictions. People sometimes say that U.S. law requires Federal government employees to put creative works in the public domain, but that's not quite right. The U.S. Copyright Act does not explicitly define public domain. What the Act actually does is make works created by U.S. Federal government employees ineligible for copyright protections (17 U.S.C. 105). Public domain is generally understood to refer to creative materials that are not protected by intellectual property laws such as copyright, trademark, or patent laws. Under U.S. laws, Government-created works may be eligible for patent or trademark protections. Not all countries acknowledge the concept of public domain.
 
-The updated strategy in [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) does not attempt to attach licenses to Government-written code. Rather, the strategy attaches the license to copyrighted contributions by using the Developer Certificate of Origin (DCO) process and to Government-written code in countries where that code is eligible for copyright protections.
+The updated strategy in [`INTENT.md`](/Proposal/INTENT.md) does not attempt to attach licenses to Government-written code. Rather, the strategy attaches the license to copyrighted contributions by using the Developer Certificate of Origin (DCO) process and to Government-written code in countries where that code is eligible for copyright protections.
 
 ##Why not just put Government-written code in the public domain and use CC0 1.0 Universal for copyrighted contributions and jurisdictions where you have copyright?
 
@@ -66,16 +66,18 @@ Under the DCO, a contribution is submitted under the open source license associa
 
 ##What do I need to know if I fork the project?
 
-What you need to do if you fork the project depends on the status of the project at the time you fork it. The CONTRIBUTING.md file never has to be included in a fork. Whether LICENSE.md has to be included in a fork depends on the status of the project at the time.
+What you need to do if you fork the project depends on the status of the project at the time you fork it. Per `INTENT.md`, the intent is that the project should be treated as if it is licensed under the license associated with the project in the `LICENSE.md` file. Whether you `LICENSE.md` has actually attached depends on the status of the project at the time.
 
-* If the project includes no copyrighted code (so there have been no merged copyrighted contributions and your jurisdiction does not recognize copyright for Government-written work), then you do not need to include LICENSE.md in the fork. It might be helpful to have some explanation similar to section 1 in [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) to explain the copyright status, but it is not strictly necessary.
-* If the project includes copyrighted code (so there are merged copyrighted contributions or your jurisdiction recognizes copyright for Government-written work), then you would need to include LICENSE.md in the fork (assuming you have forked the entire project inclusive of the copyrighted code) and abide by the terms of the license.
+In countries where copyright protection is available (which does not include the U.S.), contributions made by U.S. Federal government employees are released under the License. Merged contributions from private contributors are released under the License. The CONTRIBUTING.md file never has to be included in a fork. Whether LICENSE.md has to be included in a fork depends on the status of the project at the time.
+
+* If the project includes no copyrighted code (so there have been no merged copyrighted contributions and your jurisdiction does not recognize copyright for U.S. Government-written work), then 'LICENSE.md' has not attached to the project.
+* If the project includes copyrighted code (so there are merged copyrighted contributions or your jurisdiction recognizes copyright for U.S. Government-written work), then `LICENSE.md` has attached to the project and you must comply with the terms of the license. The authors and contributors are listed in `CONTRIBUTORS.md` and, in some cases, the source file headers.
 
 ##Is DoD trying to do something funny here?
 
 No!
 
-We mean to be totally transparent in our intent and purpose with Code.mil. Since we’re trying a slightly different approach to open source our work, we want to be really clear about what we’re doing and why we’re doing it so that you feel comfortable contributing to our projects.
+We mean to be totally transparent in our intent and purpose with Code.mil. We want to be really clear about what we’re doing and why we’re doing it so that you feel comfortable contributing to DoD projects.
 
 
 **For more information or questions, please contact our team at code@dds.mil. Happy coding!**
