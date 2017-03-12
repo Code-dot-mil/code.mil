@@ -66,9 +66,7 @@ Under the DCO, a contribution is submitted under the open source license associa
 
 ##What do I need to know if I fork the project?
 
-What you need to do if you fork the project depends on the status of the project at the time you fork it. Per `INTENT.md`, the intent is that the project should be treated as if it is licensed under the license associated with the project in the `LICENSE.md` file. Whether you `LICENSE.md` has actually attached depends on the status of the project at the time.
-
-In countries where copyright protection is available (which does not include the U.S.), contributions made by U.S. Federal government employees are released under the License. Merged contributions from private contributors are released under the License. The CONTRIBUTING.md file never has to be included in a fork. Whether LICENSE.md has to be included in a fork depends on the status of the project at the time.
+What you need to do if you fork the project depends on the status of the project at the time you fork it. Per [`INTENT.md`](/Proposal/INTENT.md), the intent is that the project should be treated as if it is licensed under the license associated with the project in the `LICENSE.md` file. Whether  `LICENSE.md` has actually attached depends on the status of the project at the time you fork it.
 
 * If the project includes no copyrighted code (so there have been no merged copyrighted contributions and your jurisdiction does not recognize copyright for U.S. Government-written work), then 'LICENSE.md' has not attached to the project.
 * If the project includes copyrighted code (so there are merged copyrighted contributions or your jurisdiction recognizes copyright for U.S. Government-written work), then `LICENSE.md` has attached to the project and you must comply with the terms of the license. The authors and contributors are listed in `CONTRIBUTORS.md` and, in some cases, the source file headers.
