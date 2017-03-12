@@ -3,7 +3,7 @@ The U.S. Department of Defense (DoD) faces unique challenges in open sourcing it
 
 So, we’re trying something a little different.
 
-We heard your feedback and updated our [open source strategy](/Proposal/INENT.md). **Our first open source project** is now released in Code.mil with more to follow over the coming weeks.
+We heard your feedback and updated our [open source strategy](/Proposal/INENT.md). **Our first open source projects** are now released on the Code.mil platform with more to follow over the coming weeks.
 
 ##Build something with us.
 The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
@@ -13,9 +13,11 @@ The DoD is charged with protecting our citizens and national security. We have a
 ##Connect with us.
 Meet with developers across the DoD who have been tasked with America’s highest priority missions and help build upon their work. We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen.
 
-##Call to DoD developers.
+##Join us.
 
-Our hope is to encourage and enable others within the DoD community to host their open source projects on Code.mil. If you have a candidate project, please contact us at code@dds.mil!
+Our projects will only be the first of many hosted on the Code.mil platform as we continue to encourage other components and offices within the DoD and Military Departments to make their code open source as well. 
+
+We’re still working on an effective means by which other agencies within the DoD community can add their projects. If you are a Federal employee and have a program or project you’d like to share, please engage in the discussions on Code.mil or connect with us directly at code@dds.mil.
 
 ##Improve the strategy.
 We’ve drafted [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`](/Proposal/INTENT.md) so the DoD can participate in the open source and free software communities, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
@@ -26,4 +28,4 @@ The [FAQ](/FAQ.md) is a good place to start for more context about the approach 
 
 ##Make us better.
 
-**We want your help to continue making the open source strategy better.** Our philosophy is continuous iteration. We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions on how to continue improving [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`](/Proposal/INTENT.md).
+**We want your help to continue making our open source strategy better.** Our philosophy is continuous iteration. We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions on how to continue improving [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`](/Proposal/INTENT.md).
