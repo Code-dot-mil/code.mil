@@ -20,3 +20,5 @@ We’ve drafted [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`]
 The `INTENT.md` file explains the copyright and license status of the project being released, and the `CONTRIBUTING.md` file describes the contribution process for developers. When copyright is applicable, we intend to use widely adopted licenses in the open source and free software communities.
 
 We want your help to continue making our open source strategy better. Our philosophy is continuous iteration. We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions on how to continue improving [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`](/Proposal/INTENT.md).
+
+**Read about our journey [here](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.i78how76u)!**
