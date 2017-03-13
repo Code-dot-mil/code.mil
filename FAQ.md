@@ -34,7 +34,7 @@ Modern software is open sourced software. The creative contribution of individua
 
 That's awesome! Please contact us at code@dds.mil so we can start talking.
 
-##What happened as a result of community feedback during phase one? What happened to the draft Defense Open Source Agreement?
+##What happened to the draft Defense Open Source Agreement?
 
 The original open source strategy explored an innovative legal pathway of using contract law to attach widely adopted licenses to our projects. This strategy was encapsulated in the draft Defense Open Source Agreement. The developer community energetically responded to our call for comment, and we received a lot of great feedback. Thank you! 
 
@@ -42,7 +42,7 @@ Based on the feedback, we updated our strategy to move away from contract law an
 
 We think the updated strategy avoids the complications of using contract law and also the perception that we're creating a new license. We hope this will keep our practices more consistent with the open source and free software communities. We intend to use widely adopted licenses for our projects when copyright is applicable.
 
-##How are you attaching licenses to your projects since software created by U.S. Federal government employees does not have copyright protections in the U.S.?
+##How are you attaching licenses to your projects? Are they just public domain?
 
 Works created by U.S. Federal government employees within the scope of their employment is ineligible for copyright protections in the U.S. and certain foreign jurisidictions. People sometimes say that U.S. law requires Federal government employees to put creative works in the public domain, but that's not quite right. The U.S. Copyright Act does not explicitly define public domain. What the Act actually does is make works created by U.S. Federal government employees ineligible for copyright protections (17 U.S.C. 105). Public domain is generally understood to refer to creative materials that are not protected by intellectual property laws such as copyright, trademark, or patent laws. Under U.S. laws, Government-created works may be eligible for patent or trademark protections. Not all countries acknowledge the concept of public domain.
 
@@ -58,7 +58,7 @@ Intelligent minds will differ on the "best" avenue for a U.S. Federal government
 
 We are using the [Developer Certificate of Origin](https://developercertificate.org) process. The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the project. The intent is to use widely adopted open source and free software licenses.
 
-We considered other mechanisms, such as a Contributor Licensing Agreement or copyright assignment, but chose DCO because it reuses the license associated with the project rather than crafting new licensing language, is not administratively burdensome to implement, and is commonly used in the developer community.
+We considered other mechanisms, such as a Contributor Licensing Agreement or copyright assignment, but chose DCO because it reuses the license associated with the project rather than crafting new licensing language; is not administratively burdensome to implement; and is commonly used in the developer community.
 
 ##What is the liability of a contributor?
 
