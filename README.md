@@ -3,29 +3,20 @@ The U.S. Department of Defense (DoD) faces unique challenges in open sourcing it
 
 So, we’re trying something a little different.
 
-We heard your feedback and updated our [open source strategy](/Proposal/INENT.md). **Our first open source projects** are now released on the Code.mil platform with more to follow over the coming weeks.
-
 ##Build something with us.
 The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
 
-**We need your help** in contributing to our projects to build better products and services for the American people.
+We need your help in contributing to our projects to build better products and services for the American people.
 
 ##Connect with us.
 Meet with developers across the DoD who have been tasked with America’s highest priority missions and help build upon their work. We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen.
 
-##Join us.
+We heard your feedback and updated our open source strategy -- check it out [here](/Proposal/INENT.md).
 
-Our projects will only be the first of many hosted on the Code.mil platform as we continue to encourage other components and offices within the DoD and Military Departments to make their code open source as well. 
+##Make us better.
 
-We’re still working on an effective means by which other agencies within the DoD community can add their projects. If you are a Federal employee and have a program or project you’d like to share, please engage in the discussions on Code.mil or connect with us directly at code@dds.mil.
-
-##Improve the strategy.
 We’ve drafted [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`](/Proposal/INTENT.md) so the DoD can participate in the open source and free software communities, even where we may not have copyright. This lets us harness the depth and breadth of talent in the open source and free software communities to improve our software and make our code available for public use.
 
 The `INTENT.md` file explains the copyright and license status of the project being released, and the `CONTRIBUTING.md` file describes the contribution process for developers. When copyright is applicable, we intend to use widely adopted licenses in the open source and free software communities.
 
-The [FAQ](/FAQ.md) is a good place to start for more context about the approach taken and intent behind this initiative.
-
-##Make us better.
-
-**We want your help to continue making our open source strategy better.** Our philosophy is continuous iteration. We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions on how to continue improving [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`](/Proposal/INTENT.md).
+We want your help to continue making our open source strategy better. Our philosophy is continuous iteration. We encourage everybody to [open an issue](https://github.com/deptofdefense/code.mil/issues/new) (or a pull request!) with your suggestions on how to continue improving [`CONTRIBUTING.md`](/Proposal/CONTRIBUTING.md) and [`INTENT.md`](/Proposal/INTENT.md).
