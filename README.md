@@ -11,7 +11,7 @@ We need your help in contributing to our projects to build better products and s
 ##Connect with us.
 Meet with developers across the DoD who have been tasked with America’s highest priority missions and help build upon their work. We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen.
 
-We heard your feedback and updated our open source strategy -- check it out [here](/Proposal/INENT.md).
+We heard your feedback and updated our open source strategy -- check it out [here](/Proposal/INTENT.md).
 
 ##Make us better.
 
