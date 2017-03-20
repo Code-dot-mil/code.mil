@@ -21,7 +21,7 @@ Pseudonymous or anonymous contributions are permissible, but you must be reachab
 
 We encourage contributors to modify `CONTRIBUTORS.md` to add your name and copyright date to the list of people who have contributed to the Project. If your contribution is significant, you are also welcome to add your name and copyright date to the source file header. 
 
-U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By sumbitting a pull request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
+U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By submitting a pull request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
 
 If you are a U.S. Federal government employee and use a *.mil or *.gov email address, we interpret your Signed-off-by to mean that the contribution was created in whole or in part by you and that your contribution is not subject to copyright protections.
 
