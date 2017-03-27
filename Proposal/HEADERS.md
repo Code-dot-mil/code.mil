@@ -19,6 +19,7 @@ This software project was created in <year> by the U.S. Federal government.
 See INTENT.md for information about what that means. See CONTRIBUTORS.md and
 LICENSE.md for licensing, copyright, and attribution information.
 
+Copyright (C) <year> U.S. Federal Government (in countries where recognized)
 Copyright (C) <year> <name of author>
 
 This program is free software: you can redistribute it and/or modify
@@ -41,6 +42,7 @@ This software project was created in <year> by the U.S. Federal government.
 See INTENT.md for information about what that means. See CONTRIBUTORS.md and
 LICENSE.md for licensing, copyright, and attribution information.
 
+Copyright (C) <year> U.S. Federal Government (in countries where recognized)
 Copyright (C) <year> <name of author>
 
 This program is free software: you can redistribute it and/or modify
@@ -65,6 +67,7 @@ LICENSE.md for licensing, copyright, and attribution information.
 
 BSD 3-Clause License
 
+Copyright <YEAR> U.S. Federal Government (in countries where recognized)
 Copyright <YEAR> <COPYRIGHT HOLDER>
 All rights reserved.
 
@@ -102,6 +105,7 @@ LICENSE.md for licensing, copyright, and attribution information.
 
 MIT License
 
+Copyright <YEAR> U.S. Federal Government (in countries where recognized)
 Copyright <YEAR> <COPYRIGHT HOLDER>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -131,6 +135,7 @@ LICENSE.md for licensing, copyright, and attribution information.
 
 ISC License
 
+Copyright <YEAR> U.S. Federal Government (in countries where recognized)
 Copyright <YEAR> <OWNER>
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
@@ -152,6 +157,7 @@ This software project was created in [yyyy] by the U.S. Federal government.
 See INTENT.md for information about what that means. See CONTRIBUTORS.md and
 LICENSE.md for licensing, copyright, and attribution information.
 
+Copyright [yyyy] U.S. Federal Government (in countries where recognized)
 Copyright [yyyy] [name of contributors]
 
 Licensed under the Apache License, Version 2.0 (the "License");
