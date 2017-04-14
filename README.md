@@ -1,7 +1,7 @@
 # Welcome to Code.mil - an experiment in open source at the Department of Defense!
 The U.S. Department of Defense (DoD) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically doesn’t have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code, and our team here at Defense Digital Service wants to find a solution. [Read about our journey so far here](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.i78how76u).
 
-**If you are a DoD or Military Department employee with a project you want hosted on Code.mil, get the conversation going by [submitting your information here](https://goo.gl/forms/xREmplPkN5LA3eWJ2).**
+**If you are a DoD or Military Department employee with a project you want hosted on Code.mil, get the conversation going by [submitting your information here](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link).**
 
 ## Build something with us.
 The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
