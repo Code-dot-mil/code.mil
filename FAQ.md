@@ -34,7 +34,7 @@ Modern software is open sourced software. The creative contribution of individua
 
 ## I am part of DoD or a Military Department and want to have my project hosted on Code.mil. What do I do?
 
-That's awesome! Please contact us at code@dds.mil so we can start talking.
+That's awesome! Please get the conversation going by [submitting your information here](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link) so we can start talking.
 
 ## What happened to the draft Defense Open Source Agreement?
 
