@@ -9,6 +9,7 @@ The U.S. Department of Defense faces unique challenges in open sourcing its code
 Defense Digital Service has technical, legal and administrative resources available to assist U.S. Department of Defense agencies in evaluating its software projects for general release. Please see:
 
 * Our [Defense Digital Service Recommendations for Open Source DoD Projects](implementation-guide.html)
+* Our [frequently asked questions](frequently-asked-questions.html)
 * Contact us at [https://www.dds.mil/](https://www.dds.mil/)
 
 ## This project's goal
