@@ -1,1 +1,13 @@
-theme: jekyll-theme-dinky
+
+title: code.mil
+email: code@dds.mil
+description: An experiment in open source within the Department of Defense.
+twitter_username: DefenseDigital
+github_username:  DeptOfDefense
+
+# Build settings
+markdown: kramdown
+theme: uswds-jekyll
+
+# include: ['_pages']
+# exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME']
