@@ -1,7 +1,7 @@
 
 # header types can be 'basic' or 'extended'
-type: extended
+type: basic
 
-primary:
-  # this is a key into _data/navigation.yml
-  links: primary
+# primary:
+#   # this is a key into _data/navigation.yml
+#   links: primary
