@@ -16,13 +16,13 @@ logos:
 
 contact:
   links:
-    - text: Twitter
+    - text: <span class='usa-link-twitter usa-social_link' title='Twitter'><span>Twitter</span></span>
       href: https://twitter.com/DefenseDigital
       external: true
-    - text: GitHub
+    - text: <span class='usa-link-github usa-social_link' title='GitHub'><span>GitHub</span></span>
       href: https://github.com/DeptOfDefense
       external: true
-    - text: Medium
+    - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
       href: https://medium.com/@DefenseDigitalService
       external: true
 

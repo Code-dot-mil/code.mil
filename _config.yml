@@ -5,6 +5,10 @@ description: An experiment in open source within the Department of Defense.
 twitter_username: DefenseDigital
 github_username:  DeptOfDefense
 
+styles:
+  - /assets/uswds/css/uswds.min.css
+  - /assets/css/main.css
+
 # Build settings
 markdown: kramdown
 theme: uswds-jekyll
