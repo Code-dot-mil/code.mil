@@ -9,5 +9,5 @@ github_username:  DeptOfDefense
 markdown: kramdown
 theme: uswds-jekyll
 
-# include: ['_pages']
-# exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME']
+include: ['_pages']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME']

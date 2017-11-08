@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: '/'
 ---
 
 # Defense Digital Service Recommendations for Open Source DoD Projects
