@@ -1,4 +1,9 @@
 
+.usa-banner-guidance-ssl {
+  /* This is terrible... but we don't have an SSL cert yet sooooo.... */
+  display: none;
+}
+
 .usa-link-medium {
   background-image: url('/assets/images/medium.png');
 }
