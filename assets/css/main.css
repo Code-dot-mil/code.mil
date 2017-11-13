@@ -1,0 +1,17 @@
+
+.usa-banner-guidance-ssl {
+  /* This is terrible... but we don't have an SSL cert yet sooooo.... */
+  display: none;
+}
+
+.usa-link-medium {
+  background-image: url('/assets/images/medium.png');
+}
+
+.usa-link-github {
+  background-image: url('/assets/images/github.png');
+}
+
+.usa-footer-contact-links .usa-link-generic {
+  text-decoration: none;
+}

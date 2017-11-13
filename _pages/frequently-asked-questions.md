@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: '/frequently-asked-questions'
 ---
 
 # Frequently Asked Questions (FAQs)
