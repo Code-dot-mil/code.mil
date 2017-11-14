@@ -5,7 +5,7 @@ permalink: '/'
 tagline: Open Source at DoD
 
 hero:
-  image: /assets/uswds/img/hero.png
+  image: /assets/images/hero.jpg
   callout:
     alt: Reach Out!
     text: Contact us to share your OSS project or to get more info.
@@ -30,5 +30,4 @@ In future phases we will tackle issues around procured source code and addressin
 This initiative is not intended to set DoD policy, but rather is exploring alternate ways to join the open source and free software communities.
 
 
-* [U.S. Federal Source Code Policy](https://code.gov/#/policy-guide/docs/overview/introduction])
-* [Enterprise code inventory](https://code.gov/#/policy-guide/docs/compliance/inventory-code)
+[U.S. Federal Source Code Policy](https://code.gov/#/policy-guide/docs/overview/introduction)
