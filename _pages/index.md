@@ -7,10 +7,10 @@ tagline: Open Source at DoD
 hero:
   image: /assets/images/hero.jpg
   callout:
-    alt: Reach Out!
-    text: Contact us to share your OSS project or to get more info.
+    alt: DoD Projects
+    text: Want more information? Reach out!
   button:
-    text: Share Project
+    text: Get More Info
     href: //docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link
     external: true
 
