@@ -1,3 +1,7 @@
 top:
   - text: FAQ
     href: /frequently-asked-questions
+
+faq:
+  - text: FAQs
+    href: /frequently-asked-questions
