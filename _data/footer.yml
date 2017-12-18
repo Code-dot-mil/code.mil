@@ -1,7 +1,7 @@
 top: true
 
 # The optional heading for the footer.
-heading: Defense Digital Service
+heading: code.mil
 
 # An array of agency logos to show, side by side, in the lower left
 # of the footer on large screens.
@@ -20,7 +20,7 @@ contact:
       href: https://twitter.com/DefenseDigital
       external: true
     - text: <span class='usa-link-github usa-social_link' title='GitHub'><span>GitHub</span></span>
-      href: https://github.com/DeptOfDefense
+      href: https://github.com/DeptOfDefense/code.mil
       external: true
     - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
       href: https://medium.com/@DefenseDigitalService
