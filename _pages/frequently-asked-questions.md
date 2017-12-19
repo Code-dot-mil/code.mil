@@ -41,6 +41,10 @@ U.S. military members and their families make significant sacrifices to protect 
 
 Modern software is open sourced software. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. Through this experiment, we are trying to more actively participate in the open source and free software communities. We need your help to build better software products and services for our military members and citizens across the country.
 
+# Where can I find other DoD open source projects?
+
+There are many other projects that have already been open sourced. They are located in various places such as GitHub, SourceForge, forge.mil, Google Code, and numerous other web sites. We're working to inventory and catalog many of these, but you can find some of them using the [`code-mil` topic on GitHub](https://github.com/topics/code-mil)
+
 # I am part of DoD or a Military Department and want to have my project hosted on Code.mil. What do I do?
 
 That's awesome! Please get the conversation going by [submitting your information here](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link) so we can start talking.
