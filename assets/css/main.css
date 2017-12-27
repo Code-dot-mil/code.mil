@@ -1,4 +1,12 @@
 
+.hidden{
+  display: none;
+}
+
+.usa-hero-callout .usa-button {
+  margin-top: 4rem;
+}
+
 .usa-banner-guidance-ssl {
   /* This is terrible... but we don't have an SSL cert yet sooooo.... */
   display: none;
@@ -14,4 +22,29 @@
 
 .usa-footer-contact-links .usa-link-generic {
   text-decoration: none;
+}
+
+.usa-content .usa-layout-docs-main_content p {
+  max-width: none;
+}
+
+
+/* For the decision tree UI */
+.tree-node {
+  display: none;
+}
+.tree-node.active {
+  display: block;
+}
+aside.tree-reset {
+  text-align: right;
+}
+.tree-node-answer {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  width: 60%;
+  margin: 1em auto;
 }

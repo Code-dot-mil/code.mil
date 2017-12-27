@@ -1,20 +1,107 @@
+---
+---
 
-// This is super fragile, but otherwise the header reads like we're
-// less official: "The .gov means it's official."
-let govBanner = document.querySelector('.usa-banner-guidance-gov strong');
-govBanner.innerText = govBanner.innerText.replace(/\.gov/, '.mil');
+/*
+ * The lines above allow Jekyll to run through this file during building, that
+ * means we can use any site config variables! Just be careful, any double
+ * curly braces will be interpreted by Jekyll, so escape them if you need them.
+ */
 
-if (window.location.pathname === '/frequently-asked-questions') {
-  var list = document.querySelector('.usa-sidenav-sub_list');
+(function() {
 
-  if (list) {
-    Array.prototype.concat.apply([], document.querySelectorAll('#main-content h1'))
-      .forEach(function(node, i) {
-        if (i === 0) { return; }  // We manual add the first FAQ because otherwise the subnav ul won't exist
+  // This is super fragile, but otherwise the header reads like we're
+  // less official: "The .gov means it's official."
+  var govBanner = document.querySelector('.usa-banner-guidance-gov strong');
+  govBanner.innerText = govBanner.innerText.replace(/\.gov/, '.mil');
 
-        var item = document.createElement('li');
-        item.innerHTML = '<a href="/frequently-asked-questions#' + node.getAttribute('id') + '">' + node.innerText + '</a>';
-        list.appendChild(item);
-      });
+  /**
+   * Finds nodes based on the given selector, starting from the provided root
+   * node (or the document). The nodes are returned in a real Array versus a
+   * NodeList for easier traversal
+   * @param  {String} selector
+   * @param  {Node} root
+   * @return {Array}
+   */
+  function find(selector, root) {
+    root = root || document;
+    return Array.prototype.concat.apply([], root.querySelectorAll(selector));
   }
-}
+
+  /*
+   * Find all instances of {{site.email}} and fill them with the actual email
+   * from the site config.
+   */
+  var siteEmail = '{{site.email}}';
+  find('[href*="\{\{site.email\}\}"]').forEach(function useConfigEmail(n) {
+    n.innerHTML = n.innerHTML.replace(/\{\{site\.email\}\}/, siteEmail);
+    n.setAttribute('href', n.getAttribute('href').replace(/\{\{site\.email\}\}/, siteEmail));
+  });
+
+
+  /*
+   * This block auto-identifies the subnav items for the left sidebar where
+   * needed. This "if" block is where we specify the pages that will use it,
+   * and the function below is where we do the work.
+   */
+  (function SubNav() {
+    if (window.location.pathname === '/frequently-asked-questions') {
+      insertSubNav('#main-content h1', '/frequently-asked-questions', 1);
+    } else if (window.location.pathname === '/how-to-open-source') {
+      insertSubNav('#main-content h2', '/how-to-open-source');
+    }
+
+    function insertSubNav(jumpNodeSelector, basePath, skipCount) {
+      var list = document.querySelector('.usa-sidenav-sub_list');
+      jumpNodeSelector = jumpNodeSelector || 'h1';
+      basePath = basePath || '/';
+      skipCount = skipCount || 0;
+
+      if (list) {
+        find(jumpNodeSelector)
+          .forEach(function(node, i) {
+            if (i < skipCount) { return; }
+
+            var item = document.createElement('li');
+            item.innerHTML = '<a href="' + basePath + '#' + node.getAttribute('id') + '">' + node.innerText + '</a>';
+            list.appendChild(item);
+          });
+      }
+    }
+  })();
+
+  (function DecisionTree() {
+    var tree = document.querySelector('.decision-tree');
+    if (!tree) { return; }
+
+    var nodes = find('.tree-node', tree);
+    nodes[0].classList.add('active');
+
+    tree.addEventListener('click', function treeNodeButtonClick(e) {
+      if (!e.target.classList.contains('tree-link')) { return; }
+
+      e.preventDefault();
+
+      var node = nodes.filter(function(n) { return n.getAttribute('id') === e.target.getAttribute('href').substr(1); })[0];
+      if (node) {
+        node.classList.add('active');
+        window.scrollTo({ top: node.offsetTop });
+        var answer = document.createElement('p');
+        answer.classList.add('tree-node-answer');
+        answer.innerText = e.target.innerText;
+        e.target.parentNode.parentNode.appendChild(answer);
+        e.target.parentNode.classList.add('hidden');
+      }
+    });
+
+    tree.querySelector('a.tree-reset').addEventListener('click', function treeNodeButtonClick(e) {
+      e.preventDefault();
+      nodes.forEach(function(n, i) {
+        if (i === 0) { return; }
+        n.classList.remove('active');
+      });
+      find('.tree-node-options', tree).forEach(function(n) { n.classList.remove('hidden'); });
+      find('.tree-node-answer', tree).forEach(function(n) { n.parentNode.removeChild(n); });
+    });
+  })();
+
+})();

@@ -29,4 +29,4 @@ contact:
   heading: Contact us
 
   address: |
-    [code@dds.mil](mailto:code@dds.mil)
+    [{{site.email}}](mailto:{{site.email}})

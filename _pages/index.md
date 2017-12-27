@@ -10,16 +10,15 @@ hero:
     alt: "DoD Project Owners:"
     text: Learn more about open source in DoD
   button:
-    text: Submit Project
-    href: //docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link
-    external: true
+    text: Get Started
+    href: /getting-started
 
 graphics:
   - image:
     src: /assets/uswds/img/circle-124.png
     alt: ''
     title: Connect with us.
-    description: We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen. Reach out to us to start the discussion!<br><a href='mailto:code@dds.mil' class="usa-button usa-button-small">code@dds.mil</a>
+    description: We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen. Reach out to us to start the discussion!<br><a href='mailto:{{site.email}}' class="usa-button usa-button-small">{{site.email}}</a>
   - image:
     src: /assets/uswds/img/circle-124.png
     alt: ''

@@ -3,7 +3,7 @@ title: Frequently Asked Questions (FAQ)
 permalink: '/frequently-asked-questions'
 
 layout: page
-sidenav: faq
+sidenav: side
 subnav:
   - text: "What is Code.mil?"
     href: "/frequently-asked-questions#what-is-codemil"
@@ -11,7 +11,7 @@ subnav:
 
 # What is Code.mil?
 
-Code.mil is an experiment in open source at the U.S. Department of Defense (DoD). The goal is to foster open collaboration with the developer community across the world on DoD open source projects.  
+Code.mil is an experiment in open source at the U.S. Department of Defense (DoD). The goal is to foster open collaboration with the developer community across the world on DoD open source projects.
 
 The Code.mil initiative will iterate in phases.
 
@@ -93,4 +93,4 @@ No!
 We mean to be totally transparent in our intent and purpose with Code.mil. We want to be really clear about what we’re doing and why we’re doing it so that you feel comfortable contributing to DoD projects.
 
 
-**For more information or questions, please contact our team at [code@dds.mil](mailto:code@dds.mil). Happy coding!**
+**For more information or questions, please contact our team at [{{site.email}}](mailto:{{site.email}}). Happy coding!**
