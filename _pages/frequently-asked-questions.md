@@ -19,7 +19,7 @@ During the first phase, which launched on February 22, 2017, we called upon the 
 
 During the second phase, we finalized the strategy and launched our first open source projects on March 13, 2017. You can read about it [here](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.tphs4mxqp). We also issued a call to the DoD developer community to contact us with projects that may be hosted on Code.mil.
 
-Future phases include making Code.mil a full-fledged website, expanding the repository to include projects from other DoD offices, tackling procured source code, and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoD projects.
+We're now in a sustaining phase where we are expanding the effort to include projects from other DoD offices, tackling procured source code, and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoD projects.
 
 This initiative is not intended to set DoD policy, but rather is exploring alternate ways to join the open source and free software communities.
 
