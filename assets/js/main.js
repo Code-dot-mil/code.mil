@@ -37,10 +37,10 @@
     n.setAttribute('href', n.getAttribute('href').replace(/\{\{site\.email\}\}/, siteEmail));
   });
 
-  find('[href^="mailto"]').forEach(function addExternalClass(n) {
+  find('#main-content [href^="mailto"]').forEach(function addExternalClass(n) {
     n.classList.add('usa-external_link');
   });
-  find('[href^="http"]').forEach(function addExternalClass(n) {
+  find('#main-content [href^="http"]').forEach(function addExternalClass(n) {
     if (!/code\.mil/.test(n.getAttribute('href'))) {
       n.classList.add('usa-external_link');
     }
