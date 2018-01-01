@@ -37,6 +37,15 @@
     n.setAttribute('href', n.getAttribute('href').replace(/\{\{site\.email\}\}/, siteEmail));
   });
 
+  find('[href^="mailto"]').forEach(function addExternalClass(n) {
+    n.classList.add('usa-external_link');
+  });
+  find('[href^="http"]').forEach(function addExternalClass(n) {
+    if (!/code\.mil/.test(n.getAttribute('href'))) {
+      n.classList.add('usa-external_link');
+    }
+  });
+
 
   /*
    * This block auto-identifies the subnav items for the left sidebar where
@@ -47,7 +56,7 @@
     if (window.location.pathname === '/frequently-asked-questions') {
       insertSubNav('#main-content h1', '/frequently-asked-questions', 1);
     } else if (window.location.pathname === '/how-to-open-source') {
-      insertSubNav('#main-content h2', '/how-to-open-source');
+      insertSubNav('#main-content h3', '/how-to-open-source', 1);
     }
 
     function insertSubNav(jumpNodeSelector, basePath, skipCount) {
