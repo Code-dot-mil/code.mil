@@ -18,7 +18,7 @@ graphics:
     src: /assets/uswds/img/circle-124.png
     alt: ''
     title: Connect with us.
-    description: We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen. Reach out to us to start the discussion!<br><a href='mailto:{{site.email}}' class="usa-button usa-button-small">{{site.email}}</a>
+    description: We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen. Reach out to us to start the discussion!<br><a href='mailto:{{site.email}}' class='usa-button usa-button-small'>{{site.email}}</a> <a href='https://github.com/DeptOfDefense/code.mil' class='usa-button usa-button-small'>Check us out on GitHub</a>
   - image:
     src: /assets/uswds/img/circle-124.png
     alt: ''
