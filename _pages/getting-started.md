@@ -64,7 +64,7 @@ tree-nodes:
 
       ### We have the source code
 
-      If you did receive **all** source code, artifacts, and documentation then we should be able to help you open source that. We suggest that you **send us an email at [{{site.email}}]({{site.email}})** to start the process. What we'll need to determine is who holds the copyright. Typically this is the contractor (yes, even if they delivered the code to the government), and they would need to attach the open source license.
+      If you did receive **all** source code, artifacts, and documentation then we should be able to help you open source that. We suggest that you **send us an email at [{{site.email}}](mailto:{{site.email}})** to start the process. What we'll need to determine is who holds the copyright. Typically this is the contractor (yes, even if they delivered the code to the government), and they would need to attach the open source license.
 
       <a href='/how-to-open-source' class='usa-button'>How to Open Source</a>
 

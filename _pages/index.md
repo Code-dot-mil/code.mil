@@ -15,13 +15,13 @@ hero:
 
 graphics:
   - image:
-    src: /assets/uswds/img/circle-124.png
-    alt: ''
+      src: /assets/images/arrow-right-white.png
+      alt: 'arrow right'
     title: Connect with us.
     description: We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen. Reach out to us to start the discussion!<br><a href='mailto:{{site.email}}' class='usa-button usa-button-small'>{{site.email}}</a> <a href='https://github.com/DeptOfDefense/code.mil' class='usa-button usa-button-small'>Check us out on GitHub</a>
   - image:
-    src: /assets/uswds/img/circle-124.png
-    alt: ''
+      src: /assets/images/arrow-right-white.png
+      alt: 'arrow right'
     title: Make us better.
     description: We've drafted documentation in conjunction with the open source community so the DoD can participate in the open source and free software communities, even where we may not have copyright. You can help to continue making our open source strategy better. Open an issue or a pull request with your suggestions on how to continue improving these documents.
 
