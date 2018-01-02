@@ -53,9 +53,9 @@
    * and the function below is where we do the work.
    */
   (function SubNav() {
-    if (window.location.pathname === '/frequently-asked-questions') {
+    if (/^\/frequently\-asked\-questions/.test(window.location.pathname)) {
       insertSubNav('#main-content h1', '/frequently-asked-questions', 1);
-    } else if (window.location.pathname === '/how-to-open-source') {
+    } else if (/^\/how\-to\-open\-source/.test(window.location.pathname)) {
       insertSubNav('#main-content h3', '/how-to-open-source', 1);
     }
 
