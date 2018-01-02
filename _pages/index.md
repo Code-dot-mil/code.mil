@@ -11,7 +11,7 @@ hero:
     text: Learn more about open source in DoD
   button:
     text: Get Started
-    href: /getting-started
+    href: /getting-started.html
 
 graphics:
   - image:

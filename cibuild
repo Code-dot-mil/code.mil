@@ -2,4 +2,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproofer ./_site --disable-external --assume-extension true --url-ignore "/^mailto/" --allow-hash-href
+bundle exec htmlproofer ./_site --disable-external --url-ignore "/^mailto/" --allow-hash-href

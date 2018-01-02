@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-permalink: /getting-started
+permalink: /getting-started.html
 
 layout: page
 sidenav: side
@@ -66,7 +66,7 @@ tree-nodes:
 
       If you did receive **all** source code, artifacts, and documentation then we should be able to help you open source that. We suggest that you **send us an email at [{{site.email}}](mailto:{{site.email}})** to start the process. What we'll need to determine is who holds the copyright. Typically this is the contractor (yes, even if they delivered the code to the government), and they would need to attach the open source license.
 
-      <a href='/how-to-open-source' class='usa-button'>How to Open Source</a>
+      <a href='/how-to-open-source.html' class='usa-button'>How to Open Source</a>
 
   - title: Two Options
     id: contract
@@ -77,7 +77,7 @@ tree-nodes:
         * modify the contract to require delivery by open source code repository; or
         * wait for delivery and open source the resulting code (this could be tricky).
 
-      There are a lot of possibilities within those options, however. We encourage you to read our [frequently asked questions](/frequently-asked-questions) and then reach out to us by email at [{{site.email}}](mailto:{{site.email}}) to continue the conversation.
+      There are a lot of possibilities within those options, however. We encourage you to read our [frequently asked questions](/frequently-asked-questions.html) and then reach out to us by email at [{{site.email}}](mailto:{{site.email}}) to continue the conversation.
 
   - title: ""
     id: gov-only
@@ -90,7 +90,7 @@ tree-nodes:
 
       Read up on exactly what steps you can take to release your code project as open source software...
 
-      <a href='/how-to-open-source' class='usa-button'>How to Open Source</a>
+      <a href='/how-to-open-source.html' class='usa-button'>How to Open Source</a>
 
   - title: ""
     id: mixed-code
@@ -103,12 +103,12 @@ tree-nodes:
 
       Read up on exactly what steps you can take to release your code project as open source software...
 
-      <a href='/how-to-open-source' class='usa-button'>How to Open Source</a>
+      <a href='/how-to-open-source.html' class='usa-button'>How to Open Source</a>
 
   - title: ""
     id: info-only
     content: |
-      That's great! We're glad you are interested in open source. You may want to start by reading our [Why Open Source](/why-open-source) page and some of the [Frequently Asked Questions](/frequently-asked-questions). You can also explore information on the OMB policy itself over on the [code.gov](https://code.gov) website.
+      That's great! We're glad you are interested in open source. You may want to start by reading our [Why Open Source](/why-open-source.html) page and some of the [Frequently Asked Questions](/frequently-asked-questions.html). You can also explore information on the OMB policy itself over on the [code.gov](https://code.gov) website.
 
       If you would like to have a follow up conversation, feel free to reach out to us at [{{site.email}}](mailto:{{site.email}})
 ---

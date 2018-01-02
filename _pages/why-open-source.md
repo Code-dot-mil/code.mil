@@ -1,6 +1,6 @@
 ---
 title: Why Open Source
-permalink: /why-open-source
+permalink: /why-open-source.html
 
 layout: page
 sidenav: side
@@ -28,7 +28,7 @@ Going beyond the OMB policy itself, the [2018 NDAA](https://www.congress.gov/bil
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Still have questions?</h4>
     <p class='usa-alert-text'>
-      The first step is to read through our [Frequently Asked Questions](/frequently-asked-questions) page! But if that doesn't get you the information you need, send us an email at <a href='mailto:{{site.email}}'>{{site.email}}</a> and let's talk!
+      The first step is to read through our [Frequently Asked Questions](/frequently-asked-questions.html) page! But if that doesn't get you the information you need, send us an email at <a href='mailto:{{site.email}}'>{{site.email}}</a> and let's talk!
     </p>
   </article>
 </section>

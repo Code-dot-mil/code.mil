@@ -1,12 +1,12 @@
 ---
 title: Frequently Asked Questions (FAQ)
-permalink: '/frequently-asked-questions'
+permalink: /frequently-asked-questions.html
 
 layout: page
 sidenav: side
 subnav:
   - text: "What is Code.mil?"
-    href: "/frequently-asked-questions#what-is-codemil"
+    href: "/frequently-asked-questions.html#what-is-codemil"
 ---
 
 # What is Code.mil?
