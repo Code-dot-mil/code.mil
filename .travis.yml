@@ -21,3 +21,4 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: code-dot-mil-website
   local_dir: _site
+  skip_cleanup: true
