@@ -7,7 +7,7 @@ language: ruby
 rvm:
 - 2.3.5
 
-script: ./script/cibuild
+script: ./cibuild
 
 env:
   global:
