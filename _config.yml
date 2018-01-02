@@ -16,4 +16,4 @@ markdown: kramdown
 theme: uswds-jekyll
 
 include: ['_pages']
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME', 'vendor']
