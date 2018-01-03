@@ -1,5 +1,7 @@
 # Welcome to Code.mil
 
+[![Build Status](https://travis-ci.org/deptofdefense/code.mil.svg?branch=static-site)](https://travis-ci.org/deptofdefense/code.mil)
+
 An experiment in open source at the Department of Defense.
 
 The U.S. Department of Defense (DoD) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically doesn't have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code, and our team here at Defense Digital Service wants to find a solution. [Read about our journey so far on Medium](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.i78how76u).
