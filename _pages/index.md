@@ -23,7 +23,7 @@ graphics:
       src: /assets/images/arrow-right-white.png
       alt: 'arrow right'
     title: Make us better.
-    description: We've drafted documentation that empowers the DoD to participate in the open source community. You can help improve our open source strategy by improving these documents! Open an issue or a pull request with your suggestions.
+    description: We've drafted this documentation in partnership with the open source community. You can help improve our open source strategy by improving these documents! Open an issue or a pull request with your suggestions.
 
 
 intro: |
