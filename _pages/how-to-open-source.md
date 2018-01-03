@@ -79,6 +79,6 @@ If you aren't sure where to post the code, or you need help getting source contr
 
 ### Step 6: OMB Policy Tracking
 
-The last piece of this process is adding your project to the [code inventory](https://code.gov/#/policy-guide/docs/compliance/inventory-code) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://code.gov/#/policy-guide/policy/open-source). But don't worry, **we'll take care of that for you**. You just need to contact us to tell us abotu your project!
+The last piece of this process is adding your project to the [code inventory](https://code.gov/#/policy-guide/docs/compliance/inventory-code) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://code.gov/#/policy-guide/policy/open-source). But don't worry, **we'll take care of that for you**. You just need to contact us to tell us about your project!
 
 <a href='mailto:{{site.email}}' class='usa-button'>Tell us about your project</a>
