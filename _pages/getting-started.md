@@ -84,7 +84,7 @@ tree-nodes:
     content: |
       Awesome! We're really happy to hear about all the great things that the DoD is doing on a regular basis. You may not be aware, but just about any code produced by a federal employee is in the public domain, meaning any US citizen has a right to access the code and use it - even if it's not open sourced (with certain security exceptions). This impacts your open source efforts because it means that you cannot restrict any usage rights to any US citizen.
 
-      However, other countries can enforce our open source licenses, even for code in the public domain. Additionally, it can be good guidance for public contributors to identify what open source license and contribution policy govern a project. The code.mil team recommends attaching an open source license along with an "intent" document that clearly indicates how the government intends the code to be released, even if in the United States the law says it is public domain.
+      However, other countries can enforce our open source licenses, even for code in the public domain. Additionally, it can be good guidance for public contributors to identify what open source license and contribution policy govern a project. The Code.mil team recommends attaching an open source license along with an "intent" document that clearly indicates how the government intends the code to be released, even if in the United States the law says it is public domain.
 
       ### Next Steps
 
@@ -95,7 +95,7 @@ tree-nodes:
   - title: ""
     id: mixed-code
     content: |
-      Great! We understand that partnering with the private sector is how most project development happens in the DoD. You should still be able to open source the resulting code for the project! The key is to **identify any pieces of the code that are proprietary to the contractor**. If there are such pieces then you may need to segment those and assign a separate license to it. That said, you should be able to follow the code.mil guideline for open sourcing the code!
+      Great! We understand that partnering with the private sector is how most project development happens in the DoD. You should still be able to open source the resulting code for the project! The key is to **identify any pieces of the code that are proprietary to the contractor**. If there are such pieces then you may need to segment those and assign a separate license to it. That said, you should be able to follow the Code.mil guideline for open sourcing the code!
 
       You will need to attach a proper license to the project, and because it was developed in part by the US Federal Government you will need to specify the "intent" of the licensing. This is required because just about any code produced by a federal employee is in the _public domain_, meaning any US citizen has a right to access the code and use it - even if it's not open sourced (with certain security exceptions). This impacts your open source efforts because it means that you cannot restrict any usage rights to any US citizen. However, other countries can enforce our open source licenses, even for code in the public domain. Additionally, it can be good guidance for public contributors to identify what open source license and contribution policy govern a project.
 
@@ -108,14 +108,14 @@ tree-nodes:
   - title: ""
     id: info-only
     content: |
-      That's great! We're glad you are interested in open source. You may want to start by reading our [Why Open Source](/why-open-source.html) page and some of the [Frequently Asked Questions](/frequently-asked-questions.html). You can also explore information on the OMB policy itself over on the [code.gov](https://code.gov) website.
+      That's great! We're glad you are interested in open source. You may want to start by reading our [Why Open Source](/why-open-source.html) page and some of the [Frequently Asked Questions](/frequently-asked-questions.html). You can also explore information on the OMB policy itself over on the [Code.gov](https://code.gov) website.
 
       If you would like to have a follow up conversation, feel free to reach out to us at [{{site.email}}](mailto:{{site.email}})
 ---
 
 ## Getting Started
 
-This page will help you understand how to participate in code.mil and comply with [OMB policy (M-16-21)](https://code.gov/#/policy-guide/docs/overview/introduction) for [open source code](https://code.gov/#/policy-guide/policy/open-source). Get started by answering a few questions, and then we can direct you to the right information or start a more in depth conversation.
+This page will help you understand how to participate in Code.mil and comply with [OMB policy (M-16-21)](https://code.gov/#/policy-guide/docs/overview/introduction) for [open source code](https://code.gov/#/policy-guide/policy/open-source). Get started by answering a few questions, and then we can direct you to the right information or start a more in depth conversation.
 
 <section class='decision-tree'>
   {% for node in page.tree-nodes %}
