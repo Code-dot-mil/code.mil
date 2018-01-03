@@ -5,7 +5,7 @@ The U.S. Department of Defense (DoD) faces unique challenges in open sourcing it
 
 **If you are a DoD or Military Department employee with a project you want hosted on Code.mil, get the conversation going by [submitting your information](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link).**
 
-This repository is the open source home for the public-facing web site: [code.mil](http://code.mil)
+This repository is the open source home for the public-facing web site: [code.mil](https://code.mil)
 
 ## Build with us.
 
