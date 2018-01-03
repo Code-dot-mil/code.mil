@@ -8,7 +8,7 @@ hero:
   image: /assets/images/hero.jpg
   callout:
     alt: "DoD Project Owners:"
-    text: Learn more about open source in DoD
+    text: Learn more about open source at DoD
   button:
     text: Get Started
     href: /getting-started.html
@@ -18,7 +18,7 @@ graphics:
       src: /assets/images/arrow-right-white.png
       alt: 'arrow right'
     title: Connect with us.
-    description: We believe that software created by the government should be shared with the public, and we want to collaborate with civic minded peers to make this happen. Reach out to us to start the discussion!<br><a href='mailto:{{site.email}}' class='usa-button usa-button-small'>{{site.email}}</a> <a href='https://github.com/DeptOfDefense/code.mil' class='usa-button usa-button-small'>Check us out on GitHub</a>
+    description: We believe that software created by the government should be shared with the public, and we want to collaborate with civic-minded peers to make this happen. Reach out to us to start the discussion!<br><a href='mailto:{{site.email}}' class='usa-button usa-button-small'>{{site.email}}</a> <a href='https://github.com/DeptOfDefense/code.mil' class='usa-button usa-button-small'>Check us out on GitHub</a>
   - image:
       src: /assets/images/arrow-right-white.png
       alt: 'arrow right'
@@ -27,13 +27,13 @@ graphics:
 
 
 intro: |
-  The U.S. Department of Defense (<acronym title='Department of Defense'>DoD</acronym>) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it difficult to attach an open source license to our code. [Defense Digital Service](https://dds.mil) (<acronym title='Defense Digital Service'>DDS</acronym>) has been working with DoD and the open source community since early 2017 to develop a guideline for supporting open source software (<acronym title='open source software'>OSS</acronym>) within the Department.
+  The U.S. Department of Defense (<acronym title='Department of Defense'>DoD</acronym>) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it difficult to attach an open source license to our code. The [Defense Digital Service](https://dds.mil) (<acronym title='Defense Digital Service'>DDS</acronym>) has been working with DoD and the open source community since early 2017 to develop a guideline for supporting open source software (<acronym title='open source software'>OSS</acronym>) within the Department.
 
 ---
 
 ## What is Code.mil?
 
-Code.mil is an experiment in open source at the U.S. Department of Defense. The goal is to foster open collaboration with the developer community across the world on DoD open source projects. During the first phase, which launched in early 2017, we wrote a strategy for open sourcing code written by DoD employees, and then we called upon the OSS developer community to help us finalize that plan. You can read the official [press release](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source/) on the DoD web site.
+Code.mil is an experiment in open source at the U.S. Department of Defense. The goal is to foster open collaboration with the developer community around the world on DoD open source projects. During the first phase, which launched in early 2017, we wrote a strategy for open sourcing code written by DoD employees, and then we called upon the OSS developer community to help us finalize that plan. You can read the official [press release](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source/) on the DoD website.
 
 At the moment we're getting our first open source projects published in the open. We are also calling on the entire DoD developer community to reach out to DDS to begin tracking all of the great OSS projects coming out.
 
