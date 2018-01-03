@@ -16,13 +16,13 @@ In fact, nearly every widely popular software product heavily relies on open sou
 
 A simple google search of "why OSS" will bring you to [a paper by David Wheeler](https://www.dwheeler.com/oss_fs_why.html) which goes into extensive detail on this subject.
 
-You may have lots of questions about Open Source Software (<acronym title='Open Source Software'>OSS</acronym>) and how a DoD project can be released publicly. **This is the goal of code.mil!** We want to provide guidance on how you, a DoD project owner, can release your code as open source software and why it is in your best interest.
+You may have lots of questions about OSS and how a DoD project can be released publicly. **This is the goal of Code.mil!** We want to provide guidance on how you, a DoD project owner, can release your code as open source software and why it is in your best interest.
 
 ### OMB Policy
 
 Aside from the technical benefits mentioned above, the [Federal Source Code Policy (M-16-21)](https://code.gov/#/policy-guide/policy/introduction) from the US CTO includes a section initiating an [open source pilot](https://code.gov/#/policy-guide/policy/open-source) which mandates that each government agency **release as OSS at least 20% of its new custom developed code** for the term of the program (and we recommend continuing that beyond the pilot).
 
-Going beyond the OMB policy itself, the [2018 NDAA](https://www.congress.gov/bill/115th-congress/house-bill/2810/text) has a section that specifically states in [secton 875](https://www.congress.gov/bill/115th-congress/house-bill/2810/text#toc-H085810BEC6434028988553F08918929F) that "...the Secretary of Defense shall initiate for the Department of Defense the open source software pilot program established by the Office of Management and Budget Memorandum M-16-21..."
+Going beyond the OMB policy itself, the [2018 NDAA](https://www.congress.gov/bill/115th-congress/house-bill/2810/text) states in [secton 875](https://www.congress.gov/bill/115th-congress/house-bill/2810/text#toc-H085810BEC6434028988553F08918929F) that "...the Secretary of Defense shall initiate for the Department of Defense the open source software pilot program established by the Office of Management and Budget Memorandum M-16-21..."
 
 <section class='usa-alert usa-alert-info' >
   <article class='usa-alert-body'>

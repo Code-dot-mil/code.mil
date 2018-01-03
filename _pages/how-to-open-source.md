@@ -30,9 +30,9 @@ You will need to get approval from various people, exactly who isn't up to us! I
 
 You may not be aware, but just about any code produced by a federal employee is in the public domain, meaning any US citizen has a right to access the code and use it - even if it's not open sourced (with certain security exceptions). This impacts your open source efforts because it means that you cannot restrict any usage rights to any US citizen.
 
-However, other countries can enforce our open source licenses, even for code in the public domain in the United States. Additionally, it can be good guidance for public contributors to identify what open source license and contribution policy govern a project. The code.mil team recommends attaching an open source license along with an "intent" document that clearly indicates how the government intends the code to be released, even if in the United States the law says it is public domain.
+However, other countries can enforce our open source licenses, even for code in the public domain in the United States. Additionally, it can be good guidance for public contributors to identify what open source license and contribution policy govern a project. The Code.mil team recommends attaching an open source license along with an "intent" document that clearly indicates how the government intends the code to be released, even if in the United States the law says it is public domain.
 
-You can use [this site to explore (and choose) an open source license](https://choosealicense.com). The code.mil team recommends using a permissive license where possible as the code is general under the public domain anyway, which is as permissive as it gets! Our suggestion would be to use **MIT** or **ISC**, but other options like Apache 2.0 or BSD could do just as well.
+You can use [this site to explore (and choose) an open source license](https://choosealicense.com). The Code.mil team recommends using a permissive license where possible as the code is general under the public domain anyway, which is as permissive as it gets! Our suggestion would be to use **MIT** or **ISC**, but other options like Apache 2.0 or BSD could do just as well.
 
 ### Step 3: Add License Documents
 
@@ -55,7 +55,7 @@ You can see examples of these documents in the code repository for this very web
 
 ### Step 4: Contributions
 
-The last piece of documentation you absolutely need is how people can contribute to your project, and what they must do. The code.mil team has taken the approach of using a Developer Certificate of Origin (DCO) process, but a slightly lighter version. Essentially, contributors agree that their submission is their own original work and release any expectation of compensation, etc.
+The last piece of documentation you absolutely need is how people can contribute to your project, and what they must do. The Code.mil team has taken the approach of using a Developer Certificate of Origin (DCO) process, but a slightly lighter version. Essentially, contributors agree that their submission is their own original work and release any expectation of compensation, etc.
 
 You can read the contributing documentation for this site to see an example of what this looks like:
 
@@ -79,6 +79,6 @@ If you aren't sure where to post the code, or you need help getting source contr
 
 ### Step 6: OMB Policy Tracking
 
-The last piece of this process is adding your project to the [code inventory](https://code.gov/#/policy-guide/docs/compliance/inventory-code) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://code.gov/#/policy-guide/policy/open-source). But don't worry, **we'll take care of that for you**. You just need to contact us to tell us abotu your project!
+The last piece of this process is adding your project to the [code inventory](https://code.gov/#/policy-guide/docs/compliance/inventory-code) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://code.gov/#/policy-guide/policy/open-source). But don't worry, **we'll take care of that for you**. You just need to contact us to tell us about your project!
 
 <a href='mailto:{{site.email}}' class='usa-button'>Tell us about your project</a>
