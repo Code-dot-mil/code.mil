@@ -31,7 +31,7 @@ intro: |
 
 ---
 
-## What is code.mil?
+## What is Code.mil?
 
 Code.mil is an experiment in open source at the U.S. Department of Defense. The goal is to foster open collaboration with the developer community across the world on DoD open source projects. During the first phase, which launched in early 2017, we wrote a strategy for open sourcing code written by DoD employees, and then we called upon the OSS developer community to help us finalize that plan. You can read the official [press release](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source/) on the DoD web site.
 
