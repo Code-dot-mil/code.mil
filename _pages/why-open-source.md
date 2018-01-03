@@ -10,9 +10,9 @@ sidenav: side
 
 **Modern software is open sourced software (OSS)**. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. We must more actively participate in the open source and free software communities if we are to truly reap the benefits of OSS.
 
-There are some misconceptions, however... for example that open source software is not secure. Without delving too deep into this topic (we're happy to discuss it in person), consider that the single most popular web server software is, and always has been, open source: Apache. This code runs a vast swath of Internet sites. Do bugs come up? Of course! But those are patched (fixed with a small amount of code) in mere hours after identification.
+There are some misconceptions, however: for example, that open source software is not secure. Without delving too deep into this topic (we're happy to discuss it in person), consider that the single most popular web server software is, and always has been, open source: [Apache](https://www.apache.org/). This code runs a vast swath of sites on the Internet. Do bugs come up? Of course! But they are often patched (fixed with a small amount of code) in mere hours after identification.
 
-In fact, nearly every widely popular software product heavily relies on open source software. Facebook, for example, runs on a language called PHP, which is itself open source. Even the web browser you are using right now is most likely open source software or uses it (Chrome, Firefox, even parts of Internet Explorer). And while the "popularity" argument might not win someone over, there are great benefits to be gained in **reliability**, **performance**, and **security** as we mentioned earlier.
+In fact, nearly every popular software product relies heavily on open source software. Facebook, for example, runs on a language called [PHP](https://secure.php.net/), which is itself open source. Even the web browser you are using right now is most likely open source software or uses it (Chrome, Firefox, even parts of Internet Explorer). And while the "popularity" argument might not win someone over, there are great benefits to be gained in **reliability**, **performance**, and **security** as we mentioned earlier.
 
 A simple google search of "why OSS" will bring you to [a paper by David Wheeler](https://www.dwheeler.com/oss_fs_why.html) which goes into extensive detail on this subject.
 
@@ -28,7 +28,7 @@ Going beyond the OMB policy itself, the [2018 NDAA](https://www.congress.gov/bil
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Still have questions?</h4>
     <p class='usa-alert-text'>
-      The first step is to read through our [Frequently Asked Questions](/frequently-asked-questions.html) page! But if that doesn't get you the information you need, send us an email at <a href='mailto:{{site.email}}'>{{site.email}}</a> and let's talk!
+      The first step is to read through our <a href="/frequently-asked-questions.html">Frequently Asked Questions</a> page! But if that doesn't get you the information you need, send us an email at <a href='mailto:{{site.email}}'>{{site.email}}</a> and let's talk!
     </p>
   </article>
 </section>

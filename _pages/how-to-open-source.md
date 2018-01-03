@@ -24,7 +24,7 @@ There are a few steps you will need to take to open source any project. Some of 
 
 ### Step 1: Approval
 
-You will need to get approval from various people, exactly who isn't up to us! In general this will probably be your security manager and program manager, but it may include other folks as well, depending on the project type. If you aren't sure, feel free to shoot us an [email](mailto:{{site.email}}) and we can look into it!
+You will need to get approval from various people -- exactly who isn't up to us! In general this will probably be your security manager and program manager, but it may include other folks as well, depending on the project type. If you aren't sure, feel free to shoot us an [email](mailto:{{site.email}}) and we can look into it!
 
 ### Step 2: Choose a License
 
@@ -47,7 +47,7 @@ You can see examples of these documents in the code repository for this very web
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Keep the Copyright!</h4>
     <p class='usa-alert-text'>
-      You might notice in the [LICENSE.md](/LICENSE.md) file that there is a copyright line. That one is key, and you should keep it, even if you switch to a different license. Note that if this project was developed <strong>with a contractor</strong> that the contractor company name should also be listed here.
+      You might notice in the <a href="/LICENSE.md">LICENSE.md</a> file that there is a copyright line. That one is key, and you should keep it, even if you switch to a different license. Note that if this project was developed <strong>with a contractor</strong> that the contractor company name should also be listed here.
     </p>
     <p><em>"Copyright (c) 2017-2018 U.S. Federal Government (in countries where recognized)"</em></p>
   </article>
