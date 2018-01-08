@@ -1,8 +1,12 @@
-source 'https://rubygems.org'
-gem 'jekyll', '~> 3.6.2'
-gem 'html-proofer'
+ruby '2.5.0'
 
-gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+source 'https://rubygems.org'
+
+gem 'html-proofer', '~> 3.8'
+gem 'jekyll', '~> 3.7'
+
+gem 'uswds-jekyll', git: 'https://github.com/18F/uswds-jekyll.git'
+
 group :jekyll_plugins do
-  gem 'jekyll_pages_api_search'
+  gem 'jekyll_pages_api_search', '~> 0.5.0'
 end
