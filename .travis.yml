@@ -10,6 +10,8 @@ env:
 branches:
   only:
     - static-site
+before_install:
+  - gem update --system
 script:
   - ./cibuild
 deploy:
