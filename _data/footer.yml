@@ -1,7 +1,7 @@
 top: true
 
 # The optional heading for the footer.
-heading: code.mil
+heading: Code.mil
 
 # An array of agency logos to show, side by side, in the lower left
 # of the footer on large screens.
