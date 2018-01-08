@@ -1,11 +1,12 @@
-# Welcome to Code.mil  
+# Welcome to Code.mil
+
 An experiment in open source at the Department of Defense.
 
 The U.S. Department of Defense (DoD) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically doesn't have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code, and our team here at Defense Digital Service wants to find a solution. [Read about our journey so far on Medium](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.i78how76u).
 
 **If you are a DoD or Military Department employee with a project you want hosted on Code.mil, get the conversation going by [submitting your information](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link).**
 
-This repository is the open source home for the public-facing web site: [code.mil](http://code.mil)
+This repository is the open source home for the public-facing web site: [Code.mil](http://code.mil)
 
 ## Build with us.
 
@@ -15,7 +16,7 @@ We need your help in contributing to our projects to build better products and s
 
 > **Curious about DDS?**
 >
-> If you're curious about [Defense Digital Service](https://dds.mil) (DDS), the team behind code.mil, check us out online at [dds.mil](https://dds.mil). We are an agency under the [United States Digital Service](https://usds.gov) that works exclusively on projects for the DoD. We're always looking for good people to [join us](https://www.dds.mil/#join)!
+> If you're curious about [Defense Digital Service](https://dds.mil) (DDS), the team behind Code.mil, check us out online at [dds.mil](https://dds.mil). We are an agency under the [United States Digital Service](https://usds.gov) that works exclusively on projects for the DoD. We're always looking for good people to [join us](https://www.dds.mil/#join)!
 
 ## Make us better.
 
