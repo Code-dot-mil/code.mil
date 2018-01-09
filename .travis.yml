@@ -1,18 +1,17 @@
-
-branches:
-  only:
-  - static-site
-
+dist: trusty
+sudo: false
 language: ruby
-rvm:
-- 2.3.5
-
-script: ./cibuild
-
+cache: bundler
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
+branches:
+  only:
+    - static-site
+before_install:
+  - gem update --system
+script:
+  - ./cibuild
 deploy:
   provider: s3
   on:

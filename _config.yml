@@ -15,5 +15,12 @@ scripts:
 markdown: kramdown
 theme: uswds-jekyll
 
-include: ['_pages']
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME', 'vendor']
+include:
+  - '_pages'
+
+exclude:
+  - 'cibuild'
+  - 'Gemfile.lock'
+  - 'Gemfile'
+  - 'README.md'
+  - 'vendor'
