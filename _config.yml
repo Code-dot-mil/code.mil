@@ -20,7 +20,6 @@ include:
 
 exclude:
   - 'cibuild'
-  - 'CNAME'
   - 'Gemfile.lock'
   - 'Gemfile'
   - 'README.md'
