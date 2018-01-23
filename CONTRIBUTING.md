@@ -85,7 +85,6 @@ Once you've installed Ruby 2.5.0, install the Bundler gem and jekyll:
 
 ```
 gem install bundler
-gem install jekyll
 ```
 
 ### Making Changes
@@ -104,7 +103,7 @@ Once you're ready to run the site generator and see the site (locally), run:
 bundle exec jekyll serve
 ```
 
-Now you can head to `http://127.0.0.1:3000` to see the site locally!
+Now you can head to `http://127.0.0.1:4000` to see the site locally!
 
 ### Code Style
 
