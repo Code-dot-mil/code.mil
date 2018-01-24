@@ -60,7 +60,7 @@ tree-nodes:
     content: |
       Since the project has been completed, you should have received final delivery. What's key now is how that delivery was made: did you receive all of the source code, including any testing resources, build artifacts, documentation, etc? Or did you only receive a final built product?
 
-      If it was only the _final built product_ there might a problem, **you should review your contract** and ensure that you weren't supposed to receive the full source code. If you were, it looks like it's time to get the lawyers involved.
+      If it was only the _final built product_ there might a problem, **you should review your contract** to see if you were supposed to receive the full source code. If you were, it looks like it's time to get the lawyers involved.
 
       ### We have the source code
 
@@ -82,7 +82,7 @@ tree-nodes:
   - title: ""
     id: gov-only
     content: |
-      Awesome! We're really happy to hear about all the great things that the DoD is doing on a regular basis. You may not be aware, but just about any code produced by a federal employee is in the public domain, meaning any US citizen has a right to access the code and use it - even if it's not open sourced (with certain security exceptions). This impacts your open source efforts because it means that you cannot restrict any usage rights to any US citizen.
+      Awesome! We're really happy to hear about all the great things that the DoD is doing on a regular basis. You may not be aware, but most code produced by a U.S. federal employee within the scope of their employment does not have copyright protections in the U.S. and certain foreign jurisdictions. In the U.S., creative works (like code) without copyright protections are sometimes referred to as "public domain." Not all countries recognize the concept of public domain, and many countries actually recognize copyright protections for code written by U.S. federal employees.
 
       However, other countries can enforce our open source licenses, even for code in the public domain. Additionally, it can be good guidance for public contributors to identify what open source license and contribution policy govern a project. The Code.mil team recommends attaching an open source license along with an "intent" document that clearly indicates how the government intends the code to be released, even if in the United States the law says it is public domain.
 
@@ -95,9 +95,9 @@ tree-nodes:
   - title: ""
     id: mixed-code
     content: |
-      Great! We understand that partnering with the private sector is how most project development happens in the DoD. You should still be able to open source the resulting code for the project! The key is to **identify any pieces of the code that are proprietary to the contractor**. If there are such pieces then you may need to segment those and assign a separate license to it. That said, you should be able to follow the Code.mil guideline for open sourcing the code!
+      Great! We understand that partnering with the private sector is how most project development happens in the DoD. You may still be able to open source the resulting code for the project depending on the U.S. federal government's data rights in the contract! The key is to **identify any pieces of the code that are proprietary to the contractor or otherwise restricted from public disclosure**. If there are such pieces then you may need to segment those so that you don't violate the license terms in the contract. That said, if you have Unlimited Rights in segregable portions of the code, you should be able to follow the Code.mil guideline for open sourcing that code!
 
-      You will need to attach a proper license to the project, and because it was developed in part by the US Federal Government you will need to specify the "intent" of the licensing. This is required because just about any code produced by a federal employee is in the _public domain_, meaning any US citizen has a right to access the code and use it - even if it's not open sourced (with certain security exceptions). This impacts your open source efforts because it means that you cannot restrict any usage rights to any US citizen. However, other countries can enforce our open source licenses, even for code in the public domain. Additionally, it can be good guidance for public contributors to identify what open source license and contribution policy govern a project.
+      You will need to attach an appropriate license to the project, and because it was developed in part by the U.S. Federal Government you will need to specify the "intent" of the licensing (we have recommended language in the "How to" section). This  language is recommended because most code produced by a U.S. federal employee within the scope of their employment does not have copyright protections in the U.S. and certain foreign jurisdictions. This matters because  it affects the enforceability of your chosen license depending on the jurisdiction and who wrote the code. But no worries! You can still attach an open source license to your project and govern your project per that license.
 
       ### Next Steps
 

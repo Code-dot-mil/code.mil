@@ -28,11 +28,13 @@ You will need to get approval from various people -- exactly who isn't up to us!
 
 ### Step 2: Choose a License
 
-You may not be aware, but just about any code produced by a federal employee is in the public domain, meaning any US citizen has a right to access the code and use it - even if it's not open sourced (with certain security exceptions). This impacts your open source efforts because it means that you cannot restrict any usage rights to any US citizen.
+This gets a little complicated because of how U.S. law treats creative works by U.S. federal government employees.
 
-However, other countries can enforce our open source licenses, even for code in the public domain in the United States. Additionally, it can be good guidance for public contributors to identify what open source license and contribution policy govern a project. The Code.mil team recommends attaching an open source license along with an "intent" document that clearly indicates how the government intends the code to be released, even if in the United States the law says it is public domain.
+You may not be aware, but most code produced by a U.S. federal employee within the scope of their employment does not have copyright protections in the U.S. and certain foreign jurisdictions. In the U.S., creative works (like code) without copyright protections are sometimes referred to as "public domain." Not all countries recognize the concept of public domain, and many countries actually recognize copyright protections for code written by U.S. federal employees.
 
-You can use [this site to explore (and choose) an open source license](https://choosealicense.com). The Code.mil team recommends using a permissive license where possible as the code is general under the public domain anyway, which is as permissive as it gets! Our suggestion would be to use **MIT** or **ISC**, but other options like Apache 2.0 or BSD could do just as well.
+Even if the code was completely written by U.S. federal employees, it is still good practice to attach a license to the project so that the applicable license terms are clear: 1) in countries where U.S. federal employees have recognized copyright and 2) for contributions from public contributors. The Code.mil team recommends attaching an open source license along with an "intent" document that clearly indicates how the government intends the code to be released, even if in the United States public domain applies.
+
+You can use [this site to explore (and choose) an open source license](https://choosealicense.com). The Code.mil team recommends using a permissive license unless someone very familiar with copyleft licenses and how they operate both legally and technically is directly involved with the project. Our suggestions for permissive licenses are **MIT**, **ISC**, or **BSD-3** unless patents are potentially involved in which case we suggest Apache 2.0 although the others work too. Do not misunderstand these suggestions -- many of us on the Code.mil believe in the free software movement and GPL based licenses, but projects managed by the Federal government are not always the best candidates for copyleft licenses.
 
 ### Step 3: Add License Documents
 
@@ -47,15 +49,18 @@ You can see examples of these documents in the code repository for this very web
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Keep the Copyright!</h4>
     <p class='usa-alert-text'>
-      You might notice in the <a href="/LICENSE.md">LICENSE.md</a> file that there is a copyright line. That one is key, and you should keep it, even if you switch to a different license. Note that if this project was developed <strong>with a contractor</strong> that the contractor company name should also be listed here.
+      You might notice in the <a href="/LICENSE.md">LICENSE.md</a> file that there is a copyright line. That one is key, and you should keep it, even if you switch to a different license. Note that if this project was developed <strong>with a contractor</strong> that the contractor company name should also be listed here. Here is an example:
     </p>
-    <p><em>"Copyright (c) 2017-2018 U.S. Federal Government (in countries where recognized)"</em></p>
+    <p><em>
+      "Copyright (c) 2017-2018 U.S. Federal Government (in countries where recognized)<br>
+      Copyright (c) 2018 ABC Company, Inc."
+    </em></p>
   </article>
 </section>
 
 ### Step 4: Contributions
 
-The last piece of documentation you absolutely need is how people can contribute to your project, and what they must do. The Code.mil team has taken the approach of using a Developer Certificate of Origin (DCO) process, but a slightly lighter version. Essentially, contributors agree that their submission is their own original work and release any expectation of compensation, etc.
+The last piece of documentation you absolutely need is how people can contribute to your project, and what they must do. The Code.mil team has taken the approach of using a Developer Certificate of Origin (DCO) process, but a slightly lighter version. Essentially, contributors agree that their submission is their own original work and release any expectation of compensation, etc. The difference between a traditional DCO process and this slightly lighter version is that with the lighter version the DCO "sign off" is only made one time for the entire project in `CONTRIBUTORS.md` as opposed to the traditional DCO process, which requires a sign off for every commit.
 
 You can read the contributing documentation for this site to see an example of what this looks like:
 
