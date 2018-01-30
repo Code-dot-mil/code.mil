@@ -77,7 +77,7 @@ What you need to do if you fork the project depends on the status of the project
 
 No!
 
-We mean to be totally transparent in our intent and purpose with Code.mil. We want to be really clear about what we’re doing and why we’re doing it so that you feel comfortable contributing to DoD projects.
+We mean to be totally transparent in our intent and purpose with Code.mil. We want to be really clear about what we're doing and why we're doing it so that you feel comfortable contributing to DoD projects.
 
 
 **For more information or questions, please contact our team at code@dds.mil. Happy coding!**
