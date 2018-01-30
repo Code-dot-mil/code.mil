@@ -13,7 +13,7 @@ subnav:
 
 There are a few steps you will need to take to open source any project. Some of these steps are more administrative, and some involve adding things to your codebase. If you're not sure if you can open source your project, checkout our [getting started](/getting-started.html) workflow.
 
-<section class='usa-alert usa-alert-info' >
+<section class='usa-alert usa-alert-info'>
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Is this process for you?</h4>
     <p class='usa-alert-text'>
@@ -45,7 +45,7 @@ You can see examples of these documents in the code repository for this very web
 * [LICENSE.md](/LICENSE.md)
 * [INTENT.md](/INTENT.md)
 
-<section class='usa-alert usa-alert-info' >
+<section class='usa-alert usa-alert-info'>
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Keep the Copyright!</h4>
     <p class='usa-alert-text'>
@@ -73,7 +73,7 @@ Now that you have all the pieces in place, it's time to release the code publicl
 
 If you aren't sure where to post the code, or you need help getting source control set up, [contact us](mailto:{{site.email}}) and we can advise you!
 
-<section class='usa-alert usa-alert-info' >
+<section class='usa-alert usa-alert-info'>
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Using GitHub?</h4>
     <p class='usa-alert-text'>
