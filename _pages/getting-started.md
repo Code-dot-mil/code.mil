@@ -41,7 +41,7 @@ tree-nodes:
     options:
       - text: Contractor Only
         link: contract-state
-      - text: Gov Only (Military, et al)
+      - text: Gov Only (Military, et al.)
         link: gov-only
       - text: Mix of Gov and Contractor
         link: mixed-code
