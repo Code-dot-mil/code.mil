@@ -41,7 +41,7 @@ tree-nodes:
     options:
       - text: Contractor Only
         link: contract-state
-      - text: Gov Only (Military, et al)
+      - text: Gov Only (Military, et al.)
         link: gov-only
       - text: Mix of Gov and Contractor
         link: mixed-code
@@ -71,7 +71,7 @@ tree-nodes:
   - title: Two Options
     id: contract
     content: |
-      You should **review your contract** to see how delivery of the final product is expected. What we'd like to see is that delivery will be of all source code, devlopment operations and testing code and artifacts, build code and artifacts, etc. If the contractor is only expected to deliver a working product then you might not get access to the code at all.
+      You should **review your contract** to see how delivery of the final product is expected. What we'd like to see is that delivery will be of all source code, development operations and testing code and artifacts, build code and artifacts, etc. If the contractor is only expected to deliver a working product then you might not get access to the code at all.
 
       Your main options at this point (although there are others) are to:
         * modify the contract to require delivery by open source code repository; or

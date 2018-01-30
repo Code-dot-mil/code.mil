@@ -24,7 +24,7 @@ Aside from the technical benefits mentioned above, the [Federal Source Code Poli
 
 Going beyond the OMB policy itself, the [2018 NDAA](https://www.congress.gov/bill/115th-congress/house-bill/2810/text) states in [secton 875](https://www.congress.gov/bill/115th-congress/house-bill/2810/text#toc-H085810BEC6434028988553F08918929F) that "...the Secretary of Defense shall initiate for the Department of Defense the open source software pilot program established by the Office of Management and Budget Memorandum M-16-21..."
 
-<section class='usa-alert usa-alert-info' >
+<section class='usa-alert usa-alert-info'>
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Still have questions?</h4>
     <p class='usa-alert-text'>
