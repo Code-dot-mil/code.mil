@@ -7,7 +7,7 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 branches:
   only:
-    - static-site
+    - master
 before_install:
   - gem update --system
 script:
@@ -15,7 +15,7 @@ script:
 deploy:
   provider: s3
   on:
-    branch: static-site
+    branch: master
   access_key_id: $ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: code-dot-mil-website

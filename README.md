@@ -1,6 +1,6 @@
 # Welcome to Code.mil
 
-[![Build Status](https://travis-ci.org/deptofdefense/code.mil.svg?branch=static-site)](https://travis-ci.org/deptofdefense/code.mil)
+[![Build Status](https://travis-ci.org/deptofdefense/code.mil.svg)](https://travis-ci.org/deptofdefense/code.mil)
 
 An experiment in open source at the Department of Defense.
 
