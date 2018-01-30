@@ -1,15 +1,15 @@
 # Contributing to Our Projects, Version 1.2 
-**NOTE: This draft CONTRIBUTING.md is for software projects. You do not need to follow the Developer’s Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc.**
+**NOTE: This draft CONTRIBUTING.md is for software projects. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc.**
 
-Thanks for thinking about using or contributing to this software and its documentation (“Project”)!
+Thanks for thinking about using or contributing to this software and its documentation ("Project")!
 
 ## 1. Introduction
 
-The project maintainer for this Project will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the Project ("License").
+The project maintainer for this Project will only accept contributions using the Developer's Certificate of Origin 1.1 located at https://developercertificate.org ("DCO"). The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the Project ("License").
 
 ## 2. Developer Certificate of Origin Process
 
-You can agree to the DCO in your contribution by using a “Signed-off-by” line at the end of your commit message. You should only submit a contribution if you are willing to agree to the DCO terms. If you are willing, just add a line to the end of every git commit message:
+You can agree to the DCO in your contribution by using a "Signed-off-by" line at the end of your commit message. You should only submit a contribution if you are willing to agree to the DCO terms. If you are willing, just add a line to the end of every git commit message:
 
 ```Signed-off-by: Jane Smith <jane.smith@email.com>```
 
