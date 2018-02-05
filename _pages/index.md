@@ -27,13 +27,13 @@ graphics:
 
 
 intro: |
-  The U.S. Department of Defense (<acronym title='Department of Defense'>DoD</acronym>) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it difficult to attach an open source license to our code. The [Defense Digital Service](https://dds.mil) (<acronym title='Defense Digital Service'>DDS</acronym>) has been working with DoD and the open source community since early 2017 to develop a guideline for supporting open source software (<acronym title='open source software'>OSS</acronym>) within the Department.
+  The U.S. Department of Defense (<acronym title='Department of Defense'>DoD</acronym>) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it difficult to attach an open source license to our code. The [Defense Digital Service](https://dds.mil) (<acronym title='Defense Digital Service'>DDS</acronym>) has been working with DoD and the open source community since early 2017 to develop a guideline for supporting open source software (<acronym title='free and open-source software'>F/OSS</acronym>) within the Department.
 
 ---
 
 ## What is Code.mil?
 
-Code.mil is an experiment in open source at the U.S. Department of Defense. The goal is to foster open collaboration with the developer community around the world on DoD open source projects. During the first phase, which launched in early 2017, we wrote a strategy for open sourcing code written by DoD employees, and then we called upon the OSS developer community to help us finalize that plan. You can read the official [press release](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source/) on the DoD website.
+Code.mil is an experiment in open source at the U.S. Department of Defense. The goal is to foster open collaboration with the developer community around the world on DoD open source projects. During the first phase, which launched in early 2017, we wrote a strategy for open sourcing code written by DoD employees, and then we called upon the F/OSS developer community to help us finalize that plan. You can read the official [press release](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source/) on the DoD website.
 
 At the moment we're getting our first open source projects published in the open. We are also calling on the entire DoD developer community to reach out to DDS to begin tracking all of the great OSS projects coming out.
 
