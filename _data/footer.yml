@@ -1,0 +1,32 @@
+top: true
+
+# The optional heading for the footer.
+heading: Code.mil
+
+# An array of agency logos to show, side by side, in the lower left
+# of the footer on large screens.
+# If the logo is external add external: true
+logos:
+  - src: /assets/images/dod_seal.svg
+    alt: DoD
+    external: false
+  - src: /assets/images/dds-logo-desktop-full.png
+    alt: DDS
+    external: false
+
+contact:
+  links:
+    - text: <span class='usa-link-twitter usa-social_link' title='Twitter'><span>Twitter</span></span>
+      href: https://twitter.com/DefenseDigital
+      external: true
+    - text: <span class='usa-link-github usa-social_link' title='GitHub'><span>GitHub</span></span>
+      href: https://github.com/DeptOfDefense/code.mil
+      external: true
+    - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
+      href: https://medium.com/defense-digital-service
+      external: true
+
+  heading: Contact us
+
+  address: |
+    [{{site.email}}](mailto:{{site.email}})

@@ -1,0 +1,26 @@
+
+title: Code.mil
+email: code@dds.mil
+description: An experiment in open source within the Department of Defense.
+
+styles:
+  - /assets/uswds/css/uswds.min.css
+  - /assets/css/main.css
+
+scripts:
+  - /assets/uswds/js/uswds.min.js
+  - /assets/js/main.js
+
+# Build settings
+markdown: kramdown
+theme: uswds-jekyll
+
+include:
+  - '_pages'
+
+exclude:
+  - 'cibuild'
+  - 'Gemfile.lock'
+  - 'Gemfile'
+  - 'README.md'
+  - 'vendor'
