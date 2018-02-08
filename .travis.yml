@@ -10,12 +10,14 @@ before_install:
 script:
 - "./cibuild"
 deploy:
+  before_deploy:
+  - if [[ -z "$TRAVIS_TAG" ]] ; then export BUCKET="beta.code.mil" ; else export BUCKET="www.code.mil" ; fi
   provider: s3
   on:
     branch: master
   access_key_id: "$ACCESS_KEY_ID"
   secret_access_key: "$AWS_SECRET_ACCESS_KEY"
-  bucket: www.code.mil
+  bucket: "${BUCKET}"
   local_dir: _site
   skip_cleanup: true
 notifications:
