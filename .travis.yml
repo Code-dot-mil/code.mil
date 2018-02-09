@@ -11,7 +11,7 @@ script:
 - "./cibuild"
 deploy:
   before_deploy:
-  - if [[ -z "$TRAVIS_TAG" ]] ; then export BUCKET="beta.code.mil" ; else export BUCKET="www.code.mil" ; fi
+  - if [[ "$TRAVIS_TAG" =~ "^v[0-9]+\.[0-9]+\.[0-9]+" ]] ; then export BUCKET="www.code.mil" ; else export BUCKET="beta.code.mil" ; fi
   provider: s3
   on:
     branch: master
