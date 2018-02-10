@@ -16,6 +16,7 @@ deploy:
     bucket: "beta.code.mil"
     local_dir: _site
     skip_cleanup: true
+    acl: public_read
     on:
       branch: master
   - provider: s3
@@ -24,6 +25,7 @@ deploy:
     bucket: "www.code.mil"
     local_dir: _site
     skip_cleanup: true
+    acl: public_read
     on:
       condition: "$TRAVIS_TAG =~ ^v[0-9]+\\.[0-9]+\\.[0-9]+$"
 notifications:
