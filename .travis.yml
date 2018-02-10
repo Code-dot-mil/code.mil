@@ -9,15 +9,22 @@ before_install:
 - gem update --system
 script:
 - "./cibuild"
-before_deploy:
-- if [[ "$TRAVIS_TAG" =~ "^v[0-9]+\.[0-9]+\.[0-9]+$" ]] ; then export BUCKET="www.code.mil" ; else export BUCKET="beta.code.mil" ; fi
 deploy:
   provider: s3
   on:
     branch: master
   access_key_id: "$ACCESS_KEY_ID"
   secret_access_key: "$AWS_SECRET_ACCESS_KEY"
-  bucket: "${BUCKET}"
+  bucket: "beta.code.mil"
+  local_dir: _site
+  skip_cleanup: true
+deploy:
+  provider: s3
+  on:
+    condition: "$TRAVIS_TAG" =~ "^v[0-9]+\.[0-9]+\.[0-9]+$"
+  access_key_id: "$ACCESS_KEY_ID"
+  secret_access_key: "$AWS_SECRET_ACCESS_KEY"
+  bucket: "www.code.mil"
   local_dir: _site
   skip_cleanup: true
 notifications:
