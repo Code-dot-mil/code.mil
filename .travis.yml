@@ -17,7 +17,7 @@ deploy:
     branch: master
   access_key_id: "$ACCESS_KEY_ID"
   secret_access_key: "$AWS_SECRET_ACCESS_KEY"
-  bucket: "$BUCKET"
+  bucket: $BUCKET
   local_dir: _site
   skip_cleanup: true
 notifications:
