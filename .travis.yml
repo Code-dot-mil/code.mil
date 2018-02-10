@@ -25,7 +25,7 @@ deploy:
     local_dir: _site
     skip_cleanup: true
     on:
-      condition: "$TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$"
+      condition: "$TRAVIS_TAG =~ ^v[0-9]+\\.[0-9]+\\.[0-9]+$"
 notifications:
   slack:
     secure: 4qPA2gwhnysIhyMOSN/9B30lANgIKvvoiL+0QC0UMeIOCbWj3l/HvKbnylONIyegbYdeJlJE21B4/Cs4wbeM637QYHwyRNqIpLNPOsb7fnZRcBaASa86wGwiOHWeKBxqxH2jb980t8T8otMFy3YcT/ipyDtCN2+d3DqmNgtfhcFmWKRBoZKnRda/HfxxCRxiOZpCCJg9SSOzeTx3yQ8En5vDg6KFfPAnUKVNYsy65yeb6IE4YUq9pJF/XQyE/yjsSluYyPnL0128kE3lI1KfxpGpi3dwQ/uRMBBrxWT9PDPl/jzVeHUccDCJgX5pWlKpgFmXdHMs7VjJUMEUTiXqkNsS+CI4HSELUw4UIn/oUWqZTBoty3ASYLsztlj4wed+ya6g2DFGvGFHzke6chDzHQqmGlLX59f4bl5XQPybFWpu5vCJYfI88ZupWslZDGuB2wYSlCLxizsXmA6Pv+pmixDPvtppEUkTd4+N+FWU+uKP6TFK5OGNIZ006qt8/uogn+C7rReiANfBP+K62xM3klsTTbSOVDRCLVjOVMpbORQ5t/wjZYljaitoxi1FCsmxK6QabZP+Wx7U0VhnB8PBArTVob2m9u2JCsRTndn2SrKUz01khxJPlO6d7hviu/PMdmsAtSTJx3oXsT/w2UGF3Lq1RAD7CkOLalDKGSIAqHI=
