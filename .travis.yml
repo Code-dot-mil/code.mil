@@ -9,6 +9,8 @@ before_install:
 - gem update --system
 script:
 - ./cibuild
+before_deploy:
+- if [[ -z "$TRAVIS_TAG" ]] ; then cp robots.txt-for-beta.code.mil _site/robots.txt ; fi
 deploy:
   - provider: s3
     access_key_id: "$ACCESS_KEY_ID"
