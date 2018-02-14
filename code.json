@@ -88,6 +88,53 @@
         "created": "2017-04-19",
         "lastModified": "2018-02-12"
       }
+    },
+    {
+      "name": "mymove",
+      "repositoryURL": "https://github.com/transcom/mymove",
+      "description": "Personal Property Prototype",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/transcom/mymove/blob/master/LICENSE.md",
+            "name": "MIT"
+          }
+        ],
+        "usageType": "openSource",
+        "exemptionText": null
+      },
+      "laborHours": 2400,
+      "tags": [
+        "Defense Personal Property System",
+        "US Transportation Command",
+        "USTRANSCOM",
+        "Defense Digital Service",
+        "DDS",
+        "Go",
+        "React",
+        "Redux"
+      ],
+      "contact": {
+        "email": "afds@dds.mil"
+      },
+      "organization": "US Transportation Command",
+      "status": "Development",
+      "vcs": "git",
+      "homepageURL": "https://move.mil",
+      "languages": [
+        "Go",
+        "JavaScript"
+      ],
+      "reusedCode": [
+        {
+          "name": "US Web Design System",
+          "url": "https://designsystem.digital.gov"
+        }
+      ],
+      "date": {
+        "created": "2017-12-18",
+        "lastModified": "2018-02-13"
+      }
     }
 	]
 }
