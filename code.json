@@ -38,7 +38,12 @@
       "repositoryURL": "https://github.com/deptofdefense/move.mil",
       "description": "The entry point website to the Defense Personal Property System (DPS).",
       "permissions": {
-        "licenses": [],
+        "licenses": [
+          {
+            "URL": "https://github.com/deptofdefense/move.mil/blob/master/LICENSE.md",
+            "name": "MIT"
+          }
+        ],
         "usageType": "openSource",
         "exemptionText": null
       },
