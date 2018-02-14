@@ -83,7 +83,11 @@
           "name": "US Web Design System",
           "url": "https://designsystem.digital.gov"
         }
-      ]
+      ],
+      "date": {
+        "created": "2017-04-19",
+        "lastModified": "2018-02-12"
+      }
     }
 	]
 }
