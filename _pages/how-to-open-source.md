@@ -17,7 +17,7 @@ There are a few steps you will need to take to open source any project. Some of 
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Is this process for you?</h4>
     <p class='usa-alert-text'>
-      This is one suggested workflow for opening sourcing an existing project (whether there is code or not yet), but you may want - or need - to follow a different process. Be sure to check with your organization to see if there is already a defined path to open source for you! If you aren't sure, send us an <a href='mailto:{{site.email}}'>email</a>!
+      This is one suggested workflow for open sourcing an existing project (whether there is code or not yet), but you may want - or need - to follow a different process. Be sure to check with your organization to see if there is already a defined path to open source for you! If you aren't sure, send us an <a href='mailto:{{site.email}}'>email</a>!
     </p>
   </article>
 </section>
