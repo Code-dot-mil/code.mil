@@ -71,11 +71,6 @@
         "Sass",
         "JavaScript"
       ],
-      "partners": [
-        {
-          "name": "US Transportation Command"
-        }
-      ],
       "relatedCode": [
         {
           "name": "uswds-rails",
