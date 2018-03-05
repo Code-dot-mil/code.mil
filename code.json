@@ -163,6 +163,34 @@
 				"created": "2017-02-01",
 				"metadataLastUpdated": "2018-02-08T13:00-04:00"
 			}
+		},
+		{
+			"organization": "DISA",
+			"name": "Real Time Forwarding Network - Military",
+			"description": "On demand private connectivity through commercial carriers",
+			"tags": [],
+			"contact": {
+				"email": "david.j.stern.civ@mail.mil",
+				"name": "David Stern"
+			},
+			"status": "Production",
+			"vcs": "git",
+			"languages": ["Python", "HTML", "CSS", "JavaScript"],
+			"repositoryURL": "https://github.com/deptofdefense/rtfn-mil",
+			"permissions": {
+				"licenses": [
+					{
+						"URL": "https://github.com/deptofdefense/rtfn-mil/blob/master/LICENSE",
+						"name": "MIT"
+					}
+				],
+				"usageType": "openSource"
+			},
+			"laborHours": 224,
+			"date": {
+				"created": "2016-10-01",
+				"metadataLastUpdated": "2018-02-13T13:00-04:00"
+			}
 		}
 	]
 }
