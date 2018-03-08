@@ -33,109 +33,109 @@
 				"metadataLastUpdated": "2018-01-23T15:00-04:00"
 			}
 		},
-    {
-      "name": "Move.mil",
-      "repositoryURL": "https://github.com/deptofdefense/move.mil",
-      "description": "The entry point website to the Defense Personal Property System (DPS).",
-      "permissions": {
-        "licenses": [
-          {
-            "URL": "https://github.com/deptofdefense/move.mil/blob/master/LICENSE.md",
-            "name": "MIT"
-          }
-        ],
-        "usageType": "openSource",
-        "exemptionText": null
-      },
-      "laborHours": 3000,
-      "tags": [
-        "Defense Personal Property System",
-        "US Transportation Command",
-        "USTRANSCOM",
-        "Defense Digital Service",
-        "DDS",
-        "Ruby",
-        "Ruby on Rails"
-      ],
-      "contact": {
-        "email": "move.mil@dds.mil"
-      },
-      "organization": "Defense Digital Service",
-      "status": "Production",
-      "vcs": "git",
-      "homepageURL": "https://move.mil",
-      "languages": [
-        "Ruby",
-        "Ruby on Rails",
-        "HTML",
-        "Sass",
-        "JavaScript"
-      ],
-      "relatedCode": [
-        {
-          "name": "uswds-rails",
-          "url": "https://github.com/jgarber623/uswds-rails",
-          "isGovernmentRepo": false
-        }
-      ],
-      "reusedCode": [
-        {
-          "name": "US Web Design System",
-          "url": "https://designsystem.digital.gov"
-        }
-      ],
-      "date": {
-        "created": "2017-04-19",
-        "lastModified": "2018-02-12"
-      }
-    },
-    {
-      "name": "mymove",
-      "repositoryURL": "https://github.com/transcom/mymove",
-      "description": "Personal Property Prototype",
-      "permissions": {
-        "licenses": [
-          {
-            "URL": "https://github.com/transcom/mymove/blob/master/LICENSE.md",
-            "name": "MIT"
-          }
-        ],
-        "usageType": "openSource",
-        "exemptionText": null
-      },
-      "laborHours": 2400,
-      "tags": [
-        "Defense Personal Property System",
-        "US Transportation Command",
-        "USTRANSCOM",
-        "Defense Digital Service",
-        "DDS",
-        "Go",
-        "React",
-        "Redux"
-      ],
-      "contact": {
-        "email": "afds@dds.mil"
-      },
-      "organization": "US Transportation Command",
-      "status": "Development",
-      "vcs": "git",
-      "homepageURL": "https://move.mil",
-      "languages": [
-        "Go",
-        "JavaScript"
-      ],
-      "reusedCode": [
-        {
-          "name": "US Web Design System",
-          "url": "https://designsystem.digital.gov"
-        }
-      ],
-      "date": {
-        "created": "2017-12-18",
-        "lastModified": "2018-02-13"
-      }
-    },
+		{
+			"name": "Move.mil",
+			"repositoryURL": "https://github.com/deptofdefense/move.mil",
+			"description": "The entry point website to the Defense Personal Property System (DPS).",
+			"permissions": {
+				"licenses": [
+					{
+						"URL": "https://github.com/deptofdefense/move.mil/blob/master/LICENSE.md",
+						"name": "MIT"
+					}
+				],
+				"usageType": "openSource",
+				"exemptionText": null
+			},
+			"laborHours": 3000,
+			"tags": [
+				"Defense Personal Property System",
+				"US Transportation Command",
+				"USTRANSCOM",
+				"Defense Digital Service",
+				"DDS",
+				"Ruby",
+				"Ruby on Rails"
+			],
+			"contact": {
+				"email": "move.mil@dds.mil"
+			},
+			"organization": "Defense Digital Service",
+			"status": "Production",
+			"vcs": "git",
+			"homepageURL": "https://move.mil",
+			"languages": [
+				"Ruby",
+				"Ruby on Rails",
+				"HTML",
+				"Sass",
+				"JavaScript"
+			],
+			"relatedCode": [
+				{
+					"name": "uswds-rails",
+					"url": "https://github.com/jgarber623/uswds-rails",
+					"isGovernmentRepo": false
+				}
+			],
+			"reusedCode": [
+				{
+					"name": "US Web Design System",
+					"url": "https://designsystem.digital.gov"
+				}
+			],
+			"date": {
+				"created": "2017-04-19",
+				"lastModified": "2018-02-12"
+			}
+		},
+		{
+			"name": "mymove",
+			"repositoryURL": "https://github.com/transcom/mymove",
+			"description": "Personal Property Prototype",
+			"permissions": {
+				"licenses": [
+					{
+						"URL": "https://github.com/transcom/mymove/blob/master/LICENSE.md",
+						"name": "MIT"
+					}
+				],
+				"usageType": "openSource",
+				"exemptionText": null
+			},
+			"laborHours": 2400,
+			"tags": [
+				"Defense Personal Property System",
+				"US Transportation Command",
+				"USTRANSCOM",
+				"Defense Digital Service",
+				"DDS",
+				"Go",
+				"React",
+				"Redux"
+			],
+			"contact": {
+				"email": "afds@dds.mil"
+			},
+			"organization": "US Transportation Command",
+			"status": "Development",
+			"vcs": "git",
+			"homepageURL": "https://move.mil",
+			"languages": [
+				"Go",
+				"JavaScript"
+			],
+			"reusedCode": [
+				{
+					"name": "US Web Design System",
+					"url": "https://designsystem.digital.gov"
+				}
+			],
+			"date": {
+				"created": "2017-12-18",
+				"lastModified": "2018-02-13"
+			}
+		},
 		{
 			"organization": "DDS",
 			"name": "Code.mil",
