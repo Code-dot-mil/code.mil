@@ -1,9 +1,11 @@
 top:
   - text: Why Open Source
     href: /why-open-source.html
-  - text: Get Started
+  - text: Getting Started
     href: /getting-started.html
-  - text: FAQ
+  - text: How to Open Source
+    href: /how-to-open-source.html
+  - text: FAQs
     href: /frequently-asked-questions.html
 
 side:
