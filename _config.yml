@@ -4,8 +4,8 @@ email: code@dds.mil
 description: An experiment in open source within the Department of Defense.
 
 styles:
-  - /assets/uswds/css/uswds.min.css
   - /assets/css/main.css
+  - /assets/css/custom.css
 
 scripts:
   - /assets/uswds/js/uswds.min.js
