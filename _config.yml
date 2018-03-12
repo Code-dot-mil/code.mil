@@ -19,9 +19,9 @@ include:
   - '_pages'
 
 exclude:
-  - '.sass-cache'
   - 'build'
   - 'Gemfile'
   - 'Gemfile.lock'
   - 'README.md'
   - 'robots.txt-for-beta.code.mil'
+  - 'vendor'
