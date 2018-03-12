@@ -1,7 +1,6 @@
+usa_banner: true
 
-# header types can be 'basic' or 'extended'
 type: extended
 
 secondary:
-  # this is a key into _data/navigation.yml
   links: top
