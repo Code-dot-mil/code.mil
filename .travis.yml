@@ -5,7 +5,7 @@ cache: bundler
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-before_install:	
+before_install:
 - gem update --system
 script:
 - ./build
