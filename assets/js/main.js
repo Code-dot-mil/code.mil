@@ -54,7 +54,7 @@
    */
   (function SubNav() {
     if (/^\/frequently\-asked\-questions/.test(window.location.pathname)) {
-      insertSubNav('#main-content h1', '/frequently-asked-questions.html', 1);
+      insertSubNav('#main-content h2', '/frequently-asked-questions.html', 1);
     } else if (/^\/how\-to\-open\-source/.test(window.location.pathname)) {
       insertSubNav('#main-content h3', '/how-to-open-source.html', 1);
     }
