@@ -23,4 +23,5 @@ exclude:
   - 'Gemfile.lock'
   - 'Gemfile'
   - 'README.md'
+  - 'robots.txt-for-beta.code.mil'
   - 'vendor'
