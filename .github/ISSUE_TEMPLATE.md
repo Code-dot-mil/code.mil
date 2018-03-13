@@ -15,5 +15,4 @@ Please:
 * Clearly and concisely name your issue
 * Search for duplicate issues https://github.com/deptofdefense/code.mil/issues
 * Split different bugs/features into different issues
-* Add tags to the issue
 -->
