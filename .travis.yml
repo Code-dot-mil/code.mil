@@ -16,7 +16,6 @@ deploy:
     access_key_id: "$ACCESS_KEY_ID"
     secret_access_key: "$AWS_SECRET_ACCESS_KEY"
     bucket: "beta.code.mil"
-    region: us-west-2
     local_dir: _site
     skip_cleanup: true
     acl: public_read
@@ -26,7 +25,6 @@ deploy:
     access_key_id: "$ACCESS_KEY_ID"
     secret_access_key: "$AWS_SECRET_ACCESS_KEY"
     bucket: "www.code.mil"
-    region: us-west-2
     local_dir: _site
     skip_cleanup: true
     acl: public_read
