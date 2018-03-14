@@ -19,7 +19,7 @@ include:
   - '_pages'
 
 exclude:
-  - 'cibuild'
+  - 'build'
   - 'Gemfile.lock'
   - 'Gemfile'
   - 'README.md'
