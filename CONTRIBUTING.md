@@ -138,5 +138,5 @@ Assuming everything checks out, the Code.mil team will deploy the changes to [co
 While there are automated checks on every PR, you can run the build process locally first to ensure things are working as expected before submitting your PR. This includes running check against the built HTML using a tool called [html-proofer](https://github.com/gjtorikian/html-proofer). You can run the build and the html-proofer tool using the following command:
 
 ```
-./cibuild
+./build
 ```
