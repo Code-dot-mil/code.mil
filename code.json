@@ -7,9 +7,12 @@
 	"releases": [
 		{
 			"organization": "NCI Agency",
-			"name": "Advisor Network",
+			"name": "ANET",
 			"description": "The Advisor Network (ANET) is a tool to track relationships between advisors and advisees. ANET was initially built by the Defense Digital Service in support of the USFOR-A and Resolute Support mission to train, advise, and assist the Afghan government.",
-			"tags": [],
+			"tags": [
+				"advisor",
+				"network"
+			],
 			"contact": {
 				"email": "Vassil.iordanov@ncia.nato.int",
 				"name": "Vassil Iordanov"
@@ -30,7 +33,8 @@
 			"laborHours": 1,
 			"date": {
 				"created": "2017-02-12",
-				"metadataLastUpdated": "2018-01-23T15:00-04:00"
+				"lastModified": "2018-01-23T15:00-04:00",
+				"metadataLastUpdated": "2018-03-15T20:31:00Z"
 			}
 		},
 		{
@@ -44,8 +48,7 @@
 						"name": "MIT"
 					}
 				],
-				"usageType": "openSource",
-				"exemptionText": null
+				"usageType": "openSource"
 			},
 			"laborHours": 3000,
 			"tags": [
@@ -86,7 +89,8 @@
 			],
 			"date": {
 				"created": "2017-04-19",
-				"lastModified": "2018-02-12"
+				"lastModified": "2018-02-12",
+				"metadataLastUpdated": "2018-03-15T20:31:00Z"
 			}
 		},
 		{
@@ -133,7 +137,8 @@
 			],
 			"date": {
 				"created": "2017-12-18",
-				"lastModified": "2018-02-13"
+				"lastModified": "2018-02-13",
+				"metadataLastUpdated": "2018-03-15T20:31:00Z"
 			}
 		},
 		{
@@ -161,7 +166,8 @@
 			"laborHours": 80,
 			"date": {
 				"created": "2017-02-01",
-				"metadataLastUpdated": "2018-02-08T13:00-04:00"
+				"lastModified": "2018-02-08T13:00-04:00",
+				"metadataLastUpdated": "2018-03-15T20:31:00Z"
 			}
 		},
 		{
@@ -189,7 +195,8 @@
 			"laborHours": 224,
 			"date": {
 				"created": "2016-10-01",
-				"metadataLastUpdated": "2018-02-13T13:00-04:00"
+				"lastModified": "2018-02-13T13:00-04:00",
+				"metadataLastUpdated": "2018-03-15T20:31:00Z"
 			}
 		},
 		{
@@ -217,7 +224,86 @@
 			"laborHours": 248,
 			"date": {
 				"created": "2017-08-01",
-				"metadataLastUpdated": "2017-12-21T13:00-04:00"
+				"lastModified": "2017-12-21T13:00-04:00",
+				"metadataLastUpdated": "2018-03-15T20:31:00Z"
+			}
+		},
+		{
+			"status": "Production",
+			"vcs": "git",
+			"repoURL": "https://github.com/deptofdefense/eMCM",
+			"name": "eMCM",
+			"description": "Search and browse interface for the Military Courts-martial Manual.",
+			"contact": {
+				"email": "code@dds.mil",
+				"name": "DDS"
+			},
+			"tags": [
+				"search",
+				"browse",
+				"interface",
+				"military",
+				"courts",
+				"martial",
+				"manual"
+			],
+			"languages": [
+				"HTML",
+				"JavaScript",
+				"CSS"
+			],
+			"repositoryURL": "https://github.com/deptofdefense/eMCM",
+			"homepageURL": "http://mcm.mil",
+			"permissions": {
+				"licenses": [
+					{
+						"URL": "https://github.com/deptofdefense/eMCM/blob/master/LICENSE.md",
+						"name": "AGPL"
+					}
+				],
+				"usageType": "openSource"
+			},
+			"laborHours": 1,
+			"date": {
+				"created": "2016-12-14",
+				"lastModified": "2017-10-10T16:12:00Z",
+				"metadataLastUpdated": "2018-03-15T20:31:00Z"
+			}
+		},
+		{
+			"status": "Production",
+			"vcs": "git",
+			"name": "Dshell",
+			"description": "An extensible network forensic analysis framework. Enables rapid development of plugins to support the dissection of network packet captures.",
+			"contact": {
+				"email": " ",
+				"name": ""
+			},
+			"tags": [
+				"dshell",
+				"network",
+				"forensic",
+				"analysis",
+				"framework"
+			],
+			"languages": [
+				"Python"
+			],
+			"repositoryURL": "https://github.com/USArmyResearchLab/Dshell",
+			"permissions": {
+				"licenses": [
+					{
+						"URL": "https://github.com/USArmyResearchLab/Dshell/blob/master/LICENSE.txt",
+						"name": "MIT"
+					}
+				],
+				"usageType": "openSource"
+			},
+			"laborHours": 1,
+			"date": {
+				"created": "2014-12-17T11:04:00Z",
+				"lastModified": "2017-11-16T12:25:00Z",
+				"metadataLastUpdated": "2018-03-15T20:31:00Z"
 			}
 		}
 	]
