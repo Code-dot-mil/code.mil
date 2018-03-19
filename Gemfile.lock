@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/18F/uswds-jekyll.git
-  revision: 0782129c5e7dd49693df96c18ab4378b3c529b1c
+  revision: feae6a47126a705876a48fad8775d5ca9a46fa33
   specs:
-    uswds-jekyll (4.0.0)
+    uswds-jekyll (4.1.0)
       jekyll (~> 3.4)
 
 GEM
@@ -99,9 +99,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  html-proofer (~> 3.8)
-  jekyll (~> 3.7)
-  jekyll_pages_api_search (~> 0.5.0)
+  html-proofer
+  jekyll
+  jekyll_pages_api_search
   uswds-jekyll!
 
 RUBY VERSION
