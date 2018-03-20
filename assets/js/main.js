@@ -9,11 +9,6 @@
 
 (function() {
 
-  // This is super fragile, but otherwise the header reads like we're
-  // less official: "The .gov means it's official."
-  var govBanner = document.querySelector('.usa-banner-guidance-gov strong');
-  govBanner.innerText = govBanner.innerText.replace(/\.gov/, '.mil');
-
   /**
    * Finds nodes based on the given selector, starting from the provided root
    * node (or the document). The nodes are returned in a real Array versus a
