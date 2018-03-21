@@ -88,7 +88,7 @@
       var node = nodes.filter(function(n) { return n.getAttribute('id') === e.target.getAttribute('href').substr(1); })[0];
       if (node) {
         node.classList.add('active');
-        window.scrollTo({ top: node.offsetTop });
+        node.scrollIntoView({behavior: "smooth"});
         var answer = document.createElement('p');
         answer.classList.add('tree-node-answer');
         answer.innerText = e.target.innerText;
