@@ -25,7 +25,3 @@ exclude:
   - 'robots.txt-for-beta.code.mil'
   - 'serve'
   - 'vendor'
-
-context:
-  banner:
-    is_dot_mil: True
