@@ -4,6 +4,7 @@ permalink: /frequently-asked-questions.html
 
 layout: page
 sidenav: side
+sticky_sidenav: true
 subnav:
   - text: "What is Code.mil?"
     href: "/frequently-asked-questions.html#what-is-codemil"
