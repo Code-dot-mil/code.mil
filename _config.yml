@@ -20,8 +20,8 @@ include:
 
 exclude:
   - 'build'
-  - 'Gemfile.lock'
   - 'Gemfile'
-  - 'README.md'
+  - 'Gemfile.lock'
   - 'robots.txt-for-beta.code.mil'
+  - 'serve'
   - 'vendor'

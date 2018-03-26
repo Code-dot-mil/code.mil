@@ -9,11 +9,6 @@
 
 (function() {
 
-  // This is super fragile, but otherwise the header reads like we're
-  // less official: "The .gov means it's official."
-  var govBanner = document.querySelector('.usa-banner-guidance-gov strong');
-  govBanner.innerText = govBanner.innerText.replace(/\.gov/, '.mil');
-
   /**
    * Finds nodes based on the given selector, starting from the provided root
    * node (or the document). The nodes are returned in a real Array versus a
@@ -93,7 +88,7 @@
       var node = nodes.filter(function(n) { return n.getAttribute('id') === e.target.getAttribute('href').substr(1); })[0];
       if (node) {
         node.classList.add('active');
-        window.scrollTo({ top: node.offsetTop });
+        node.scrollIntoView({behavior: "smooth"});
         var answer = document.createElement('p');
         answer.classList.add('tree-node-answer');
         answer.innerText = e.target.innerText;

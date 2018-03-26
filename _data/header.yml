@@ -4,3 +4,5 @@ type: extended
 
 secondary:
   links: top
+
+government_tld: .mil
