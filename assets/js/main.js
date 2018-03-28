@@ -148,5 +148,11 @@
         window.location.hash = hashHistory.join("!");
       }
     });
+
+    // support reset
+    tree.querySelector('a.tree-reset').addEventListener('click', function treeNodeButtonClick(e) {
+      e.preventDefault();
+      window.location.hash = "";
+    });
   })();
 })();
