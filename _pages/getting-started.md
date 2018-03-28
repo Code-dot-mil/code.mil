@@ -132,8 +132,4 @@ This page will help you understand how to participate in Code.mil and comply wit
     {% endif %}
   </article>
   {% endfor %}
-
-  <aside class='tree-reset'>
-    <a href='#' class='tree-reset'>Reset Guide</a>
-  </aside>
 </section>

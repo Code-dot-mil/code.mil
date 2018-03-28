@@ -106,22 +106,5 @@
         e.target.parentNode.classList.add('hidden');
       }
     });
-
-    tree.querySelector('a.tree-reset').addEventListener('click', function treeNodeButtonClick(e) {
-      e.preventDefault();
-      nodes.forEach(function(n, i) {
-        if (i === 0) {
-          return;
-        }
-        n.classList.remove('active');
-      });
-      find('.tree-node-options', tree).forEach(function(n) {
-        n.classList.remove('hidden');
-      });
-      find('.tree-node-answer', tree).forEach(function(n) {
-        n.parentNode.removeChild(n);
-      });
-    });
   })();
-
 })();
