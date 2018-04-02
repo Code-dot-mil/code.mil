@@ -85,7 +85,7 @@
     var hashHistory = [];
 
     // Pull tree history from hash
-    var updateHashHistory = function() {
+    function updateHashHistory() {
       hashHistory = window.location.hash.replace('#','').split('!');
       if (hashHistory.length == 1) {
         hashHistory = ["tree-node-start"];
@@ -93,7 +93,7 @@
     }
 
     // Update tree to reflect hash state
-    var renderTree = function() {
+    function renderTree() {
       updateHashHistory();
       var treeNodes = nodes.filter(function(n) {
         return n.classList && n.classList.contains('tree-node');
