@@ -13,6 +13,6 @@
 <!--
 Please:
 * Clearly and concisely name your issue
-* Search for duplicate issues https://github.com/deptofdefense/code.mil/issues
+* Search for duplicate issues https://github.com/Code-dot-mil/code.mil/issues
 * Split different bugs/features into different issues
 -->
