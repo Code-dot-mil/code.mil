@@ -63,7 +63,9 @@
       if (list) {
         find(jumpNodeSelector)
           .forEach(function(node, i) {
-            if (i < skipCount) { return; }
+            if (i < skipCount) {
+              return;
+            }
 
             var item = document.createElement('li');
             item.innerHTML = '<a href="' + basePath + '#' + node.getAttribute('id') + '">' + node.innerText + '</a>';
@@ -75,20 +77,28 @@
 
   (function DecisionTree() {
     var tree = document.querySelector('.decision-tree');
-    if (!tree) { return; }
+    if (!tree) {
+      return;
+    }
 
     var nodes = find('.tree-node', tree);
     nodes[0].classList.add('active');
 
     tree.addEventListener('click', function treeNodeButtonClick(e) {
-      if (!e.target.classList.contains('tree-link')) { return; }
+      if (!e.target.classList.contains('tree-link')) {
+        return;
+      }
 
       e.preventDefault();
 
-      var node = nodes.filter(function(n) { return n.getAttribute('id') === e.target.getAttribute('href').substr(1); })[0];
+      var node = nodes.filter(function(n) {
+        return n.getAttribute('id') === e.target.getAttribute('href').substr(1);
+      })[0];
       if (node) {
         node.classList.add('active');
-        node.scrollIntoView({behavior: "smooth"});
+        node.scrollIntoView({
+          behavior: "smooth"
+        });
         var answer = document.createElement('p');
         answer.classList.add('tree-node-answer');
         answer.innerText = e.target.innerText;
@@ -100,11 +110,17 @@
     tree.querySelector('a.tree-reset').addEventListener('click', function treeNodeButtonClick(e) {
       e.preventDefault();
       nodes.forEach(function(n, i) {
-        if (i === 0) { return; }
+        if (i === 0) {
+          return;
+        }
         n.classList.remove('active');
       });
-      find('.tree-node-options', tree).forEach(function(n) { n.classList.remove('hidden'); });
-      find('.tree-node-answer', tree).forEach(function(n) { n.parentNode.removeChild(n); });
+      find('.tree-node-options', tree).forEach(function(n) {
+        n.classList.remove('hidden');
+      });
+      find('.tree-node-answer', tree).forEach(function(n) {
+        n.parentNode.removeChild(n);
+      });
     });
   })();
 
