@@ -82,46 +82,77 @@
     }
 
     var nodes = find('.tree-node', tree);
-    nodes[0].classList.add('active');
+    var hashHistory = [];
 
+    // Pull tree history from hash
+    function updateHashHistory() {
+      hashHistory = window.location.hash.replace('#','').split('!');
+      if (hashHistory.length == 1) {
+        hashHistory = ["tree-node-start"];
+      }
+    }
+
+    // Update tree to reflect hash state
+    function renderTree() {
+      updateHashHistory();
+      var treeNodes = nodes.filter(function(n) {
+        return n.classList && n.classList.contains('tree-node');
+      });
+      for (var i = 0; i < treeNodes.length; i++) {
+        var node = treeNodes[i];
+        if (hashHistory.includes(node.getAttribute('id'))) {
+          node.classList.add('active');
+        } else {
+          node.classList.remove('active');
+        }
+        var childNodes = Array.prototype.concat.apply([], node.childNodes);
+        var childNode = childNodes.filter(function(n) {
+          return n.classList && n.classList.contains('tree-node-options');
+        })[0];
+        if (!childNode) {
+          continue;
+        }
+        if (hashHistory[hashHistory.length - 1] == node.getAttribute('id')) {
+          childNode.classList.remove('hidden');
+        } else {
+          childNode.classList.add('hidden');
+        }
+      }
+      if (hashHistory.length > 1) {
+        var node = document.getElementById(hashHistory[hashHistory.length - 1]);
+        node.scrollIntoView({
+          behavior: "smooth"
+        });
+      }
+    }
+
+    // Render tree as it is now
+    renderTree();
+
+    // Re-render tree each time the hash changes
+    window.addEventListener("hashchange", function() {
+      renderTree();
+    });
+
+    // Update hash each time the tree is clicked
     tree.addEventListener('click', function treeNodeButtonClick(e) {
       if (!e.target.classList.contains('tree-link')) {
         return;
       }
-
       e.preventDefault();
-
       var node = nodes.filter(function(n) {
         return n.getAttribute('id') === e.target.getAttribute('href').substr(1);
       })[0];
       if (node) {
-        node.classList.add('active');
-        node.scrollIntoView({
-          behavior: "smooth"
-        });
-        var answer = document.createElement('p');
-        answer.classList.add('tree-node-answer');
-        answer.innerText = e.target.innerText;
-        e.target.parentNode.parentNode.appendChild(answer);
-        e.target.parentNode.classList.add('hidden');
+        hashHistory.push(node.getAttribute('id'));
+        window.location.hash = hashHistory.join("!");
       }
     });
 
+    // support reset
     tree.querySelector('a.tree-reset').addEventListener('click', function treeNodeButtonClick(e) {
       e.preventDefault();
-      nodes.forEach(function(n, i) {
-        if (i === 0) {
-          return;
-        }
-        n.classList.remove('active');
-      });
-      find('.tree-node-options', tree).forEach(function(n) {
-        n.classList.remove('hidden');
-      });
-      find('.tree-node-answer', tree).forEach(function(n) {
-        n.parentNode.removeChild(n);
-      });
+      window.location.hash = "";
     });
   })();
-
 })();
