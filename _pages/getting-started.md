@@ -56,7 +56,7 @@ tree-nodes:
       - text: "No"
         link: contract
 
-  - title: ""
+  - title: Contract Complete
     id: contract-complete
     content: |
       Since the project has been completed, you should have received final delivery. What's key now is how that delivery was made: did you receive all of the source code, including any testing resources, build artifacts, documentation, etc? Or did you only receive a final built product?
@@ -69,7 +69,7 @@ tree-nodes:
 
       <a href='/how-to-open-source.html' class='usa-button'>How to Open Source</a>
 
-  - title: Two Options
+  - title: Contract In-progress
     id: contract
     content: |
       You should **review your contract** to see how delivery of the final product is expected. What we'd like to see is that delivery will be of all source code, development operations and testing code and artifacts, build code and artifacts, etc. If the contractor is only expected to deliver a working product then you might not get access to the code at all.
@@ -80,7 +80,7 @@ tree-nodes:
 
       There are a lot of possibilities within those options, however. We encourage you to read our [frequently asked questions](/frequently-asked-questions.html) and then reach out to us by email at [{{site.email}}](mailto:{{site.email}}) to continue the conversation.
 
-  - title: ""
+  - title: Gov Only
     id: gov-only
     content: |
       Awesome! We're really happy to hear about all the great things that the DoD is doing on a regular basis. You may not be aware, but most code produced by a U.S. federal employee within the scope of their employment does not have copyright protections in the U.S. and certain foreign jurisdictions. In the U.S., creative works (like code) without copyright protections are sometimes referred to as "public domain." Not all countries recognize the concept of public domain, and many countries actually recognize copyright protections for code written by U.S. federal employees.
@@ -93,7 +93,7 @@ tree-nodes:
 
       <a href='/how-to-open-source.html' class='usa-button'>How to Open Source</a>
 
-  - title: ""
+  - title: Gov and Contractor
     id: mixed-code
     content: |
       Great! We understand that partnering with the private sector is how most project development happens in the DoD. You may still be able to open source the resulting code for the project depending on the U.S. federal government's data rights in the contract! The key is to **identify any pieces of the code that are proprietary to the contractor or otherwise restricted from public disclosure**. If there are such pieces then you may need to segment those so that you don't violate the license terms in the contract. That said, if you have Unlimited Rights in segregable portions of the code, you should be able to follow the Code.mil guideline for open sourcing that code!
@@ -106,7 +106,7 @@ tree-nodes:
 
       <a href='/how-to-open-source.html' class='usa-button'>How to Open Source</a>
 
-  - title: ""
+  - title: Not yet
     id: info-only
     content: |
       That's great! We're glad you are interested in open source. You may want to start by reading our [Why Open Source](/why-open-source.html) page and some of the [Frequently Asked Questions](/frequently-asked-questions.html). You can also explore information on the OMB policy itself over on the [Code.gov](https://code.gov) website.
