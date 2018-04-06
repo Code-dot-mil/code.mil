@@ -4,6 +4,7 @@ permalink: /getting-started.html
 
 layout: page
 sidenav: side
+sticky_sidenav: true
 
 tree-nodes:
   - title: Has the project started?
