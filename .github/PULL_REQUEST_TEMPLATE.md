@@ -8,6 +8,6 @@
 Please:
 * Clearly and concisely name your PR
 * Split different bugs/features into different PRs
-* Ask deptofdefense/code-mil for review
+* Ask Code-dot-mil/code-mil for review
 * Ensure the checks pass before asking for review
 -->

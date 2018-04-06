@@ -153,11 +153,11 @@
 			"status": "Production",
 			"vcs": "git",
 			"languages": ["HTML", "CSS", "JavaScript"],
-			"repositoryURL": "https://github.com/deptofdefense/code.mil",
+			"repositoryURL": "https://github.com/Code-dot-mil/code.mil",
 			"permissions": {
 				"licenses": [
 					{
-						"URL": "https://github.com/deptofdefense/code.mil/blob/master/LICENSE.md",
+						"URL": "https://github.com/Code-dot-mil/code.mil/blob/master/LICENSE.md",
 						"name": "MIT"
 					}
 				],

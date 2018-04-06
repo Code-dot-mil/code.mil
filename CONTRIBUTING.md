@@ -113,7 +113,7 @@ Your bug fix or feature addition won't be rejected if it runs afoul of any (or a
 
 ## Submitting an Issue
 
-You should feel free to [submit an issue](https://github.com/deptofdefense/code.mil/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
+You should feel free to [submit an issue](https://github.com/Code-dot-mil/code.mil/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
 
 ### Submitting a Bug
 
@@ -127,11 +127,11 @@ When submitting a bug on the site please be sure to add extensive information ab
 
 ## Submitting Code
 
-When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/deptofdefense/move.mil/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/deptofdefense/code.mil/), a continuous integration and deployment tool.
+When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/Code-dot-mil/code.mil/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
 
 After review by the Code.mil team your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to [beta.code.mil](http://beta.code.mil).
 
-Assuming everything checks out, the Code.mil team will deploy the changes to [code.mil](http://code.mil) by creating a [new release](https://github.com/deptofdefense/code.mil/releases/new) on master with a tag like vX.X.X (where X is between 0 and 9), human readable title, and any other relevent context in the description.
+Assuming everything checks out, the Code.mil team will deploy the changes to [code.mil](http://code.mil) by creating a [new release](https://github.com/Code-dot-mil/code.mil/releases/new) on master with a tag like vX.X.X (where X is between 0 and 9), human readable title, and any other relevent context in the description.
 
 ### Check Your Changes
 

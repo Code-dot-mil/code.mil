@@ -4,6 +4,7 @@ permalink: /why-open-source.html
 
 layout: page
 sidenav: side
+sticky_sidenav: true
 ---
 
 ## Why Open Source
