@@ -15,7 +15,7 @@ before_deploy:
 deploy:
   - provider: s3
     access_key_id: "$ACCESS_KEY_ID"
-    secret_access_key: "$AWS_SECRET_ACCESS_KEY"
+    secret_access_key: "$SECRET_ACCESS_KEY"
     bucket: "beta.code.mil"
     region: us-east-1
     local_dir: _site
@@ -25,7 +25,7 @@ deploy:
       branch: master
   - provider: s3
     access_key_id: "$ACCESS_KEY_ID"
-    secret_access_key: "$AWS_SECRET_ACCESS_KEY"
+    secret_access_key: "$SECRET_ACCESS_KEY"
     bucket: "www.code.mil"
     region: us-east-1
     local_dir: _site
