@@ -40,3 +40,23 @@ At the moment we're getting our first open source projects published in the open
 In the future we will tackle issues around procuring source code and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoD projects.
 
 This initiative is not intended to set DoD policy, but rather is exploring alternate ways to join the open source and free software communities. You can read more about the [U.S. Federal Source Code Policy](https://code.gov/#/policy-guide/docs/overview/introduction) on the [Code.gov](https://code.gov) web site.
+
+## Read More
+
+<div>
+  <div class="usa-grid">
+    {% for story in site.data.press %}
+    <div class="usa-width-one-half">
+      <a href="{{ story.press_url }}">
+        {{ story.title }} ~{{ story.author }}
+      </a>
+    </div>
+      {% assign idx = forloop.index0 | modulo: 2 %}
+      {% if idx == 1 %}
+  </div>
+  <br />
+  <div class="usa-grid">
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

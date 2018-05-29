@@ -26,7 +26,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.9.23)
     forwardable-extended (2.6.0)
-    html-proofer (3.9.0)
+    html-proofer (3.9.1)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       colorize (~> 0.8)
