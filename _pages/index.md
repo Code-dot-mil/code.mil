@@ -41,22 +41,14 @@ In the future we will tackle issues around procuring source code and addressing 
 
 This initiative is not intended to set DoD policy, but rather is exploring alternate ways to join the open source and free software communities. You can read more about the [U.S. Federal Source Code Policy](https://code.gov/#/policy-guide/docs/overview/introduction) on the [Code.gov](https://code.gov) web site.
 
-## Read More
+## Press
 
-<div>
-  <div class="usa-grid">
-    {% for story in site.data.press %}
-    <div class="usa-width-one-half">
-      <a href="{{ story.press_url }}">
-        {{ story.title }} ~{{ story.author }}
-      </a>
-    </div>
-      {% assign idx = forloop.index0 | modulo: 2 %}
-      {% if idx == 1 %}
-  </div>
-  <br />
-  <div class="usa-grid">
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+<ul>
+  {% for story in site.data.press %}
+  <li>
+    <a href="{{ story.press_url }}">
+      {{ story.title }} ~{{ story.author }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
