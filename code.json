@@ -77,14 +77,13 @@
 			"relatedCode": [
 				{
 					"name": "uswds-rails",
-					"url": "https://github.com/jgarber623/uswds-rails",
-					"isGovernmentRepo": false
+					"URL": "https://github.com/jgarber623/uswds-rails"
 				}
 			],
 			"reusedCode": [
 				{
 					"name": "US Web Design System",
-					"url": "https://designsystem.digital.gov"
+					"URL": "https://designsystem.digital.gov"
 				}
 			],
 			"date": {
@@ -132,7 +131,7 @@
 			"reusedCode": [
 				{
 					"name": "US Web Design System",
-					"url": "https://designsystem.digital.gov"
+					"URL": "https://designsystem.digital.gov"
 				}
 			],
 			"date": {
@@ -310,7 +309,7 @@
 			"name": "The U.S. Army Research Laboratory (ARL) Software Release Process for Unrestricted Public Release",
 			"organization": "US Army Research Laboratory",
 			"description": "This document provides procedures that ARL Government personnel MUST follow when releasing software source code and software-related material to the public, and for accepting software-related contributions from the general public.",
-			"license": "https://github.com/USArmyResearchLab/ARL-Open-Source-Guidance-and-Instructions/blob/master/LICENSE.txt",
+			"repositoryURL": "https://github.com/USArmyResearchLab/ARL-Open-Source-Guidance-and-Instructions",
 			"openSourceProject": 0,
 			"governmentWideReuseProject": 1,
 			"tags": [
@@ -318,6 +317,15 @@
 			],
 			"contact": {
 				"email": "usarmy.adelphi.rdecom-arl.mbx.ARL-Open-Source-policy@mail.mil"
+			},
+			"permissions": {
+				"licenses": [
+					{
+						"URL": "https://github.com/USArmyResearchLab/ARL-Open-Source-Guidance-and-Instructions/blob/master/LICENSE.txt",
+						"name": "CC0"
+					}
+				],
+				"usageType": "openSource"
 			},
 			"status": "Production",
 			"vcs": "git",
@@ -332,7 +340,8 @@
 				"lastCommit": "2017-02-28",
 				"metadataLastUpdated": "2017-02-28",
 				"lastModified": "2017-02-28"
-			}
+			},
+			"laborHours": 1
 		},
 		{
 			"name": "U.S. Army Research Laboratory (ARL) Discrete Chemical Compound Space Optimization (DCCSO)",
@@ -342,7 +351,7 @@
 				"constrained optimization", "chemistry"
 			],
 			"contact": {
-				"email": "berend.c.rinderspacher.civ@mail.mil",
+				"email": "berend.c.rinderspacher.civ@mail.mil"
 			},
 			"status": "Production",
 			"vcs": "git",
