@@ -9,7 +9,7 @@ sticky_sidenav: true
 
 ## Why Open Source
 
-**Modern software is open sourced software (OSS)**. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. We must more actively participate in the open source and free software communities if we are to truly reap the benefits of OSS.
+**Modern software is free and open-source software (F/OSS)**. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. We must more actively participate in the open source and free software communities if we are to truly reap the benefits of F/OSS.
 
 There are some misconceptions, however: for example, that open source software is not secure. Without delving too deep into this topic (we're happy to discuss it in person), consider that the single most popular web server software is, and always has been, open source: [Apache](https://www.apache.org/). This code runs a vast swath of sites on the Internet. Do bugs come up? Of course! But they are often patched (fixed with a small amount of code) in mere hours after identification.
 
@@ -17,7 +17,7 @@ In fact, nearly every popular software product relies heavily on open source sof
 
 A simple google search of "why OSS" will bring you to [a paper by David Wheeler](https://www.dwheeler.com/oss_fs_why.html) which goes into extensive detail on this subject.
 
-You may have lots of questions about OSS and how a DoD project can be released publicly. **This is the goal of Code.mil!** We want to provide guidance on how you, a DoD project owner, can release your code as open source software and why it is in your best interest.
+You may have lots of questions about F/OSS and how a DoD project can be released publicly. **This is the goal of Code.mil!** We want to provide guidance on how you, a DoD project owner, can release your code as open source software and why it is in your best interest.
 
 ### OMB Policy
 
