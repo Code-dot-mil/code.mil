@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/18F/uswds-jekyll.git
-  revision: 8778410fd84841c4b801cb39a21c4cfe8f2cba4d
+  revision: d6a85a29e889ef79bba76d0989dd66ed3689fd1a
   specs:
     uswds-jekyll (4.1.0)
       jekyll (~> 3.4)
@@ -10,7 +10,7 @@ GEM
   specs:
     activesupport (5.2.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
+      i18n (>= 1.0.1, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.5.2)
@@ -36,13 +36,13 @@ GEM
       typhoeus (~> 1.3)
       yell (~> 2.0)
     http_parser.rb (0.6.0)
-    i18n (0.9.5)
+    i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     jekyll (3.8.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
-      i18n (~> 0.7)
+      i18n (~> 1.0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 2.0)
       kramdown (~> 1.14)
@@ -64,7 +64,7 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    nokogiri (1.8.2)
+    nokogiri (1.8.3)
       mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
     pathutil (0.16.1)
