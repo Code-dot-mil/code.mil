@@ -3,6 +3,7 @@ cache: bundler
 before_install:
 - gem update --system
 - gem install bundler
+- bundle outdated
 script:
 - ./build
 before_deploy:
