@@ -20,7 +20,7 @@ jobs:
     deploy:
       provider: s3
       bucket: $BUCKET
-      region: us-west-2
+      region: us-east-1
       local_dir: _site
       skip_cleanup: true
       acl: public_read
