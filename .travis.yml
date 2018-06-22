@@ -22,7 +22,7 @@ jobs:
     - node screenshot.js
     - pip install --user awscli
     - aws s3 cp screenshot.png s3://builds.code.mil/$TRAVIS_BUILD_NUMBER/screenshot.png --acl public-read
-    - "curl -H \"Authorization: token ${GITHUB_TOKEN}\" -X POST -d \"{\\\"body\\\": \\\"![${TRAVIS_BUILD_NUMBER}](https://s3-${AWS_DEFAULT_REGION}.amazonaws.com/builds.code.mil/${TRAVIS_BUILD_NUMBER}/screenshot.png)\\\"}\" \"https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments\""
+    - "curl -H \"Authorization: token ${GITHUB_TOKEN}\" -X POST -d \"{\\\"body\\\": \\\"![${TRAVIS_BUILD_NUMBER}](https://s3-us-west-2.amazonaws.com/builds.code.mil/${TRAVIS_BUILD_NUMBER}/screenshot.png)\\\"}\" \"https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments\""
   - stage: Deploy
     if: (( type = push ) AND ( branch = master )) OR ( tag =~ ^v[0-9]+\\.[0-9]+\\.[0-9]+$ )
     script:
