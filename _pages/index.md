@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 permalink: '/'
 
 tagline: Open Source at DoD
