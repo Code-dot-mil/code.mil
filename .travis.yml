@@ -2,8 +2,6 @@ env:
   global:
   - PATH=$PATH:$HOME/.local/bin
 language: ruby
-before_script:
-- bundle outdated
 jobs:
   include:
   - stage: Build
@@ -13,6 +11,7 @@ jobs:
   - stage: Screenshot
     if: type = pull_request
     script:
+    - bundle install --no-deployment && bundle outdated
     - ./build
     - ./serve &
     - npm install puppeteer
