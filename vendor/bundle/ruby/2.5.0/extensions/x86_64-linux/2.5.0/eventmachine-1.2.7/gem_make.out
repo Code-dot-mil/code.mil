@@ -1,0 +1,30 @@
+current directory: /home/travis/build/Code-dot-mil/code.mil/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/travis/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20180624-5563-kyx8q2.rb extconf.rb
+creating Makefile
+
+current directory: /home/travis/build/Code-dot-mil/code.mil/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/travis/build/Code-dot-mil/code.mil/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+compiling rubymain.cpp
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+linking shared-object fastfilereaderext.so
+
+current directory: /home/travis/build/Code-dot-mil/code.mil/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -m 0755 fastfilereaderext.so ./.gem.20180624-5563-8otoa4
