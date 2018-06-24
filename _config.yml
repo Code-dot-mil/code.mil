@@ -25,3 +25,4 @@ exclude:
   - 'robots.txt-for-beta.code.mil'
   - 'serve'
   - 'vendor'
+  - 'node_modules'
