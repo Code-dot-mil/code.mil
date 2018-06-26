@@ -2,4 +2,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproofer ./public --allow-hash-href --url-ignore "/^mailto:/"
+bundle exec htmlproofer ./public --allow-hash-href --url-ignore "/^mailto:/,/^https?:\/\/(www\.)?(apache\.org|usds\.gov)/"
