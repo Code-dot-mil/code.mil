@@ -6,8 +6,6 @@ subnav:
     href: "/how-to-open-source.html#step-1-approval"
 ---
 
-## How to Open Source Code
-
 There are a few steps you will need to take to open source any project. Some of these steps are more administrative, and some involve adding things to your codebase. If you're not sure if you can open source your project, checkout our [getting started](/getting-started.html) workflow.
 
 <section class='usa-alert usa-alert-info'>
