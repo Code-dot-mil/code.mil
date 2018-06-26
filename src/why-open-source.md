@@ -2,8 +2,6 @@
 title: Why Open Source
 ---
 
-## Why Open Source
-
 **Modern software is open sourced software (OSS)**. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. We must more actively participate in the open source and free software communities if we are to truly reap the benefits of OSS.
 
 There are some misconceptions, however: for example, that open source software is not secure. Without delving too deep into this topic (we're happy to discuss it in person), consider that the single most popular web server software is, and always has been, open source: [Apache](https://www.apache.org/). This code runs a vast swath of sites on the Internet. Do bugs come up? Of course! But they are often patched (fixed with a small amount of code) in mere hours after identification.
