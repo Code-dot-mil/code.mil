@@ -1,46 +1,4 @@
 language: ruby
-jobs:
-  include:
-  - stage: Build
-    if: ( type = push ) AND ( branch != master )
-    script:
-    - ./build
-  - stage: Screenshot
-    if: type = pull_request
-    script:
-    - bundle install --no-deployment && bundle outdated
-    - ./build
-    - ./serve &
-    - npm install puppeteer
-    - node screenshot.js
-    - pip install --user awscli
-    - export PATH=$PATH:$HOME/.local/bin
-    - aws s3 cp screenshot.png s3://builds.code.mil/$TRAVIS_BUILD_NUMBER/screenshot.png --acl public-read
-    - "curl -H \"Authorization: token ${GITHUB_TOKEN}\" -X POST -d \"{\\\"body\\\": \\\"![${TRAVIS_BUILD_NUMBER}](https://s3.amazonaws.com/builds.code.mil/${TRAVIS_BUILD_NUMBER}/screenshot.png)\\\"}\" \"https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments\""
-  - stage: Deploy
-    if: (( type = push ) AND ( branch = master )) OR ( tag =~ ^v[0-9]+\\.[0-9]+\\.[0-9]+$ )
-    script:
-    - ./build
-    - if [[ -z "$TRAVIS_TAG" ]] ; then cp robots.txt-for-beta.code.mil _site/robots.txt ; fi
-    - export BUCKET="www.code.mil"
-    - if [[ -z "$TRAVIS_TAG" ]] ; then export BUCKET="beta.code.mil" ; fi
-    deploy:
-      provider: s3
-      bucket: $BUCKET
-      region: $AWS_DEFAULT_REGION
-      local_dir: _site
-      skip_cleanup: true
-      acl: public_read
-  - stage: Actualize
-    if: type = api
-    script:
-    - wget https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip
-    - unzip terraform_0.11.7_linux_amd64.zip
-    - sudo mv terraform /usr/local/bin/
-    - rm terraform_0.11.7_linux_amd64.zip
-    - terraform init -backend-config="bucket=builds.code.mil" -backend-config="key=terraform.tfstate"
-    - terraform apply -auto-approve
-    - git remote add target "https://DefenseDigitalService:${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git"
-    - git add -A
-    - git commit -m "ACTUALIZE ${TRAVIS_BUILD_NUMBER}"
-    - git push target HEAD:$TRAVIS_BRANCH
+cache: bundler
+script:
+  - ./scripts/test
