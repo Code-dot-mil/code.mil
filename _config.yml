@@ -1,28 +1,21 @@
+source: ./src
+destination: ./public
+
+include:
+  - _pages
+
+host: 0.0.0.0
 
 title: Code.mil
-email: code@dds.mil
 description: An experiment in open source within the Department of Defense.
+email: code@dds.mil
 
-styles:
-  - /assets/css/main.css
-  - /assets/css/custom.css
+theme: uswds-jekyll
 
 scripts:
   - /assets/uswds/js/uswds.min.js
   - /assets/js/main.js
 
-# Build settings
-markdown: kramdown
-theme: uswds-jekyll
-
-include:
-  - '_pages'
-
-exclude:
-  - 'build'
-  - 'Gemfile'
-  - 'Gemfile.lock'
-  - 'robots.txt-for-beta.code.mil'
-  - 'serve'
-  - 'vendor'
-  - 'node_modules'
+styles:
+  - /assets/css/main.css
+  - /assets/css/custom.css

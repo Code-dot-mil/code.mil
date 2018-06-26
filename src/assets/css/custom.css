@@ -1,5 +1,4 @@
-
-.hidden{
+.hidden {
   display: none;
 }
 
@@ -23,23 +22,25 @@
   max-width: none;
 }
 
-
-/* For the decision tree UI */
+/* Decision Tree UI */
 .tree-node {
   display: none;
 }
+
 .tree-node.active {
   display: block;
 }
+
 aside.tree-reset {
   text-align: right;
 }
+
 .tree-node-answer {
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
   font-size: 1.1em;
   font-weight: bold;
-  text-align: center;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
-  width: 60%;
   margin: 1em auto;
+  text-align: center;
+  width: 60%;
 }
