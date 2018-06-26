@@ -1,4 +1,4 @@
-top: &top_navigation
+secondary: &secondary_navigation
   - text: Why Open Source
     href: /why-open-source.html
   - text: Getting Started
@@ -8,4 +8,4 @@ top: &top_navigation
   - text: FAQs
     href: /frequently-asked-questions.html
 
-side: *top_navigation
+sidebar: *secondary_navigation

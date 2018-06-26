@@ -1,8 +1,28 @@
+# This is the configuration for the site header.
+
+# Set header title differently from the site's title (as defined in _config.yml).
+# Uncomment the following line to use the header title.
+# title: Header title
+
+# Show or hide the official USA banner at the top of the site.
+# Comment out to the following line to hide.
 usa_banner: true
 
+# This setting changes the TLD used as an argument for trust in banner.html.
+# If options besides .mil and .gov are added, it may be worth adding a JS
+# determiner or other automated feature. If undefined, the default is .gov
+government_tld: .mil
+
+# Defines the type of header.
+# Header types can be 'basic' or 'extended'.
+# Basic - https://components.designsystem.digital.gov/components/detail/header--basic.html
+# Extended - https://components.designsystem.digital.gov/components/detail/header--extended.html
 type: extended
 
-secondary:
-  links: top
+# this is a key into _data/navigation.yml
+# primary:
+#   links: primary
 
-government_tld: .mil
+# this is a key into _data/navigation.yml
+secondary:
+  links: secondary
