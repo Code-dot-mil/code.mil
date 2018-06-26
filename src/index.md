@@ -1,6 +1,5 @@
 ---
-layout: default
-permalink: '/'
+layout: home
 
 tagline: Open Source at DoD
 

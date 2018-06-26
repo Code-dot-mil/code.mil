@@ -1,6 +1,5 @@
 ---
 title: How to Open Source Code
-permalink: /how-to-open-source.html
 
 layout: page
 sidenav: side
