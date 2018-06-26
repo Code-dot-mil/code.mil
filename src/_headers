@@ -9,3 +9,13 @@
 
 /assets/*.css
   X-Content-Type-Options: nosniff
+
+/assets/*.js
+  Content-Type: application/javascript; charset=UTF-8
+  X-Content-Type-Options: nosniff
+
+/assets/*.svg
+  Content-Type: image/svg+xml; charset=UTF-8
+
+/favicon.ico
+  Content-Type: image/x-icon
