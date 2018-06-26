@@ -1,9 +1,5 @@
 ---
 title: Why Open Source
-
-layout: page
-sidenav: side
-sticky_sidenav: true
 ---
 
 ## Why Open Source

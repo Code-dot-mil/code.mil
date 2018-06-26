@@ -1,8 +1,8 @@
 ---
 title: Frequently Asked Questions (FAQ)
 
-layout: page
-sidenav: side
+sticky_sidenav: false
+
 subnav:
   - text: "What is Code.mil?"
     href: "/frequently-asked-questions.html#what-is-codemil"

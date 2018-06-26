@@ -1,9 +1,6 @@
 ---
 title: How to Open Source Code
 
-layout: page
-sidenav: side
-sticky_sidenav: true
 subnav:
   - text: "Step 1: Approval"
     href: "/how-to-open-source.html#step-1-approval"
