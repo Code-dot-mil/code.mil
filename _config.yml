@@ -10,6 +10,18 @@ title: Code.mil
 description: An experiment in open source within the Department of Defense.
 email: code@dds.mil
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      sidenav: side
+      sticky_sidenav: true
+  - scope:
+      path: "assets"
+    values:
+      layout: null
+
 theme: uswds-jekyll
 
 scripts:
