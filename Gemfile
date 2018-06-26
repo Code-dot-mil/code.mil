@@ -2,7 +2,9 @@ ruby '2.5.1'
 
 source 'https://rubygems.org'
 
-gem 'html-proofer'
-gem 'jekyll'
+gem 'jekyll', '~> 3.8', '>= 3.8.3'
+gem 'uswds-jekyll', git: 'https://github.com/18F/uswds-jekyll'
 
-gem 'uswds-jekyll', git: 'https://github.com/18F/uswds-jekyll.git'
+group :test do
+  gem 'html-proofer', '~> 3.9', '>= 3.9.1'
+end
