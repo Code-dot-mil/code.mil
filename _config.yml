@@ -2,7 +2,7 @@ source: ./src
 destination: ./public
 
 include:
-  - _pages
+  - _headers
 
 host: 0.0.0.0
 
