@@ -37,14 +37,14 @@ Now that you've chosen a license you should add a few documents to the codebase 
 
 You can see examples of these documents in the code repository for this very website!
 
-* [LICENSE.md](/LICENSE.md)
-* [INTENT.md](/INTENT.md)
+* [LICENSE.md](https://github.com/Code-dot-mil/code.mil/blob/master/LICENSE.md)
+* [INTENT.md](https://github.com/Code-dot-mil/code.mil/blob/master/INTENT.md)
 
 <section class='usa-alert usa-alert-info'>
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Keep the Copyright!</h4>
     <p class='usa-alert-text'>
-      You might notice in the <a href="/LICENSE.md">LICENSE.md</a> file that there is a copyright line. That one is key, and you should keep it, even if you switch to a different license. Note that if this project was developed <strong>with a contractor</strong> that the contractor company name should also be listed here. Here is an example:
+      You might notice in the <a href="https://github.com/Code-dot-mil/code.mil/blob/master/LICENSE.md">LICENSE.md</a> file that there is a copyright line. That one is key, and you should keep it, even if you switch to a different license. Note that if this project was developed <strong>with a contractor</strong> that the contractor company name should also be listed here. Here is an example:
     </p>
     <p><em>
       "Copyright (c) 2017-2018 U.S. Federal Government (in countries where recognized)<br>
@@ -59,8 +59,8 @@ The last piece of documentation you absolutely need is how people can contribute
 
 You can read the contributing documentation for this site to see an example of what this looks like:
 
-* [CONTRIBUTING.md](/CONTRIBUTING.md)
-* [CONTRIBUTORS.md](/CONTRIBUTORS.md)
+* [CONTRIBUTING.md](https://github.com/Code-dot-mil/code.mil/blob/master/CONTRIBUTING.md)
+* [CONTRIBUTORS.md](https://github.com/Code-dot-mil/code.mil/blob/master/CONTRIBUTORS.md)
 
 ### Step 5: Release it!
 
