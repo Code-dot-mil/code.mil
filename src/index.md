@@ -26,7 +26,7 @@ graphics:
 
 
 intro: |
-  The U.S. Department of Defense (<acronym title='Department of Defense'>DoD</acronym>) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it difficult to attach an open source license to our code. The [Defense Digital Service](https://dds.mil) (<acronym title='Defense Digital Service'>DDS</acronym>) has been working with DoD and the open source community since early 2017 to develop a guideline for supporting open source software (<acronym title='open source software'>OSS</acronym>) within the Department.
+  The U.S. Department of Defense (<abbr title='Department of Defense'>DoD</abbr>) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it difficult to attach an open source license to our code. The [Defense Digital Service](https://dds.mil) (<abbr title='Defense Digital Service'>DDS</abbr>) has been working with DoD and the open source community since early 2017 to develop a guideline for supporting open source software (<abbr title='open source software'>OSS</abbr>) within the Department.
 
 ---
 
