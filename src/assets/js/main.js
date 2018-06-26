@@ -27,20 +27,21 @@
    * from the site config.
    */
   var siteEmail = '{{site.email}}';
-  find('[href*="\{\{site.email\}\}"]').forEach(function useConfigEmail(n) {
+
+  find('[href*="\{\{site.email\}\}"]').forEach(function(n) {
     n.innerHTML = n.innerHTML.replace(/\{\{site\.email\}\}/, siteEmail);
     n.setAttribute('href', n.getAttribute('href').replace(/\{\{site\.email\}\}/, siteEmail));
   });
 
-  find('#main-content [href^="mailto"]').forEach(function addExternalClass(n) {
+  find('#main-content [href^="mailto"]').forEach(function(n) {
     n.classList.add('usa-external_link');
   });
-  find('#main-content [href^="http"]').forEach(function addExternalClass(n) {
+
+  find('#main-content [href^="http"]').forEach(function(n) {
     if (!/code\.mil/.test(n.getAttribute('href'))) {
       n.classList.add('usa-external_link');
     }
   });
-
 
   /*
    * This block auto-identifies the subnav items for the left sidebar where
@@ -56,72 +57,83 @@
 
     function insertSubNav(jumpNodeSelector, basePath, skipCount) {
       var list = document.querySelector('.usa-sidenav-sub_list');
+
       jumpNodeSelector = jumpNodeSelector || 'h1';
       basePath = basePath || '/';
       skipCount = skipCount || 0;
 
       if (list) {
-        find(jumpNodeSelector)
-          .forEach(function(node, i) {
-            if (i < skipCount) {
-              return;
-            }
+        find(jumpNodeSelector).forEach(function(node, i) {
+          if (i < skipCount) {
+            return;
+          }
 
-            var item = document.createElement('li');
-            item.innerHTML = '<a href="' + basePath + '#' + node.getAttribute('id') + '">' + node.innerText + '</a>';
-            list.appendChild(item);
-          });
+          var item = document.createElement('li');
+
+          item.innerHTML = '<a href="' + basePath + '#' + node.getAttribute('id') + '">' + node.innerText + '</a>';
+          list.appendChild(item);
+        });
       }
     }
   })();
 
   (function DecisionTree() {
     var tree = document.querySelector('.decision-tree');
+
     if (!tree) {
       return;
     }
 
-    var nodes = find('.tree-node', tree);
-    var hashHistory = [];
+    var nodes = find('.tree-node', tree),
+        hashHistory = [];
 
     // Pull tree history from hash
     function updateHashHistory() {
       hashHistory = window.location.hash.replace('#','').split('!');
+
       if (hashHistory.length == 1) {
-        hashHistory = ["tree-node-start"];
+        hashHistory = ['tree-node-start'];
       }
     }
 
     // Update tree to reflect hash state
     function renderTree() {
       updateHashHistory();
+
       var treeNodes = nodes.filter(function(n) {
         return n.classList && n.classList.contains('tree-node');
       });
+
       for (var i = 0; i < treeNodes.length; i++) {
         var node = treeNodes[i];
+
         if (hashHistory.includes(node.getAttribute('id'))) {
           node.classList.add('active');
         } else {
           node.classList.remove('active');
         }
-        var childNodes = Array.prototype.concat.apply([], node.childNodes);
-        var childNode = childNodes.filter(function(n) {
-          return n.classList && n.classList.contains('tree-node-options');
-        })[0];
+
+        var childNodes = Array.prototype.concat.apply([], node.childNodes),
+            childNode = childNodes.filter(function(n) {
+              return n.classList && n.classList.contains('tree-node-options');
+            })[0];
+
         if (!childNode) {
           continue;
         }
+
         if (hashHistory[hashHistory.length - 1] == node.getAttribute('id')) {
           childNode.classList.remove('hidden');
         } else {
           childNode.classList.add('hidden');
         }
       }
+
       if (hashHistory.length > 1) {
         var node = document.getElementById(hashHistory[hashHistory.length - 1]);
+
         node.scrollIntoView({
-          behavior: "smooth"
+          behavior: 'smooth'
         });
       }
     }
@@ -130,29 +142,33 @@
     renderTree();
 
     // Re-render tree each time the hash changes
-    window.addEventListener("hashchange", function() {
+    window.addEventListener('hashchange', function() {
       renderTree();
     });
 
     // Update hash each time the tree is clicked
-    tree.addEventListener('click', function treeNodeButtonClick(e) {
-      if (!e.target.classList.contains('tree-link')) {
+    tree.addEventListener('click', function(event) {
+      if (!event.target.classList.contains('tree-link')) {
         return;
       }
-      e.preventDefault();
+
+      event.preventDefault();
+
       var node = nodes.filter(function(n) {
-        return n.getAttribute('id') === e.target.getAttribute('href').substr(1);
+        return n.getAttribute('id') === event.target.getAttribute('href').substr(1);
       })[0];
+
       if (node) {
         hashHistory.push(node.getAttribute('id'));
-        window.location.hash = hashHistory.join("!");
+        window.location.hash = hashHistory.join('!');
       }
     });
 
     // support reset
-    tree.querySelector('a.tree-reset').addEventListener('click', function treeNodeButtonClick(e) {
-      e.preventDefault();
-      window.location.hash = "";
+    tree.querySelector('.tree-reset button').addEventListener('click', function(event) {
+      event.preventDefault();
+
+      window.location.hash = '';
     });
   })();
 })();
