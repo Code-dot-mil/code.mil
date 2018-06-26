@@ -2,6 +2,11 @@
   Cache-Control: no-cache
   Strict-Transport-Security: max-age=31536000; includeSubDomains
 
+/
+  Content-Security-Policy: default-src 'self'; frame-ancestors 'none';
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+
 /*.html
   Content-Security-Policy: default-src 'self'; frame-ancestors 'none';
   X-Frame-Options: SAMEORIGIN
