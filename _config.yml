@@ -15,7 +15,7 @@ defaults:
       path: ""
     values:
       layout: page
-      sidenav: side
+      sidenav: sidebar
       sticky_sidenav: true
   - scope:
       path: "assets"

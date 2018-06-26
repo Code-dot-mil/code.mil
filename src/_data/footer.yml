@@ -1,7 +1,35 @@
-top: true
+# This is the configuration for the site footer.
 
+# Configuration for type of footer.
+# Footer types can be only be medium at the moment
+type: medium
+
+# Configuration for "Return to top" link.
+# Customize with 'text' and 'href' properties.
+# Comment out to the following section to hide.
+top:
+  text: Return to top
+  href: '#top'
+
+# Configuration for "Edit this page" link in the footer.
+# Customize with 'text' property.
+# Uncomment the following line to show.
+# edit_page:
+#   text: Edit this page
+
+# Configuration for "Last updated" date and time.
+# Uncomment the following line to show.
+# last_updated: true
+
+# Configuration for which links show at the top of the footer.
+# this is a key into _data/navigation.yml
+# links: footer
+
+# Configuration for footer heading. (optional)
 heading: Code.mil
 
+# Configuration for agency logo(s) (shown side by side).
+# If the logo is external add external: true
 logos:
   - src: /assets/images/dod_seal.svg
     alt: DoD
@@ -10,18 +38,22 @@ logos:
     alt: DDS
     external: false
 
+# Configuration for footer contact links
 contact:
+# Configuration for social media links
+# Comment out links you don't want to use (RSS is an example)
   social_links:
-    - text: <span class='usa-link-twitter usa-social_link' title='Twitter'><span>Twitter</span></span>
+    - text: <span class="usa-link-twitter usa-social_link" title="Twitter"><span>Twitter</span></span>
       href: https://twitter.com/DefenseDigital
       external: true
-    - text: <span class='usa-link-github usa-social_link' title='GitHub'><span>GitHub</span></span>
+    - text: <span class="usa-link-github usa-social_link" title="GitHub"><span>GitHub</span></span>
       href: https://github.com/Code-dot-mil/code.mil
       external: true
-    - text: <span class='usa-link-medium usa-social_link' title='Medium'><span>Medium</span></span>
+    - text: <span class="usa-link-medium usa-social_link" title="Medium"><span>Medium</span></span>
       href: https://medium.com/defense-digital-service
       external: true
-  heading: Contact us
+  heading: Contact Us
+# Configuration for contact links for email, phone, etc...
   contact_links:
     - text: code@dds.mil
       href: mailto:{{site.email}}
