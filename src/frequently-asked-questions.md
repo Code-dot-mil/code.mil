@@ -52,7 +52,7 @@ That's awesome! Please get the conversation going by [submitting your informatio
 
 The original open source strategy explored an innovative legal pathway of using contract law to attach widely adopted licenses to our projects. This strategy was encapsulated in the draft Defense Open Source Agreement. The developer community energetically responded to our call for comment, and we received a lot of great feedback. Thank you!
 
-Based on the feedback, we updated our strategy to move away from contract law and instead focus on the contribution process. We deleted the draft Defense Open Source Agreement in the LICENSE-agreement.md file. Our updated strategy is now captured in [`INTENT.md`](/INTENT.md) and [`CONTRIBUTING.md`](/CONTRIBUTING.md).
+Based on the feedback, we updated our strategy to move away from contract law and instead focus on the contribution process. We deleted the draft Defense Open Source Agreement in the LICENSE-agreement.md file. Our updated strategy is now captured in [`INTENT.md`](https://github.com/Code-dot-mil/code.mil/blob/master/INTENT.md) and [`CONTRIBUTING.md`](https://github.com/Code-dot-mil/code.mil/blob/master/CONTRIBUTING.md).
 
 We think the updated strategy avoids the complications of using contract law and also the perception that we're creating a new license. We hope this will keep our practices more consistent with the open source and free software communities. We intend to use widely adopted licenses for our projects when copyright is applicable.
 
@@ -60,7 +60,7 @@ We think the updated strategy avoids the complications of using contract law and
 
 Works created by U.S. Federal government employees within the scope of their employment is ineligible for copyright protections in the U.S. and certain foreign jurisdictions. People sometimes say that U.S. law requires Federal government employees to put creative works in the public domain, but that's not quite right. The U.S. Copyright Act does not explicitly define public domain. What the Act actually does is make works created by U.S. Federal government employees ineligible for copyright protections (17 U.S.C. 105). Public domain is generally understood to refer to creative materials that are not protected by intellectual property laws such as copyright, trademark, or patent laws. Under U.S. laws, Government-created works may be eligible for patent or trademark protections. Not all countries acknowledge the concept of public domain.
 
-The updated strategy in [`INTENT.md`](/INTENT.md) does not attempt to attach licenses to Government-written code. Rather, the strategy attaches the license to copyrighted contributions by using the Developer Certificate of Origin (DCO) process and to Government-written code in countries where that code is eligible for copyright protections.
+The updated strategy in [`INTENT.md`](https://github.com/Code-dot-mil/code.mil/blob/master/INTENT.md) does not attempt to attach licenses to Government-written code. Rather, the strategy attaches the license to copyrighted contributions by using the Developer Certificate of Origin (DCO) process and to Government-written code in countries where that code is eligible for copyright protections.
 
 ## Why not just put Government-written code in the public domain and use CC0 1.0 Universal for copyrighted contributions and jurisdictions where you have copyright?
 
@@ -80,7 +80,7 @@ Under the DCO, a contribution is submitted under the open source license associa
 
 ## What do I need to know if I fork the project?
 
-What you need to do if you fork the project depends on the status of the project at the time you fork it. Per [`INTENT.md`](/INTENT.md), the intent is that the project should be treated as if it is licensed under the license associated with the project in the `LICENSE.md` file. Whether `LICENSE.md` has actually attached depends on the status of the project at the time you fork it.
+What you need to do if you fork the project depends on the status of the project at the time you fork it. Per [`INTENT.md`](https://github.com/Code-dot-mil/code.mil/blob/master/INTENT.md), the intent is that the project should be treated as if it is licensed under the license associated with the project in the `LICENSE.md` file. Whether `LICENSE.md` has actually attached depends on the status of the project at the time you fork it.
 
 * If the project includes no copyrighted code (so there have been no merged copyrighted contributions and your jurisdiction does not recognize copyright for U.S. Government-written work), then 'LICENSE.md' has not attached to the project.
 * If the project includes copyrighted code (so there are merged copyrighted contributions or your jurisdiction recognizes copyright for U.S. Government-written work), then `LICENSE.md` has attached to the project and you must comply with the terms of the license. The authors and contributors are listed in `CONTRIBUTORS.md` and, in some cases, the source file headers.
