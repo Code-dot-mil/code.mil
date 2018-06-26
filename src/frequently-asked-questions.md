@@ -1,6 +1,5 @@
 ---
 title: Frequently Asked Questions (FAQ)
-permalink: /frequently-asked-questions.html
 
 layout: page
 sidenav: side

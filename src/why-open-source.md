@@ -1,6 +1,5 @@
 ---
 title: Why Open Source
-permalink: /why-open-source.html
 
 layout: page
 sidenav: side

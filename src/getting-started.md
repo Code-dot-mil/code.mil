@@ -1,6 +1,5 @@
 ---
 title: Getting Started
-permalink: /getting-started.html
 
 layout: page
 sidenav: side
