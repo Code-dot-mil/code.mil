@@ -1,7 +1,4 @@
-_site/
-.DS_Store
-.sass-cache
-*.terraform*
-*.backup*
-*.bundle*
-*vendor*
+.bundle/
+.jekyll-cache/
+.sass-cache/
+public/
