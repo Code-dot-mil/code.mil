@@ -1,3 +1,7 @@
+abbr[title] {
+  text-decoration: none;
+}
+
 .hidden {
   display: none;
 }
