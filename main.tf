@@ -4,7 +4,6 @@ terraform {
 
 locals {
   domain = "code.mil"
-  name   = "codemil"
 }
 
 provider "aws" {}
@@ -15,7 +14,7 @@ resource "aws_s3_bucket" "cm_bucket_logs" {
   force_destroy = true
 
   tags {
-    Name = "${local.name}"
+    Project = "${local.domain}"
   }
 }
 
@@ -24,7 +23,7 @@ resource "aws_s3_bucket" "cm_bucket_builds" {
   force_destroy = true
 
   tags {
-    Name = "${local.name}"
+    Project = "${local.domain}"
   }
 }
 
@@ -37,7 +36,7 @@ resource "aws_s3_bucket" "cm_bucket_www" {
   }
 
   tags {
-    Name = "${local.name}"
+    Project = "${local.domain}"
   }
 
   website {
@@ -55,7 +54,7 @@ resource "aws_s3_bucket" "cm_bucket_beta" {
   }
 
   tags {
-    Name = "${local.name}"
+    Project = "${local.domain}"
   }
 
   website {
@@ -70,7 +69,7 @@ resource "aws_acm_certificate" "cm_certificate" {
   validation_method         = "DNS"
 
   tags {
-    Name = "${local.name}"
+    Project = "${local.domain}"
   }
 }
 
@@ -115,7 +114,7 @@ resource "aws_cloudfront_distribution" "cm_distribution_www" {
   }
 
   tags {
-    Name = "${local.name}"
+    Project = "${local.domain}"
   }
 
   viewer_certificate {
@@ -165,7 +164,7 @@ resource "aws_cloudfront_distribution" "cm_distribution_beta" {
   }
 
   tags {
-    Name = "${local.name}"
+    Project = "${local.domain}"
   }
 
   viewer_certificate {
