@@ -5,6 +5,15 @@ locals {
 
 provider "aws" {}
 
+resource "aws_s3_bucket" "cm_bucket_infra" {
+  bucket        = "www.${local.domain}-infra"
+  force_destroy = true
+
+  tags {
+    Name = "${local.name}"
+  }
+}
+
 resource "aws_s3_bucket" "cm_bucket_logs" {
   acl           = "log-delivery-write"
   bucket        = "www.${local.domain}-logs"
