@@ -4,7 +4,6 @@ terraform {
 
 locals {
   domain = "code.mil"
-  name   = "codemil"
 }
 
 provider "aws" {}
