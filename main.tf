@@ -16,6 +16,7 @@ resource "aws_s3_bucket" "cm_bucket_logs" {
 
   tags {
     Name = "${local.name}"
+    Project = "${local.domain}"
   }
 }
 
@@ -25,6 +26,7 @@ resource "aws_s3_bucket" "cm_bucket_builds" {
 
   tags {
     Name = "${local.name}"
+    Project = "${local.domain}"
   }
 }
 
@@ -38,6 +40,7 @@ resource "aws_s3_bucket" "cm_bucket_www" {
 
   tags {
     Name = "${local.name}"
+    Project = "${local.domain}"
   }
 
   website {
@@ -56,6 +59,7 @@ resource "aws_s3_bucket" "cm_bucket_beta" {
 
   tags {
     Name = "${local.name}"
+    Project = "${local.domain}"
   }
 
   website {
@@ -71,6 +75,7 @@ resource "aws_acm_certificate" "cm_certificate" {
 
   tags {
     Name = "${local.name}"
+    Project = "${local.domain}"
   }
 }
 
@@ -116,6 +121,7 @@ resource "aws_cloudfront_distribution" "cm_distribution_www" {
 
   tags {
     Name = "${local.name}"
+    Project = "${local.domain}"
   }
 
   viewer_certificate {
@@ -166,6 +172,7 @@ resource "aws_cloudfront_distribution" "cm_distribution_beta" {
 
   tags {
     Name = "${local.name}"
+    Project = "${local.domain}"
   }
 
   viewer_certificate {
