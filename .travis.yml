@@ -1,6 +1,3 @@
-env:
-  global:
-  - PATH=$PATH:$HOME/.local/bin
 language: ruby
 jobs:
   include:
@@ -17,6 +14,7 @@ jobs:
     - npm install puppeteer
     - node screenshot.js
     - pip install --user awscli
+    - export PATH=$PATH:$HOME/.local/bin
     - aws s3 cp screenshot.png s3://builds.code.mil/$TRAVIS_BUILD_NUMBER/screenshot.png --acl public-read
     - "curl -H \"Authorization: token ${GITHUB_TOKEN}\" -X POST -d \"{\\\"body\\\": \\\"![${TRAVIS_BUILD_NUMBER}](https://s3.amazonaws.com/builds.code.mil/${TRAVIS_BUILD_NUMBER}/screenshot.png)\\\"}\" \"https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments\""
   - stage: Deploy
