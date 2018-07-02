@@ -40,7 +40,8 @@ jobs:
     - unzip terraform_0.11.7_linux_amd64.zip
     - sudo mv terraform /usr/local/bin/
     - rm terraform_0.11.7_linux_amd64.zip
-    - cd infra && terraform init && terraform apply -auto-approve
+    - terraform init -backend-config="bucket=builds.code.mil" -backend-config="key=terraform.tfstate"
+    - terraform apply -auto-approve
     - git remote add target "https://DefenseDigitalService:${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git"
     - git add -A
     - git commit -m "ACTUALIZE ${TRAVIS_BUILD_NUMBER}"
