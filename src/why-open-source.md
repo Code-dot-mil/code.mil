@@ -1,13 +1,6 @@
 ---
 title: Why Open Source
-permalink: /why-open-source.html
-
-layout: page
-sidenav: side
-sticky_sidenav: true
 ---
-
-## Why Open Source
 
 **Modern software is open sourced software (OSS)**. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. We must more actively participate in the open source and free software communities if we are to truly reap the benefits of OSS.
 
