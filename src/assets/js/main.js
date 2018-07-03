@@ -28,16 +28,16 @@
    */
   var siteEmail = '{{site.email}}';
 
-  find('[href*="\{\{site.email\}\}"]').forEach(function(n) {
+  find('[href*="\{\{site.email\}\}"]').forEach(function useConfigEmail(n) {
     n.innerHTML = n.innerHTML.replace(/\{\{site\.email\}\}/, siteEmail);
     n.setAttribute('href', n.getAttribute('href').replace(/\{\{site\.email\}\}/, siteEmail));
   });
 
-  find('#main-content [href^="mailto"]').forEach(function(n) {
+  find('#main-content [href^="mailto"]').forEach(function addExternalClass(n) {
     n.classList.add('usa-external_link');
   });
 
-  find('#main-content [href^="http"]').forEach(function(n) {
+  find('#main-content [href^="http"]').forEach(function addExternalClass(n) {
     if (!/code\.mil/.test(n.getAttribute('href'))) {
       n.classList.add('usa-external_link');
     }
@@ -142,12 +142,12 @@
     renderTree();
 
     // Re-render tree each time the hash changes
-    window.addEventListener('hashchange', function() {
+    window.addEventListener('hashchange', function treeNodeHashChange() {
       renderTree();
     });
 
     // Update hash each time the tree is clicked
-    tree.addEventListener('click', function(event) {
+    tree.addEventListener('click', function treeNodeButtonClick(event) {
       if (!event.target.classList.contains('tree-link')) {
         return;
       }
@@ -165,7 +165,7 @@
     });
 
     // support reset
-    tree.querySelector('.tree-reset button').addEventListener('click', function(event) {
+    tree.querySelector('.tree-reset button').addEventListener('click', function treeNodeButtonClick(event) {
       event.preventDefault();
 
       window.location.hash = '';
