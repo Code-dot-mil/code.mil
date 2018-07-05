@@ -73,7 +73,7 @@ By making a contribution to this project, I certify that:
 
 ## Getting Started
 
-Code.mil is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](http://bundler.io).
+Code.mil is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](https://bundler.io).
 
 This project uses Ruby version 2.5.0 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
 
@@ -131,7 +131,7 @@ When making your changes, it is highly encouraged that you use a [branch in Git]
 
 After review by the Code.mil team your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to [beta.code.mil](http://beta.code.mil).
 
-Assuming everything checks out, the Code.mil team will deploy the changes to [code.mil](http://code.mil) by creating a [new release](https://github.com/Code-dot-mil/code.mil/releases/new) on master with a tag like vX.X.X (where X is between 0 and 9), human readable title, and any other relevent context in the description.
+Assuming everything checks out, the Code.mil team will deploy the changes to [code.mil](https://code.mil) by creating a [new release](https://github.com/Code-dot-mil/code.mil/releases/new) on master with a tag like vX.X.X (where X is between 0 and 9), human readable title, and any other relevent context in the description.
 
 ### Check Your Changes
 
