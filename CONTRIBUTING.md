@@ -74,7 +74,7 @@ By making a contribution to this project, I certify that:
 
 ## Getting Started
 
-Code.mil is a static website generated using [Jekyll](https://jekyllrb.com), a static website generator written in the [Ruby](https://rubylang.org) programming language. Development dependences are managed using the [Bundler](https://bundler.io) gem.
+Code.mil is a static website generated using [Jekyll](https://jekyllrb.com), a static website generator written in the [Ruby](https://ruby-lang.org) programming language. Development dependences are managed using the [Bundler](https://bundler.io) gem.
 
 This project uses Ruby version 2.4.3 which may be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
 
