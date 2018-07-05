@@ -1,6 +1,6 @@
 # Contributing to Our Projects, Version 1.5
 
-**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting issues.**
+**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting Issues.**
 
 Thanks for thinking about using or contributing to this software ("Project") and its documentation!
 
@@ -13,26 +13,27 @@ Thanks for thinking about using or contributing to this software ("Project") and
 
 ### 1. Introduction
 
-The project maintainer for this Project will only accept contributions using the Developer’s Certificate of Origin 1.1 located at https://developercertificate.org (“DCO”). The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the Project ("License").
+The project maintainer for this Project will only accept contributions using the Developer's Certificate of Origin 1.1 located at [developercertificate.org](https://developercertificate.org) ("DCO"). The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the Project ("License").
 
 ### 2. Developer Certificate of Origin Process
 
-Before submitting contributing code to this repository for the first time, you'll need to sign a Developer Certificate of Origin (DCO) (see below). To agree to the DCO, you'll add your name and email address to [CONTRIBUTORS.md](CONTRIBUTORS.md) file. At a high level, this tells us that you have the right to submit the work you're contributing and says that you consent to us treating the contribution in a way consistent with the license associated with this software (as described in [LICENSE.md](LICENSE.md)) and its documentation ("Project").
+Before submitting contributing code to this repository for the first time, you'll need to sign a Developer Certificate of Origin (DCO) (see below). To agree to the DCO, add your name and email address to the [CONTRIBUTORS.md](https://github.com/Code-dot-mil/code.mil/blob/master/CONTRIBUTORS.md) file. At a high level, adding your information to this file tells us that you have the right to submit the work you're contributing and indicates that you consent to our treating the contribution in a way consistent with the license associated with this software (as described in [LICENSE.md](https://github.com/Code-dot-mil/code.mil/blob/master/LICENSE.md)) and its documentation ("Project").
 
 ### 3. Important Points
 
-Pseudonymous or anonymous contributions are permissible, but you must be reachable at the email provided in the Signed-off-by line.
+Pseudonymous or anonymous contributions are permissible, but you must be reachable at the email address provided in the Signed-off-by line.
 
 If your contribution is significant, you are also welcome to add your name and copyright date to the source file header.
 
-U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By submitting a pull request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
+U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By submitting a Pull Request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
 
-If you are a U.S. Federal government employee and use a *.mil or *.gov email address, we interpret your Signed-off-by to mean that the contribution was created in whole or in part by you and that your contribution is not subject to copyright protections.
+If you are a U.S. Federal government employee and use a `*.mil` or `*.gov` email address, we interpret your Signed-off-by to mean that the contribution was created in whole or in part by you and that your contribution is not subject to copyright protections.
 
 ### 4. DCO Text
 
-The text of the DCO is (from https://developercertificate.org):
-```
+The full text of the DCO is included below and is available online at [developercertificate.org](https://developercertificate.org):
+
+```txt
 Developer Certificate of Origin
 Version 1.1
 
@@ -73,37 +74,31 @@ By making a contribution to this project, I certify that:
 
 ## Getting Started
 
-Code.mil is a static web site generated using a piece of software called [Jekyll](https://jekyllrb.com/) which runs in the programming language [Ruby](https://www.ruby-lang.org). Development dependencies are managed using the [Bundler gem](https://bundler.io).
+Code.mil is a static website generated using [Jekyll](https://jekyllrb.com), a static website generator written in the [Ruby](https://rubylang.org) programming language. Development dependences are managed using the [Bundler](https://bundler.io) gem.
 
-This project uses Ruby version 2.5.0 which can be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv).
+This project uses Ruby version 2.4.3 which may be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
 
+```sh
+rbenv install 2.4.3
 ```
-rbenv install 2.5.0
-```
 
-Once you've installed Ruby 2.5.0, install the Bundler gem and Jekyll:
+Once you've installed Ruby 2.4.3 and the Bundler gem (`gem install bundler`), install the project's gems by running::
 
-```
-gem install bundler
+```sh
+bundle install
 ```
 
 ### Making Changes
 
-Now you're ready to [clone the repository](https://help.github.com/articles/cloning-a-repository/) locally and start making changes. All site pages are in the `_pages` directory and are in [Markdown format](https://daringfireball.net/projects/markdown/syntax). There is configuration in the `_config.yml` file as well as in the `_data` directory.
+Now you're ready to [clone the repository](https://help.github.com/articles/cloning-a-repository/) locally and start making changes. The website's source code is in the `src` folder which contains content pages authored in the [Markdown text format](https://daringfireball.net/projects/markdown/syntax). Jekyll configuration is defined in the `src/_config.yml` file. Additional configuration files are located in the `src/_data` folder.
 
-Once you've cloned the repository you will need to install the dependencies using bundler:
+Once you've installed the project's dependencies as outlined above, you're ready to run Jekyll and browse the website locally:
 
-```
-bundle install
-```
-
-Once you're ready to run the site generator and see the site (locally), run:
-
-```
-bundle exec jekyll serve
+```sh
+./scripts/serve
 ```
 
-Now you can head to `http://127.0.0.1:4000` to see the site locally!
+This command will build the website to the `public` folder and start up a local server, making the website available at `http://localhost:4000` (or `http://127.0.0.1:4000`). Fire up your favorite Web browser to view the website locally!
 
 ### Code Style
 
@@ -113,30 +108,36 @@ Your bug fix or feature addition won't be rejected if it runs afoul of any (or a
 
 ## Submitting an Issue
 
-You should feel free to [submit an issue](https://github.com/Code-dot-mil/code.mil/issues) on our GitHub repository for anything you feel needs attention on the site. That includes content, functionality, design, or anything else!
+You should feel free to [submit an Issue](https://github.com/Code-dot-mil/code.mil/issues) on our GitHub repository for anything you find that needs attention on the website. That includes content, functionality, design, or anything else!
 
-### Submitting a Bug
+### Submitting a Bug Report
 
-When submitting a bug on the site please be sure to add extensive information about the problem you're having. Be sure to include (at least):
+When submitting a bug report on the website, please be sure to include accurate and thorough information about the problem you're observing. Be sure to include:
 
-* What page you were on
-* What you did (which could just be trying to load the page)
-* What you expected to happen
-* What actually happened (or didn't)
-* Your browser (including the version number if possible)
+* Steps to reproduce the problem,
+* The URL of the page where you observed the problem,
+* What you expected to happen,
+* What actually happend (or didn't happen), and
+* Technical details including your Operating System name and version and Web browser name and version number.
 
 ## Submitting Code
 
-When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request (PR)](https://github.com/Code-dot-mil/code.mil/pulls) on GitHub. Your request will go through some automated checks using [Travis CI](https://travis-ci.org/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
+When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request](https://github.com/Code-dot-mil/code.mil/pulls) (PR) on GitHub. Your Pull Request will go through some automated checks using [Travis CI](https://travis-ci.com/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
 
-After review by the Code.mil team your PR will either be commented on with a request for more information or changes, or it will be merged into the codebase which will automatically deploy the changes to [beta.code.mil](http://beta.code.mil).
+After review by the Code.mil team, your PR will either be commented on with a request for more information or changes, or it will be merged into the `master` branch and deployed to a URL for testing purposes.
 
-Assuming everything checks out, the Code.mil team will deploy the changes to [code.mil](https://code.mil) by creating a [new release](https://github.com/Code-dot-mil/code.mil/releases/new) on master with a tag like vX.X.X (where X is between 0 and 9), human readable title, and any other relevent context in the description.
+Assuming everything checks out, the Code.mil team will merge the `master` branch into the `production` branch which will be automatically deployed to the production hosting environment, making your changes available on [code.mil](https://code.mil).
 
 ### Check Your Changes
 
-While there are automated checks on every PR, you can run the build process locally first to ensure things are working as expected before submitting your PR. This includes running check against the built HTML using a tool called [html-proofer](https://github.com/gjtorikian/html-proofer). You can run the build and the html-proofer tool using the following command:
+Before submitting your Pull Request, you should run the build process locally first to ensure things are working as expected.
 
+```sh
+./scripts/build
 ```
-./build
+
+You should also run the testing script against your local build. This script will check the built website using the [html-proofer](https://github.com/gjtorikian/html-proofer) Ruby gem. You may run the test script using the following command:
+
+```sh
+./scripts/test
 ```
