@@ -1,6 +1,6 @@
 # Contributing to Our Projects, Version 1.5
 
-**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting Issues.**
+**NOTE: This CONTRIBUTING.md is for software contributions. You do not need to follow the Developer's Certificate of Origin (DCO) process for commenting on the Code.mil repository documentation, such as CONTRIBUTING.md, INTENT.md, etc. or for submitting issues.**
 
 Thanks for thinking about using or contributing to this software ("Project") and its documentation!
 
@@ -25,7 +25,7 @@ Pseudonymous or anonymous contributions are permissible, but you must be reachab
 
 If your contribution is significant, you are also welcome to add your name and copyright date to the source file header.
 
-U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By submitting a Pull Request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
+U.S. Federal law prevents the government from accepting gratuitous services unless certain conditions are met. By submitting a pull request, you acknowledge that your services are offered without expectation of payment and that you expressly waive any future pay claims against the U.S. Federal government related to your contribution.
 
 If you are a U.S. Federal government employee and use a `*.mil` or `*.gov` email address, we interpret your Signed-off-by to mean that the contribution was created in whole or in part by you and that your contribution is not subject to copyright protections.
 
@@ -108,7 +108,7 @@ Your bug fix or feature addition won't be rejected if it runs afoul of any (or a
 
 ## Submitting an Issue
 
-You should feel free to [submit an Issue](https://github.com/Code-dot-mil/code.mil/issues) on our GitHub repository for anything you find that needs attention on the website. That includes content, functionality, design, or anything else!
+You should feel free to [submit an issue](https://github.com/Code-dot-mil/code.mil/issues) on our GitHub repository for anything you find that needs attention on the website. That includes content, functionality, design, or anything else!
 
 ### Submitting a Bug Report
 
@@ -122,7 +122,7 @@ When submitting a bug report on the website, please be sure to include accurate 
 
 ## Submitting Code
 
-When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [Pull Request](https://github.com/Code-dot-mil/code.mil/pulls) (PR) on GitHub. Your Pull Request will go through some automated checks using [Travis CI](https://travis-ci.com/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
+When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [pull request](https://github.com/Code-dot-mil/code.mil/pulls) (PR) on GitHub. Your pull request will go through some automated checks using [Travis CI](https://travis-ci.com/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
 
 After review by the Code.mil team, your PR will either be commented on with a request for more information or changes, or it will be merged into the `master` branch and deployed to a URL for testing purposes.
 
@@ -130,7 +130,7 @@ Assuming everything checks out, the Code.mil team will merge the `master` branch
 
 ### Check Your Changes
 
-Before submitting your Pull Request, you should run the build process locally first to ensure things are working as expected.
+Before submitting your pull request, you should run the build process locally first to ensure things are working as expected.
 
 ```sh
 ./scripts/build
