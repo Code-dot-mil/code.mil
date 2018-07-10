@@ -22,6 +22,10 @@ abbr[title] {
   text-decoration: none;
 }
 
+.usa-layout-docs-main_content header h1 {
+  margin-top: 0;
+}
+
 .usa-content .usa-layout-docs-main_content p {
   max-width: none;
 }

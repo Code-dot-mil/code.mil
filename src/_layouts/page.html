@@ -1,0 +1,28 @@
+---
+layout: default
+
+main:
+  class: usa-grid usa-section usa-content usa-layout-docs
+---
+
+{%- assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav -%}
+
+{%- if sidenav -%}
+  <aside class="usa-layout-docs-sidenav sidenav {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
+    {% include sidenav.html links=sidenav %}
+  </aside>
+{% endif -%}
+
+<div class="usa-layout-docs-main_content">
+  <header>
+    {%- if page.title -%}
+      <h1>{{ page.title }}</h1>
+
+      {%- if page.updated_at -%}
+        <small class="usa-font-lead">Last updated <time datetime="{{ page.updated_at }}">{{ page.updated_at | date_to_string: 'ordinal', 'US' }}</time>.</small>
+      {%- endif -%}
+    {%- endif -%}
+  </header>
+
+  {{ content }}
+</div>
