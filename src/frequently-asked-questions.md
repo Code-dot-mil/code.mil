@@ -1,5 +1,6 @@
 ---
-title: Frequently Asked Questions (FAQ)
+title: Frequently Asked Questions (FAQs)
+updated_at: 2018-03-12
 
 sticky_sidenav: false
 
