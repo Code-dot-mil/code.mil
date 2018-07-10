@@ -1,5 +1,3 @@
-require 'json'
-
 module Jekyll
   module CodeGovInventory
     class Generator < Jekyll::Generator
