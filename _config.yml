@@ -21,6 +21,10 @@ defaults:
       path: "assets"
     values:
       layout: null
+  - scope:
+      path: "code.json"
+    values:
+      layout: null
 
 theme: uswds-jekyll
 
