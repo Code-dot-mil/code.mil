@@ -1,0 +1,33 @@
+{
+  "organization": "NGA",
+  "name": "Conduit",
+  "description": "Conduit is a curation tool that allows anyone to collect articles of interest from multiple feeds, make formatting changes, comments on articles on the fly then group selected items into \"books\" to target particular readers.",
+  "tags": [
+    "Content curation",
+    "NGA",
+    "Angular",
+    "AngularJS"
+  ],
+  "contact": {
+    "email": "conduit@nga.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "languages": ["Javascript", "HTML", "CSS"],
+  "repositoryURL": "https://github.com/ngageoint/conduit",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/ngageoint/conduit/blob/master/LICENSE",
+        "name": "The Unlicense"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 500,
+  "date": {
+    "created": "2016-11-01",
+    "lastModified": "2018-03-16T13:00-04:00",
+    "metadataLastUpdated": "2018-03-15T20:31:00Z"
+  }
+}

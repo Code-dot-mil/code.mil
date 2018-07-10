@@ -1,0 +1,38 @@
+{
+  "name": "The U.S. Army Research Laboratory (ARL) Software Release Process for Unrestricted Public Release",
+  "organization": "US Army Research Laboratory",
+  "description": "This document provides procedures that ARL Government personnel MUST follow when releasing software source code and software-related material to the public, and for accepting software-related contributions from the general public.",
+  "repositoryURL": "https://github.com/USArmyResearchLab/ARL-Open-Source-Guidance-and-Instructions",
+  "openSourceProject": 0,
+  "governmentWideReuseProject": 1,
+  "tags": [
+    "policy"
+  ],
+  "contact": {
+    "email": "usarmy.adelphi.rdecom-arl.mbx.ARL-Open-Source-policy@mail.mil"
+  },
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USArmyResearchLab/ARL-Open-Source-Guidance-and-Instructions/blob/master/LICENSE.txt",
+        "name": "CC0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "repository": "https://github.com/USArmyResearchLab/ARL-Open-Source-Guidance-and-Instructions",
+  "homepage": "https://github.com/USArmyResearchLab/ARL-Open-Source-Guidance-and-Instructions",
+  "downloadURL": "https://github.com/USArmyResearchLab/ARL-Open-Source-Guidance-and-Instructions",
+  "languages": [],
+  "partners": [],
+  "exemption": null,
+  "exemptionText": "No exemption requested",
+  "updated": {
+    "lastCommit": "2017-02-28",
+    "metadataLastUpdated": "2017-02-28",
+    "lastModified": "2017-02-28"
+  },
+  "laborHours": 1
+}

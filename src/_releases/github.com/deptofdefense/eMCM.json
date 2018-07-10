@@ -1,0 +1,42 @@
+{
+  "status": "Production",
+  "vcs": "git",
+  "repoURL": "https://github.com/deptofdefense/eMCM",
+  "name": "eMCM",
+  "description": "Search and browse interface for the Military Courts-martial Manual.",
+  "contact": {
+    "email": "code@dds.mil",
+    "name": "DDS"
+  },
+  "tags": [
+    "search",
+    "browse",
+    "interface",
+    "military",
+    "courts",
+    "martial",
+    "manual"
+  ],
+  "languages": [
+    "HTML",
+    "JavaScript",
+    "CSS"
+  ],
+  "repositoryURL": "https://github.com/deptofdefense/eMCM",
+  "homepageURL": "http://mcm.mil",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/deptofdefense/eMCM/blob/master/LICENSE.md",
+        "name": "AGPL"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "date": {
+    "created": "2016-12-14",
+    "lastModified": "2017-10-10T16:12:00Z",
+    "metadataLastUpdated": "2018-03-15T20:31:00Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "organization": "NRL",
+  "name": "Tracker Component Library",
+  "description": "This is a collection of Matlab functions that are useful in the development of target tracking algorithms.",
+  "tags": [
+    "C",
+    "C++",
+    "MATLAB"
+  ],
+  "contact": {
+    "name": "David Crouse",
+    "email": "david.crouse@nrl.navy.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "languages": ["MATLAB", "C", "C++"],
+  "repositoryURL": "https://github.com/USNavalResearchLaboratory/TrackerComponentLibrary",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USNavalResearchLaboratory/TrackerComponentLibrary/blob/master/LICENSE.txt",
+        "name": "public domain"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "date": {
+    "created": "2017-02-02",
+    "lastModified": "2018-06-06",
+    "metadataLastUpdated": "2018-06-18"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "Production",
+  "vcs": "git",
+  "name": "Dshell",
+  "description": "An extensible network forensic analysis framework. Enables rapid development of plugins to support the dissection of network packet captures.",
+  "contact": {
+    "email": " ",
+    "name": ""
+  },
+  "tags": [
+    "dshell",
+    "network",
+    "forensic",
+    "analysis",
+    "framework"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "repositoryURL": "https://github.com/USArmyResearchLab/Dshell",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USArmyResearchLab/Dshell/blob/master/LICENSE.txt",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "date": {
+    "created": "2014-12-17T11:04:00Z",
+    "lastModified": "2017-11-16T12:25:00Z",
+    "metadataLastUpdated": "2018-03-15T20:31:00Z"
+  }
+}

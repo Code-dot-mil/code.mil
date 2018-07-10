@@ -1,0 +1,29 @@
+{
+  "organization": "Air Force",
+  "name": "Salvaging Static Analysis (SalSA)",
+  "description": "The hope is that this project allows for the analyst to automate the static analysis process and quickly triage malware based on a robust set of homebuilt rules based on current white-papers in industry.",
+  "tags": [],
+  "contact": {
+    "email": "aaron.reyes.5@us.af.mil",
+    "name": "Aaron Reyes"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "languages": ["Python"],
+  "repositoryURL": "https://github.com/deptofdefense/salsa",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/deptofdefense/salsa/blob/master/LICENSE.md",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 248,
+  "date": {
+    "created": "2017-08-01",
+    "lastModified": "2017-12-21T13:00-04:00",
+    "metadataLastUpdated": "2018-03-15T20:31:00Z"
+  }
+}
