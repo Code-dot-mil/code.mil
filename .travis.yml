@@ -1,6 +1,7 @@
 language: ruby
 cache: bundler
 script:
+  - bundle outdated
   - ./scripts/test
 notifications:
   email: false
