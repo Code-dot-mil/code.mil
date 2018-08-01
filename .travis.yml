@@ -1,6 +1,7 @@
 language: ruby
 cache: bundler
 if: type = push
+install: bundle install --no-deployment && bundle outdated
 script: ./scripts/test
 notifications:
   email: false
