@@ -1,7 +1,8 @@
 language: ruby
 cache: bundler
+if: type = push
 script:
-  - ./scripts/test
+- ./scripts/test
 notifications:
   email: false
   slack:
