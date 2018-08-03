@@ -9,11 +9,11 @@ subnav:
 
 There are a few steps you will need to take to open source any project. Some of these steps are more administrative, and some involve adding things to your codebase. If you're not sure if you can open source your project, checkout our [getting started](/getting-started.html) workflow.
 
-<section class='usa-alert usa-alert-info'>
-  <article class='usa-alert-body'>
-    <h4 class='usa-alert-heading'>Is this process for you?</h4>
-    <p class='usa-alert-text'>
-      This is one suggested workflow for open sourcing an existing project (whether there is code or not yet), but you may want - or need - to follow a different process. Be sure to check with your organization to see if there is already a defined path to open source for you! If you aren't sure, send us an <a href='mailto:{{site.email}}'>email</a>!
+<section class="usa-alert usa-alert-info">
+  <article class="usa-alert-body">
+    <h4 class="usa-alert-heading">Is this process for you?</h4>
+    <p class="usa-alert-text">
+      This is one suggested workflow for open sourcing an existing project (whether there is code or not yet), but you may want - or need - to follow a different process. Be sure to check with your organization to see if there is already a defined path to open source for you! If you aren't sure, send us an <a href="mailto:{{site.email}}">email</a>!
     </p>
   </article>
 </section>
@@ -41,10 +41,10 @@ You can see examples of these documents in the code repository for this very web
 * [LICENSE.md](https://github.com/Code-dot-mil/code.mil/blob/master/LICENSE.md)
 * [INTENT.md](https://github.com/Code-dot-mil/code.mil/blob/master/INTENT.md)
 
-<section class='usa-alert usa-alert-info'>
-  <article class='usa-alert-body'>
-    <h4 class='usa-alert-heading'>Keep the Copyright!</h4>
-    <p class='usa-alert-text'>
+<section class="usa-alert usa-alert-info">
+  <article class="usa-alert-body">
+    <h4 class="usa-alert-heading">Keep the Copyright!</h4>
+    <p class="usa-alert-text">
       You might notice in the <a href="https://github.com/Code-dot-mil/code.mil/blob/master/LICENSE.md">LICENSE.md</a> file that there is a copyright line. That one is key, and you should keep it, even if you switch to a different license. Note that if this project was developed <strong>with a contractor</strong> that the contractor company name should also be listed here. Here is an example:
     </p>
     <p><em>
@@ -69,11 +69,11 @@ Now that you have all the pieces in place, it's time to release the code publicl
 
 If you aren't sure where to post the code, or you need help getting source control set up, [contact us](mailto:{{site.email}}) and we can advise you!
 
-<section class='usa-alert usa-alert-info'>
-  <article class='usa-alert-body'>
-    <h4 class='usa-alert-heading'>Using GitHub?</h4>
-    <p class='usa-alert-text'>
-      If you plan to use GitHub then we encourage you to add the <a href='https://github.com/topics/code-mil'><strong><code>code-mil</code></strong></a> topic to your repository. This will allow for easy discoverability by other developers within and outside of the government.
+<section class="usa-alert usa-alert-info">
+  <article class="usa-alert-body">
+    <h4 class="usa-alert-heading">Using GitHub?</h4>
+    <p class="usa-alert-text">
+      If you plan to use GitHub then we encourage you to add the <a href="https://github.com/topics/code-mil"><strong><code>code-mil</code></strong></a> topic to your repository. This will allow for easy discoverability by other developers within and outside of the government.
     </p>
   </article>
 </section>
@@ -82,4 +82,4 @@ If you aren't sure where to post the code, or you need help getting source contr
 
 The last piece of this process is adding your project to the [code inventory](https://code.gov/#/policy-guide/docs/compliance/inventory-code) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://code.gov/#/policy-guide/policy/open-source). But don't worry, **we'll take care of that for you**. You just need to contact us to tell us about your project!
 
-<a href='mailto:{{site.email}}' class='usa-button'>Tell us about your project</a>
+<a href="mailto:{{site.email}}" class="usa-button">Tell us about your project</a>
