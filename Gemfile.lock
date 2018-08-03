@@ -26,7 +26,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
-    html-proofer (3.9.1)
+    html-proofer (3.9.2)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       colorize (~> 0.8)
@@ -64,7 +64,7 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    nokogiri (1.8.3)
+    nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
     pathutil (0.16.1)
@@ -92,7 +92,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  html-proofer (~> 3.9, >= 3.9.1)
+  html-proofer (~> 3.9, >= 3.9.2)
   jekyll (~> 3.8, >= 3.8.3)
   uswds-jekyll!
 
@@ -100,4 +100,4 @@ RUBY VERSION
    ruby 2.4.3p205
 
 BUNDLED WITH
-   1.16.2
+   1.16.3
