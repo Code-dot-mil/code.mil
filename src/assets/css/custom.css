@@ -52,3 +52,20 @@ abbr[title] {
   text-align: center;
   width: 60%;
 }
+
+.project-submission-form {
+  margin-top: 3em;
+  max-width: none;
+}
+
+.project-submission-form > p {
+  margin: 0 0 2em 0;
+}
+
+.project-submission-form fieldset + fieldset {
+  margin-top: 3em;
+}
+
+.honeybucket {
+  display: none;
+}

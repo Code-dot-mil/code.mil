@@ -1,0 +1,85 @@
+---
+title: Tell Us About Your Code
+---
+
+<p>The DoD is reforming our processes and adopting agile acquisition and software development practices so that we may more diligently contract for, license, mark, receive, and release our custom-developed source code. We’re doing this to create better technical outcomes for our users, improve our security posture, and foster a culture that will attract software talent to the Department.</p>
+
+<p>To support this effort, Code.mil will be the central location for collecting information about unclassified, custom-developed source code created or paid for by the Department. Let us know about your organization’s unclassified, custom-developed source code by filling out the form below.</p>
+
+<form action="/thank-you.html" class="project-submission-form usa-form" method="post" netlify-honeypot="honeybucket" netlify>
+  <input type="text" name="honeybucket" aria-hidden="true" class="honeybucket" hidden>
+
+  <p><b>All fields required unless noted.</b></p>
+
+  <fieldset>
+    <legend>Project Details</legend>
+
+    <ul class="usa-unstyled-list">
+      <li>
+        <label for="project_name">Project Name</label>
+        <input type="text" id="project_name" name="project_name" required>
+      </li>
+      <li>
+        <label for="project_description">Project Description</label>
+        <textarea id="project_description" name="project_description" required></textarea>
+      </li>
+      <li>
+        <label for="project_agency">Branch of Service/Department/Agency</label>
+        <input type="text" id="project_agency" name="project_agency" required>
+      </li>
+      <li>
+        <label for="project_developer">Who developed this source code?</label>
+        <select id="project_developer" name="project_developer" required>
+          <option>- Select -</option>
+          <option value="government">Government</option>
+          <option value="contractor">Contractor</option>
+          <option value="mixed">Mixed</option>
+        </select>
+      </li>
+      <li>
+        <label for="project_start_date">When was this project started? <i>(e.g. 04/26/2017)</i></label>
+        <input type="text" id="project_start_date" id="project_start_date" pattern="\d{2}/\d{2}/\d{4}" placeholder="MM/DD/YYYY">
+      </li>
+      <li>
+        <label for="project_source_location">Where is the source code located? <i>(e.g. GitHub URL, Forge.mil, contractor)</i></label>
+        <input type="text" id="project_source_location" name="project_source_location" required>
+      </li>
+      <li>
+        <label for="project_repository">Repository URL <i>(optional)</i></label>
+        <input type="text" id="project_repository" name="project_repository" placeholder="https://…">
+      </li>
+      <li>
+        <input type="checkbox" id="project_government_reuse" name="project_government_reuse" value="1">
+        <label for="project_government_reuse">This code is available for government reuse.</label>
+      </li>
+      <li>
+        <input type="checkbox" id="project_public_release" name="project_public_release" value="1">
+        <label for="project_public_release">This code is approved for public release.</label>
+      </li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend>Point of Contact Information</legend>
+
+    <ul class="usa-unstyled-list">
+      <li>
+        <label for="contact_name">Name</label>
+        <input type="text" id="contact_name" name="contact_name" required>
+      </li>
+      <li>
+        <label for="contact_email">Email Address</label>
+        <input type="email" id="contact_email" name="contact_email" required>
+      </li>
+      <li>
+        <label for="contact_phone">Phone Number</label>
+        <input type="text" id="contact_phone" name="contact_phone" required>
+      </li>
+    </ul>
+  </fieldset>
+
+  <label for="comments">Additional Comments <i>(optional)</i></label>
+  <textarea id="comments" name="comments"></textarea>
+
+  <button>Submit</button>
+</form>
