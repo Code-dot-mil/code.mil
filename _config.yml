@@ -3,6 +3,7 @@ destination: ./public
 
 include:
   - _headers
+  - _redirects
 
 host: 0.0.0.0
 
