@@ -171,4 +171,44 @@
       window.location.hash = '';
     });
   })();
+  
+  (function highlightFormErrors() {
+    var inputs = find('.usa-form input, .usa-form textarea, .usa-form select');
+    
+    function highlightInput(n) {
+      if (n.validity.valid) {
+        if (n.getAttribute('required') !== null) {
+          n.classList.add('usa-input-success');
+        }
+        n.parentNode.classList.remove('usa-input-error');
+        var label = find('label', n.parentNode);
+        if (label.length) {
+          label[0].classList.remove('usa-input-error-label');
+        }
+      } else {
+        n.classList.remove('usa-input-success');
+        n.parentNode.classList.add('usa-input-error');
+        var label = find('label', n.parentNode);
+        if (label.length) {
+          label[0].classList.add('usa-input-error-label');
+        }
+      }
+    }
+    
+    find('.usa-form button, .usa-form [type="submit"]').forEach(function(n) {
+      n.addEventListener('click', function() {
+        inputs.forEach(highlightInput);
+      });
+    });
+    
+    find('.usa-form .past_dates').forEach(function(n) {
+      n.setAttribute('max', (new Date()).toISOString().split('T')[0]);
+    });
+    
+    inputs.forEach(function(n) {
+      n.addEventListener('blur', function() {
+        highlightInput(n);
+      });
+    });
+  })();
 })();
