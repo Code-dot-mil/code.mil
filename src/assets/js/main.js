@@ -171,40 +171,46 @@
       window.location.hash = '';
     });
   })();
-  
+
   (function highlightFormErrors() {
-    var inputs = find('.usa-form input, .usa-form textarea, .usa-form select');
-    
+    var inputs = find('.usa-form input, .usa-form textarea, .usa-form select'),
+        inputSuccessClassName = 'usa-input-success',
+        inputErrorClassName = 'usa-input-error',
+        inputErrorLabelClassName = 'usa-input-error-label';
+
     function highlightInput(n) {
+      var label = find('label', n.parentNode);
+
       if (n.validity.valid) {
         if (n.getAttribute('required') !== null) {
-          n.classList.add('usa-input-success');
+          n.classList.add(inputSuccessClassName);
         }
-        n.parentNode.classList.remove('usa-input-error');
-        var label = find('label', n.parentNode);
+
+        n.parentNode.classList.remove(inputErrorClassName);
+
         if (label.length) {
-          label[0].classList.remove('usa-input-error-label');
+          label[0].classList.remove(inputErrorLabelClassName);
         }
       } else {
-        n.classList.remove('usa-input-success');
-        n.parentNode.classList.add('usa-input-error');
-        var label = find('label', n.parentNode);
+        n.classList.remove(inputSuccessClassName);
+        n.parentNode.classList.add(inputErrorClassName);
+
         if (label.length) {
-          label[0].classList.add('usa-input-error-label');
+          label[0].classList.add(inputErrorLabelClassName);
         }
       }
     }
-    
+
     find('.usa-form button, .usa-form [type="submit"]').forEach(function(n) {
       n.addEventListener('click', function() {
         inputs.forEach(highlightInput);
       });
     });
-    
+
     find('.usa-form .past_dates').forEach(function(n) {
       n.setAttribute('max', (new Date()).toISOString().split('T')[0]);
     });
-    
+
     inputs.forEach(function(n) {
       n.addEventListener('blur', function() {
         highlightInput(n);
