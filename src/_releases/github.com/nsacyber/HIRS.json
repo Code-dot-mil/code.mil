@@ -1,0 +1,50 @@
+{
+  "name": "HIRS",
+  "repositoryURL": "https://github.com/nsacyber/HIRS",
+  "description": "Trusted Computing based services supporting TPM provisioning and supply chain validation concepts. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/HIRS/blob/master/LICENSE.md",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "integrity",
+    "provisioning",
+    "supply-chain",
+    "trusted-computing",
+    "trusted-platform-module",
+    "validation"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/HIRS",
+  "downloadURL": "https://github.com/repos/nsacyber/HIRS/zipball/v1.0.1",
+  "disclaimerURL": "https://github.com/nsacyber/HIRS/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2018-01-19",
+    "metadataLastUpdated": "2018-09-06",
+    "lastModified": "2018-09-06"
+  },
+  "languages": [
+    "Makefile",
+    "Java",
+    "CSS",
+    "JavaScript",
+    "Roff",
+    "C++",
+    "Shell",
+    "CMake",
+    "Ruby"
+  ]
+}

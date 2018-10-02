@@ -1,0 +1,41 @@
+{
+  "name": "simon-speck",
+  "repositoryURL": "https://github.com/nsacyber/simon-speck",
+  "description": "The SIMON and SPECK families of lightweight block ciphers. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/simon-speck/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "cipher",
+    "ciphers",
+    "crypto",
+    "crypto-library",
+    "cryptography",
+    "cryptography-library",
+    "simon",
+    "speck"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://nsacyber.github.io/simon-speck/",
+  "downloadURL": "https://github.com/nsacyber/simon-speck/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/simon-speck/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2016-07-01",
+    "metadataLastUpdated": "2018-09-05",
+    "lastModified": "2018-08-27"
+  }
+}

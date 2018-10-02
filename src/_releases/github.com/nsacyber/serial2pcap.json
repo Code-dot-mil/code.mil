@@ -1,0 +1,43 @@
+{
+  "name": "serial2pcap",
+  "repositoryURL": "https://github.com/nsacyber/serial2pcap",
+  "description": "Converts serial IP data, typically collected from Industrial Control System devices, to the more commonly used Packet Capture (PCAP) format. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/serial2pcap/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "control-systems",
+    "conversion",
+    "convert",
+    "converter",
+    "ics-scada",
+    "pcap",
+    "scada"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Archival",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/serial2pcap",
+  "downloadURL": "https://github.com/nsacyber/serial2pcap/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/serial2pcap/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2017-10-02",
+    "metadataLastUpdated": "2018-05-24",
+    "lastModified": "2017-10-25"
+  },
+  "languages": [
+    "Python"
+  ]
+}

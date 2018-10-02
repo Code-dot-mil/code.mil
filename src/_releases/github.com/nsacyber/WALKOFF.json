@@ -1,0 +1,58 @@
+{
+  "name": "WALKOFF",
+  "repositoryURL": "https://github.com/nsacyber/WALKOFF",
+  "description": "A flexible, easy to use, automation framework allowing users to integrate their capabilities and devices to cut through the repetitive, tedious tasks slowing them down. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/WALKOFF/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "administration",
+    "analytics",
+    "automation",
+    "automation-framework",
+    "cybersecurity",
+    "devops",
+    "framework",
+    "integration",
+    "orchestration",
+    "orchestration-framework",
+    "orchestrator",
+    "python",
+    "security",
+    "sysadmin",
+    "walkoff",
+    "walkoff-apps",
+    "walkoff-workflows",
+    "workflow"
+  ],
+  "contact": {
+    "email": "walkoff@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "walkoff"
+  },
+  "status": "Beta",
+  "vcs": "git",
+  "homepageURL": "https://nsacyber.github.io/WALKOFF/",
+  "downloadURL": "https://github.com/repos/nsacyber/WALKOFF/zipball/v0.8.4",
+  "disclaimerURL": "https://github.com/nsacyber/WALKOFF/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2016-06-08",
+    "metadataLastUpdated": "2018-09-06",
+    "lastModified": "2018-09-06"
+  },
+  "languages": [
+    "Mako",
+    "CSS",
+    "JavaScript",
+    "HTML",
+    "Python",
+    "TypeScript"
+  ]
+}

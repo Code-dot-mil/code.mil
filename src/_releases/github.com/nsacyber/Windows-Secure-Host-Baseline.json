@@ -1,0 +1,53 @@
+{
+  "name": "Windows-Secure-Host-Baseline",
+  "repositoryURL": "https://github.com/nsacyber/Windows-Secure-Host-Baseline",
+  "description": "Configuration guidance for implementing the Windows 10 and Windows Server 2016 DoD Secure Host Baseline settings. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/Windows-Secure-Host-Baseline/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "adobe-reader",
+    "applocker",
+    "audit",
+    "auditing",
+    "certificates",
+    "chrome-browser",
+    "compliance",
+    "group-policy",
+    "internet-explorer",
+    "microsoft-office",
+    "nessus",
+    "windows",
+    "windows-10",
+    "windows-firewall",
+    "windows-server",
+    "windows-server-2016"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/Windows-Secure-Host-Baseline",
+  "downloadURL": "https://github.com/nsacyber/Windows-Secure-Host-Baseline/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/Windows-Secure-Host-Baseline/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2016-02-26",
+    "metadataLastUpdated": "2018-09-05",
+    "lastModified": "2018-08-10"
+  },
+  "languages": [
+    "PowerShell",
+    "HTML"
+  ]
+}

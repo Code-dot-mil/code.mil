@@ -1,0 +1,45 @@
+{
+  "name": "HTTP-Connectivity-Tester",
+  "repositoryURL": "https://github.com/nsacyber/HTTP-Connectivity-Tester",
+  "description": "Aids in discovering HTTP and HTTPS connectivity issues. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/HTTP-Connectivity-Tester/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "connection",
+    "connectivity",
+    "diagnostic",
+    "diagnostics",
+    "http",
+    "https",
+    "powershell-module",
+    "test",
+    "testing"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/HTTP-Connectivity-Tester",
+  "downloadURL": "https://github.com/nsacyber/HTTP-Connectivity-Tester/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/HTTP-Connectivity-Tester/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2017-10-17",
+    "metadataLastUpdated": "2018-09-03",
+    "lastModified": "2018-08-27"
+  },
+  "languages": [
+    "PowerShell"
+  ]
+}

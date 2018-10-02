@@ -1,0 +1,40 @@
+{
+  "name": "Driver-Collider",
+  "repositoryURL": "https://github.com/nsacyber/Driver-Collider",
+  "description": "Blocks drivers from loading by using a name collision technique. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/Driver-Collider/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "driver",
+    "windows"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Archival",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/Driver-Collider",
+  "downloadURL": "https://github.com/nsacyber/Driver-Collider/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/Driver-Collider/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2017-10-17",
+    "metadataLastUpdated": "2018-08-23",
+    "lastModified": "2017-12-18"
+  },
+  "languages": [
+    "C",
+    "PowerShell",
+    "Roff"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "netfil",
+  "repositoryURL": "https://github.com/nsacyber/netfil",
+  "description": "A kernel network manager with monitoring and limiting capabilities for macOS. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/netfil/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "macos",
+    "macosx",
+    "monitor",
+    "monitoring",
+    "network",
+    "networking"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Archival",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/netfil",
+  "downloadURL": "https://github.com/nsacyber/netfil/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/netfil/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2017-02-23",
+    "metadataLastUpdated": "2018-06-29",
+    "lastModified": "2017-03-16"
+  },
+  "languages": [
+    "C",
+    "Objective-C",
+    "Swift",
+    "Shell"
+  ]
+}

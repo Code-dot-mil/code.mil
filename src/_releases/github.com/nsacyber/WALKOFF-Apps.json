@@ -1,0 +1,54 @@
+{
+  "name": "WALKOFF-Apps",
+  "repositoryURL": "https://github.com/nsacyber/WALKOFF-Apps",
+  "description": "WALKOFF-enabled applications. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/WALKOFF-Apps/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "administration",
+    "analytics",
+    "automation",
+    "cybersecurity",
+    "integration",
+    "iot",
+    "orchestration",
+    "orchestration-framework",
+    "orchestrator",
+    "python",
+    "security",
+    "walkoff",
+    "walkoff-apps"
+  ],
+  "contact": {
+    "email": "walkoff@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "walkoff"
+  },
+  "status": "Beta",
+  "vcs": "git",
+  "homepageURL": "https://nsacyber.github.io/WALKOFF",
+  "downloadURL": "https://github.com/nsacyber/WALKOFF-Apps/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/WALKOFF-Apps/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2017-05-16",
+    "metadataLastUpdated": "2018-08-26",
+    "lastModified": "2018-07-10"
+  },
+  "languages": [
+    "Makefile",
+    "CSS",
+    "JavaScript",
+    "HTML",
+    "Python",
+    "Shell",
+    "PowerShell"
+  ]
+}

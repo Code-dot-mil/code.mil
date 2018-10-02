@@ -1,0 +1,39 @@
+{
+  "name": "Event-Forwarding-Guidance",
+  "repositoryURL": "https://github.com/nsacyber/Event-Forwarding-Guidance",
+  "description": "Configuration guidance for implementing collection of security relevant Windows Event Log events by using Windows Event Forwarding. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/Event-Forwarding-Guidance/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "event-log",
+    "siem",
+    "windows"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/Event-Forwarding-Guidance",
+  "downloadURL": "https://github.com/nsacyber/Event-Forwarding-Guidance/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/Event-Forwarding-Guidance/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2015-01-09",
+    "metadataLastUpdated": "2018-09-06",
+    "lastModified": "2017-12-01"
+  },
+  "languages": [
+    "PowerShell"
+  ]
+}

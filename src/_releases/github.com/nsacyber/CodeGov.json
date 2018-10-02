@@ -1,0 +1,40 @@
+{
+  "name": "CodeGov",
+  "repositoryURL": "https://github.com/nsacyber/CodeGov",
+  "description": "Creates a code.gov code inventory JSON file based on GitHub repository information. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/CodeGov/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "gov",
+    "government",
+    "json",
+    "powershell-module"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/CodeGov",
+  "downloadURL": "https://github.com/nsacyber/CodeGov/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/CodeGov/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2017-10-17",
+    "metadataLastUpdated": "2018-09-06",
+    "lastModified": "2018-09-06"
+  },
+  "languages": [
+    "PowerShell"
+  ]
+}

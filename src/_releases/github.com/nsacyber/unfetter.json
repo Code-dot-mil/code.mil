@@ -1,0 +1,34 @@
+{
+  "name": "unfetter",
+  "repositoryURL": "https://github.com/nsacyber/unfetter",
+  "description": "Identifies defensive gaps in security posture by leveraging Mitre's ATT&CK framework. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/unfetter/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "unfetter"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "http://unfetter.io/",
+  "downloadURL": "https://github.com/nsacyber/unfetter/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/unfetter/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2016-09-12",
+    "metadataLastUpdated": "2018-09-05",
+    "lastModified": "2018-08-22"
+  }
+}

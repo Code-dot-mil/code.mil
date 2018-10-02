@@ -1,0 +1,49 @@
+{
+  "name": "GRASSMARLIN",
+  "repositoryURL": "https://github.com/nsacyber/GRASSMARLIN",
+  "description": "Provides situational awareness of Industrial Control Systems (ICS) and Supervisory Control and Data Acquisition (SCADA) networks in support of network security assessments. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/GRASSMARLIN/blob/master/LICENSE.md",
+        "name": "LGPL-3.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "analysis",
+    "control-systems",
+    "ics",
+    "ics-scada",
+    "monitor",
+    "monitoring",
+    "network",
+    "networking",
+    "scada",
+    "scada-security",
+    "visualization"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/GRASSMARLIN",
+  "downloadURL": "https://github.com/repos/nsacyber/GRASSMARLIN/zipball/v3.2.1",
+  "disclaimerURL": "https://github.com/nsacyber/GRASSMARLIN/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2015-12-14",
+    "metadataLastUpdated": "2018-09-05",
+    "lastModified": "2018-03-09"
+  },
+  "languages": [
+    "HTML",
+    "Java",
+    "ANTLR"
+  ]
+}

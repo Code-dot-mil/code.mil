@@ -1,0 +1,43 @@
+{
+  "name": "netman",
+  "repositoryURL": "https://github.com/nsacyber/netman",
+  "description": "A userland network manager with monitoring and limiting capabilities for macOS. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/netman/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "macos",
+    "macosx",
+    "monitor",
+    "monitoring",
+    "network",
+    "networking"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Archival",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/netman",
+  "downloadURL": "https://github.com/nsacyber/netman/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/netman/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2016-11-18",
+    "metadataLastUpdated": "2018-05-15",
+    "lastModified": "2016-11-29"
+  },
+  "languages": [
+    "Makefile",
+    "C"
+  ]
+}

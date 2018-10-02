@@ -1,0 +1,49 @@
+{
+  "name": "LOCKLEVEL",
+  "repositoryURL": "https://github.com/nsacyber/LOCKLEVEL",
+  "description": "A prototype that demonstrates a method for scoring how well Windows systems have implemented some of the top 10 Information Assurance mitigation strategies. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/LOCKLEVEL/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "assessment",
+    "compliance",
+    "scoring",
+    "windows"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Archival",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/LOCKLEVEL",
+  "downloadURL": "https://github.com/nsacyber/LOCKLEVEL/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/LOCKLEVEL/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2016-05-19",
+    "metadataLastUpdated": "2018-08-23",
+    "lastModified": "2016-06-08"
+  },
+  "languages": [
+    "Objective-C",
+    "CSS",
+    "JavaScript",
+    "HTML",
+    "Python",
+    "C++",
+    "PowerShell",
+    "C",
+    "CMake",
+    "Batchfile"
+  ]
+}

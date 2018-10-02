@@ -1,0 +1,40 @@
+{
+  "name": "Windows-Event-Log-Messages",
+  "repositoryURL": "https://github.com/nsacyber/Windows-Event-Log-Messages",
+  "description": "Retrieves the definitions of Windows Event Log messages embedded in Windows binaries and provides them in discoverable formats. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/Windows-Event-Log-Messages/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "event-log",
+    "windows"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/Windows-Event-Log-Messages",
+  "downloadURL": "https://github.com/repos/nsacyber/Windows-Event-Log-Messages/zipball/v2.3.0.0-20170406",
+  "disclaimerURL": "https://github.com/nsacyber/Windows-Event-Log-Messages/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2016-07-19",
+    "metadataLastUpdated": "2018-09-03",
+    "lastModified": "2018-07-10"
+  },
+  "languages": [
+    "PowerShell",
+    "Batchfile",
+    "C#"
+  ]
+}

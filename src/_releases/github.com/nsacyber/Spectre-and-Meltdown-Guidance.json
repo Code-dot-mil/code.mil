@@ -1,0 +1,43 @@
+{
+  "name": "Spectre-and-Meltdown-Guidance",
+  "repositoryURL": "https://github.com/nsacyber/Spectre-and-Meltdown-Guidance",
+  "description": "Guidance for the Spectre and Meltdown vulnerabilities. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/Spectre-and-Meltdown-Guidance/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "audit",
+    "cve",
+    "cve-2017-5715",
+    "cve-2017-5753",
+    "cve-2017-5754",
+    "guidance",
+    "meltdown",
+    "nessus",
+    "spectre",
+    "vulnerability"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/Spectre-and-Meltdown-Guidance",
+  "downloadURL": "https://github.com/nsacyber/Spectre-and-Meltdown-Guidance/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/Spectre-and-Meltdown-Guidance/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2018-01-10",
+    "metadataLastUpdated": "2018-08-24",
+    "lastModified": "2018-07-30"
+  }
+}

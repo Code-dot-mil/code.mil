@@ -1,0 +1,65 @@
+{
+  "name": "simon-speck-supercop",
+  "repositoryURL": "https://github.com/nsacyber/simon-speck-supercop",
+  "description": "Fast implementations of the SIMON and SPECK lightweight block ciphers for the SUPERCOP benchmark toolkit. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/simon-speck-supercop/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "cipher",
+    "ciphers",
+    "crypto",
+    "crypto-library",
+    "cryptography",
+    "cryptography-library",
+    "simon",
+    "speck",
+    "supercop"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "homepageURL": "https://nsacyber.github.io/simon-speck",
+  "downloadURL": "https://github.com/nsacyber/simon-speck-supercop/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/simon-speck-supercop/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2016-07-01",
+    "metadataLastUpdated": "2018-06-13",
+    "lastModified": "2018-06-13"
+  },
+  "languages": [
+    "q",
+    "GDB",
+    "Objective-C",
+    "Shell",
+    "XS",
+    "Emacs Lisp",
+    "Makefile",
+    "Perl 6",
+    "M4",
+    "Perl",
+    "Python",
+    "HiveQL",
+    "Yacc",
+    "Lex",
+    "TeX",
+    "Fortran",
+    "HTML",
+    "PHP",
+    "C++",
+    "Assembly",
+    "C"
+  ]
+}

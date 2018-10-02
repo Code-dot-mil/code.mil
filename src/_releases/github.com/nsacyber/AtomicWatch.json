@@ -1,0 +1,40 @@
+{
+  "name": "AtomicWatch",
+  "repositoryURL": "https://github.com/nsacyber/AtomicWatch",
+  "description": "Intel Atom C2000 series discovery tool that parses log files and returns results if a positive match is found. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/AtomicWatch/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "atom",
+    "cpu",
+    "intel",
+    "processor"
+  ],
+  "contact": {
+    "email": "iad_ccc@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "NSA Client Contact Center",
+    "phone": "410-854-4200"
+  },
+  "status": "Archival",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/AtomicWatch",
+  "downloadURL": "https://github.com/nsacyber/AtomicWatch/archive/master.zip",
+  "disclaimerURL": "https://github.com/nsacyber/AtomicWatch/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2017-06-08",
+    "metadataLastUpdated": "2018-05-13",
+    "lastModified": "2017-06-10"
+  },
+  "languages": [
+    "Python"
+  ]
+}

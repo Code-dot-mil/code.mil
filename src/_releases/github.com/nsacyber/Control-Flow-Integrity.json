@@ -1,0 +1,38 @@
+{
+  "name": "Control-Flow-Integrity",
+  "repositoryURL": "https://github.com/nsacyber/Control-Flow-Integrity",
+  "description": "A proposed hardware-based method for stopping known memory corruption exploitation techniques. #nsacyber",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/nsacyber/Control-Flow-Integrity/blob/master/LICENSE.md",
+        "name": "CC0-1.0"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "tags": [
+    "control-flow",
+    "control-flow-analysis",
+    "control-flow-integrity"
+  ],
+  "contact": {
+    "email": "control-flow-integrity@nsa.gov",
+    "URL": "https://www.iad.gov/iad/library/supporting-documents/faq/iad-contact-list.cfm",
+    "name": "control-flow-integrity"
+  },
+  "status": "Archival",
+  "vcs": "git",
+  "homepageURL": "https://github.com/nsacyber/Control-Flow-Integrity",
+  "downloadURL": "https://github.com/repos/nsacyber/Control-Flow-Integrity/zipball/v1.0.0",
+  "disclaimerURL": "https://github.com/nsacyber/Control-Flow-Integrity/blob/master/DISCLAIMER.md",
+  "date": {
+    "created": "2015-07-23",
+    "metadataLastUpdated": "2018-08-10",
+    "lastModified": "2017-05-10"
+  },
+  "languages": [
+    "C"
+  ]
+}
