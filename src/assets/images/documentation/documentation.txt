@@ -1,0 +1,70 @@
+# Writing Good Documentation
+
+## Introduction
+
+This is not “How to Open Source” (that’s here) – actually, this may be Step 7 of How to Open Source – but how to write great documentation for your project as it applies to GitHub or Open Source which is to say, how it applies to new users and contributors. 
+
+### Purpose
+
+Specifically, documentation introduces your project to visitors and provides easy-to-understand instructions for installing and using your project. 
+
+Generally, documentation provides guidance for contributing including your process and requirements for submitting Pull Requests and Issues as well as relatively small tasks like Commit messages. 
+
+Not only does good documentation make your project user-friendly as a product but welcoming as a community. It also makes the community user-friendly by providing standards and guidelines not only for the above tasks but for conduct between community members.
+
+## Writing a Good README.md
+
+Your README is the first impression your project makes. Like any other "above the fold" website home page, this is where visitors make the decision to user either the scrollbar or the Back button. You must simultaneously greet visitors with a smile and give your project's elevator pitch.
+
+### Tips
+
+- Provide links and explanations for other documentation you may have such as a CONTRIBUTING.md file, tutorials, .md files for individual sections of a relatively large project, and to an online demo or the live app.
+- 
+
+## Writing a Good CONTRIBUTING.md
+
+### Tips
+
+You might provide contact info for questions when opening an issue isn't appropriate.
+
+## Writing and Reviewing Pull Requests
+
+
+## Writing Issues and Comments
+
+A well-written issue includes everything you'd want to know before diving in. The issue might be something as simple as content, a tutorial or screenshot and those are often self-explanatory. 
+
+Bugs, on the other hand, should be described in depth. Include:
+
+- The expected behavior
+- What actually happens instead
+- Steps to reproduce the behavior
+- Unique circumstances ("it only happens in Windows" or "It only happens in Netscape 7")
+
+## Attracting Contributors with Labels
+
+People contribute to open source for many reasons. They may be particularly interested in your project but they may also be searching for _any_ project that is a good fit for their time and skillset. When searching for a project to which they can contribute, potential contributors may filter them by language. They can further filter them by *label* so make your project and issues easy for those people to find in search results and target as a potential fit by labeling your issues. 
+
+### Applying Labels
+
+While creating a new issue, click the Labels button to the right and choose a label. 
+
+Apply a label to multiple issues at once by selecting the issues' checkboxes under the Issues tab and choosing a label (can you select multiple?) from the Labels menu.
+
+### Creating Labels
+
+There are eight default labels including "help wanted", "bug", and "good first issue".
+
+- "issue-type" (such as "documentation" or "content") [issue-type] bug
+- "effort" required (i.e. "small") [effort] <medium>
+- "skill-level" (i.e. "beginner") [skill-level] <Intermediate>
+
+When creating your own, custom labels, make them consisten with how most people have created them to make your Issues as easy to find as possible. 
+
+There are even several newbie-related labels such as "low-hanging fruit", [issue-type] good first issue, and, during October, "Hacktoberfest".
+
+### Tips
+
+- Provide guidelines for respect, courtesy, etc. in CONTRIBUTING.md or a "Code of Conduct" file.
+- If your project uses multiple languages and skills, you might mention which specific language a potential contributor needs to work on this skill. Otherwise, they may start a task they expect only requires HTML and Javascript but quickly realizes they need some Ruby knowledge or something else the lack of which turns a "small" and "easy" issue into something prohibitive and discouraging. 
+
