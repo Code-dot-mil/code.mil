@@ -1,17 +1,11 @@
 ---
 title: How to Write Good Open Source Documentation
 updated_at: 2018-10-08
-
-subnav:
-  - text: "Step 1: Approval"
-    href: "/how-to-open-source.html#step-1-approval"
 ---
 
 # Writing Good Documentation
 
 ## Introduction
-
-This is not �How to Open Source� (that�s here) � actually, this may be Step 7 of How to Open Source � but how to write great documentation for your project as it applies to GitHub or Open Source which is to say, how it applies to new users and contributors. 
 
 ### Purpose
 
@@ -32,12 +26,11 @@ Your README is the first impression your project makes. Like any other "above th
 
 ## Writing a Good CONTRIBUTING.md
 
+Provide preliminary guidance for Pull Requests such as "All pull requests should be a response to an active issue -- if there is no issue relevant to your contribution, create an issue so we can provide some feedback and nobody's time is wasted (or feelings hurt).
+
 ### Tips
 
 You might provide contact info for questions when opening an issue isn't appropriate.
-
-## Writing and Reviewing Pull Requests
-
 
 ## Writing Issues and Comments
 
@@ -77,8 +70,31 @@ There are even several newbie-related labels such as "low-hanging fruit", [issue
 - Provide guidelines for respect, courtesy, etc. in CONTRIBUTING.md or a "Code of Conduct" file.
 - If your project uses multiple languages and skills, you might mention which specific language a potential contributor needs to work on this skill. Otherwise, they may start a task they expect only requires HTML and Javascript but quickly realizes they need some Ruby knowledge or something else the lack of which turns a "small" and "easy" issue into something prohibitive and discouraging. 
 
+## Writing and Reviewing Pull Requests
+
+### Reviewing Pull Requests
+
+Part of this is making sure the PR follows our own documentation, policies, and procedures.
+
+It is always okay to say "no."
+
+If the answer is "not yet," see Responding to Pull Requests.
+
+### Responding to Pull Requests
+
+- Thank the contributor.
+- If you're not accepting the PR, explain why in detail. Link to any relevant documentation. 
+- If not accepting the PR, provide clear feedback so they can continue working
+- Provide feedback, even if you're accepting the PR without changes
+
+### Tips
+
+- Respond promptly
+- Respond, period. Repos with lists of unanswered PRs look bad and uninviting.
 
 
+EVERYTHING BELOW THIS IS FOR FORMATTING REFERENCE AND SHOULD BE DELETED
+EVERYTHING BELOW THIS IS FOR FORMATTING REFERENCE AND SHOULD BE DELETED
 EVERYTHING BELOW THIS IS FOR FORMATTING REFERENCE AND SHOULD BE DELETED
 
 There are a few steps you will need to take to open source any project. Some of these steps are more administrative, and some involve adding things to your codebase. If you're not sure if you can open source your project, checkout our [getting started](/getting-started.html) workflow.
