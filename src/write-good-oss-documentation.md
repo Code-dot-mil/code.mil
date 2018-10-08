@@ -49,19 +49,29 @@ People contribute to open source for many reasons. They may be particularly inte
 
 ### Applying Labels
 
-While creating a new issue, click the Labels button to the right and choose a label. 
+While creating a new issue under the Issues tab, click the Labels button (looks like a Settings button or a gear) to the right and choose a label. 
 
-Apply a label to multiple issues at once by selecting the issues' checkboxes under the Issues tab and choosing a label (can you select multiple?) from the Labels menu.
+<img width="500" height=auto src="https://github.com/jotasprout/code.mil/blob/how-to-write-documentation/src/assets/images/documentation/labelingNewIssue.png">
+
+Apply a label to multiple issues at once by selecting the issues' checkboxes under the Issues tab and choosing a label from the Labels menu.
+
+<img width="500" height=auto src="https://github.com/jotasprout/code.mil/blob/how-to-write-documentation/src/assets/images/documentation/labelMenu.png">
 
 ### Creating Labels
 
-There are eight default labels including "help wanted", "bug", and "good first issue".
+There are eight default labels including "help wanted", "bug", and "good first issue". You can create your own custom labels. 
+
+Under the Issues tab, click the Labels button.
+
+<img width="500" height=auto src="https://github.com/jotasprout/code.mil/blob/how-to-write-documentation/src/assets/images/documentation/issuesTab.png">
 
 - "issue-type" (such as "documentation" or "content")
 - "effort" required (i.e. "small")
 - "skill-level" (i.e. "beginner")
 
-When creating your own, custom labels, make them consisten with how most people have created them to make your Issues as easy to find as possible. 
+When creating your own, custom labels, make them consistent with how most people have created them to make your Issues as easy to find as possible. 
+
+<img width="500" height=auto src="https://github.com/jotasprout/code.mil/blob/how-to-write-documentation/src/assets/images/documentation/creatingLabel.png">
 
 There are even several newbie-related labels such as "low-hanging fruit", [issue-type] good first issue, and, during October, "Hacktoberfest".
 
