@@ -1,6 +1,10 @@
 ---
 title: How to Write Good Open Source Documentation
-updated_at: 2018-10-08
+updated_at: 2018-10-11
+
+subnav:
+  - text: "Purpose of Documentation"
+    href: "/write-good-oss-documentation.html#Purpose"
 ---
 
 # Writing Good Documentation

@@ -5,6 +5,8 @@ secondary: &secondary_navigation
     href: /getting-started.html
   - text: How to Open Source
     href: /how-to-open-source.html
+  - text: Writing Good Documentation
+    href: /write-good-oss-documentation.html    
   - text: FAQs
     href: /frequently-asked-questions.html
 
