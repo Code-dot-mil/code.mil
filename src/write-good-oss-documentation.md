@@ -4,7 +4,17 @@ updated_at: 2018-10-11
 
 subnav:
   - text: "Purpose of Documentation"
-    href: "/write-good-oss-documentation.html#Purpose"
+    href: "/write-good-oss-documentation.html#purpose"
+  - text: "Writing a Good README.md"
+    href: "/write-good-oss-documentation.html#writing-a-good-readmemd"
+  - text: "Writing a Good CONTRIBUTING.md"
+    href: "/write-good-oss-documentation.html#writing-a-good-contributingmd"
+  - text: "Writing Issues and Comments"
+    href: "/write-good-oss-documentation.html#writing-issues-and-comments"    
+  - text: "Attracting Contributors with Labels"
+    href: "/write-good-oss-documentation.html#attracting-contributors-with-labels"
+  - text: "Reviewing Pull Requests"
+    href: "/write-good-oss-documentation.html#reviewing-pull-requests"    
 ---
 
 # Writing Good Documentation
@@ -23,10 +33,13 @@ Not only does good documentation make your project user-friendly as a product bu
 
 Your README is the first impression your project makes. Like any other "above the fold" content on a website home page, this is where visitors make the decision to user either the scrollbar or the Back button. You must simultaneously greet visitors with a smile and give your project's elevator pitch.
 
+- Describe your app's purpose 
+- Provide basic instructions for use.
+
 ### Tips
 
 - Provide links and explanations for other documentation you may have such as a CONTRIBUTING.md file, tutorials, other .md files for individual sections of a relatively large project, and to an online demo or the live app itself.
-- 
+- Include screenshots -- if, for no other reason, to liven it up visually.
 
 ## Writing a Good CONTRIBUTING.md
 
