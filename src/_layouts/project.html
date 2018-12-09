@@ -1,8 +1,28 @@
 ---
 layout: default
+main:
+  class: usa-grid usa-section usa-content usa-layout-docs
 ---
-<h1>{{ page.title }}</h1>
-<i>{{ page.organization }}</i>
-<p>
-{{ page.description }}
-</p>
+
+<div class="usa-grid usa-section">
+<div class="usa-layout-docs-main_content">
+        <header>
+          {%- if page.title -%}
+            <h1>{{ page.title }}</h1>
+      
+            {%- if page.date.created -%}
+              <small class="usa-font-lead">Last updated <time datetime="{{ page.date.lastModified }}">{{ page.date.lastModified | date_to_string: 'ordinal', 'US' }}</time></small>
+            {%- endif -%}
+          {%- endif -%}
+        </header>
+        
+        <p>
+        {{ page.description }}
+        </p>
+        <p>Status: {{ page.status }}</p>
+        <p>Organization: {{ page.organization }}</p>
+        <p>Source: <a href="{{ page.repositoryURL }}">{{ page.repositoryURL }}</a></p>
+        <p>License: <a href="{{ page.permissions.licenses[0].URL }}">{{ page.permissions.licenses[0].name }}</a></p>
+        <p>Contact: <a href="mailto://{{ page.contact.email }}">{% if page.contact.name %} {{ page.contact.name }} {% else %} email {% endif %}</a></p>
+</div>
+</div>
