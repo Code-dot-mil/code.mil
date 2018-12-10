@@ -19,10 +19,26 @@ main:
         <p>
         {{ page.description }}
         </p>
-        <p>Status: {{ page.status }}</p>
-        <p>Organization: {{ page.organization }}</p>
-        <p>Source: <a href="{{ page.repositoryURL }}">{{ page.repositoryURL }}</a></p>
-        <p>License: <a href="{{ page.permissions.licenses[0].URL }}">{{ page.permissions.licenses[0].name }}</a></p>
-        <p>Contact: <a href="mailto://{{ page.contact.email }}">{% if page.contact.name %} {{ page.contact.name }} {% else %} email {% endif %}</a></p>
-</div>
+        <ul>
+          {% if page.organization %}
+          <li>Organization: {{ page.organization }}</li>
+          {% endif %}
+          <li>Status: {{ page.status }}</li>
+          <li>Source: <a href="{{ page.repositoryURL }}">{{ page.repositoryURL }}</a></li>
+          <li>License: <a href="{{ page.permissions.licenses[0].URL }}">{{ page.permissions.licenses[0].name }}</a></li>
+          {% if page.contact %}
+          <li>
+            {% if page.contact.name and page.contact.name != '' and page.contact.email and page.contact.email != ' ' %}
+              Contact: <a href="mailto://{{ page.contact.email }}"> {{ page.contact.name }}</a>
+            {% elsif page.contact.name and page.contact.name != '' %}
+              Contact: {{ page.contact.name }}
+            {% elsif page.contact.email and page.contact.email != ' ' %}
+              Contact: <a href="mailto://{{ page.contact.email }}">{{ page.contact.email | replace: '.', ' ' | split: '@' | first }}</a>
+            {% else %}
+              Contact: <i>no contact information available</i>
+            {% endif %}
+          </li>
+          {% endif %}
+        </ul>
+  </div>
 </div>
