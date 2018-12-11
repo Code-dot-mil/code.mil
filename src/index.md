@@ -1,6 +1,8 @@
 ---
 layout: home
 
+class: page-home
+
 tagline: Open Source at DoD
 
 hero:
