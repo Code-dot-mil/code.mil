@@ -69,3 +69,7 @@ abbr[title] {
 .honeybucket {
   display: none;
 }
+
+.page-home .usa-section-dark .usa-button {
+  color: #fff;
+}
