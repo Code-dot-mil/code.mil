@@ -1,0 +1,29 @@
+{
+  "organization": "DDS",
+  "name": "DDS.mil",
+  "description": "The source code for the Defense Digital Service website. This website's source code is made available to the open source community with the hope that community contributions will improve functionality, add features, and mature this work.",
+  "tags": [],
+  "contact": {
+    "email": "code@dds.mil",
+    "name": "Defense Digital Service"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "languages": ["HTML", "CSS", "JavaScript"],
+  "repositoryURL": "https://github.com/deptofdefense/dds.mil",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/deptofdefense/dds.mil/blob/master/LICENSE.md",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 1,
+  "date": {
+    "created": "2018-08-21",
+    "lastModified": "2018-11-16T00:00:00Z",
+    "metadataLastUpdated": "2018-11-16T00:00:00Z"
+  }
+}
