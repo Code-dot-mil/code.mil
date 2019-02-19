@@ -1,5 +1,6 @@
 'use strict';
 
+// projects const placeholder for a fetch call to https://code.mil/code.json
 const projects = {
   "agency": "DOD",
   "version": "2.0.0",
