@@ -76,13 +76,13 @@ By making a contribution to this project, I certify that:
 
 Code.mil is a static website generated using [Jekyll](https://jekyllrb.com), a static website generator written in the [Ruby](https://ruby-lang.org) programming language. Development dependences are managed using the [Bundler](https://bundler.io) gem.
 
-This project uses Ruby version 2.4.3 which may be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
+This project uses Ruby version 2.6.2 which may be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
 
 ```sh
-rbenv install 2.4.3
+rbenv install 2.6.2
 ```
 
-Once you've installed Ruby 2.4.3 and the Bundler gem (`gem install bundler`), install the project's gems by running::
+Once you've installed Ruby 2.6.2 and the Bundler gem (`gem install bundler`), install the project's gems by running::
 
 ```sh
 bundle install
