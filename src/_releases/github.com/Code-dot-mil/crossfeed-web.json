@@ -1,0 +1,29 @@
+{
+  "organization": "DDS",
+  "name": "Crossfeed Web",
+  "description": "Continuous external monitoring and vulnerability scanning for organization assets",
+  "tags": [],
+  "contact": {
+    "email": "jack@dds.mil",
+    "name": "Jack Cable"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "languages": ["HTML", "CSS", "JavaScript"],
+  "repositoryURL": "https://github.com/Code-dot-mil/crossfeed-web",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/Code-dot-mil/crossfeed-web/blob/master/LICENSE.md",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 120,
+  "date": {
+    "created": "2019-04-18",
+    "lastModified": "2019-08-05T11:10-04:00",
+    "metadataLastUpdated": "2019-09-06T02:02:31Z"
+  }
+}
