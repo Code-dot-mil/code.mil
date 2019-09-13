@@ -23,6 +23,8 @@ main:
       {%- endif -%}
     {%- endif -%}
   </header>
-
-  {{ content }}
+  <body>
+    {{ content }}
+    {% include body.html %}
+  </body>
 </div>
