@@ -1,18 +1,29 @@
-## Bug/Feature <!-- Pick one -->
+Thanks for submitting an issue! Below are a few things you can do to help us more quickly address the issue.
 
-<!-- Summarize how the bug can be reproduced (including browser make/model) or the functionality requested -->
+## Checklist
 
-## Page(s) Affected
+I have…
 
-<!-- https://code.mil/... -->
+- [ ] described in detail below both the behavior I expected and the behavior I observed.
+- [ ] thoroughly outlined below the steps to reproduce this issue, including relevant technical details (e.g. device, operating system, browser, browser version).
+- [ ] attached screenshots illustrating relevant behavior.
 
-## Screenshot/Mock <!-- Pick one -->
+## Expected Behavior
 
-<!-- Insert an image of the bug or sketch of the feature if relevent` -->
+_Summarize expected behavior._
 
-<!--
-Please:
-* Clearly and concisely name your issue
-* Search for duplicate issues https://github.com/Code-dot-mil/code.mil/issues
-* Split different bugs/features into different issues
--->
+## Observed Behavior
+
+_Summarize observed behavior._
+
+## Steps to Reproduce
+
+To reproduce this issue…
+
+1. _Describe step one._
+1. _Describe step two._
+1. _etc. etc. etc._
+
+## Screenshots
+
+_Attach relevant screenshots here._
