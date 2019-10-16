@@ -10,15 +10,15 @@
   },
   "status": "Production",
   "vcs": "git",
-  "downloadURL": "https://github.com/USArmyResearchLab/DCCSO",
-  "repositoryURL": "https://github.com/USArmyResearchLab/DCCSO",
-  "homepageURL": "https://github.com/USArmyResearchLab/DCCSO",
+  "downloadURL": "https://github.com/USArmyResearchLab/ARL_Discrete_Chemical_Compound_Space_Optimization",
+  "repositoryURL": "https://github.com/USArmyResearchLab/ARL_Discrete_Chemical_Compound_Space_Optimization",
+  "homepageURL": "https://github.com/USArmyResearchLab/ARL_Discrete_Chemical_Compound_Space_Optimization",
   "languages": ["C++"],
   "partners": [],
   "permissions": {
     "licenses": [
       {
-        "URL": "https://github.com/USArmyResearchLab/DCCSO/blob/master/LICENSE",
+        "URL": "https://github.com/USArmyResearchLab/ARL_Discrete_Chemical_Compound_Space_Optimization/blob/master/LICENSE.txt",
         "name": "CC0"
       },
       {
