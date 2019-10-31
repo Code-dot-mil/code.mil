@@ -80,6 +80,8 @@ If you aren't sure where to post the code, or you need help getting source contr
 
 ### Step 6: OMB Policy Tracking
 
-The last piece of this process is adding your project to the [code inventory](https://code.gov/#/policy-guide/docs/compliance/inventory-code) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://code.gov/#/policy-guide/policy/open-source). But don't worry, **we'll take care of that for you**. You just need to contact us to tell us about your project!
+The last piece of this process is adding your project to the [code inventory](https://code.mil/code.json) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://sourcecode.cio.gov/OSS/). You can read more about the format of the [code inventory format](https://code.gov/about/compliance/inventory-code) on the Code.gov website.
 
-<a href="/tell-us-about-your-code.html" class="usa-button">Tell us about your project</a>
+To add your project you will need to submit a Pull Request to the [Code.mil project on GitHub](https://github.com/Code-dot-mil/code.mil). There are instructions for doing so in our code repository, but if you are not familiar with GitHub, you can also just [tell us about your project](/tell-us-about-your-code.html) and we can get the process started.
+
+<a href="https://github.com/Code-dot-mil/code.mil/blob/master/CONTRIBUTING.md#submitting-your-open-source-project" class="usa-button" target="_blank">Learn How to Submit Your Project</a>

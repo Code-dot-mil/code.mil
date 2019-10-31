@@ -150,3 +150,37 @@ You should also run the testing script against your local build. This script wil
 ```sh
 ./scripts/test
 ```
+
+## Submitting Your Open Source Project
+
+If you have a project that you have open sourced, then you need to add (or update) your project in the [code inventory](https://code.mil/code.json) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://sourcecode.cio.gov/OSS/). You can read more about the format of the [code inventory format](https://code.gov/about/compliance/inventory-code) on the Code.gov website.
+
+To add your project you will need to submit a Pull Request to this project on GitHub. You can follow the instructions here for doing so, but if you are not familiar with GitHub, you can also just [tell us about your project](https://code.mil/tell-us-about-your-code.html) and we can get the process started.
+
+### Understand the format of the JSON file
+
+Each open sourced project is represented by a JSON object block in the final [code.json file](https://code.mil/code.json). In order to make it easy for us to manage the JSON data, each project is represented as a separate file in our code repository. You can see an [example of a project](https://github.com/Code-dot-mil/code.mil/blob/master/src/_releases/github.com/USArmyResearchLab/DCCSO.json) for the US Army Research Lab in the repo.
+
+### Create your JSON file
+
+Start by [forking our repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo), and then creating a file within the ["_releases" directory](https://github.com/Code-dot-mil/code.mil/tree/master/src/_releases). This file should have a name that matches your project and should be a JSON file with a single object (`{ ... }`) at the root. For example, your file might be called "foobar.json" with this content:
+
+```
+{
+  "name": "FooBar",
+  "organization": "DoD FooBar",
+  "description": "A project to track all the foobars in the DoD.",
+  "tags": [ "foo", "bar", ... ],
+  ...
+}
+```
+
+Note the file structure in the repo! It starts at "_releases" and then goes to the domain it is hosted on such as "github.com" or "gitlab.com". Under that each organization or user account is represented, followed by the project's json file. For example, our "FooBar" project above may be located here:
+
+`src/_releases/github.com/MyOrg/foobar.json`
+
+### Test it out, then submit your pull request
+
+Once you have your JSON file created you should build and run the site locally to ensure everything works, then submit your pull request. To test the site, run the commands listed above for "[Getting Started](#getting-started)" and for "[Making Chnages](#making-changes)". You should now be able to see the compiled JSON file at `http://0.0.0.0:4000/code.json`. Look through that file to find your project. If it shows up, you should be good!
+
+Now you need to submit your [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to the base Code.mil website repository. Be sure to fill out the description of why this change is being done and that you tested things! We'll check the work and then merge the code into our base and it will be live in minutes.
