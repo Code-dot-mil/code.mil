@@ -1,0 +1,37 @@
+{
+  "name": "ParaPower",
+  "organization": "US Army Research Laboratory",
+  "description": "This program is designed to facilitate the design of power electronic modules through the use of low fidelity multi-physics modeling tools.",
+  "tags": [
+    "policy"
+  ],
+  "contact": {
+    "email": "morris.s.berman.civ@mail.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USArmyResearchLab/ParaPower",
+  "repositoryURL": "https://github.com/USArmyResearchLab/ParaPower",
+  "homepageURL": "https://github.com/USArmyResearchLab/ParaPower",
+  "languages": “matlab”,
+  "partners": “Texas A&M University, US Naval Academy, Drexel University”,
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USArmyResearchLab/ParaPower/blob/_release/LICENSE_ASF2.txt",
+        "name": "Apache 2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": [],
+  "version": "0.4.02b",
+  "date": {
+    "created": "2019-10-02",
+    "lastModified": "2019-10-24",
+    "metadataLastUpdated": "2019-10-02"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}
