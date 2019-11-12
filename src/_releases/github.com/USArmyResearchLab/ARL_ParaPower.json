@@ -14,7 +14,12 @@
   "repositoryURL": "https://github.com/USArmyResearchLab/ParaPower",
   "homepageURL": "https://github.com/USArmyResearchLab/ParaPower",
   "languages": "matlab",
-  "partners": "Texas A&M University, US Naval Academy, Drexel University",
+  "partners": [
+    {
+      "name": "Texas A&M University, US Naval Academy, Drexel University",
+      "email": null
+    }
+  ],
   "permissions": {
     "licenses": [
       {
