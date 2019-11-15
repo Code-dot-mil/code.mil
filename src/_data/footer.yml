@@ -55,5 +55,5 @@ contact:
   heading: Contact Us
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: code@dds.mil
+    - text: '{{site.email}}'
       href: mailto:{{site.email}}
