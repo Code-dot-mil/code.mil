@@ -15,7 +15,7 @@ Code.mil is an experiment in open source at the U.S. Department of Defense (DoD)
 
 The Code.mil initiative will iterate in phases.
 
-During the first phase, which launched on February 22, 2017, we called upon the developer community to help finalize our open source strategy for code written by DoD employees. You can read the official [press release here](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source).
+During the first phase, which launched on February 22, 2017, we called upon the developer community to help finalize our open source strategy for code written by DoD employees. You can read the official [press release here](https://www.defense.gov/Newsroom/Releases/Release/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source/).
 
 During the second phase, we finalized the strategy and launched our first open source projects on March 13, 2017. You can read about it [here](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.tphs4mxqp). We also issued a call to the DoD developer community to contact us with projects that may be hosted on Code.mil.
 
