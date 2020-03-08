@@ -1,6 +1,6 @@
 {
     "name": "STIG Manager",
-    "organization": "Naval Undersea Warfare Ceter Division Newport, RI (NUWCDIVNPT)",
+    "organization": "Naval Undersea Warfare Center Division Newport, RI (NUWCDIVNPT)",
     "description": "STIG Manager is software for managing the assessment of Information Systems for compliance with security checklists published by the United States (US) Defense Information Systems Agency (DISA)",
     "tags": [
       "Security Technical Implementation Guide", "STIG", "RMF", "SCAP", "XCCDF"
