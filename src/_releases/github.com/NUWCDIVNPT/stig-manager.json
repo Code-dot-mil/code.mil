@@ -1,0 +1,41 @@
+{
+    "name": "STIG Manager",
+    "organization": "Naval Undersea Warfare Center Division Newport, RI (NUWCDIVNPT)",
+    "description": "STIG Manager is software for managing the assessment of Information Systems for compliance with security checklists published by the United States (US) Defense Information Systems Agency (DISA)",
+    "tags": [
+      "Security Technical Implementation Guide", "STIG", "RMF", "SCAP", "XCCDF"
+    ],
+    "contact": {
+      "email": "jason.a.benda@navy.mil"
+    },
+    "status": "Development",
+    "vcs": "git",
+    "downloadURL": "https://github.com/NUWCDIVNPT/stig-manager",
+    "repositoryURL": "https://github.com/NUWCDIVNPT/stig-manager",
+    "homepageURL": "https://github.com/NUWCDIVNPT/stig-manager",
+    "languages": ["JavaScript"],
+    "partners": [],
+    "permissions": {
+      "licenses": [
+        {
+          "URL": "https://github.com/NUWCDIVNPT/stig-manager/blob/master/LICENSE.md",
+          "name": "MIT"
+        },
+        {
+          "URL": "http://www.gnu.org/licenses/gpl.html",
+          "name": "GPL3"
+        }
+      ],
+      "usageType": "openSource",
+      "exemptionText": null
+    },
+    "laborHours": 8320,
+    "version": "1.0.0",
+    "date": {
+      "created": "2020-03-07",
+      "lastModified": "2020-03-07",
+      "metadataLastUpdated": "2020-03-07"
+    },
+    "disclaimerText": "",
+    "disclaimerURL": ""
+  }
