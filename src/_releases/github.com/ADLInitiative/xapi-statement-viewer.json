@@ -1,6 +1,6 @@
 {
   "name": "xapi-statement-viewer",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/xapi-statement-viewer",
   "description": "Simple UI that allows users to view the statements stored in an LRS. A live online version is available.",
   "permissions": {

@@ -1,6 +1,6 @@
 {
   "name": "SCORM-2004-4ed-Test-Suite",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/SCORM-2004-4ed-Test-Suite",
   "description": "A collection of tests designed to validate software conforming to the SCORM 2004 4th Edition",
   "laborHours": 0,

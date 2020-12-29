@@ -1,6 +1,6 @@
 {
   "name": "xAPI-Profile-Matching",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/xAPI-Profile-Matching",
   "description": "A simple tool to match statements to existing xAPI profiles",
   "laborHours": 0,

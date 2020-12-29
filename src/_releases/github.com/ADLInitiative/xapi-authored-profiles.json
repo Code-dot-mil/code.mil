@@ -1,6 +1,6 @@
 {
   "name": "xapi-authored-profiles",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/xapi-authored-profiles",
   "description": "A collection of raw JSON for all of the xAPI profiles hosted on http://xapi.vocab.pub",
   "permissions": {

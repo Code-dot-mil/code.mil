@@ -1,6 +1,6 @@
 {
   "name": "MasterObjectModel",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/MasterObjectModel.git",
   "description": "The xAPI profile required to integrate with a TLA",
   "laborHours": 0,

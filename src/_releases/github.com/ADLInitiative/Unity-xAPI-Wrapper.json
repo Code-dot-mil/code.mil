@@ -1,6 +1,6 @@
 {
   "name": "Unity-xAPI-Wrapper",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/Unity-xAPI-Wrapper",
   "description": "A simple library to send and receive xAPI statements in C#, designed with Unity in mind",
   "permissions": {

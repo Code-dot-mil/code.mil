@@ -1,6 +1,6 @@
 {
   "name": "tla-kafka-cluster",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/tla-kafka-cluster",
   "description": "A clone of the Kafka cluster used to route xAPI within ADL's TLA reference implementation. Meant as a reference tool, not a drag and drop solution to kafka",
   "laborHours": 0,

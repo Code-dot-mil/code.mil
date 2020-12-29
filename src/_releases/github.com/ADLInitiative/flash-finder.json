@@ -1,6 +1,6 @@
 {
   "name": "flash-finder",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/flash-finder",
   "description": "A set of scripts intended to help determine the severity of Flash Deprecation on a training corpus",
   "laborHours": 0,

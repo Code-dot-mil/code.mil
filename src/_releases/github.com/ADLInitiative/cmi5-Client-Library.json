@@ -1,6 +1,6 @@
 {
   "name": "cmi5-Client-Library",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/cmi5-Client-Library",
   "description": "Library for creating cmi5 content to work with a cmi5 conformant LMS",
   "permissions": {

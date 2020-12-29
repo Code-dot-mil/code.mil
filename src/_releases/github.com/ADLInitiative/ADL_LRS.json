@@ -1,7 +1,7 @@
 {
   "name": "ADL_LRS",
   "version": "v1.0.3",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/ADL_LRS",
   "description": "Source code for ADL's Open Source Learning Record Store (LRS), it is used to store learning data collected with the Experience API.",
   "permissions": {

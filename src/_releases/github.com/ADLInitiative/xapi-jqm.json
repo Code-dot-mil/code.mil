@@ -1,7 +1,7 @@
 {
   "name": "xapi-jqm",
   "version": "v1.1",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/xapi-jqm",
   "description": "A collection of templates that integrate jQuery Mobile and xAPI so that instructional designers and developers can focus on content and HTML rather than writing javascript code, without limiting their abilities to extend their statements and tracking of interactions",
   "permissions": {

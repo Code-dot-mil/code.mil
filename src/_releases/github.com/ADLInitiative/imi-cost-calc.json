@@ -1,6 +1,6 @@
 {
   "name": "imi-cost-calc",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/imi-cost-calc",
   "description": "An EPSS tool for calculating IMI costs per learner for the computer-managed instruction (CMI), computer-aided instruction (CAI), and live methods of instruction, intended for use in analysis of distributed learning (DL) products using the ADDIE process. A live online version is available.",
   "permissions": {

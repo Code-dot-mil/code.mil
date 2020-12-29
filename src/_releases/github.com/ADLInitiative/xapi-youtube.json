@@ -1,7 +1,7 @@
 {
   "name": "xapi-youtube",
   "version": "v1.0",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/xapi-youtube",
   "description": "A toolset that allows developers to embed YouTube videos, and track interactions with these embedded videos with xAPI statements",
   "permissions": {

@@ -1,7 +1,7 @@
 {
   "name": "xAPI-Spec",
   "version": "xAPI-1.0.3",
-  "organization": "Advanced Distributed Learning",
+  "organization": "Advanced Distributed Learning Initiative",
   "repositoryURL": "https://github.com/adlnet/xAPI-Spec",
   "description": "The full experience API (xAPI) specification",
   "laborHours": 0,

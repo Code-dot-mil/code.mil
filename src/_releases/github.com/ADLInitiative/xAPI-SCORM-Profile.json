@@ -1,9 +1,8 @@
 {
-  "name": "xapi-profiles",
-  "version": "v1.0",
-  "organization": "Advanced Distributed Learning",
-  "repositoryURL": "https://github.com/adlnet/xapi-profiles",
-  "description": "The specification for creating xAPI Profiles (A ruleset for xAPI data in a specific project)",
+  "name": "xAPI-SCORM-Profile",
+  "organization": "Advanced Distributed Learning Initiative",
+  "repositoryURL": "https://github.com/adlnet/xAPI-SCORM-Profile",
+  "description": "A companion document to the Experience API Specification, designed to assist in the transition from SCORM to xAPI",
   "permissions": {
     "licenses": [
       {
@@ -16,24 +15,21 @@
   "laborHours": 0,
   "status": "Production",
   "vcs": "git",
-  "languages": [
-    "Python"
-  ],
   "tags": [
     "ADL",
     "xAPI",
     "Profiles",
     "Schema",
-    "Conformance",
-    "Spec"
+    "SCORM",
+    "Conformance"
   ],
   "contact": {
     "name": "ADL Initiative",
     "email": "support@adlnet.gov"
   },
   "date": {
-    "created": "2017-03-27",
-    "lastModified": "2020-09-02",
+    "created": "2014-09-08",
+    "lastModified": "2020-02-21",
     "metadataLastUpdated": "2020-11-13"
   }
 }

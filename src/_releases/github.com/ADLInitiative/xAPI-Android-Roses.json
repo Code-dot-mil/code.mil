@@ -1,9 +1,8 @@
 {
-  "name": "jxapi",
-  "version": "v1.0.0",
-  "organization": "Advanced Distributed Learning",
-  "repositoryURL": "https://github.com/adlnet/jxapi",
-  "description": "A Java library to send and receive xAPI statements from a compliant LRS",
+  "name": "xAPI-Android-Roses",
+  "organization": "Advanced Distributed Learning Initiative",
+  "repositoryURL": "https://github.com/adlnet/xAPI-Android-Roses",
+  "description": "A sample project that depicts xAPI being leveraged on a mobile device",
   "permissions": {
     "licenses": [
       {
@@ -20,17 +19,19 @@
     "Java"
   ],
   "tags": [
-    "Java",
     "xAPI",
-    "ADL"
+    "ADL",
+    "Android",
+    "Roses",
+    "Example"
   ],
   "contact": {
     "name": "ADL Initiative",
     "email": "support@adlnet.gov"
   },
   "date": {
-    "created": "2014-04-24",
-    "lastModified": "2020-05-25",
+    "created": "2014-12-18",
+    "lastModified": "2018-12-18",
     "metadataLastUpdated": "2020-11-13"
   }
 }
