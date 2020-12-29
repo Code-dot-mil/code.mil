@@ -1,0 +1,25 @@
+{
+  "name": "MasterObjectModel",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/MasterObjectModel.git",
+  "description": "The xAPI profile required to integrate with a TLA",
+  "laborHours": 0,
+  "status": "Development",
+  "vcs": "git",
+  "tags": [
+    "ADL",
+    "xAPI",
+    "TLA",
+    "MOM",
+    "Profile"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2020-06-08",
+    "lastModified": "2020-09-30",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "xAPI-SCORM-Profile",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/xAPI-SCORM-Profile",
+  "description": "A companion document to the Experience API Specification, designed to assist in the transition from SCORM to xAPI",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "Apache License 2.0",
+        "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 0,
+  "status": "Production",
+  "vcs": "git",
+  "tags": [
+    "ADL",
+    "xAPI",
+    "Profiles",
+    "Schema",
+    "SCORM",
+    "Conformance"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2014-09-08",
+    "lastModified": "2020-02-21",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

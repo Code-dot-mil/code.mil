@@ -1,0 +1,39 @@
+{
+  "name": "xapi-profiles",
+  "version": "v1.0",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/xapi-profiles",
+  "description": "The specification for creating xAPI Profiles (A ruleset for xAPI data in a specific project)",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "Apache License 2.0",
+        "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 0,
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "Python"
+  ],
+  "tags": [
+    "ADL",
+    "xAPI",
+    "Profiles",
+    "Schema",
+    "Conformance",
+    "Spec"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2017-03-27",
+    "lastModified": "2020-09-02",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

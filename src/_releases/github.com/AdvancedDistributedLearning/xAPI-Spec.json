@@ -1,0 +1,26 @@
+{
+  "name": "xAPI-Spec",
+  "version": "xAPI-1.0.3",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/xAPI-Spec",
+  "description": "The full experience API (xAPI) specification",
+  "laborHours": 0,
+  "status": "Release Candidate",
+  "vcs": "git",
+  "tags": [
+    "ADL",
+    "cmi5",
+    "LMS",
+    "Content",
+    "Learning"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2012-12-19",
+    "lastModified": "2020-10-20",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

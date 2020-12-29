@@ -1,0 +1,35 @@
+{
+  "name": "RUSSEL",
+  "version": "1.1",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/RUSSEL",
+  "description": "Re-Usability Support System for eLearning (RUSSEL) is an open-source software project to manage and repurpose courses, documents and multimedia assets",
+  "laborHours": 0,
+  "status": "Archival",
+  "vcs": "git",
+  "languages": [
+    "Java",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "tags": [
+    "ADL",
+    "SCORM",
+    "Learning Registry",
+    "RUSSEL",
+    "Learning",
+    "Content",
+    "CMS",
+    "Java"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2012-08-22",
+    "lastModified": "2018-11-19",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

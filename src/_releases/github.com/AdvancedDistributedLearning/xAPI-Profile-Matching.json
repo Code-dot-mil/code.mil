@@ -1,0 +1,28 @@
+{
+  "name": "xAPI-Profile-Matching",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/xAPI-Profile-Matching",
+  "description": "A simple tool to match statements to existing xAPI profiles",
+  "laborHours": 0,
+  "status": "Archival",
+  "vcs": "git",
+  "languages": [
+    "HTML",
+    "JavaScript"
+  ],
+  "tags": [
+    "xAPI",
+    "Vocabulary",
+    "ADL",
+    "Tool"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2017-08-07",
+    "lastModified": "2018-11-19",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

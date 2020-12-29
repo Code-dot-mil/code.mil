@@ -1,0 +1,29 @@
+{
+  "name": "flash-finder",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/flash-finder",
+  "description": "A set of scripts intended to help determine the severity of Flash Deprecation on a training corpus",
+  "laborHours": 0,
+  "status": "Development",
+  "vcs": "git",
+  "languages": [
+    "PowerShell"
+  ],
+  "tags": [
+    "Flash",
+    "Finder",
+    "ADL",
+    "Deprecation",
+    "PowerShell",
+    "Windows"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2019-01-21",
+    "lastModified": "2019-11-29",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

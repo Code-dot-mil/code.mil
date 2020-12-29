@@ -1,0 +1,37 @@
+{
+  "name": "Unity-xAPI-Wrapper",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/Unity-xAPI-Wrapper",
+  "description": "A simple library to send and receive xAPI statements in C#, designed with Unity in mind",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "MIT License",
+        "URL": "http://www.opensource.org/licenses/MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 0,
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "C#"
+  ],
+  "tags": [
+    "ADL",
+    "Unity",
+    "Serious Games",
+    "xAPI",
+    "C#"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2020-08-13",
+    "lastModified": "2020-08-24",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

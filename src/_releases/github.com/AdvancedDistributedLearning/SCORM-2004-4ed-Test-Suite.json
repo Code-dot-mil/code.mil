@@ -1,0 +1,34 @@
+{
+  "name": "SCORM-2004-4ed-Test-Suite",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/SCORM-2004-4ed-Test-Suite",
+  "description": "A collection of tests designed to validate software conforming to the SCORM 2004 4th Edition",
+  "laborHours": 0,
+  "status": "Development",
+  "vcs": "git",
+  "languages": [
+    "Java",
+    "HTML",
+    "XSLT",
+    "JavaScript",
+    "CSS",
+    "Shell"
+  ],
+  "tags": [
+    "ADL",
+    "SCORM",
+    "Conformance",
+    "2004",
+    "Test Suite",
+    "Java"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2015-03-09",
+    "lastModified": "2020-10-04",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "DECALS",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/DECALS",
+  "description": "Data for Enabling Content in Adaptive Learning Systems (DECALS) is an open-source software project to manage and repurpose courses, documents and multimedia assets",
+  "laborHours": 0,
+  "status": "Archival",
+  "vcs": "git",
+  "languages": [
+    "HTML",
+    "Java",
+    "JavaScript",
+    "CSS",
+    "Web Ontology Language",
+    "GAP",
+    "ApacheConf"
+  ],
+  "tags": [
+    "ADL",
+    "Learning Registry",
+    "RUSSEL",
+    "Data",
+    "Ontology",
+    "Content",
+    "Competency",
+    "CMS",
+    "Java"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2013-12-10",
+    "lastModified": "2019-12-26",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

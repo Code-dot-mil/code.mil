@@ -1,0 +1,38 @@
+{
+  "name": "xapi-statement-viewer",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/xapi-statement-viewer",
+  "description": "Simple UI that allows users to view the statements stored in an LRS. A live online version is available.",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "MIT License",
+        "URL": "http://www.opensource.org/licenses/MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 0,
+  "status": "Archival",
+  "vcs": "git",
+  "languages": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "tags": [
+    "xAPI",
+    "Viewer",
+    "ADL",
+    "Statements"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2015-02-12",
+    "lastModified": "2020-09-22",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ADL_LRS",
+  "version": "v1.0.3",
+  "organization": "Advanced Distributed Learning",
+  "repositoryURL": "https://github.com/adlnet/ADL_LRS",
+  "description": "Source code for ADL's Open Source Learning Record Store (LRS), it is used to store learning data collected with the Experience API.",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "Apache License 2.0",
+        "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 0,
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "tags": [
+    "ADL",
+    "LRS",
+    "xAPI",
+    "Open Source",
+    "Python"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov"
+  },
+  "date": {
+    "created": "2012-04-18",
+    "lastModified": "2020-08-28",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}
