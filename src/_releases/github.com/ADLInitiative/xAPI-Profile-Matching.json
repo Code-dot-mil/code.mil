@@ -18,7 +18,8 @@
   ],
   "contact": {
     "name": "ADL Initiative",
-    "email": "support@adlnet.gov"
+    "email": "support@adlnet.gov",
+    "URL": "https://adlnet.gov"
   },
   "date": {
     "created": "2017-08-07",
