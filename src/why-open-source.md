@@ -9,7 +9,7 @@ There are some misconceptions, however: for example, that open source software i
 
 In fact, nearly every popular software product relies heavily on open source software. Facebook, for example, runs on a language called [PHP](https://secure.php.net/), which is itself open source. Even the web browser you are using right now is most likely open source software or uses it (Chrome, Firefox, even parts of Internet Explorer). And while the "popularity" argument might not win someone over, there are great benefits to be gained in **reliability**, **performance**, and **security** as we mentioned earlier.
 
-A simple google search of "why OSS" will bring you to [a paper by David Wheeler](https://www.dwheeler.com/oss_fs_why.html) which goes into extensive detail on this subject.
+A simple google search of "why OSS" will bring you to [a paper by David Wheeler](https://dwheeler.com/oss_fs_why.html) which goes into extensive detail on this subject.
 
 You may have lots of questions about OSS and how a DoD project can be released publicly. **This is the goal of Code.mil!** We want to provide guidance on how you, a DoD project owner, can release your code as open source software and why it is in your best interest.
 
