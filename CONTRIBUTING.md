@@ -181,6 +181,6 @@ Note the file structure in the repo! It starts at "_releases" and then goes to t
 
 ### Test it out, then submit your pull request
 
-Once you have your JSON file created you should build and run the site locally to ensure everything works, then submit your pull request. To test the site, run the commands listed above for "[Getting Started](#getting-started)" and for "[Making Chnages](#making-changes)". You should now be able to see the compiled JSON file at `http://0.0.0.0:4000/code.json`. Look through that file to find your project. If it shows up, you should be good!
+Once you have your JSON file created you should build and run the site locally to ensure everything works, then submit your pull request. To test the site, run the commands listed above for "[Getting Started](#getting-started)" and for "[Making Changes](#making-changes)". You should now be able to see the compiled JSON file at `http://0.0.0.0:4000/code.json`. Look through that file to find your project. If it shows up, you should be good!
 
 Now you need to submit your [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to the base Code.mil website repository. Be sure to fill out the description of why this change is being done and that you tested things! We'll check the work and then merge the code into our base and it will be live in minutes.
