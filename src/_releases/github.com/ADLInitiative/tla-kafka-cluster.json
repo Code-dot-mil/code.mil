@@ -1,0 +1,29 @@
+{
+  "name": "tla-kafka-cluster",
+  "organization": "Advanced Distributed Learning Initiative",
+  "repositoryURL": "https://github.com/adlnet/tla-kafka-cluster",
+  "description": "A clone of the Kafka cluster used to route xAPI within ADL's TLA reference implementation. Meant as a reference tool, not a drag and drop solution to kafka",
+  "laborHours": 0,
+  "status": "Development",
+  "vcs": "git",
+  "languages": [
+    "Shell",
+    "Dockerfile"
+  ],
+  "tags": [
+    "TLA",
+    "ADL",
+    "Kafka",
+    "Docker"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov",
+    "URL": "https://adlnet.gov"
+  },
+  "date": {
+    "created": "2020-07-10",
+    "lastModified": "2020-08-29",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}
