@@ -1,0 +1,42 @@
+{
+  "name": "lrs-conformance-test-suite",
+  "version": "v1.2.2",
+  "organization": "Advanced Distributed Learning Initiative",
+  "repositoryURL": "https://github.com/adlnet/lrs-conformance-test-suite",
+  "description": "A collection of tests to verify an LRS is fully compliant with the xAPI specification. A live online version is available.",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "MIT License",
+        "URL": "http://www.opensource.org/licenses/MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 0,
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "JavaScript"
+  ],
+  "tags": [
+    "LRS",
+    "xAPI",
+    "Conformance",
+    "ADL",
+    "Spec",
+    "Testing",
+    "Chai",
+    "Mocha"
+  ],
+  "contact": {
+    "name": "ADL Initiative",
+    "email": "support@adlnet.gov",
+    "URL": "https://adlnet.gov"
+  },
+  "date": {
+    "created": "2014-07-10",
+    "lastModified": "2020-09-30",
+    "metadataLastUpdated": "2020-11-13"
+  }
+}
