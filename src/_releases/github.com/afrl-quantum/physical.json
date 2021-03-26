@@ -1,0 +1,41 @@
+{
+  "name": "physical",
+  "organization": "Air Force Research Laboratory Quantum Research",
+  "description": "Library for providing multi-lingual access to a variety of physical units, constants, and dimensional analysis",
+  "tags": [
+    "constants",
+    "units",
+    "dimensional analysis"
+  ],
+  "contact": {
+    "email": "spencer.olson.2@spaceforce.mil"
+  },
+  "openSourceProject": 1,
+  "governmentWideReuseProject": 1,
+  "status": "Production",
+  "vcs": "git",
+  "downloadURL": "https://github.com/afrl-quantum/physical",
+  "repositoryURL": "https://github.com/afrl-quantum/physical",
+  "homepageURL": "https://github.com/afrl-quantum/physical",
+  "languages": ["Python", "GNUPLot", "Octave", "C++"],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/afrl-quantum/physical/blob/master/COPYING",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 400,
+  "version": "0.1.6",
+  "date": {
+    "created": "2008-02-14",
+    "lastModified": "2020-08-27",
+    "metadataLastUpdated": "2021-03-24"
+  },
+  "disclaimerText": "The software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.  In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.",
+  "disclaimerURL": "https://github.com/afrl-quantum/physical/blob/master/COPYING"
+}
