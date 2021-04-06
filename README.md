@@ -12,13 +12,13 @@ This repository is the open source home for the public-facing web site [Code.mil
 
 ## Build with us.
 
-The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, *the* GPS!) that supports billions of people across the globe.
+The DoD is charged with protecting our citizens and national security. We have an incredibly diverse portfolio spanning from communications, logistics, education, healthcare, and even the next generation of GPS (yes, _the_ GPS!) that supports billions of people across the globe.
 
 We need your help in contributing to our projects to build better products and services for the American people. You can contribute by [finding a project](https://github.com/topics/code-mil), reviewing its contributor guidelines, and submitting an issue or Pull Request!
 
 > **Curious about DDS?**
 >
-> If you're curious about [Defense Digital Service](https://dds.mil) (DDS), the team behind Code.mil, check us out online at [dds.mil](https://dds.mil). We are an agency under the [United States Digital Service](https://usds.gov) that works exclusively on projects for the DoD. We're always looking for good people to [join us](https://www.dds.mil/#join)!
+> If you're curious about [Defense Digital Service](https://dds.mil) (DDS), the team behind Code.mil, check us out online at [dds.mil](https://dds.mil). We're always looking for good people to [join us](https://www.dds.mil/#join)!
 
 ## Make us better.
 
