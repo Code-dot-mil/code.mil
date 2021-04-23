@@ -25,7 +25,7 @@ This initiative is not intended to set DoD policy, but rather is exploring alter
 
 ## Who is behind Code.mil?
 
-The [Defense Digital Service](https://dds.mil) (DDS) launched Code.mil on February 22, 2017. Established on November 18, 2015 by the Secretary of Defense, DDS brings in the best private sector talent, technology, and processes to DoD. DDS functions like a SWAT team of nerds working on high impact challenges during one to two year tours of duty as federal employees. DDS is an agency team of the [United States Digital Service](https://usds.gov).
+The [Defense Digital Service](https://dds.mil) (DDS) launched Code.mil on February 22, 2017. Established on November 18, 2015 by the Secretary of Defense, DDS brings in the best private sector talent, technology, and processes to DoD. DDS functions like a SWAT team of nerds working on high impact challenges during one to two year tours of duty as federal employees.
 
 ## Who has been involved with Code.mil?
 
@@ -83,14 +83,13 @@ Under the DCO, a contribution is submitted under the open source license associa
 
 What you need to do if you fork the project depends on the status of the project at the time you fork it. Per [`INTENT.md`](https://github.com/Code-dot-mil/code.mil/blob/master/INTENT.md), the intent is that the project should be treated as if it is licensed under the license associated with the project in the `LICENSE.md` file. Whether `LICENSE.md` has actually attached depends on the status of the project at the time you fork it.
 
-* If the project includes no copyrighted code (so there have been no merged copyrighted contributions and your jurisdiction does not recognize copyright for U.S. Government-written work), then 'LICENSE.md' has not attached to the project.
-* If the project includes copyrighted code (so there are merged copyrighted contributions or your jurisdiction recognizes copyright for U.S. Government-written work), then `LICENSE.md` has attached to the project and you must comply with the terms of the license. The authors and contributors are listed in `CONTRIBUTORS.md` and, in some cases, the source file headers.
+- If the project includes no copyrighted code (so there have been no merged copyrighted contributions and your jurisdiction does not recognize copyright for U.S. Government-written work), then 'LICENSE.md' has not attached to the project.
+- If the project includes copyrighted code (so there are merged copyrighted contributions or your jurisdiction recognizes copyright for U.S. Government-written work), then `LICENSE.md` has attached to the project and you must comply with the terms of the license. The authors and contributors are listed in `CONTRIBUTORS.md` and, in some cases, the source file headers.
 
 ## Is DoD trying to do something funny here?
 
 No!
 
 We mean to be totally transparent in our intent and purpose with Code.mil. We want to be really clear about what we’re doing and why we’re doing it so that you feel comfortable contributing to DoD projects.
-
 
 **For more information or questions, please contact our team at [{{site.email}}](mailto:{{site.email}}). Happy coding!**
