@@ -1,0 +1,38 @@
+{
+    "name": "gamechanger-data",
+    "organization": "DoD Advana",
+    "repositoryURL": "https://github.com/dod-advana/gamechanger-data",
+    "description": "GAMECHANGER data pipelines, jobs, and machine learning API",
+    "laborHours": 0,
+    "status": "Development",
+    "vcs": "git",
+    "permissions": {
+        "licenses": [
+          {
+            "name": "MIT License",
+            "URL": "https://github.com/dod-advana/gamechanger-data/blob/main/LICENSE.md"
+          }
+        ],
+        "usageType": "openSource"
+    },
+    "languages": [
+      "Python",
+      "Shell",
+      "Dockerfile"
+    ],
+    "tags": [
+      "policy",
+      "defense",
+      "policy-as-code"
+    ],
+    "contact": {
+      "name": "GAMECHANGER Team",
+      "email": "osd.pentagon.ousd-c.mbx.advana-gamechanger@mail.mil",
+      "URL": "https://github.com/dod-advana/gamechanger-data"
+    },
+    "date": {
+      "created": "2021-04-22",
+      "lastModified": "2021-04-22",
+      "metadataLastUpdated": "2021-04-22"
+    }
+}
