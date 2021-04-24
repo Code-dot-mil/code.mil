@@ -2,7 +2,7 @@
     "name": "gamechanger",
     "organization": "DoD Advana",
     "repositoryURL": "https://github.com/dod-advana/gamechanger",
-    "description": "GAMECHANGER aspires to be the Department’s trusted solution for evidence-based, data-driven decision-making across the universe of DoD requirements",
+    "description": "GAMECHANGER meta-repository. GAMECHANGER aspires to be the Department’s trusted solution for evidence-based, data-driven decision-making across the universe of DoD requirements",
     "laborHours": 0,
     "status": "Development",
     "vcs": "git",
@@ -16,10 +16,7 @@
         "usageType": "openSource"
     },
     "languages": [
-      "Python",
-      "Shell",
-      "Dockerfile",
-      "JavaScript",
+      "Markdown",
       "HTML",
       "CSS"
     ],
