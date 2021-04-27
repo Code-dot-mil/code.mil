@@ -1,6 +1,6 @@
 {
   "name": "covid19-calculator",
-  "version": "1.10.0",
+  "version": "1.4.0",
   "repositoryURL": "https://github.com/deptofdefense/covid19-calculator",
   "description": "Provides a set of scoring algorithms for evaluating COVID-19 symptoms implemented in TypeScript. The algorithms and associated inputs in this model are based on United States Department of Defense medical opinion and are actively used in MySymptoms.mil.",
   "permissions": {
