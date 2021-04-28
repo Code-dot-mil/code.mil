@@ -2,3 +2,4 @@
 .jekyll-cache/
 .sass-cache/
 public/
+tmp/
