@@ -1,5 +1,6 @@
 .bundle/
 .jekyll-cache/
 .sass-cache/
+src/_data/code.json
 public/
 tmp/
