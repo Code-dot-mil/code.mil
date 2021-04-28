@@ -1,0 +1,38 @@
+{
+    "name": "gamechanger",
+    "organization": "DoD Advana",
+    "repositoryURL": "https://github.com/dod-advana/gamechanger",
+    "description": "GAMECHANGER meta-repository. GAMECHANGER aspires to be the Department’s trusted solution for evidence-based, data-driven decision-making across the universe of DoD requirements",
+    "laborHours": 41000,
+    "status": "Development",
+    "vcs": "git",
+    "permissions": {
+        "licenses": [
+          {
+            "name": "MIT License",
+            "URL": "https://github.com/dod-advana/gamechanger/blob/main/LICENSE.md"
+          }
+        ],
+        "usageType": "openSource"
+    },
+    "languages": [
+      "Markdown",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [
+      "policy",
+      "defense",
+      "policy-as-code"
+    ],
+    "contact": {
+      "name": "GAMECHANGER Team",
+      "email": "osd.pentagon.ousd-c.mbx.advana-gamechanger@mail.mil",
+      "URL": "https://github.com/dod-advana/gamechanger"
+    },
+    "date": {
+      "created": "2021-04-22",
+      "lastModified": "2021-04-22",
+      "metadataLastUpdated": "2021-04-22"
+    }
+}
