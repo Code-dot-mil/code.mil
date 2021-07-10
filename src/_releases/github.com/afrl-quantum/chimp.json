@@ -1,0 +1,44 @@
+{
+  "name": "CHIMP:  Chemical Interactions, Materials, and Particles Database and Simulation Framework",
+  "organization": "Air Force Research Laboratory Quantum Research",
+  "description": "A collaborative effort to develop a database and library to provide physical data and associated model calculations in a consistent, simple yet flexible manner.",
+  "tags": [
+    "particle simulations",
+    "computational physics"
+  ],
+  "contact": {
+    "email": "spencer.olson.2@spaceforce.mil"
+  },
+  "openSourceProject": 1,
+  "governmentWideReuseProject": 1,
+  "status": "Production",
+  "vcs": "git",
+  "downloadURL": "https://github.com/afrl-quantum/chimp",
+  "repositoryURL": "https://github.com/afrl-quantum/chimp",
+  "homepageURL": "https://github.com/afrl-quantum/chimp",
+  "languages": ["XML", "XPath", "C++", "Python"],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/afrl-quantum/chimp/blob/master/COPYING.LESSER",
+        "name": "LGPL-3"
+      },
+      {
+        "URL": "https://github.com/afrl-quantum/chimp/blob/master/COPYING",
+        "name": "GPL-3"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 120,
+  "version": "0.1.4-4",
+  "date": {
+    "created": "2008-09-01",
+    "lastModified": "2019-03-12",
+    "metadataLastUpdated": "2021-03-25"
+  },
+  "disclaimerText": "The software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.  In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.",
+  "disclaimerURL": "https://github.com/afrl-quantum/chimp/blob/master/COPYING"
+}
