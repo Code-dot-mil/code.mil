@@ -9,7 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.8)
@@ -89,6 +89,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  addressable (>= 2.8.0)
   html-proofer (~> 3.12)
   jekyll (~> 3.8)
   kramdown (>= 2.3.0)
