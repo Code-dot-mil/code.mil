@@ -1,4 +1,4 @@
-ruby '2.6.2'
+ruby '3.0.5'
 
 source 'https://rubygems.org'
 
@@ -14,3 +14,5 @@ end
 group :test do
   gem 'html-proofer', '~> 3.12'
 end
+
+gem "webrick", "~> 1.7"
