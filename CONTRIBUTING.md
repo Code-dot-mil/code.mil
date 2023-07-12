@@ -117,7 +117,7 @@ When submitting a bug report on the website, please be sure to include accurate 
 * Steps to reproduce the problem,
 * The URL of the page where you observed the problem,
 * What you expected to happen,
-* What actually happend (or didn't happen), and
+* What actually happened (or didn't happen), and
 * Technical details including your Operating System name and version and Web browser name and version number.
 
 ## Submitting Code
