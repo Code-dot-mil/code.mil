@@ -10,6 +10,7 @@
 - Copyright 2018 Milo van der Linden milo@codefor.nl
 - Copyright 2019 Heather Taylor heatherdesigns@woh.rr.com
 - Copyright 2019 Michael Cain loud.mouth.braggart@gmail.com
+- Copyright 2022 Ryan O'Neill elfmaster@arcana-research.io
 - _Add the copyright date, your name, and email address here. (PLEASE KEEP THIS LINE)_
 
 ## Note for U.S. Federal Employees
