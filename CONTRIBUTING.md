@@ -4,10 +4,10 @@
 
 Thanks for thinking about using or contributing to this software ("Project") and its documentation!
 
-* [Policy & Legal Info](#policy)
-* [Getting Started](#getting-started)
-* [Submitting an Issue](#submitting-an-issue)
-* [Submitting Code](#submitting-code)
+- [Policy & Legal Info](#policy)
+- [Getting Started](#getting-started)
+- [Submitting an Issue](#submitting-an-issue)
+- [Submitting Code](#submitting-code)
 
 ## Policy
 
@@ -79,7 +79,7 @@ Code.mil is a static website generated using [Jekyll](https://jekyllrb.com), a s
 This project uses Ruby version 2.6.2 which may be installed using a Ruby version manager like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
 
 ```sh
-rbenv install 2.6.2
+rbenv install 3.0.5
 ```
 
 Once you've installed Ruby 2.6.2 and the Bundler gem (`gem install bundler`), install the project's gems by running::
@@ -114,11 +114,11 @@ You should feel free to [submit an issue](https://github.com/Code-dot-mil/code.m
 
 When submitting a bug report on the website, please be sure to include accurate and thorough information about the problem you're observing. Be sure to include:
 
-* Steps to reproduce the problem,
-* The URL of the page where you observed the problem,
-* What you expected to happen,
-* What actually happened (or didn't happen), and
-* Technical details including your Operating System name and version and Web browser name and version number.
+- Steps to reproduce the problem,
+- The URL of the page where you observed the problem,
+- What you expected to happen,
+- What actually happend (or didn't happen), and
+- Technical details including your Operating System name and version and Web browser name and version number.
 
 ## Submitting Code
 
@@ -163,7 +163,7 @@ Each open sourced project is represented by a JSON object block in the final [co
 
 ### Create your JSON file
 
-Start by [forking our repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo), and then creating a file within the ["_releases" directory](https://github.com/Code-dot-mil/code.mil/tree/master/src/_releases). This file should have a name that matches your project and should be a JSON file with a single object (`{ ... }`) at the root. For example, your file might be called "foobar.json" with this content:
+Start by [forking our repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo), and then creating a file within the ["\_releases" directory](https://github.com/Code-dot-mil/code.mil/tree/master/src/_releases). This file should have a name that matches your project and should be a JSON file with a single object (`{ ... }`) at the root. For example, your file might be called "foobar.json" with this content:
 
 ```
 {
@@ -175,7 +175,7 @@ Start by [forking our repository](https://help.github.com/en/github/getting-star
 }
 ```
 
-Note the file structure in the repo! It starts at "_releases" and then goes to the domain it is hosted on such as "github.com" or "gitlab.com". Under that each organization or user account is represented, followed by the project's json file. For example, our "FooBar" project above may be located here:
+Note the file structure in the repo! It starts at "\_releases" and then goes to the domain it is hosted on such as "github.com" or "gitlab.com". Under that each organization or user account is represented, followed by the project's json file. For example, our "FooBar" project above may be located here:
 
 `src/_releases/github.com/MyOrg/foobar.json`
 
