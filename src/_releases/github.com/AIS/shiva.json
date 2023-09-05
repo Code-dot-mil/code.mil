@@ -1,0 +1,30 @@
+{
+  "organization": "AIS (Assured information security)",
+  "name": "Shiva",
+  "description": "This is the source code for Shiva. Shiva is an ELF dynamic linker that is specialized for patching native Linux software. Shiva has been custom tailored towards the requirements of the DARPA AMP project and currently supports the AArch64 architecture. Open sourcing this software will expand awareness into building next-level binary patching solutions.",
+  "tags": [],
+  "contact": {
+    "email": "elfmaster@arcana-research.io",
+    "name": "Ryan O'Neill"
+  },
+  "status": "Alpha v0.11 (Prototype)",
+  "vcs": "git",
+  "languages": ["C", "ASM"],
+  "repositoryURL": "https://github.com/advanced-microcode-patching/shiva",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/advanced-microcode-patching/shiva/blob/main/SHIVA-LICENSE.txt",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 2000,
+  "date": {
+    "created": "2022-03-1T00:00:00Z",
+    "lastModified": "2023-07-12T00:00:00Z",
+    "metadataLastUpdated": "2023-07-27T00:00:00Z"
+  }
+}
+
