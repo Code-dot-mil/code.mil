@@ -1,0 +1,36 @@
+{
+  "organization": "Department of Defense Cyber Crime Center (DC3)",
+  "name": "SQLite Dissect",
+  "description": "SQLite Dissect is a SQLite parser with recovery abilities over SQLite databases and their accompanying journal files.",
+  "tags": [
+    "data-recovery",
+    "forensic",
+    "python",
+    "sqlite"
+  ],
+  "contact": {
+    "email": "dc3.information@us.af.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "Python",
+    "SQLite"
+  ],
+  "hours": 1638,
+  "repositoryURL": "https://github.com/dod-cyber-crime-center/sqlite-dissect",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/dod-cyber-crime-center/sqlite-dissect/blob/master/LICENSE.txt",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "date": {
+    "created": "2021-07-29",
+    "lastModified": "2022-05-26",
+    "metadataLastUpdated": "2024-02-08"
+  }
+}
