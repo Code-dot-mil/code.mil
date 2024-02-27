@@ -1,7 +1,7 @@
 {
-    "name": "STIG Manager",
+    "name": "stig-manager-client-modules",
     "organization": "Naval Undersea Warfare Center Division Newport, RI (NUWCDIVNPT)",
-    "description": "STIG Manager is software for managing the assessment of Information Systems for compliance with security checklists published by the United States (US) Defense Information Systems Agency (DISA)",
+    "description": "JavaScript modules for common STIG Manager client functions, such as parsing CKL/CKLB and XCCDF data. ",
     "tags": [
       "Security Technical Implementation Guide", "STIG", "RMF", "SCAP", "XCCDF"
     ],
@@ -10,29 +10,25 @@
     },
     "status": "Development",
     "vcs": "git",
-    "downloadURL": "https://github.com/NUWCDIVNPT/stig-manager",
-    "repositoryURL": "https://github.com/NUWCDIVNPT/stig-manager",
-    "homepageURL": "https://github.com/NUWCDIVNPT/stig-manager",
+    "downloadURL": "https://github.com/NUWCDIVNPT/stig-manager-client-modules",
+    "repositoryURL": "https://github.com/NUWCDIVNPT/stig-manager-client-modules",
+    "homepageURL": "https://github.com/NUWCDIVNPT/stig-manager-client-modules",
     "languages": ["JavaScript"],
     "partners": [],
     "permissions": {
       "licenses": [
         {
-          "URL": "https://github.com/NUWCDIVNPT/stig-manager/blob/master/LICENSE.md",
+          "URL": "https://github.com/NUWCDIVNPT/stig-manager-client-modules/blob/master/LICENSE.md",
           "name": "MIT"
-        },
-        {
-          "URL": "http://www.gnu.org/licenses/gpl.html",
-          "name": "GPL3"
         }
       ],
       "usageType": "openSource",
       "exemptionText": null
     },
     "laborHours": 8320,
-    "version": "1.4.2",
+    "version": "1.4.0",
     "date": {
-      "created": "2020-03-07",
+      "created": "2024-01-17",
       "lastModified": "2024-01-29",
       "metadataLastUpdated": "2024-01-29"
     },
