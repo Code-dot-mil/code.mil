@@ -26,6 +26,10 @@ defaults:
       path: "code.json"
     values:
       layout: null
+  - scope:
+      path: "projects"
+    values:
+      layout: project
 
 theme: uswds-jekyll
 
@@ -36,3 +40,11 @@ scripts:
 styles:
   - /assets/css/main.css
   - /assets/css/custom.css
+
+page_gen:
+- index_files: true
+  data: code.releases
+  name: name
+  template: project
+  dir: projects
+page_gen-dirs: true
