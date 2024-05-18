@@ -16,6 +16,7 @@ The DoD is charged with protecting our citizens and national security. We have a
 
 We need your help in contributing to our projects to build better products and services for the American people. You can contribute by [finding a project](https://github.com/topics/code-mil), reviewing its contributor guidelines, and submitting an issue or Pull Request!
 
+> [!NOTE]
 > **Curious about DDS?**
 >
 > If you're curious about [Defense Digital Service](https://dds.mil) (DDS), the team behind Code.mil, check us out online at [dds.mil](https://dds.mil). We're always looking for good people to [join us](https://www.dds.mil/#join)!
