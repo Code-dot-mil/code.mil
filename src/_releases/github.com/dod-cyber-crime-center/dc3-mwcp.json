@@ -1,0 +1,39 @@
+{
+  "organization": "Department of Defense Cyber Crime Center (DC3)",
+  "name": "DC3 Malware Configuration Parser (DC3-MWCP)",
+  "description": "DC3 Malware Configuration Parser (DC3-MWCP) is a framework for parsing configuration information from malware. The information extracted from malware includes items such as addresses, passwords, filenames, and mutex names.",
+  "tags": [
+    "automation",
+    "config-dump",
+    "framework",
+    "malware-analysis",
+    "malware-automation",
+    "python"
+  ],
+  "contact": {
+    "email": "dc3.information@us.af.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "Python",
+    "HTML",
+    "CSS"
+  ],
+  "laborHours": 5616,
+  "repositoryURL": "https://github.com/dod-cyber-crime-center/DC3-MWCP",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/dod-cyber-crime-center/DC3-MWCP/blob/master/LICENSE.txt",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "date": {
+    "created": "2017-04-18",
+    "lastModified": "2023-12-05",
+    "metadataLastUpdated": "2024-02-08"
+  }
+}
