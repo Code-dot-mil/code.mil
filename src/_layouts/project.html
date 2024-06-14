@@ -1,0 +1,44 @@
+---
+layout: default
+main:
+  class: usa-grid usa-section usa-content usa-layout-docs
+---
+
+<div class="usa-grid usa-section">
+<div class="usa-layout-docs-main_content">
+        <header>
+          {%- if page.title -%}
+            <h1>{{ page.title }}</h1>
+      
+            {%- if page.date.created -%}
+              <small class="usa-font-lead">Last updated <time datetime="{{ page.date.lastModified }}">{{ page.date.lastModified | date_to_string: 'ordinal', 'US' }}</time></small>
+            {%- endif -%}
+          {%- endif -%}
+        </header>
+        
+        <p>
+        {{ page.description }}
+        </p>
+        <ul>
+          {% if page.organization %}
+          <li>Organization: {{ page.organization }}</li>
+          {% endif %}
+          <li>Status: {{ page.status }}</li>
+          <li>Source: <a href="{{ page.repositoryURL }}">{{ page.repositoryURL }}</a></li>
+          <li>License: <a href="{{ page.permissions.licenses[0].URL }}">{{ page.permissions.licenses[0].name }}</a></li>
+          {% if page.contact %}
+          <li>
+            {% if page.contact.name and page.contact.name != '' and page.contact.email and page.contact.email != ' ' %}
+              Contact: <a href="mailto://{{ page.contact.email }}"> {{ page.contact.name }}</a>
+            {% elsif page.contact.name and page.contact.name != '' %}
+              Contact: {{ page.contact.name }}
+            {% elsif page.contact.email and page.contact.email != ' ' %}
+              Contact: <a href="mailto://{{ page.contact.email }}">{{ page.contact.email | replace: '.', ' ' | split: '@' | first }}</a>
+            {% else %}
+              Contact: <i>no contact information available</i>
+            {% endif %}
+          </li>
+          {% endif %}
+        </ul>
+  </div>
+</div>
