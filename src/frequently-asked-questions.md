@@ -45,10 +45,6 @@ Modern software is open sourced software. The creative contribution of individua
 
 There are many other projects that have already been open sourced. They are located in various places such as GitHub, SourceForge, forge.mil, Google Code, and numerous other web sites. We're working to inventory and catalog many of these, but you can find some of them using the [`code-mil` topic on GitHub](https://github.com/topics/code-mil)
 
-## I am part of DoD or a Military Department and want to have my project hosted on Code.mil. What do I do?
-
-That's awesome! Please get the conversation going by [submitting your information here](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link) so we can start talking.
-
 ## What happened to the draft Defense Open Source Agreement?
 
 The original open source strategy explored an innovative legal pathway of using contract law to attach widely adopted licenses to our projects. This strategy was encapsulated in the draft Defense Open Source Agreement. The developer community energetically responded to our call for comment, and we received a lot of great feedback. Thank you!
