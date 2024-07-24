@@ -36,3 +36,6 @@ scripts:
 styles:
   - /assets/css/main.css
   - /assets/css/custom.css
+
+google_analytics_ua: G-1DDRY0RP72
+dap_agency: DOD
