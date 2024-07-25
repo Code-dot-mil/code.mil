@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions (FAQs)
-updated_at: 2018-03-12
+updated_at: 2024-07-25
 
 sticky_sidenav: false
 
@@ -41,9 +41,13 @@ U.S. military members and their families make significant sacrifices to protect 
 
 Modern software is open sourced software. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. Through this experiment, we are trying to more actively participate in the open source and free software communities. We need your help to build better software products and services for our military members and citizens across the country.
 
+## What is the DoD policy on Open Source Software?
+
+The Department of Defense (DoD) Chief Information Officer in a 2022 memorandum ["Software Development and Open Source Software"](https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf) recognizes that "OSS forms the bedrock of the software-defined world and is critical in delivering software faster" and summarizes various aspects of the DoD policy as it impacts open source. We suggest you read that document along with their very helpful [DoD Open Source Software FAQ](https://dodcio.defense.gov/) (Frequently Asked Questions) to gain a better understanding of the Departments policy perspective on open source.
+
 ## Where can I find other DoD open source projects?
 
-There are many other projects that have already been open sourced. They are located in various places such as GitHub, SourceForge, forge.mil, Google Code, and numerous other web sites. We're working to inventory and catalog many of these, but you can find some of them using the [`code-mil` topic on GitHub](https://github.com/topics/code-mil)
+There are many other projects that have already been open sourced. They are located in various places such as GitHub, code.gov, and numerous other web sites. We're working to inventory and catalog many of these, but you can find some of them using the [`code-mil` topic on GitHub](https://github.com/topics/code-mil)
 
 ## What happened to the draft Defense Open Source Agreement?
 
