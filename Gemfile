@@ -12,7 +12,7 @@ group :jekyll_plugins do
 end
 
 group :test do
-  gem 'html-proofer', '~> 3.12'
+  gem 'html-proofer', '~> 3.19'
 end
 
 gem "webrick", "~> 1.7"

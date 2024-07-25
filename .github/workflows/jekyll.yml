@@ -26,8 +26,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
+  # Build and test job
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -45,6 +45,25 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+            - name: Install dependencies
+        run: bundle install
+
+      - name: Create cache directory
+        run: mkdir -p $GITHUB_WORKSPACE/tmp/.htmlproofer
+
+      - name: Cache html-proofer
+        uses: actions/cache@v3
+        with:
+          path: $GITHUB_WORKSPACE/tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer-${{ hashFiles('**/*') }}
+          restore-keys: |
+            ${{ runner.os }}-htmlproofer-
+
+      - name: Install additional packages
+        run: sudo apt-get install -y libcurl4-openssl-dev
+
+      - name: Run tests
+        run: ./scripts/test
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
