@@ -153,7 +153,7 @@ You should also run the testing script against your local build. This script wil
 
 ## Submitting Your Open Source Project
 
-If you have a project that you have open sourced, then you need to add (or update) your project in the [code inventory](https://code.mil/code.json) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://sourcecode.cio.gov/OSS/). You can read more about the format of the [code inventory format](https://code.gov/about/compliance/inventory-code) on the Code.gov website.
+If you have a project that you have open sourced, then you need to add (or update) your project in the [code inventory](https://code.mil/code.json) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf). You can read more about the format of the [code inventory format](https://code.gov/about/compliance/inventory-code) on the Code.gov website.
 
 To add your project you will need to submit a Pull Request to this project on GitHub. You can follow the instructions here for doing so, but if you are not familiar with GitHub, you can also just [tell us about your project](https://code.mil/tell-us-about-your-code.html) and we can get the process started.
 
