@@ -43,7 +43,7 @@ Modern software is open sourced software. The creative contribution of individua
 
 ## What is the DoD policy on Open Source Software (OSS)?
 
-The Department of Defense (DoD) Chief Information Officer in a 2022 memorandum ["Software Development and Open Source Software"](https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf) recognizes that "OSS forms the bedrock of the software-defined world and is critical in delivering software faster" and summarizes various aspects of the DoD policy as it impacts open source. We suggest you read that document along with their very helpful [DoD Open Source Software FAQ](https://dodcio.defense.gov/) (Frequently Asked Questions) to gain a better understanding of the Departments perspectives on open source.
+The Department of Defense (DoD) Chief Information Officer in a 2022 memorandum ["Software Development and Open Source Software"](https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf) recognizes that "OSS forms the bedrock of the software-defined world and is critical in delivering software faster" and summarizes various aspects of the DoD policy as it impacts open source. We suggest you read that document along with their very helpful [DoD Open Source Software FAQ](https://dodcio.defense.gov/open-source-software-faq/) (Frequently Asked Questions) to gain a better understanding of the Departments perspectives on open source.
 
 ## Where can I find other DoD open source projects?
 
