@@ -122,7 +122,7 @@ When submitting a bug report on the website, please be sure to include accurate 
 
 ## Submitting Code
 
-When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [pull request](https://github.com/Code-dot-mil/code.mil/pulls) (PR) on GitHub. Your pull request will go through some automated checks using [Travis CI](https://travis-ci.com/Code-dot-mil/code.mil/), a continuous integration and deployment tool.
+When making your changes, it is highly encouraged that you use a [branch in Git](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), then submit a [pull request](https://github.com/Code-dot-mil/code.mil/pulls) (PR) on GitHub. Your pull request will go through some automated checks using [Github Actions](https://github.com/features/actions), a continuous integration and deployment tool.
 
 After review by the Code.mil team, your PR will either be commented on with a request for more information or changes, or it will be merged into the `master` branch and deployed to a URL for testing purposes.
 
