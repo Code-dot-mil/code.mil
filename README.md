@@ -1,12 +1,10 @@
 # Welcome to Code.mil
 
-[![Build Status](https://travis-ci.com/Code-dot-mil/code.mil.svg?branch=master)](https://travis-ci.com/Code-dot-mil/code.mil)
+![Build Status](https://github.com/Code-dot-mil/code.mil/actions/workflows/jekyll.yml/badge.svg)
 
 An experiment in open source at the Department of Defense.
 
 The U.S. Department of Defense (DoD) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically doesn't have copyright protections under U.S. and some international laws. This can make it hard to attach an open source license to our code, and our team here at Defense Digital Service wants to find a solution. [Read about our journey so far on Medium](https://medium.com/@DefenseDigitalService/code-mil-an-open-source-initiative-at-the-pentagon-5ae4986b79bc#.i78how76u).
-
-**If you are a DoD or Military Department employee with a project you want hosted on Code.mil, get the conversation going by [submitting your information](https://docs.google.com/forms/d/e/1FAIpQLSebDzfqkH8ANSuqQFqValypmceVxNfEzOxMURfQQBAt4IgFQw/viewform?usp=sf_link).**
 
 This repository is the open source home for the public-facing web site [Code.mil](https://code.mil).
 
