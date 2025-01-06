@@ -61,7 +61,9 @@ jobs:
             ${{ runner.os }}-htmlproofer-
 
       - name: Install additional packages
-        run: sudo apt-get install -y libcurl4-openssl-dev
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev
 
       - name: Run tests
         run: ./scripts/test
