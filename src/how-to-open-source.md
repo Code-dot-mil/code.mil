@@ -1,6 +1,6 @@
 ---
 title: How to Open Source Code
-updated_at: 2018-02-14
+updated_at: 2024-07-25
 
 subnav:
   - text: "Step 1: Approval"
