@@ -1,0 +1,30 @@
+{
+  "organization": "USAF 192 Support Squadron",
+  "name": "Ra",
+  "description": "The tool is used to generate Network Configuration Files, based on JSON input files.",
+  "tags": [],
+  "contact": {
+    "email": "jwillman@jhics.org",
+    "name": "John Edward Willman"
+  },
+  "status": "v0.1.0",
+  "vcs": "git",
+  "languages": ["Rust"],
+  "repositoryURL": "https://github.com/192-support-squadron/ra",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/192-support-squadron/ra/blob/main/LICENSE",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 200,
+  "date": {
+    "created": "2024-01-1T00:00:00Z",
+    "lastModified": "2024-07-23T00:00:00Z",
+    "metadataLastUpdated": "2024-07-23T00:00:00Z"
+  }
+}
+
