@@ -13,6 +13,7 @@
 - Copyright 2022 Ryan O'Neill elfmaster@arcana-research.io
 - Copyright 2023 Even Stensberg evenstensberg@gmail.com
 - Copyright 2024 David Saeger david@dds.mil
+- Copyright 2025 John Edward Willman V john.willman.1@us.af.mil
 - _Add the copyright date, your name, and email address here. (PLEASE KEEP THIS LINE)_
 
 ## Note for U.S. Federal Employees

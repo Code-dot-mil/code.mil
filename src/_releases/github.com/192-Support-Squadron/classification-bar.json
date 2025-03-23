@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "agency": "USAF",
+  "measurementType": {
+    "method": "linesOfCode"
+  },
+  "releases": [
+    {
+      "organization": "USAF 192 Support Squadron",
+      "version": "1.0.0",
+      "name": "classification-bar",
+      "description": "A React component to display a classification bar at the top and bottom of the page.",
+      "tags": [
+        "React",
+        "Typescript"
+      ],
+      "contact": {
+        "email": "jwillman@jhics.org",
+        "name": "John Edward Willman V"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "languages": [
+        "Typescript"
+      ],
+      "repositoryURL": "https://github.com/192-support-squadron/classification-bar",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/192-support-squadron/classification-bar/blob/main/LICENSE",
+            "name": "Apache 2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 2,
+      "date": {
+        "created": "2025-03-25",
+        "lastModified": "2025-03-25",
+        "metadataLastUpdated": "2025-03-25"
+      }
+    }
+  ]
+}
