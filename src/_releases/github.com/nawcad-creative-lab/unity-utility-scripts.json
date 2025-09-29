@@ -1,0 +1,35 @@
+{
+  "name": "NAWCAD CREATIVE Lab - Unity Utility Scripts",
+  "organization": "NAWCAD CREATIVE Lab",
+  "description": "A package of small, commonly used, narrow-purpose utilities for the Unity game engine.",
+  "tags": [ "unity", "unity 3d", "game engine", "training", "training simulation" ],
+  "contact": {
+    "email": "christopher.r.bowersock.civ@us.navy.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "downloadURL": "https://github.com/NAWCAD-CREATIVE-Lab/Unity-Utility-Scripts/archive/refs/heads/main.zip",
+  "repositoryURL": "https://github.com/NAWCAD-CREATIVE-Lab/Unity-Utility-Scripts.git",
+  "homepageURL": "https://github.com/NAWCAD-CREATIVE-Lab/Unity-Utility-Scripts",
+  "languages": ["C#"],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/NAWCAD-CREATIVE-Lab/code.mil/blob/utility-scripts/LICENSE.md",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 0,
+  "version": "1.4.0",
+  "date": {
+    "created": "2025-01-15",
+    "lastModified": "2025-09-09",
+    "metadataLastUpdated": "2025-09-25"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}
