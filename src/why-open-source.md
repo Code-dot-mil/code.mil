@@ -3,7 +3,7 @@ title: Why Open Source
 updated_at: 2024-07-07
 ---
 
-**Modern software is open sourced software (OSS)**. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoD. We must more actively participate in the open source and free software communities if we are to truly reap the benefits of OSS.
+**Modern software is open sourced software (OSS)**. The creative contribution of individual developers to help solve complex problems of impact is largely untapped by DoW. We must more actively participate in the open source and free software communities if we are to truly reap the benefits of OSS.
 
 There are some misconceptions, however: for example, that open source software is not secure. Without delving too deep into this topic (we're happy to discuss it in person), consider that the single most popular web server software is, and always has been, open source: [Apache](https://www.apache.org/). This code runs a vast swath of sites on the Internet. Do bugs come up? Of course! But they are often patched (fixed with a small amount of code) in mere hours after identification.
 
@@ -11,13 +11,13 @@ In fact, nearly every popular software product relies heavily on open source sof
 
 A simple google search of "why OSS" will bring you to [a paper by David Wheeler](https://dwheeler.com/oss_fs_why.html) which goes into extensive detail on this subject.
 
-You may have lots of questions about OSS and how a DoD project can be released publicly. **This is the goal of Code.mil!** We want to provide guidance on how you, a DoD project owner, can release your code as open source software and why it is in your best interest.
+You may have lots of questions about OSS and how a DoW project can be released publicly. **This is the goal of Code.mil!** We want to provide guidance on how you, a DoW project owner, can release your code as open source software and why it is in your best interest.
 
 ### OMB Policy
 
 Aside from the technical benefits mentioned above, the [Federal Source Code Policy (M-16-21)](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf) from the US CTO includes a section initiating an [open source pilot](https://code.gov/about/open-source/introduction) which mandates that each government agency **release as OSS at least 20% of its new custom developed code** for the term of the program (and we recommend continuing that beyond the pilot).
 
-Going beyond the OMB policy itself, the [2018 NDAA](https://www.govinfo.gov/app/details/PLAW-115publ91) states in section 875 that "...the Secretary of Defense shall initiate for the Department of Defense the open source software pilot program established by the Office of Management and Budget Memorandum M-16-21..."
+Going beyond the OMB policy itself, the [2018 NDAA](https://www.govinfo.gov/app/details/PLAW-115publ91) states in section 875 that "...the Secretary of War shall initiate for the Department of War the open source software pilot program established by the Office of Management and Budget Memorandum M-16-21..."
 
 <section class='usa-alert usa-alert-info'>
   <article class='usa-alert-body'>
