@@ -25,7 +25,7 @@ module Jekyll
 
       def page_content
         output = {
-          agency: 'DOD',
+          agency: 'DOW',
           version: '2.0.0',
           measurementType: {
             method: 'projects'

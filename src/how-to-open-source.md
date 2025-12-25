@@ -80,7 +80,7 @@ If you aren't sure where to post the code, or you need help getting source contr
 
 ### Step 6: OMB Policy Tracking
 
-The last piece of this process is adding your project to the [code inventory](https://code.mil/code.json) file that the DoD uses to comply with [OMB Policy (M-16-21)](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf). You can read more about the format of the [code inventory format](https://code.gov/about/compliance/inventory-code) on the Code.gov website.
+The last piece of this process is adding your project to the [code inventory](https://code.mil/code.json) file that the DoW uses to comply with [OMB Policy (M-16-21)](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf). You can read more about the format of the [code inventory format](https://code.gov/about/compliance/inventory-code) on the Code.gov website.
 
 To add your project you will need to submit a Pull Request to the [Code.mil project on GitHub](https://github.com/Code-dot-mil/code.mil). There are instructions for doing so in our code repository, but if you are not familiar with GitHub, you can also just [tell us about your project](/tell-us-about-your-code.html) and we can get the process started.
 

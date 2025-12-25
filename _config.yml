@@ -8,7 +8,7 @@ include:
 host: 0.0.0.0
 
 title: Code.mil
-description: An experiment in open source within the Department of Defense.
+description: An experiment in open source within the Department of War.
 email: code@dds.mil
 
 defaults:
@@ -38,4 +38,4 @@ styles:
   - /assets/css/custom.css
 
 google_analytics_ua: G-1DDRY0RP72
-dap_agency: DOD
+dap_agency: DOW
