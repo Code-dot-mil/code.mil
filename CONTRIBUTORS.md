@@ -13,6 +13,7 @@
 - Copyright 2022 Ryan O'Neill elfmaster@arcana-research.io
 - Copyright 2023 Even Stensberg evenstensberg@gmail.com
 - Copyright 2024 David Saeger david@dds.mil
+- Copyright 2026 U.S. Federal Government (in countries where recognized) osd.pentagon.cdao.mbx.perceptor-program-members@mail.mil
 - _Add the copyright date, your name, and email address here. (PLEASE KEEP THIS LINE)_
 
 ## Note for U.S. Federal Employees

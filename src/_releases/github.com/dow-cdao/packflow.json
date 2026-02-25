@@ -1,0 +1,39 @@
+{
+    "name": "packflow",
+    "organization": "DoW CDAO",
+    "repositoryURL": "https://github.com/dow-cdao/packflow",
+    "description": "Packflow is a software development kit (SDK) that simplifies the development process and standardizes packaging of AI/ML running on streaming data sources.",
+    "laborHours": 2500,
+    "status": "Development",
+    "vcs": "git",
+    "permissions": {
+        "licenses": [
+            {
+                "name": "MIT License",
+                "URL": "https://github.com/dow-cdao/packflow/blob/main/LICENSE"
+            }
+        ],
+        "usageType": "openSource"
+    },
+    "languages": [
+        "Python",
+        "YAML",
+        "Makefile",
+        "Markdown"
+    ],
+    "tags": [
+        "code-mil",
+        "python",
+        "open-source"
+    ],
+    "contact": {
+        "name": "Packflow Team",
+        "email": "osd.pentagon.cdao.mbx.perceptor-program-members@mail.mil",
+        "URL": "https://github.com/dow-cdao/packflow"
+    },
+    "date": {
+        "created": "2026-02-24",
+        "lastModified": "2026-02-24",
+        "metadataLastUpdated": "2026-02-24"
+    }
+}
