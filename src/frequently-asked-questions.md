@@ -25,11 +25,11 @@ This initiative is not intended to set DoD policy, but rather is exploring alter
 
 ## Who is behind Code.mil?
 
-The [Defense Digital Service](https://dds.mil) (DDS) launched Code.mil on February 22, 2017. Established on November 18, 2015 by the Secretary of Defense, DDS brings in the best private sector talent, technology, and processes to DoD. DDS functions like a SWAT team of nerds working on high impact challenges during one to two year tours of duty as federal employees.
+Code.mil was launched on February 22, 2017 by the Defense Digital Service (DDS). It is now maintained by the Department of War Chief Information Officer (DoW CIO).
 
 ## Who has been involved with Code.mil?
 
-DDS has collaborated extensively with organizations in the open source and free software communities, such as the Free Software Foundation (FSF), the Open Source Initiative (OSI), and GitHub. DDS also reached out to open source experts and attorneys across the U.S. Federal government and in the private sector.
+DDS collaborated extensively with organizations in the open source and free software communities, such as the Free Software Foundation (FSF), the Open Source Initiative (OSI), and GitHub. DDS also reached out to open source experts and attorneys across the U.S. Federal government and in the private sector.
 
 ## How does Code.mil relate to Code.gov?
 

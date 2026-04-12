@@ -27,7 +27,7 @@ graphics:
     description: We've drafted this documentation in partnership with the open source community. You can help improve our open source strategy by improving these documents! Open an issue or a pull request with your suggestions.
 
 intro: |
-  The U.S. Department of Defense (<abbr title="Department of Defense">DoD</abbr>) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it difficult to attach an open source license to our code. The [Defense Digital Service](https://dds.mil) (<abbr title="Defense Digital Service">DDS</abbr>) has been working with DoD and the open source community since early 2017 to develop a guideline for supporting open source software (<abbr title="open source software">OSS</abbr>) within the Department.
+  The U.S. Department of War (<abbr title="Department of War">DoW</abbr>) faces unique challenges in open sourcing its code. Unlike most software projects, code written by U.S. Federal government employees typically does not have copyright protections under U.S. and some international laws. This can make it difficult to attach an open source license to our code. The Defense Digital Service (<abbr title="Defense Digital Service">DDS</abbr>) worked with the open source community starting in early 2017 to develop a guideline for supporting open source software (<abbr title="open source software">OSS</abbr>) within the Department. Code.mil is now maintained by the DoW CIO.
 ---
 
 <div class="usa-width-two-thirds" markdown="1">

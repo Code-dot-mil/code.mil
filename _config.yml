@@ -9,7 +9,7 @@ host: 0.0.0.0
 
 title: Code.mil
 description: An experiment in open source within the Department of Defense.
-email: code@dds.mil
+email: osd.mc-alex.dod-cio.mbx.devsecops@mail.mil
 
 defaults:
   - scope:
