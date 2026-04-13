@@ -32,10 +32,7 @@ heading: Code.mil
 # If the logo is external add external: true
 logos:
   - src: /assets/images/dod_seal.svg
-    alt: DoD
-    external: false
-  - src: /assets/images/dds-logo-desktop-full.png
-    alt: DDS
+    alt: DoW
     external: false
 
 # Configuration for footer contact links
@@ -43,14 +40,8 @@ contact:
 # Configuration for social media links
 # Comment out links you don't want to use (RSS is an example)
   social_links:
-    - text: <span class="usa-link-twitter usa-social_link" title="Twitter"><span>Twitter</span></span>
-      href: https://twitter.com/DefenseDigital
-      external: true
     - text: <span class="usa-link-github usa-social_link" title="GitHub"><span>GitHub</span></span>
       href: https://github.com/Code-dot-mil/code.mil
-      external: true
-    - text: <span class="usa-link-medium usa-social_link" title="Medium"><span>Medium</span></span>
-      href: https://medium.com/defense-digital-service
       external: true
   heading: Contact Us
 # Configuration for contact links for email, phone, etc...
