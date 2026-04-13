@@ -66,17 +66,15 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev
-
-      - name: Run tests
-        run: ./scripts/test
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build AI4SDLC (MkDocs)
-        run: |
-          pip install mkdocs-material
-          mkdocs build -f ai4sdlc-mkdocs.yml --site-dir public/AI4SDLC
+      - name: Install MkDocs
+        run: pip install mkdocs-material
+
+      - name: Run tests
+        run: ./scripts/test
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
