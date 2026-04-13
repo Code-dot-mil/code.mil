@@ -32,6 +32,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -67,6 +69,14 @@ jobs:
 
       - name: Run tests
         run: ./scripts/test
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build AI4SDLC (MkDocs)
+        run: |
+          pip install mkdocs-material
+          mkdocs build -f ai4sdlc-mkdocs.yml --site-dir public/AI4SDLC
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
