@@ -2,5 +2,5 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-# I do not know why those URLs fail the proofer, they do exist. :/
-bundle exec htmlproofer ./public --timeframe 6w --url-ignore "/^mailto:/,/code.gov\/about\/open-source\/introduction/,/code.gov\/about\/compliance\/inventory-code/,/twitter.com\/DefenseDigital/"
+# Government and some other sites block automated requests with 403; ignore them.
+bundle exec htmlproofer ./public --timeframe 6w --url-ignore "/^mailto:/,/code.gov\/about\/open-source\/introduction/,/code.gov\/about\/compliance\/inventory-code/,/twitter.com\/DefenseDigital/,/dodcio\.defense\.gov/,/www\.defense\.gov/"

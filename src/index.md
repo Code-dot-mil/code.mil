@@ -3,13 +3,13 @@ layout: home
 
 class: page-home
 
-tagline: Open Source at DoD
+tagline: Open Source at DoW
 
 hero:
   image: /assets/images/hero.jpg
   callout:
-    alt: "DoD Project Owners:"
-    text: Learn more about open source at DoD
+    alt: "DoW Project Owners:"
+    text: Learn more about open source at DoW
   button:
     text: Get Started
     href: /getting-started.html
@@ -34,13 +34,13 @@ intro: |
 
 ## What is Code.mil?
 
-Code.mil is an experiment in open source at the U.S. Department of Defense. The goal is to foster open collaboration with the developer community around the world on DoD open source projects. During the first phase, which launched in early 2017, we wrote a strategy for open sourcing code written by DoD employees, and then we called upon the OSS developer community to help us finalize that plan. You can read the official [press release](https://www.defense.gov/News/News-Releases/News-Release-View/Article/1092364/dod-announces-the-launch-of-codemil-an-experiment-in-open-source/) on the DoD website.
+Code.mil is an experiment in open source at the U.S. Department of War. The goal is to foster open collaboration with the developer community around the world on DoW open source projects. During the first phase, which launched in early 2017, we wrote a strategy for open sourcing code written by DoW employees, and then we called upon the OSS developer community to help us finalize that plan.
 
-At the moment we're getting our first open source projects published in the open. We are also calling on the entire DoD developer community to reach out to DDS to begin tracking all of the great OSS projects coming out.
+We are calling on the entire DoW developer community to reach out to the DoW CIO to begin tracking open source projects coming out of the Department.
 
-In the future we will tackle issues around procuring source code and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoD projects.
+In the future we will tackle issues around procuring source code and addressing how this strategy might facilitate technology transfer. The hope is that Code.mil will encourage conversation around these topics and allow anyone around the world to contribute knowledge and code for DoW projects.
 
-This initiative is not intended to set DoD policy, but rather is exploring alternate ways to join the open source and free software communities. You can read more about the [U.S. Federal Source Code Policy](https://code.gov/#/policy-guide/docs/overview/introduction) on the [Code.gov](https://code.gov) web site.
+This initiative is not intended to set DoW policy, but rather is exploring alternate ways to join the open source and free software communities. You can read more about the [U.S. Federal Source Code Policy](https://digital.gov/resources/requirements-for-achieving-efficiency-transparency-and-innovation-through-reusable-and-open-source-software/) on the [Digital.gov](https://digital.gov) web site.
 
 </div>
 <div class="usa-width-one-third" markdown="1">
