@@ -7,5 +7,7 @@ secondary: &secondary_navigation
     href: /how-to-open-source.html
   - text: FAQs
     href: /frequently-asked-questions.html
+  - text: AI4SDLC
+    href: /AI4SDLC/
 
 sidebar: *secondary_navigation

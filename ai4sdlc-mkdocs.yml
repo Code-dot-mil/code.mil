@@ -1,0 +1,22 @@
+INHERIT: AI4SDLC/mkdocs.yml
+
+site_url: https://code.mil/AI4SDLC/
+docs_dir: AI4SDLC/docs
+
+theme:
+  name: material
+  custom_dir: AI4SDLC/docs/overrides
+  font:
+    text: Source Sans Pro
+  logo: images/DOW_CIO_Seal.png
+  favicon: images/DOW_CIO_Seal.png
+  include_homepage_in_sidebar: False
+  palette:
+    scheme: default
+    primary: blue
+    accent: pink
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - search.suggest
+    - search.highlight
