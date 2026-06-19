@@ -1,0 +1,42 @@
+{
+  "name": "Timing Generator firmware",
+  "organization": "Air Force Research Laboratory Quantum Research",
+  "description": "Arbitrary timing control of digital signals using firmware running on a Field-Programmable Gate Array (FPGA).",
+  "tags": [
+    "experimental control",
+    "digital signals",
+    "arbitrary digital waveform",
+    "physics"
+  ],
+  "contact": {
+    "email": "spencer.olson.2@spaceforce.mil"
+  },
+  "openSourceProject": 1,
+  "governmentWideReuseProject": 1,
+  "status": "Production",
+  "vcs": "git",
+  "downloadURL": "https://github.com/afrl-quantum/gx3500-timing-generator",
+  "repositoryURL": "https://github.com/afrl-quantum/gx3500-timing-generator",
+  "homepageURL": "https://github.com/afrl-quantum/gx3500-timing-generator",
+  "languages": ["Verilog", "Tcl"],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://www.gnu.org/licenses/gpl-3.0.txt",
+        "name": "GPL-3"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 130,
+  "version": "0.97-1",
+  "date": {
+    "created": "2015-08-06",
+    "lastModified": "2016-12-01",
+    "metadataLastUpdated": "2021-03-25"
+  },
+  "disclaimerText": "There is no warranty for the program, to the extent permitted by applicable law.  Except when otherwise stated in writing the copyright holders and/or other parties provide the program “as is” without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the program is with you. Should the program prove defective, you assume the cost of all necessary servicing, repair or correction.",
+  "disclaimerURL": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+}
