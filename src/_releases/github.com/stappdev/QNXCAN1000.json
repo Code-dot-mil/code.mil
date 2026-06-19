@@ -1,0 +1,37 @@
+{
+  "name": "U.S. Army DEVCOM Armaments Center (DEVCOM-AC) QNX CAN1000",
+  "organization": "US Army DEVCOM Armaments Center",
+  "description": "QNX CAN1000 is a CAN bus driver for the QNX Neutrino OS based on the NXP SJA1000 CAN controller",
+  "tags": [
+    "QNX", "driver", "CAN Bus"
+  ],
+  "contact": {
+    "email": "joshua.p.stapp.civ@army.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "downloadURL": "https://github.com/stappdev/qnxCAN1000",
+  "repositoryURL": "https://github.com/stappdev/qnxCAN1000",
+  "homepageURL": "https://github.com/stappdev/qnxCAN1000",
+  "languages": ["C"],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html",
+        "name": "GNU General Public License v2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 0,
+  "version": "1.0.0",
+  "date": {
+    "created": "2025-04-09",
+    "lastModified": "2025-04-09",
+    "metadataLastUpdated": "2025-04-09"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}
