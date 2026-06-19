@@ -1,0 +1,32 @@
+{
+  "organization": "Department of Defense Cyber Crime Center (DC3)",
+  "name": "Kordesii",
+  "description": "DC3-Kordesii is a framework for decoding encoded strings and files in malware via IDA Pro IDAPython scripting.",
+  "tags": [
+    "Python"
+  ],
+  "contact": {
+    "email": "dc3.information@us.af.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "Python"
+  ],
+  "laborHours": 249,
+  "repositoryURL": "https://github.com/dod-cyber-crime-center/kordesii",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/dod-cyber-crime-center/kordesii/blob/master/LICENSE.txt",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "date": {
+    "created": "2020-06-11",
+    "lastModified": "2023-12-05",
+    "metadataLastUpdated": "2024-02-08"
+  }
+}
