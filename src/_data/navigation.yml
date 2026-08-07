@@ -5,9 +5,11 @@ secondary: &secondary_navigation
     href: /getting-started.html
   - text: How to Open Source
     href: /how-to-open-source.html
-  - text: FAQs
-    href: /frequently-asked-questions.html
+  - text: Open Source Software FAQ
+    href: /oss-faq.html
   - text: AI4SDLC
     href: /AI4SDLC/
+  - text: About Code.mil
+    href: /about.html
 
 sidebar: *secondary_navigation

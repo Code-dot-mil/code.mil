@@ -1,3 +1,6 @@
 [submodule "AI4SDLC"]
 	path = AI4SDLC
 	url = https://github.com/Code-dot-mil/AI4SDLC
+[submodule "oss-faq"]
+	path = src/oss-faq
+	url = https://github.com/Code-dot-mil/oss-faq

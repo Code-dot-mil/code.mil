@@ -5,6 +5,15 @@ include:
   - _headers
   - _redirects
 
+# The oss-faq submodule is a repository in its own right, so it carries files
+# that belong to the repository rather than to the published page. They have no
+# front matter, which means Jekyll would otherwise copy them into the site
+# verbatim. Only faq.md and its images and references should be published.
+exclude:
+  - oss-faq/README.md
+  - oss-faq/TODO.md
+  - oss-faq/LICENSE
+
 host: 0.0.0.0
 
 title: Code.mil

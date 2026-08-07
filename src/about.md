@@ -1,12 +1,12 @@
 ---
-title: Frequently Asked Questions (FAQs)
-updated_at: 2024-07-25
+title: About Code.mil
+updated_at: 2026-08-07
 
 sticky_sidenav: false
 
 subnav:
   - text: "What is Code.mil?"
-    href: "/frequently-asked-questions.html#what-is-codemil"
+    href: "/about.html#what-is-codemil"
 ---
 
 ## What is Code.mil?
