@@ -15,7 +15,7 @@ You may have lots of questions about OSS and how a DoD project can be released p
 
 ### OMB Policy
 
-Aside from the technical benefits mentioned above, the [Federal Source Code Policy (M-16-21)](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf) from the US CTO includes a section initiating an [open source pilot](https://code.gov/about/open-source/introduction) which mandates that each government agency **release as OSS at least 20% of its new custom developed code** for the term of the program (and we recommend continuing that beyond the pilot).
+Aside from the technical benefits mentioned above, the [Federal Source Code Policy (M-16-21)](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf) from the US CTO includes a section initiating an [open source pilot](https://code.gov/about/open-source/introduction) which mandates that each government agency **release as OSS at least 20% of its new custom developed code** for the term of the program (and we recommend continuing that beyond the pilot).
 
 Going beyond the OMB policy itself, the [2018 NDAA](https://www.govinfo.gov/app/details/PLAW-115publ91) states in section 875 that "...the Secretary of Defense shall initiate for the Department of Defense the open source software pilot program established by the Office of Management and Budget Memorandum M-16-21..."
 
@@ -23,7 +23,7 @@ Going beyond the OMB policy itself, the [2018 NDAA](https://www.govinfo.gov/app/
   <article class='usa-alert-body'>
     <h4 class='usa-alert-heading'>Still have questions?</h4>
     <p class='usa-alert-text'>
-      The first step is to read through our <a href="/frequently-asked-questions.html">Frequently Asked Questions</a> page! But if that doesn't get you the information you need, send us an email at <a href='mailto:{{site.email}}'>{{site.email}}</a> and let's talk!
+      The first step is to read through our <a href="/oss-faq.html">Open Source Software FAQ</a>! But if that doesn't get you the information you need, send us an email at <a href='mailto:{{site.email}}'>{{site.email}}</a> and let's talk!
     </p>
   </article>
 </section>

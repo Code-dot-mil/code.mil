@@ -74,7 +74,7 @@
       - modify the contract to require delivery by open source code repository; or
       - wait for delivery and open source the resulting code (this could be tricky).
 
-    There are a lot of possibilities within those options, however. We encourage you to read our [frequently asked questions](/frequently-asked-questions.html) and then reach out to us by email at [{{site.email}}](mailto:{{site.email}}) to continue the conversation.
+    There are a lot of possibilities within those options, however. We encourage you to read our [Open Source Software FAQ](/oss-faq.html) and then reach out to us by email at [{{site.email}}](mailto:{{site.email}}) to continue the conversation.
 
 - title: Gov Only
   id: gov-only
@@ -105,6 +105,6 @@
 - title: Not yet
   id: info-only
   content: |
-    That's great! We're glad you are interested in open source. You may want to start by reading our [Why Open Source](/why-open-source.html) page and some of the [Frequently Asked Questions](/frequently-asked-questions.html). You can also explore information on the OMB policy itself over on the [Code.gov](https://code.gov) website.
+    That's great! We're glad you are interested in open source. You may want to start by reading our [Why Open Source](/why-open-source.html) page and some of the [Open Source Software FAQ](/oss-faq.html). You can also explore information on the OMB policy itself over on the [Code.gov](https://code.gov) website.
 
     If you would like to have a follow up conversation, feel free to reach out to us at [{{site.email}}](mailto:{{site.email}})
