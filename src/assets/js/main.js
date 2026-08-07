@@ -49,8 +49,13 @@
    * and the function below is where we do the work.
    */
   (function SubNav() {
-    if (/^\/frequently\-asked\-questions/.test(window.location.pathname)) {
-      insertSubNav('#main-content h2', '/frequently-asked-questions.html', 1);
+    if (/^\/about/.test(window.location.pathname)) {
+      insertSubNav('#main-content h2', '/about.html', 1);
+    } else if (/^\/oss\-faq/.test(window.location.pathname)) {
+      // Skips two headings rather than one: the FAQ opens with its own
+      // top-level heading, and the section after it is already seeded by the
+      // page's subnav front matter.
+      insertSubNav('#main-content h2', '/oss-faq.html', 2);
     } else if (/^\/how\-to\-open\-source/.test(window.location.pathname)) {
       insertSubNav('#main-content h3', '/how-to-open-source.html', 1);
     }
