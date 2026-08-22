@@ -1,0 +1,41 @@
+{
+  "name": "Robust Laboratory Digital Signal Distribution",
+  "organization": "Air Force Research Laboratory Quantum Research",
+  "description": "Experimental work often involves digital signals for various devices in order to control the function, timing, and state of the output for these various devices. Additionally, laboratory environments typically contain various electromagnetic interference (EMI) sources, including the digital signals themselves.  AFRL's digital signal distribution hardware mitigates some of the challenges of EMI that may originate either from digital signals or corrupt digital signal transmission.",
+  "tags": [
+    "experiment",
+    "digital signals",
+    "physics"
+  ],
+  "contact": {
+    "email": "spencer.olson.2@spaceforce.mil"
+  },
+  "openSourceProject": 1,
+  "governmentWideReuseProject": 1,
+  "status": "Production",
+  "vcs": "git",
+  "downloadURL": "https://github.com/afrl-quantum/digital-distribution",
+  "repositoryURL": "https://github.com/afrl-quantum/digital-distribution",
+  "homepageURL": "https://github.com/afrl-quantum/digital-distribution",
+  "languages": [],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/afrl-quantum/digital-distribution/blob/master/COPYING",
+        "name": "CERN Open Hardware License v1.2+"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 40,
+  "version": "1.1-1",
+  "date": {
+    "created": "2017-10-16",
+    "lastModified": "2018-03-22",
+    "metadataLastUpdated": "2021-03-25"
+  },
+  "disclaimerText": "The Documentation and any modified Documentation are provided 'as is' and any express or implied warranties, including, but not limited to, implied warranties of merchantability, of satisfactory quality, non-infringement of third party rights, and fitness for a particular purpose or use are disclaimed in respect of the Documentation, the modified Documentation or any Product. The Licensor makes no representation that the Documentation, modified Documentation, or any Product, does or will not infringe any patent, copyright, trade secret or other proprietary right. The entire risk as to the use, quality, and performance of a Product shall be with the Licensee and not the Licensor. This disclaimer of warranty is an essential part of this Licence and a condition for the grant of any rights granted under this Licence. The Licensee warrants that it does not act in a consumer capacity.",
+  "disclaimerURL": "https://github.com/afrl-quantum/digital-distribution/blob/master/COPYING"
+}
