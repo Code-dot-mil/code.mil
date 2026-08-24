@@ -1,0 +1,37 @@
+{
+  "name": "U.S. Army DEVCOM Armaments Center (DEVCOM-AC) CAN Tools",
+  "organization": "US Army DEVCOM Armaments Center",
+  "description": "CAN Tools is a set of tools for use with the QNX CAN1000 CAN bus driver ",
+  "tags": [
+    "QNX", "driver", "CAN Bus", "tools", "utilities"
+  ],
+  "contact": {
+    "email": "joshua.p.stapp.civ@army.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "downloadURL": "https://github.com/stappdev/CANTools",
+  "repositoryURL": "https://github.com/stappdev/CANTools",
+  "homepageURL": "https://github.com/stappdev/CANTools",
+  "languages": ["C"],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/stappdev/CANTools/blob/main/LICENSE.md",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 0,
+  "version": "1.0.0",
+  "date": {
+    "created": "2025-04-15",
+    "lastModified": "2025-04-15",
+    "metadataLastUpdated": "2025-04-15"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}
