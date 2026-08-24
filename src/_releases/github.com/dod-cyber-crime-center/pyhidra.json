@@ -1,0 +1,38 @@
+{
+  "organization": "Department of Defense Cyber Crime Center (DC3)",
+  "name": "Pyhidra",
+  "description": "Pyhidra is a Python library that provides direct access to the Ghidra API within a native CPython interpreter using jpype.",
+  "tags": [
+    "automation",
+    "ghidra",
+    "malware-analysis",
+    "malware-research",
+    "python"
+  ],
+  "contact": {
+    "email": "dc3.information@us.af.mil"
+  },
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "Python",
+    "Java",
+    "C"
+  ],
+  "laborHours": 1248,
+  "repositoryURL": "https://github.com/dod-cyber-crime-center/pyhidra",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/dod-cyber-crime-center/pyhidra/blob/master/LICENSE",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "date": {
+    "created": "2022-09-28",
+    "lastModified": "2024-01-30",
+    "metadataLastUpdated": "2024-02-08"
+  }
+}

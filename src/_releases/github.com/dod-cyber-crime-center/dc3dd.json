@@ -1,0 +1,35 @@
+{
+  "organization": "Department of Defense Cyber Crime Center (DC3)",
+  "name": "dc3dd",
+  "description": "A version of the GNU dd program, this version has several features intended for forensic acquisition of data. Highlights include hashing on-the-fly, split output files, pattern writing, a progress meter, and file verification.",
+  "tags": [
+    "digital-forensics"
+  ],
+  "contact": {
+    "email": "dc3.information@us.af.mil"
+  },
+  "status": "Production",
+  "vcs": "svn",
+  "languages": [
+    "C"
+  ],
+  "laborHours": 1039,
+  "repositoryURL": "https://sourceforge.net/projects/dc3dd/",
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.en.html",
+        "name": "GNU General Public License v1.2"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "additional_information": {
+    "additional_notes": "The hours recorded for this effort only include information after 2013"
+  },
+  "date": {
+    "created": "2008-02-01",
+    "lastModified": "2023-04-25",
+    "metadataLastUpdated": "2024-02-08"
+  }
+}
