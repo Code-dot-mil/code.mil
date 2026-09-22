@@ -1,0 +1,32 @@
+{
+  "name": "AltereGO",
+  "organization": "DARPA",
+  "description": "AltereGO is a multimodal protein-function prediction tool developed at the University of Tennessee, Knoxville, with DARPA support. It combines protein sequence and structure representations to predict Gene Ontology molecular-function annotations.",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "MIT",
+        "URL": "https://opensource.org/license/mit/"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "repositoryURL": "https://github.com/AndrewAmburn/AltereGO",
+  "laborHours": 520,
+  "tags": [
+    "protein function prediction",
+    "Gene Ontology",
+    "bioinformatics",
+    "machine learning",
+    "protein sequence",
+    "protein structure"
+  ],
+  "contact": {
+    "name": "Jason Andrew Amburn",
+    "email": "jamburn3@vols.utk.edu"
+  },
+  "vcs": "git",
+  "date": {
+    "metadataLastUpdated": "2026-09-22"
+  }
+}
