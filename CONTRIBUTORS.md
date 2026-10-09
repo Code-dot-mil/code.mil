@@ -15,6 +15,7 @@
 - Copyright 2024 David Saeger david@dds.mil
 - Copyright 2026 U.S. Federal Government (in countries where recognized) osd.pentagon.cdao.mbx.perceptor-program-members@mail.mil
 - Copyright 2026 Daniel Risacher Daniel.R.Risacher.CIV@mail.mil
+- Copyright 2026 Kevin Obenland pyliqtr@ll.mit.edu
 - _Add the copyright date, your name, and email address here. (PLEASE KEEP THIS LINE)_
 
 ## Note for U.S. Federal Employees

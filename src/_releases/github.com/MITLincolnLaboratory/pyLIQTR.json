@@ -1,0 +1,41 @@
+{
+  "name": "pyLIQTR Quantum Application Library and Resource Estimation Framework",
+  "organization": "MIT Lincoln Laboratory",
+  "description": "pyLIQTR quantum application library that includes logical circuit implemenations for a wide variety of applications in physical science ",
+  "tags": [
+      "quantum computing", "quantum chemistry", "logical circuits", "logical resource estimation"
+  ],
+  "contact": {
+    "email": "kevin.obenland@ll.mit.edu"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/mit-ll/pyliqtr",
+  "repositoryURL": "https://github.com/mit-ll/pyliqtr",
+  "homepageURL": "https://github.com/mit-ll/pyliqtr",
+  "languages": ["python"],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/mit-ll/pyLIQTR/blob/main/LICENSE.txt",
+        "name": "MIT"
+      },
+      {
+        "URL": "https://mit-license.org/",
+        "name": "MIT"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 2000,
+  "version": "1.5",
+  "date": {
+    "created": "2026-10-05",
+    "lastModified": "2026-10-05",
+    "metadataLastUpdated": "2026-10-05"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}
