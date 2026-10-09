@@ -1,0 +1,40 @@
+{
+  "name": "viva-api",
+  "version": "v0.9.175",
+  "organization": "Vivarium Collective",
+  "repositoryURL": "https://github.com/vivarium-collective/viva-api",
+  "description": "Vivarium simulation backend",
+  "permission": {
+    "licenses": [
+      {
+        "name": "Apache Software License 2.0",
+        "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 2000,
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "Python",
+    "Bash",
+    "JavaScript",
+    "HTML"
+  ],
+  "tags": [
+    "Vivarium",
+    "Open Source",
+    "Python"
+  ],
+  "contact": {
+    "name": "Vivarium Collective",
+    "email": "vivarium.collective.contact@gmail.com",
+    "URL": "https://vivarium-collective.github.io"
+  },
+  "date": {
+    "created": "2025-05-09",
+    "lastModified": "2026-10-07",
+    "metadataLastUpdated": "2026-08-03"
+  }
+}
