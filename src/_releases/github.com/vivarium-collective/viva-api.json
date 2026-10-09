@@ -1,7 +1,7 @@
 {
   "name": "viva-api",
   "version": "v0.9.175",
-  "organization": "Vivarium Collective",
+  "organization": "University of Connecticut Health",
   "repositoryURL": "https://github.com/vivarium-collective/viva-api",
   "description": "Vivarium simulation backend",
   "permission": {
