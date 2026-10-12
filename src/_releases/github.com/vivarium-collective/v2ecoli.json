@@ -1,0 +1,38 @@
+{
+  "name": "v2ecoli",
+  "version": "0.2.0",
+  "organization": "University of Connecticut Health",
+  "repositoryURL": "https://github.com/vivarium-collective/v2ecoli",
+  "description": "Whole-cell E. coli model in Vivarium 2",
+  "permission": {
+    "licenses": [
+      {
+        "name": "Apache Software License 2.0",
+        "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    ],
+    "usageType": "openSource"
+  },
+  "laborHours": 2000,
+  "status": "Production",
+  "vcs": "git",
+  "languages": [
+    "Python",
+    "HTML"
+  ],
+  "tags": [
+    "Vivarium",
+    "Open Source",
+    "Python"
+  ],
+  "contact": {
+    "name": "Eran Agmon",
+    "email": "agmon@uchc.edu",
+    "URL": "https://vivarium-collective.github.io"
+  },
+  "date": {
+    "created": "2020-09-08",
+    "lastModified": "2026-10-05",
+    "metadataLastUpdated": "2026-09-23"
+  }
+}
