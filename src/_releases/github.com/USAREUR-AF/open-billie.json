@@ -1,0 +1,47 @@
+{
+  "name": "Open Billie",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "Open Billie: sensor-neutral node platform that builds sensor kid packages and publishes normalized tracks (CoT, ASTERIX CAT062, SAPIENT) onto a Zenoh fabric.",
+  "tags": [
+    "sensor-integration",
+    "zenoh",
+    "cursor-on-target",
+    "asterix",
+    "sapient",
+    "edge-computing"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/open-billie",
+  "repositoryURL": "https://github.com/USAREUR-AF/open-billie",
+  "homepageURL": "https://github.com/USAREUR-AF/open-billie",
+  "languages": [
+    "Python",
+    "Rust",
+    "Shell",
+    "TypeScript",
+    "PowerShell"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/open-billie/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 912,
+  "date": {
+    "created": "2026-11-03",
+    "lastModified": "2026-11-04",
+    "metadataLastUpdated": "2026-11-04"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}

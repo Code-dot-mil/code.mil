@@ -1,0 +1,41 @@
+{
+  "name": "goat docs",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "goat documentation corpus: design docs, reference, design system, integration guides and templates for the goat data fabric.",
+  "tags": [
+    "documentation",
+    "data-fabric",
+    "architecture",
+    "design-system"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/goatdocs",
+  "repositoryURL": "https://github.com/USAREUR-AF/goatdocs",
+  "homepageURL": "https://github.com/USAREUR-AF/goatdocs",
+  "languages": [
+    "Markdown"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/goatdocs/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 594,
+  "date": {
+    "created": "2026-11-03",
+    "lastModified": "2026-11-04",
+    "metadataLastUpdated": "2026-11-04"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}
