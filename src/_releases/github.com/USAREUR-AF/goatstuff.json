@@ -1,0 +1,46 @@
+{
+  "name": "goat stuff",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "goat peripheral surfaces and demos: panoscope, stethoscope, flashlight, netvis, microscope, trashgoat, gym, example apps.",
+  "tags": [
+    "data-fabric",
+    "zenoh",
+    "observability",
+    "visualization",
+    "demos"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/goatstuff",
+  "repositoryURL": "https://github.com/USAREUR-AF/goatstuff",
+  "homepageURL": "https://github.com/USAREUR-AF/goatstuff",
+  "languages": [
+    "Rust",
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "CSS"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/goatstuff/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 5351,
+  "date": {
+    "created": "2026-11-03",
+    "lastModified": "2026-11-04",
+    "metadataLastUpdated": "2026-11-04"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}

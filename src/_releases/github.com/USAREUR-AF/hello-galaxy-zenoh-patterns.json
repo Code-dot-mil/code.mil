@@ -1,0 +1,41 @@
+{
+  "name": "Hello Galaxy: Zenoh patterns",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "Zenoh usage patterns: when a single topic is right, key-expression design for retrieval, latest-vs-history storage.",
+  "tags": [
+    "tutorial",
+    "zenoh",
+    "pub-sub"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/hello-galaxy-zenoh-patterns",
+  "repositoryURL": "https://github.com/USAREUR-AF/hello-galaxy-zenoh-patterns",
+  "homepageURL": "https://github.com/USAREUR-AF/hello-galaxy-zenoh-patterns",
+  "languages": [
+    "Shell",
+    "Python"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/hello-galaxy-zenoh-patterns/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 104,
+  "date": {
+    "created": "2026-11-03",
+    "lastModified": "2026-11-07",
+    "metadataLastUpdated": "2026-11-07"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}

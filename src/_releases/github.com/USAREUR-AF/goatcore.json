@@ -1,0 +1,48 @@
+{
+  "name": "goat core",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "goat \u00e2\u20ac\u201d software-defined tactical data fabric: identity-based mesh (NetBird/WireGuard) + brokerless Zenoh data plane. Core substrate: CLI, builder, roles, gates, design record.",
+  "tags": [
+    "mesh-network",
+    "data-fabric",
+    "zenoh",
+    "wireguard",
+    "netbird",
+    "edge-computing",
+    "identity"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/goatcore",
+  "repositoryURL": "https://github.com/USAREUR-AF/goatcore",
+  "homepageURL": "https://github.com/USAREUR-AF/goatcore",
+  "languages": [
+    "Go",
+    "Rust",
+    "Python",
+    "Shell"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/goatcore/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 32299,
+  "date": {
+    "created": "2026-11-03",
+    "lastModified": "2026-11-04",
+    "metadataLastUpdated": "2026-11-04"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": "",
+  "version": "0.1.0"
+}
