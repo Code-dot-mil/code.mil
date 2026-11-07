@@ -1,0 +1,42 @@
+{
+  "name": "Hello Galaxy: mesh change control",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "Mesh change control: the NetBird dashboard is for looking; group membership and access rules change through warrant, a reviewed diff in git applied by a machine. Runnable offline.",
+  "tags": [
+    "tutorial",
+    "netbird",
+    "wireguard",
+    "change-control"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/hello-galaxy-mesh-change-control",
+  "repositoryURL": "https://github.com/USAREUR-AF/hello-galaxy-mesh-change-control",
+  "homepageURL": "https://github.com/USAREUR-AF/hello-galaxy-mesh-change-control",
+  "languages": [
+    "Python",
+    "Shell"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/hello-galaxy-mesh-change-control/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 216,
+  "date": {
+    "created": "2026-11-03",
+    "lastModified": "2026-11-07",
+    "metadataLastUpdated": "2026-11-07"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}

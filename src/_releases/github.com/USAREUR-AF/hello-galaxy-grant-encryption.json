@@ -1,0 +1,44 @@
+{
+  "name": "Hello Galaxy: grant encryption",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "Grant-keyed data-access encryption: a data owner restricts a stream to an audience by encrypting to it on a brokerless fabric, with nothing in the read path that can decrypt.",
+  "tags": [
+    "tutorial",
+    "encryption",
+    "data-access",
+    "zenoh"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/hello-galaxy-grant-encryption",
+  "repositoryURL": "https://github.com/USAREUR-AF/hello-galaxy-grant-encryption",
+  "homepageURL": "https://github.com/USAREUR-AF/hello-galaxy-grant-encryption",
+  "languages": [
+    "Python",
+    "HTML",
+    "Jupyter Notebook",
+    "Shell"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/hello-galaxy-grant-encryption/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 152,
+  "date": {
+    "created": "2026-11-03",
+    "lastModified": "2026-11-07",
+    "metadataLastUpdated": "2026-11-07"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}

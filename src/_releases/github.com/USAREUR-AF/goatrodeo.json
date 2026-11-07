@@ -1,0 +1,45 @@
+{
+  "name": "goatrodeo",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "Games and toys that run on a goat data fabric; each one exercises Zenoh in public.",
+  "tags": [
+    "data-fabric",
+    "zenoh",
+    "games",
+    "demo"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/goatrodeo",
+  "repositoryURL": "https://github.com/USAREUR-AF/goatrodeo",
+  "homepageURL": "https://github.com/USAREUR-AF/goatrodeo",
+  "languages": [
+    "Go",
+    "HTML",
+    "Shell",
+    "Python",
+    "Jinja"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/goatrodeo/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 610,
+  "date": {
+    "created": "2026-11-06",
+    "lastModified": "2026-11-07",
+    "metadataLastUpdated": "2026-11-07"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}

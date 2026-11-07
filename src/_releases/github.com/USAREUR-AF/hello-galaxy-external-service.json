@@ -1,0 +1,43 @@
+{
+  "name": "Hello Galaxy: external service",
+  "organization": "U.S. Army Europe and Africa (USAREUR-AF)",
+  "description": "External service golden path: a service goat does not run borrows a goatnet's sign-in from one declaration, verifies tokens itself, authorizes from its own roster, and is withdrawn with no footprint. Runs on a laptop.",
+  "tags": [
+    "tutorial",
+    "oidc",
+    "single-sign-on",
+    "authorization"
+  ],
+  "contact": {
+    "email": "usarmy.wiesbaden.usareur-af.mbx.efdi-backbone@army.mil"
+  },
+  "status": "Development",
+  "vcs": "git",
+  "downloadURL": "https://github.com/USAREUR-AF/hello-galaxy-external-service",
+  "repositoryURL": "https://github.com/USAREUR-AF/hello-galaxy-external-service",
+  "homepageURL": "https://github.com/USAREUR-AF/hello-galaxy-external-service",
+  "languages": [
+    "HTML",
+    "Shell",
+    "Python"
+  ],
+  "partners": [],
+  "permissions": {
+    "licenses": [
+      {
+        "URL": "https://github.com/USAREUR-AF/hello-galaxy-external-service/blob/main/LICENSE",
+        "name": "Apache-2.0"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": null
+  },
+  "laborHours": 132,
+  "date": {
+    "created": "2026-11-03",
+    "lastModified": "2026-11-07",
+    "metadataLastUpdated": "2026-11-07"
+  },
+  "disclaimerText": "",
+  "disclaimerURL": ""
+}
